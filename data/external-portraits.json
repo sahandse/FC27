@@ -1,0 +1,3679 @@
+{
+  "source": "cdn.futbin.com",
+  "images": {
+    "70415": {
+      "name": "Estéban Lepaul",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/70415.png",
+      "fetched_at": "2026-10-18T12:06:12.260Z"
+    },
+    "71494": {
+      "name": "Emma Sears",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/71494.png",
+      "fetched_at": "2026-10-18T12:08:11.036Z"
+    },
+    "72149": {
+      "name": "Ainhoa Marín",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/72149.png",
+      "fetched_at": "2026-10-18T12:05:41.405Z"
+    },
+    "73078": {
+      "name": "Kaishū Sano",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/73078.png",
+      "fetched_at": "2026-10-18T12:06:30.725Z"
+    },
+    "73562": {
+      "name": "Bento",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/73562.png",
+      "fetched_at": "2026-10-18T12:07:55.017Z"
+    },
+    "76687": {
+      "name": "Estêvão",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/76687.png",
+      "fetched_at": "2026-10-18T12:08:13.262Z"
+    },
+    "78012": {
+      "name": "Yan Diomande",
+      "rat": 84,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/78012.png",
+      "fetched_at": "2026-10-18T12:03:16.362Z"
+    },
+    "80028": {
+      "name": "Dudinha",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/80028.png",
+      "fetched_at": "2026-10-18T12:06:09.146Z"
+    },
+    "177683": {
+      "name": "Yann Sommer",
+      "rat": 84,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/177683.png",
+      "fetched_at": "2026-10-18T12:03:17.124Z"
+    },
+    "181458": {
+      "name": "Ivan Perišić",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/181458.png",
+      "fetched_at": "2026-10-18T12:06:23.683Z"
+    },
+    "183898": {
+      "name": "Ángel Di María",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/183898.png",
+      "fetched_at": "2026-10-18T12:04:21.485Z"
+    },
+    "185122": {
+      "name": "Péter Gulácsi",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/185122.png",
+      "fetched_at": "2026-10-18T12:05:23.706Z"
+    },
+    "186146": {
+      "name": "Danny Welbeck",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/186146.png",
+      "fetched_at": "2026-10-18T12:08:02.293Z"
+    },
+    "186153": {
+      "name": "Wojciech Szczęsny",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/186153.png",
+      "fetched_at": "2026-10-18T12:07:25.756Z"
+    },
+    "188335": {
+      "name": "Ante Budimir",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/188335.png",
+      "fetched_at": "2026-10-18T12:04:22.178Z"
+    },
+    "190674": {
+      "name": "Benjamin André",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/190674.png",
+      "fetched_at": "2026-10-18T12:07:53.631Z"
+    },
+    "192123": {
+      "name": "Chris Wood",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/192123.png",
+      "fetched_at": "2026-10-18T12:06:01.914Z"
+    },
+    "192448": {
+      "name": "Marc-André ter Stegen",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/192448.png",
+      "fetched_at": "2026-10-18T12:05:07.798Z"
+    },
+    "192505": {
+      "name": "Romelu Lukaku",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/192505.png",
+      "fetched_at": "2026-10-18T12:05:28.166Z"
+    },
+    "192629": {
+      "name": "Iago Aspas",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/192629.png",
+      "fetched_at": "2026-10-18T12:06:21.646Z"
+    },
+    "192883": {
+      "name": "Henrikh Mkhitaryan",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/192883.png",
+      "fetched_at": "2026-10-18T12:06:20.203Z"
+    },
+    "192984": {
+      "name": "Koen Casteels",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/192984.png",
+      "fetched_at": "2026-10-18T12:04:59.115Z"
+    },
+    "193041": {
+      "name": "Keylor Navas",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/193041.png",
+      "fetched_at": "2026-10-18T12:08:42.526Z"
+    },
+    "193698": {
+      "name": "Oliver Baumann",
+      "rat": 84,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/193698.png",
+      "fetched_at": "2026-10-18T12:03:04.824Z"
+    },
+    "193747": {
+      "name": "Koke",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/193747.png",
+      "fetched_at": "2026-10-18T12:06:35.112Z"
+    },
+    "197781": {
+      "name": "Isco",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/197781.png",
+      "fetched_at": "2026-10-18T12:03:42.025Z"
+    },
+    "198176": {
+      "name": "Stefan de Vrij",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/198176.png",
+      "fetched_at": "2026-10-18T12:05:34.751Z"
+    },
+    "199641": {
+      "name": "Matz Sels",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/199641.png",
+      "fetched_at": "2026-10-18T12:06:51.491Z"
+    },
+    "200155": {
+      "name": "Hans Vanaken",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/200155.png",
+      "fetched_at": "2026-10-18T12:06:18.807Z"
+    },
+    "200458": {
+      "name": "Lucas Digne",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/200458.png",
+      "fetched_at": "2026-10-18T12:08:51.022Z"
+    },
+    "200724": {
+      "name": "Nacho Fernández",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/200724.png",
+      "fetched_at": "2026-10-18T12:07:00.928Z"
+    },
+    "200888": {
+      "name": "Danilo Pereira",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/200888.png",
+      "fetched_at": "2026-10-18T12:04:32.042Z"
+    },
+    "201024": {
+      "name": "Kalidou Koulibaly",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/201024.png",
+      "fetched_at": "2026-10-18T12:04:57.667Z"
+    },
+    "202024": {
+      "name": "Remo Freuler",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/202024.png",
+      "fetched_at": "2026-10-18T12:07:15.385Z"
+    },
+    "202695": {
+      "name": "James Tarkowski",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/202695.png",
+      "fetched_at": "2026-10-18T12:08:33.636Z"
+    },
+    "202884": {
+      "name": "Leonardo Spinazzola",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/202884.png",
+      "fetched_at": "2026-10-18T12:08:46.698Z"
+    },
+    "203263": {
+      "name": "Harry Maguire",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/203263.png",
+      "fetched_at": "2026-10-18T12:04:44.889Z"
+    },
+    "203574": {
+      "name": "John Stones",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/203574.png",
+      "fetched_at": "2026-10-18T12:04:52.045Z"
+    },
+    "203980": {
+      "name": "Konstantinos Fortounis",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/203980.png",
+      "fetched_at": "2026-10-18T12:03:49.076Z"
+    },
+    "204525": {
+      "name": "Iñigo Martínez",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/204525.png",
+      "fetched_at": "2026-10-18T12:03:41.229Z"
+    },
+    "204638": {
+      "name": "Willi Orbán",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/204638.png",
+      "fetched_at": "2026-10-18T12:04:17.030Z"
+    },
+    "204883": {
+      "name": "Brice Samba",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/204883.png",
+      "fetched_at": "2026-10-18T12:05:57.531Z"
+    },
+    "204923": {
+      "name": "Marcel Sabitzer",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/204923.png",
+      "fetched_at": "2026-10-18T12:06:45.872Z"
+    },
+    "204970": {
+      "name": "Florian Thauvin",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/204970.png",
+      "fetched_at": "2026-10-18T12:04:42.066Z"
+    },
+    "205452": {
+      "name": "Antonio Rüdiger",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/205452.png",
+      "fetched_at": "2026-10-18T12:03:24.419Z"
+    },
+    "206113": {
+      "name": "Serge Gnabry",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/206113.png",
+      "fetched_at": "2026-10-18T12:04:10.826Z"
+    },
+    "206517": {
+      "name": "Jack Grealish",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/206517.png",
+      "fetched_at": "2026-10-18T12:04:46.993Z"
+    },
+    "207410": {
+      "name": "Mateo Kovačić",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/207410.png",
+      "fetched_at": "2026-10-18T12:06:47.970Z"
+    },
+    "207421": {
+      "name": "Leandro Trossard",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/207421.png",
+      "fetched_at": "2026-10-18T12:05:01.283Z"
+    },
+    "207439": {
+      "name": "Leandro Paredes",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/207439.png",
+      "fetched_at": "2026-10-18T12:06:37.240Z"
+    },
+    "207862": {
+      "name": "Matthias Ginter",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/207862.png",
+      "fetched_at": "2026-10-18T12:03:58.562Z"
+    },
+    "208093": {
+      "name": "Gerard Moreno",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/208093.png",
+      "fetched_at": "2026-10-18T12:06:17.432Z"
+    },
+    "208268": {
+      "name": "Bryan Cristante",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/208268.png",
+      "fetched_at": "2026-10-18T12:05:58.245Z"
+    },
+    "208333": {
+      "name": "Emre Can",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/208333.png",
+      "fetched_at": "2026-10-18T12:06:11.421Z"
+    },
+    "208418": {
+      "name": "Yannick Carrasco",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/208418.png",
+      "fetched_at": "2026-10-18T12:05:37.751Z"
+    },
+    "208461": {
+      "name": "Marten de Roon",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/208461.png",
+      "fetched_at": "2026-10-18T12:08:56.914Z"
+    },
+    "208722": {
+      "name": "Sadio Mané",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/208722.png",
+      "fetched_at": "2026-10-18T12:05:29.608Z"
+    },
+    "208787": {
+      "name": "Adrien Thomasson",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/208787.png",
+      "fetched_at": "2026-10-18T12:05:40.661Z"
+    },
+    "209499": {
+      "name": "Fabinho",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/209499.png",
+      "fetched_at": "2026-10-18T12:04:41.377Z"
+    },
+    "209981": {
+      "name": "Yassine Bounou",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/209981.png",
+      "fetched_at": "2026-10-18T12:05:38.447Z"
+    },
+    "210047": {
+      "name": "Fabian Schär",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/210047.png",
+      "fetched_at": "2026-10-18T12:06:12.954Z"
+    },
+    "210385": {
+      "name": "Rui Silva",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/210385.png",
+      "fetched_at": "2026-10-18T12:07:18.356Z"
+    },
+    "210406": {
+      "name": "Piotr Zieliński",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/210406.png",
+      "fetched_at": "2026-10-18T12:05:24.395Z"
+    },
+    "210413": {
+      "name": "Alessio Romagnoli",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/210413.png",
+      "fetched_at": "2026-10-18T12:05:44.380Z"
+    },
+    "210676": {
+      "name": "Wladimiro Falcone",
+      "rat": 84,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/210676.png",
+      "fetched_at": "2026-10-18T12:03:15.091Z"
+    },
+    "210881": {
+      "name": "John McGinn",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/210881.png",
+      "fetched_at": "2026-10-18T12:03:46.232Z"
+    },
+    "210935": {
+      "name": "Domenico Berardi",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/210935.png",
+      "fetched_at": "2026-10-18T12:04:34.180Z"
+    },
+    "212194": {
+      "name": "Julian Brandt",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/212194.png",
+      "fetched_at": "2026-10-18T12:04:54.843Z"
+    },
+    "212218": {
+      "name": "Aymeric Laporte",
+      "rat": 84,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/212218.png",
+      "fetched_at": "2026-10-18T12:02:31.787Z"
+    },
+    "212523": {
+      "name": "Anderson Talisca",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/212523.png",
+      "fetched_at": "2026-10-18T12:05:50.993Z"
+    },
+    "212616": {
+      "name": "Rodrigo De Paul",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/212616.png",
+      "fetched_at": "2026-10-18T12:04:07.814Z"
+    },
+    "213331": {
+      "name": "Jonathan Tah",
+      "rat": 87,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/213331.png",
+      "fetched_at": "2026-10-18T12:01:25.240Z"
+    },
+    "213516": {
+      "name": "Ricardo Horta",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/213516.png",
+      "fetched_at": "2026-10-18T12:05:25.107Z"
+    },
+    "213655": {
+      "name": "Alex Iwobi",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/213655.png",
+      "fetched_at": "2026-10-18T12:07:30.067Z"
+    },
+    "214979": {
+      "name": "Juan Musso",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/214979.png",
+      "fetched_at": "2026-10-18T12:04:54.153Z"
+    },
+    "215270": {
+      "name": "Lucas Zelarayán",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/215270.png",
+      "fetched_at": "2026-10-18T12:08:51.715Z"
+    },
+    "215316": {
+      "name": "Gerónimo Rulli",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/215316.png",
+      "fetched_at": "2026-10-18T12:08:21.967Z"
+    },
+    "215590": {
+      "name": "Ayoze",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/215590.png",
+      "fetched_at": "2026-10-18T12:07:51.236Z"
+    },
+    "215698": {
+      "name": "Mike Maignan",
+      "rat": 87,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/215698.png",
+      "fetched_at": "2026-10-18T12:01:27.348Z"
+    },
+    "216201": {
+      "name": "Iñaki Williams",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/216201.png",
+      "fetched_at": "2026-10-18T12:08:29.986Z"
+    },
+    "216354": {
+      "name": "Andrej Kramarić",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/216354.png",
+      "fetched_at": "2026-10-18T12:05:51.728Z"
+    },
+    "216409": {
+      "name": "Matteo Politano",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/216409.png",
+      "fetched_at": "2026-10-18T12:09:01.339Z"
+    },
+    "216435": {
+      "name": "Stanislav Lobotka",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/216435.png",
+      "fetched_at": "2026-10-18T12:04:12.204Z"
+    },
+    "216447": {
+      "name": "Álvaro García",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/216447.png",
+      "fetched_at": "2026-10-18T12:05:48.719Z"
+    },
+    "216460": {
+      "name": "José María Giménez",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/216460.png",
+      "fetched_at": "2026-10-18T12:04:53.484Z"
+    },
+    "216549": {
+      "name": "Alexander Sørloth",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/216549.png",
+      "fetched_at": "2026-10-18T12:03:22.418Z"
+    },
+    "217870": {
+      "name": "Giovanni Di Lorenzo",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/217870.png",
+      "fetched_at": "2026-10-18T12:04:43.461Z"
+    },
+    "219683": {
+      "name": "Corentin Tolisso",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/219683.png",
+      "fetched_at": "2026-10-18T12:04:29.207Z"
+    },
+    "220502": {
+      "name": "Mattia Zaccagni",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/220502.png",
+      "fetched_at": "2026-10-18T12:05:10.585Z"
+    },
+    "220570": {
+      "name": "Jan Bednarek",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/220570.png",
+      "fetched_at": "2026-10-18T12:04:49.810Z"
+    },
+    "220697": {
+      "name": "James Maddison",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/220697.png",
+      "fetched_at": "2026-10-18T12:04:49.075Z"
+    },
+    "220710": {
+      "name": "Harry Wilson",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/220710.png",
+      "fetched_at": "2026-10-18T12:06:19.506Z"
+    },
+    "220793": {
+      "name": "Davinson Sánchez",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/220793.png",
+      "fetched_at": "2026-10-18T12:08:05.257Z"
+    },
+    "220814": {
+      "name": "Lucas Hernández",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/220814.png",
+      "fetched_at": "2026-10-18T12:06:39.982Z"
+    },
+    "221697": {
+      "name": "Ollie Watkins",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/221697.png",
+      "fetched_at": "2026-10-18T12:04:04.271Z"
+    },
+    "222077": {
+      "name": "Manuel Locatelli",
+      "rat": 84,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/222077.png",
+      "fetched_at": "2026-10-18T12:02:56.700Z"
+    },
+    "223334": {
+      "name": "Joelinton",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/223334.png",
+      "fetched_at": "2026-10-18T12:08:36.694Z"
+    },
+    "223710": {
+      "name": "Vedat Muriqi",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/223710.png",
+      "fetched_at": "2026-10-18T12:07:25.038Z"
+    },
+    "223848": {
+      "name": "Sergej Milinković-Savić",
+      "rat": 84,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/223848.png",
+      "fetched_at": "2026-10-18T12:03:08.208Z"
+    },
+    "223885": {
+      "name": "Alexander Nübel",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/223885.png",
+      "fetched_at": "2026-10-18T12:07:30.930Z"
+    },
+    "223952": {
+      "name": "David Soria",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/223952.png",
+      "fetched_at": "2026-10-18T12:08:03.763Z"
+    },
+    "223959": {
+      "name": "Lucas Torreira",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/223959.png",
+      "fetched_at": "2026-10-18T12:06:40.677Z"
+    },
+    "224179": {
+      "name": "Borja Iglesias",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/224179.png",
+      "fetched_at": "2026-10-18T12:07:55.713Z"
+    },
+    "224232": {
+      "name": "Nicolò Barella",
+      "rat": 87,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/224232.png",
+      "fetched_at": "2026-10-18T12:01:28.082Z"
+    },
+    "224293": {
+      "name": "Rúben Neves",
+      "rat": 85,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/224293.png",
+      "fetched_at": "2026-10-18T12:02:22.289Z"
+    },
+    "224371": {
+      "name": "Jarrod Bowen",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/224371.png",
+      "fetched_at": "2026-10-18T12:03:44.826Z"
+    },
+    "224411": {
+      "name": "Guedes",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/224411.png",
+      "fetched_at": "2026-10-18T12:08:25.769Z"
+    },
+    "224987": {
+      "name": "Ivan Provedel",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/224987.png",
+      "fetched_at": "2026-10-18T12:03:43.411Z"
+    },
+    "225116": {
+      "name": "Alex Meret",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/225116.png",
+      "fetched_at": "2026-10-18T12:05:45.128Z"
+    },
+    "225193": {
+      "name": "Mikel Merino",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/225193.png",
+      "fetched_at": "2026-10-18T12:04:00.621Z"
+    },
+    "225375": {
+      "name": "Konrad Laimer",
+      "rat": 85,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/225375.png",
+      "fetched_at": "2026-10-18T12:02:11.852Z"
+    },
+    "225859": {
+      "name": "Moussa Niakhaté",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/225859.png",
+      "fetched_at": "2026-10-18T12:07:00.223Z"
+    },
+    "226110": {
+      "name": "Nicolas Pépé",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/226110.png",
+      "fetched_at": "2026-10-18T12:07:03.778Z"
+    },
+    "226161": {
+      "name": "Marcos Llorente",
+      "rat": 85,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/226161.png",
+      "fetched_at": "2026-10-18T12:02:19.245Z"
+    },
+    "226162": {
+      "name": "Emiliano Buendía",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/226162.png",
+      "fetched_at": "2026-10-18T12:08:10.329Z"
+    },
+    "226166": {
+      "name": "Nordi Mukiele",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/226166.png",
+      "fetched_at": "2026-10-18T12:07:05.241Z"
+    },
+    "226226": {
+      "name": "Giovani Lo Celso",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/226226.png",
+      "fetched_at": "2026-10-18T12:08:23.656Z"
+    },
+    "226268": {
+      "name": "Federico Dimarco",
+      "rat": 86,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/226268.png",
+      "fetched_at": "2026-10-18T12:01:39.512Z"
+    },
+    "226271": {
+      "name": "Fabián Ruiz",
+      "rat": 86,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/226271.png",
+      "fetched_at": "2026-10-18T12:01:38.768Z"
+    },
+    "226335": {
+      "name": "Alyssa Naeher",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/226335.png",
+      "fetched_at": "2026-10-18T12:07:33.099Z"
+    },
+    "226376": {
+      "name": "Kaku",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/226376.png",
+      "fetched_at": "2026-10-18T12:08:40.269Z"
+    },
+    "226456": {
+      "name": "Fornals",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/226456.png",
+      "fetched_at": "2026-10-18T12:06:14.423Z"
+    },
+    "226851": {
+      "name": "Benjamin Pavard",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/226851.png",
+      "fetched_at": "2026-10-18T12:07:54.315Z"
+    },
+    "226890": {
+      "name": "Marta",
+      "rat": 84,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/226890.png",
+      "fetched_at": "2026-10-18T12:02:57.404Z"
+    },
+    "226893": {
+      "name": "Debinha",
+      "rat": 87,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/226893.png",
+      "fetched_at": "2026-10-18T11:59:51.224Z"
+    },
+    "226979": {
+      "name": "Amanda Ilestedt",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/226979.png",
+      "fetched_at": "2026-10-18T12:05:50.289Z"
+    },
+    "226987": {
+      "name": "Kosovare Asllani",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/226987.png",
+      "fetched_at": "2026-10-18T12:08:43.240Z"
+    },
+    "226997": {
+      "name": "Saki Kumagai",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/226997.png",
+      "fetched_at": "2026-10-18T12:07:19.089Z"
+    },
+    "226998": {
+      "name": "Magdalena Eriksson",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/226998.png",
+      "fetched_at": "2026-10-18T12:03:54.162Z"
+    },
+    "227013": {
+      "name": "Fridolina Rolfö",
+      "rat": 84,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/227013.png",
+      "fetched_at": "2026-10-18T12:02:41.397Z"
+    },
+    "227069": {
+      "name": "Elena Linari",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/227069.png",
+      "fetched_at": "2026-10-18T12:04:37.143Z"
+    },
+    "227072": {
+      "name": "Barbara Bonansea",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/227072.png",
+      "fetched_at": "2026-10-18T12:04:24.273Z"
+    },
+    "227073": {
+      "name": "Cristiana Girelli",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/227073.png",
+      "fetched_at": "2026-10-18T12:03:29.435Z"
+    },
+    "227074": {
+      "name": "Cecilia Salvai",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/227074.png",
+      "fetched_at": "2026-10-18T12:06:00.439Z"
+    },
+    "227095": {
+      "name": "Manuela Giugliano",
+      "rat": 85,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/227095.png",
+      "fetched_at": "2026-10-18T12:02:17.776Z"
+    },
+    "227096": {
+      "name": "Lisa Boattin",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/227096.png",
+      "fetched_at": "2026-10-18T12:05:03.443Z"
+    },
+    "227110": {
+      "name": "Caitlin Foord",
+      "rat": 85,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/227110.png",
+      "fetched_at": "2026-10-18T12:01:53.212Z"
+    },
+    "227119": {
+      "name": "Steph Catley",
+      "rat": 84,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/227119.png",
+      "fetched_at": "2026-10-18T12:03:09.137Z"
+    },
+    "227125": {
+      "name": "Sam Kerr",
+      "rat": 85,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/227125.png",
+      "fetched_at": "2026-10-18T12:02:23.776Z"
+    },
+    "227127": {
+      "name": "Álex Remiro",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/227127.png",
+      "fetched_at": "2026-10-18T12:05:45.867Z"
+    },
+    "227174": {
+      "name": "Matty Cash",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/227174.png",
+      "fetched_at": "2026-10-18T12:06:50.814Z"
+    },
+    "227190": {
+      "name": "Irene Paredes",
+      "rat": 87,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/227190.png",
+      "fetched_at": "2026-10-18T12:01:24.507Z"
+    },
+    "227204": {
+      "name": "Lola Gallardo",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/227204.png",
+      "fetched_at": "2026-10-18T12:05:04.867Z"
+    },
+    "227236": {
+      "name": "André-Franck Zambo Anguissa",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/227236.png",
+      "fetched_at": "2026-10-18T12:04:19.319Z"
+    },
+    "227246": {
+      "name": "Lucy Bronze",
+      "rat": 85,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/227246.png",
+      "fetched_at": "2026-10-18T12:02:16.342Z"
+    },
+    "227254": {
+      "name": "Alex Greenwood",
+      "rat": 85,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/227254.png",
+      "fetched_at": "2026-10-18T12:01:49.639Z"
+    },
+    "227255": {
+      "name": "Fran Kirby",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/227255.png",
+      "fetched_at": "2026-10-18T12:06:15.124Z"
+    },
+    "227310": {
+      "name": "Ada Hegerberg",
+      "rat": 85,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/227310.png",
+      "fetched_at": "2026-10-18T12:01:48.946Z"
+    },
+    "227316": {
+      "name": "Wendie Renard",
+      "rat": 84,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/227316.png",
+      "fetched_at": "2026-10-18T12:03:14.237Z"
+    },
+    "227323": {
+      "name": "Guro Reiten",
+      "rat": 86,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/227323.png",
+      "fetched_at": "2026-10-18T12:01:40.931Z"
+    },
+    "227327": {
+      "name": "Sara Däbritz",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/227327.png",
+      "fetched_at": "2026-10-18T12:04:10.083Z"
+    },
+    "227337": {
+      "name": "Svenja Huth",
+      "rat": 85,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/227337.png",
+      "fetched_at": "2026-10-18T12:02:25.250Z"
+    },
+    "227344": {
+      "name": "Sandie Toletti",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/227344.png",
+      "fetched_at": "2026-10-18T12:07:19.837Z"
+    },
+    "227346": {
+      "name": "Griedge Mbock",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/227346.png",
+      "fetched_at": "2026-10-18T12:03:39.867Z"
+    },
+    "227353": {
+      "name": "Kenza Dali",
+      "rat": 85,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/227353.png",
+      "fetched_at": "2026-10-18T12:02:08.749Z"
+    },
+    "227361": {
+      "name": "Kadidiatou Diani",
+      "rat": 87,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/227361.png",
+      "fetched_at": "2026-10-18T12:01:25.940Z"
+    },
+    "227383": {
+      "name": "Kadeisha Buchanan",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/227383.png",
+      "fetched_at": "2026-10-18T12:04:56.291Z"
+    },
+    "227387": {
+      "name": "Jessie Fleming",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/227387.png",
+      "fetched_at": "2026-10-18T12:06:28.567Z"
+    },
+    "227392": {
+      "name": "Ashley Lawrence",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/227392.png",
+      "fetched_at": "2026-10-18T12:03:26.603Z"
+    },
+    "227647": {
+      "name": "Maximilian Mittelstädt",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/227647.png",
+      "fetched_at": "2026-10-18T12:03:59.933Z"
+    },
+    "227678": {
+      "name": "Ezri Konsa",
+      "rat": 84,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/227678.png",
+      "fetched_at": "2026-10-18T12:02:39.225Z"
+    },
+    "227776": {
+      "name": "Sandra Paños",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/227776.png",
+      "fetched_at": "2026-10-18T12:05:31.500Z"
+    },
+    "227796": {
+      "name": "Christian Pulisic",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/227796.png",
+      "fetched_at": "2026-10-18T12:03:27.998Z"
+    },
+    "227925": {
+      "name": "Mackenzie Arnold",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/227925.png",
+      "fetched_at": "2026-10-18T12:06:42.886Z"
+    },
+    "228093": {
+      "name": "Marcus Thuram",
+      "rat": 85,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/228093.png",
+      "fetched_at": "2026-10-18T12:02:19.968Z"
+    },
+    "228383": {
+      "name": "Kamil Grabara",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/228383.png",
+      "fetched_at": "2026-10-18T12:06:31.426Z"
+    },
+    "228618": {
+      "name": "Ferland Mendy",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/228618.png",
+      "fetched_at": "2026-10-18T12:08:17.689Z"
+    },
+    "228630": {
+      "name": "Esther Sullastres",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/228630.png",
+      "fetched_at": "2026-10-18T12:08:14.094Z"
+    },
+    "228702": {
+      "name": "Frenkie de Jong",
+      "rat": 86,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/228702.png",
+      "fetched_at": "2026-10-18T12:01:40.216Z"
+    },
+    "228813": {
+      "name": "Aleix García",
+      "rat": 84,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/228813.png",
+      "fetched_at": "2026-10-18T12:02:27.442Z"
+    },
+    "229188": {
+      "name": "Vangelis Pavlidis",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/229188.png",
+      "fetched_at": "2026-10-18T12:05:35.606Z"
+    },
+    "229236": {
+      "name": "Matthieu Udol",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/229236.png",
+      "fetched_at": "2026-10-18T12:06:50.148Z"
+    },
+    "229237": {
+      "name": "Manuel Akanji",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/229237.png",
+      "fetched_at": "2026-10-18T12:03:55.662Z"
+    },
+    "229261": {
+      "name": "Denis Zakaria",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/229261.png",
+      "fetched_at": "2026-10-18T12:06:07.032Z"
+    },
+    "229348": {
+      "name": "Antonee Robinson",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/229348.png",
+      "fetched_at": "2026-10-18T12:07:47.303Z"
+    },
+    "229391": {
+      "name": "Palhinha",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/229391.png",
+      "fetched_at": "2026-10-18T12:05:20.856Z"
+    },
+    "229476": {
+      "name": "Waldemar Anton",
+      "rat": 84,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/229476.png",
+      "fetched_at": "2026-10-18T12:03:13.335Z"
+    },
+    "229558": {
+      "name": "Dayot Upamecano",
+      "rat": 87,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/229558.png",
+      "fetched_at": "2026-10-18T11:59:50.247Z"
+    },
+    "229582": {
+      "name": "Gianluca Mancini",
+      "rat": 84,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/229582.png",
+      "fetched_at": "2026-10-18T12:02:43.445Z"
+    },
+    "229668": {
+      "name": "Mario Hermoso",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/229668.png",
+      "fetched_at": "2026-10-18T12:06:47.277Z"
+    },
+    "229723": {
+      "name": "Mathias Jensen",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/229723.png",
+      "fetched_at": "2026-10-18T12:08:59.068Z"
+    },
+    "229891": {
+      "name": "Julian Ryerson",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/229891.png",
+      "fetched_at": "2026-10-18T12:04:55.552Z"
+    },
+    "230142": {
+      "name": "Oyarzabal",
+      "rat": 84,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/230142.png",
+      "fetched_at": "2026-10-18T12:03:05.737Z"
+    },
+    "230869": {
+      "name": "Unai Simón",
+      "rat": 85,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/230869.png",
+      "fetched_at": "2026-10-18T12:02:25.980Z"
+    },
+    "230872": {
+      "name": "Mile Svilar",
+      "rat": 85,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/230872.png",
+      "fetched_at": "2026-10-18T12:02:21.399Z"
+    },
+    "231410": {
+      "name": "Brahim",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/231410.png",
+      "fetched_at": "2026-10-18T12:05:56.765Z"
+    },
+    "231416": {
+      "name": "Dodi Lukébakio",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/231416.png",
+      "fetched_at": "2026-10-18T12:08:06.679Z"
+    },
+    "231432": {
+      "name": "Lindsey Heaps",
+      "rat": 86,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/231432.png",
+      "fetched_at": "2026-10-18T12:01:43.810Z"
+    },
+    "231447": {
+      "name": "Donyell Malen",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/231447.png",
+      "fetched_at": "2026-10-18T12:03:32.868Z"
+    },
+    "231521": {
+      "name": "Exequiel Palacios",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/231521.png",
+      "fetched_at": "2026-10-18T12:03:37.024Z"
+    },
+    "231736": {
+      "name": "Danielle Colaprico",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/231736.png",
+      "fetched_at": "2026-10-18T12:08:01.591Z"
+    },
+    "231913": {
+      "name": "Fredrik Aursnes",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/231913.png",
+      "fetched_at": "2026-10-18T12:06:15.846Z"
+    },
+    "231936": {
+      "name": "Benjamin White",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/231936.png",
+      "fetched_at": "2026-10-18T12:05:55.408Z"
+    },
+    "232073": {
+      "name": "Mallory Swanson",
+      "rat": 85,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/232073.png",
+      "fetched_at": "2026-10-18T12:02:17.089Z"
+    },
+    "232074": {
+      "name": "Emily Sonnett",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/232074.png",
+      "fetched_at": "2026-10-18T12:03:35.707Z"
+    },
+    "232202": {
+      "name": "Delphine Cascarino",
+      "rat": 85,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/232202.png",
+      "fetched_at": "2026-10-18T12:01:57.905Z"
+    },
+    "232293": {
+      "name": "Victor Osimhen",
+      "rat": 85,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/232293.png",
+      "fetched_at": "2026-10-18T12:02:26.739Z"
+    },
+    "232363": {
+      "name": "Milan Škriniar",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/232363.png",
+      "fetched_at": "2026-10-18T12:06:56.981Z"
+    },
+    "232488": {
+      "name": "Cristian Romero",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/232488.png",
+      "fetched_at": "2026-10-18T12:04:29.886Z"
+    },
+    "232498": {
+      "name": "Isi",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/232498.png",
+      "fetched_at": "2026-10-18T12:08:30.676Z"
+    },
+    "232756": {
+      "name": "Fikayo Tomori",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/232756.png",
+      "fetched_at": "2026-10-18T12:08:18.438Z"
+    },
+    "233096": {
+      "name": "Denzel Dumfries",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/233096.png",
+      "fetched_at": "2026-10-18T12:03:32.160Z"
+    },
+    "233150": {
+      "name": "Leila Ouahabi",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/233150.png",
+      "fetched_at": "2026-10-18T12:05:02.010Z"
+    },
+    "233306": {
+      "name": "Dean Henderson",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/233306.png",
+      "fetched_at": "2026-10-18T12:04:32.737Z"
+    },
+    "233364": {
+      "name": "Stina Blackstenius",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/233364.png",
+      "fetched_at": "2026-10-18T12:04:12.875Z"
+    },
+    "233486": {
+      "name": "Robin Le Normand",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/233486.png",
+      "fetched_at": "2026-10-18T12:07:16.101Z"
+    },
+    "233556": {
+      "name": "Riccardo Orsolini",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/233556.png",
+      "fetched_at": "2026-10-18T12:05:26.522Z"
+    },
+    "233747": {
+      "name": "Sherida Spitse",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/233747.png",
+      "fetched_at": "2026-10-18T12:05:33.810Z"
+    },
+    "233751": {
+      "name": "Daniëlle van de Donk",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/233751.png",
+      "fetched_at": "2026-10-18T12:06:03.547Z"
+    },
+    "233756": {
+      "name": "Dominique Janssen",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/233756.png",
+      "fetched_at": "2026-10-18T12:04:34.864Z"
+    },
+    "233852": {
+      "name": "Jackie Groenen",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/233852.png",
+      "fetched_at": "2026-10-18T12:06:24.379Z"
+    },
+    "234236": {
+      "name": "Patrik Schick",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/234236.png",
+      "fetched_at": "2026-10-18T12:04:05.683Z"
+    },
+    "234577": {
+      "name": "Diogo Costa",
+      "rat": 86,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/234577.png",
+      "fetched_at": "2026-10-18T12:01:36.328Z"
+    },
+    "234579": {
+      "name": "Julián Quiñones",
+      "rat": 84,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/234579.png",
+      "fetched_at": "2026-10-18T12:02:51.216Z"
+    },
+    "234642": {
+      "name": "Édouard Mendy",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/234642.png",
+      "fetched_at": "2026-10-18T12:06:10.624Z"
+    },
+    "234742": {
+      "name": "Harvey Barnes",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/234742.png",
+      "fetched_at": "2026-10-18T12:08:27.207Z"
+    },
+    "235149": {
+      "name": "Jerdy Schouten",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/235149.png",
+      "fetched_at": "2026-10-18T12:08:35.870Z"
+    },
+    "235152": {
+      "name": "Ferdi Kadıoğlu",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/235152.png",
+      "fetched_at": "2026-10-18T12:08:16.964Z"
+    },
+    "235243": {
+      "name": "Matthijs de Ligt",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/235243.png",
+      "fetched_at": "2026-10-18T12:05:09.898Z"
+    },
+    "235353": {
+      "name": "Ismaïla Sarr",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/235353.png",
+      "fetched_at": "2026-10-18T12:06:23.001Z"
+    },
+    "235735": {
+      "name": "Ethan Ampadu",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/235735.png",
+      "fetched_at": "2026-10-18T12:08:14.858Z"
+    },
+    "235790": {
+      "name": "Kai Havertz",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/235790.png",
+      "fetched_at": "2026-10-18T12:06:29.984Z"
+    },
+    "235794": {
+      "name": "Eberechi Eze",
+      "rat": 84,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/235794.png",
+      "fetched_at": "2026-10-18T12:02:35.398Z"
+    },
+    "235805": {
+      "name": "Federico Chiesa",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/235805.png",
+      "fetched_at": "2026-10-18T12:08:16.284Z"
+    },
+    "236403": {
+      "name": "Evan Ndicka",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/236403.png",
+      "fetched_at": "2026-10-18T12:03:36.371Z"
+    },
+    "236496": {
+      "name": "Mattéo Guendouzi",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/236496.png",
+      "fetched_at": "2026-10-18T12:06:49.422Z"
+    },
+    "236506": {
+      "name": "Marcos Senesi",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/236506.png",
+      "fetched_at": "2026-10-18T12:05:08.496Z"
+    },
+    "236610": {
+      "name": "Moise Kean",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/236610.png",
+      "fetched_at": "2026-10-18T12:05:14.195Z"
+    },
+    "236632": {
+      "name": "David Neres",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/236632.png",
+      "fetched_at": "2026-10-18T12:06:04.273Z"
+    },
+    "236640": {
+      "name": "Lynn Biyendolo",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/236640.png",
+      "fetched_at": "2026-10-18T12:08:54.096Z"
+    },
+    "236703": {
+      "name": "David Raum",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/236703.png",
+      "fetched_at": "2026-10-18T12:03:31.486Z"
+    },
+    "236772": {
+      "name": "Dominik Szoboszlai",
+      "rat": 86,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/236772.png",
+      "fetched_at": "2026-10-18T12:01:37.248Z"
+    },
+    "236987": {
+      "name": "Boubacar Kamara",
+      "rat": 84,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/236987.png",
+      "fetched_at": "2026-10-18T12:02:33.331Z"
+    },
+    "237086": {
+      "name": "Kim Min Jae",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/237086.png",
+      "fetched_at": "2026-10-18T12:03:48.334Z"
+    },
+    "237197": {
+      "name": "Grace Geyoro",
+      "rat": 84,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/237197.png",
+      "fetched_at": "2026-10-18T12:02:45.793Z"
+    },
+    "237288": {
+      "name": "Mariona",
+      "rat": 89,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/237288.png",
+      "fetched_at": "2026-10-18T11:59:43.309Z"
+    },
+    "237289": {
+      "name": "Patri Guijarro",
+      "rat": 88,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/237289.png",
+      "fetched_at": "2026-10-18T11:59:48.799Z"
+    },
+    "237386": {
+      "name": "Kiernan Dewsbury-Hall",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/237386.png",
+      "fetched_at": "2026-10-18T12:06:33.517Z"
+    },
+    "237646": {
+      "name": "Daniel Muñoz",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/237646.png",
+      "fetched_at": "2026-10-18T12:04:31.343Z"
+    },
+    "237673": {
+      "name": "Kailen Sheridan",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/237673.png",
+      "fetched_at": "2026-10-18T12:04:56.948Z"
+    },
+    "237678": {
+      "name": "Ibrahima Konaté",
+      "rat": 84,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/237678.png",
+      "fetched_at": "2026-10-18T12:02:46.545Z"
+    },
+    "238212": {
+      "name": "Jane Campbell",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/238212.png",
+      "fetched_at": "2026-10-18T12:06:25.783Z"
+    },
+    "238470": {
+      "name": "Sara Doorsoun",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/238470.png",
+      "fetched_at": "2026-10-18T12:05:32.379Z"
+    },
+    "238616": {
+      "name": "Pedro Neto",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/238616.png",
+      "fetched_at": "2026-10-18T12:07:09.608Z"
+    },
+    "238900": {
+      "name": "Ermedin Demirović",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/238900.png",
+      "fetched_at": "2026-10-18T12:08:12.556Z"
+    },
+    "239231": {
+      "name": "Cucurella",
+      "rat": 86,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/239231.png",
+      "fetched_at": "2026-10-18T12:01:34.882Z"
+    },
+    "239301": {
+      "name": "Lisandro Martínez",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/239301.png",
+      "fetched_at": "2026-10-18T12:05:04.156Z"
+    },
+    "239340": {
+      "name": "Julian Chabot",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/239340.png",
+      "fetched_at": "2026-10-18T12:06:29.248Z"
+    },
+    "239344": {
+      "name": "Carolin Simon",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/239344.png",
+      "fetched_at": "2026-10-18T12:04:25.693Z"
+    },
+    "239345": {
+      "name": "Linda Dallmann",
+      "rat": 84,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/239345.png",
+      "fetched_at": "2026-10-18T12:02:56.022Z"
+    },
+    "239482": {
+      "name": "Galeno",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/239482.png",
+      "fetched_at": "2026-10-18T12:06:16.736Z"
+    },
+    "239580": {
+      "name": "Bremer",
+      "rat": 86,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/239580.png",
+      "fetched_at": "2026-10-18T12:01:33.428Z"
+    },
+    "239761": {
+      "name": "Frida Maanum",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/239761.png",
+      "fetched_at": "2026-10-18T12:04:42.734Z"
+    },
+    "239807": {
+      "name": "Davide Frattesi",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/239807.png",
+      "fetched_at": "2026-10-18T12:08:04.520Z"
+    },
+    "240030": {
+      "name": "Ellie Carpenter",
+      "rat": 85,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/240030.png",
+      "fetched_at": "2026-10-18T12:01:59.406Z"
+    },
+    "240091": {
+      "name": "Guglielmo Vicario",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/240091.png",
+      "fetched_at": "2026-10-18T12:08:26.492Z"
+    },
+    "240130": {
+      "name": "Éder Militão",
+      "rat": 84,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/240130.png",
+      "fetched_at": "2026-10-18T12:02:36.139Z"
+    },
+    "240225": {
+      "name": "Matvey Safonov",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/240225.png",
+      "fetched_at": "2026-10-18T12:03:59.231Z"
+    },
+    "240243": {
+      "name": "Matheus Cunha",
+      "rat": 84,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/240243.png",
+      "fetched_at": "2026-10-18T12:02:58.163Z"
+    },
+    "240277": {
+      "name": "Matteo Gabbia",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/240277.png",
+      "fetched_at": "2026-10-18T12:09:00.671Z"
+    },
+    "240359": {
+      "name": "Omar Alderete",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/240359.png",
+      "fetched_at": "2026-10-18T12:07:06.836Z"
+    },
+    "240638": {
+      "name": "Tijjani Reijnders",
+      "rat": 84,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/240638.png",
+      "fetched_at": "2026-10-18T12:03:10.799Z"
+    },
+    "240714": {
+      "name": "Jill Roord",
+      "rat": 85,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/240714.png",
+      "fetched_at": "2026-10-18T12:02:05.703Z"
+    },
+    "240717": {
+      "name": "Lineth Beerensteyn",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/240717.png",
+      "fetched_at": "2026-10-18T12:03:52.702Z"
+    },
+    "240753": {
+      "name": "Amine Gouiri",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/240753.png",
+      "fetched_at": "2026-10-18T12:07:34.776Z"
+    },
+    "240913": {
+      "name": "Caoimhín Kelleher",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/240913.png",
+      "fetched_at": "2026-10-18T12:07:56.448Z"
+    },
+    "240950": {
+      "name": "Pedro Gonçalves",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/240950.png",
+      "fetched_at": "2026-10-18T12:05:22.304Z"
+    },
+    "241023": {
+      "name": "Ludmila",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/241023.png",
+      "fetched_at": "2026-10-18T12:08:53.362Z"
+    },
+    "241084": {
+      "name": "Luis Díaz",
+      "rat": 88,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/241084.png",
+      "fetched_at": "2026-10-18T11:59:47.252Z"
+    },
+    "241159": {
+      "name": "Marc Guéhi",
+      "rat": 85,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/241159.png",
+      "fetched_at": "2026-10-18T12:02:18.497Z"
+    },
+    "241236": {
+      "name": "Antoine Semenyo",
+      "rat": 85,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/241236.png",
+      "fetched_at": "2026-10-18T12:01:51.140Z"
+    },
+    "241461": {
+      "name": "Ferran Torres",
+      "rat": 84,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/241461.png",
+      "fetched_at": "2026-10-18T12:02:39.984Z"
+    },
+    "241464": {
+      "name": "Pau Torres",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/241464.png",
+      "fetched_at": "2026-10-18T12:07:07.546Z"
+    },
+    "241486": {
+      "name": "Jules Koundé",
+      "rat": 85,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/241486.png",
+      "fetched_at": "2026-10-18T12:02:07.343Z"
+    },
+    "241491": {
+      "name": "Johanna Kaneryd",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/241491.png",
+      "fetched_at": "2026-10-18T12:04:51.306Z"
+    },
+    "241509": {
+      "name": "Mauro Júnior",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/241509.png",
+      "fetched_at": "2026-10-18T12:06:52.471Z"
+    },
+    "241637": {
+      "name": "Aurélien Tchouaméni",
+      "rat": 84,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/241637.png",
+      "fetched_at": "2026-10-18T12:02:30.176Z"
+    },
+    "241852": {
+      "name": "Moussa Diaby",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/241852.png",
+      "fetched_at": "2026-10-18T12:05:15.824Z"
+    },
+    "242024": {
+      "name": "Sofia Huerta",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/242024.png",
+      "fetched_at": "2026-10-18T12:07:22.220Z"
+    },
+    "242187": {
+      "name": "Christoph Baumgartner",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/242187.png",
+      "fetched_at": "2026-10-18T12:04:27.117Z"
+    },
+    "242201": {
+      "name": "Luis Milla",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/242201.png",
+      "fetched_at": "2026-10-18T12:06:41.436Z"
+    },
+    "242434": {
+      "name": "Curtis Jones",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/242434.png",
+      "fetched_at": "2026-10-18T12:08:00.890Z"
+    },
+    "242516": {
+      "name": "Cody Gakpo",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/242516.png",
+      "fetched_at": "2026-10-18T12:04:28.494Z"
+    },
+    "242641": {
+      "name": "Rayan Aït-Nouri",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/242641.png",
+      "fetched_at": "2026-10-18T12:07:13.695Z"
+    },
+    "242664": {
+      "name": "Alexis Saelemaekers",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/242664.png",
+      "fetched_at": "2026-10-18T12:07:31.751Z"
+    },
+    "242830": {
+      "name": "Keira Walsh",
+      "rat": 85,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/242830.png",
+      "fetched_at": "2026-10-18T12:02:08.032Z"
+    },
+    "242896": {
+      "name": "Ingrid Syrstad Engen",
+      "rat": 84,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/242896.png",
+      "fetched_at": "2026-10-18T12:02:47.245Z"
+    },
+    "243014": {
+      "name": "Bryan Mbeumo",
+      "rat": 84,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/243014.png",
+      "fetched_at": "2026-10-18T12:02:34.036Z"
+    },
+    "243241": {
+      "name": "Alessandro Buongiorno",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/243241.png",
+      "fetched_at": "2026-10-18T12:05:43.696Z"
+    },
+    "243245": {
+      "name": "Orkun Kökçü",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/243245.png",
+      "fetched_at": "2026-10-18T12:05:20.140Z"
+    },
+    "243263": {
+      "name": "Ashley Hatch",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/243263.png",
+      "fetched_at": "2026-10-18T12:07:49.138Z"
+    },
+    "243559": {
+      "name": "De Frutos",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/243559.png",
+      "fetched_at": "2026-10-18T12:06:04.929Z"
+    },
+    "243576": {
+      "name": "Pedro Porro",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/243576.png",
+      "fetched_at": "2026-10-18T12:04:06.358Z"
+    },
+    "243580": {
+      "name": "Loïs Openda",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/243580.png",
+      "fetched_at": "2026-10-18T12:08:48.941Z"
+    },
+    "243586": {
+      "name": "Ayoub El Kaabi",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/243586.png",
+      "fetched_at": "2026-10-18T12:07:50.523Z"
+    },
+    "243593": {
+      "name": "Armand Laurienté",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/243593.png",
+      "fetched_at": "2026-10-18T12:07:48.325Z"
+    },
+    "243630": {
+      "name": "Jonathan David",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/243630.png",
+      "fetched_at": "2026-10-18T12:08:38.871Z"
+    },
+    "243657": {
+      "name": "James Garner",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/243657.png",
+      "fetched_at": "2026-10-18T12:04:48.354Z"
+    },
+    "243702": {
+      "name": "Djed Spence",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/243702.png",
+      "fetched_at": "2026-10-18T12:08:05.965Z"
+    },
+    "243771": {
+      "name": "Abby Smith",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/243771.png",
+      "fetched_at": "2026-10-18T12:07:26.533Z"
+    },
+    "243775": {
+      "name": "Casey Murphy",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/243775.png",
+      "fetched_at": "2026-10-18T12:05:59.002Z"
+    },
+    "243780": {
+      "name": "Lee Kang In",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/243780.png",
+      "fetched_at": "2026-10-18T12:08:45.985Z"
+    },
+    "243854": {
+      "name": "Mohamed Simakan",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/243854.png",
+      "fetched_at": "2026-10-18T12:05:13.466Z"
+    },
+    "243952": {
+      "name": "Andriy Lunin",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/243952.png",
+      "fetched_at": "2026-10-18T12:07:40.099Z"
+    },
+    "244067": {
+      "name": "Maxence Lacroix",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/244067.png",
+      "fetched_at": "2026-10-18T12:05:11.293Z"
+    },
+    "244176": {
+      "name": "Deniz Undav",
+      "rat": 85,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/244176.png",
+      "fetched_at": "2026-10-18T12:01:58.612Z"
+    },
+    "244257": {
+      "name": "Jonathan Burkardt",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/244257.png",
+      "fetched_at": "2026-10-18T12:04:52.771Z"
+    },
+    "244263": {
+      "name": "Amir Rrahmani",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/244263.png",
+      "fetched_at": "2026-10-18T12:03:23.007Z"
+    },
+    "244302": {
+      "name": "Lea Schüller",
+      "rat": 85,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/244302.png",
+      "fetched_at": "2026-10-18T12:02:13.270Z"
+    },
+    "244669": {
+      "name": "Morten Hjulmand",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/244669.png",
+      "fetched_at": "2026-10-18T12:04:01.306Z"
+    },
+    "244675": {
+      "name": "Sancet",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/244675.png",
+      "fetched_at": "2026-10-18T12:05:30.734Z"
+    },
+    "244778": {
+      "name": "Trincão",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/244778.png",
+      "fetched_at": "2026-10-18T12:04:14.285Z"
+    },
+    "245037": {
+      "name": "Eric García",
+      "rat": 85,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/245037.png",
+      "fetched_at": "2026-10-18T12:02:00.799Z"
+    },
+    "245155": {
+      "name": "Mohammed Kudus",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/245155.png",
+      "fetched_at": "2026-10-18T12:06:59.508Z"
+    },
+    "245158": {
+      "name": "Luis Javier Suárez",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/245158.png",
+      "fetched_at": "2026-10-18T12:05:06.394Z"
+    },
+    "245697": {
+      "name": "Clara Mateo",
+      "rat": 85,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/245697.png",
+      "fetched_at": "2026-10-18T12:01:56.784Z"
+    },
+    "245802": {
+      "name": "Beth Mead",
+      "rat": 84,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/245802.png",
+      "fetched_at": "2026-10-18T12:02:32.552Z"
+    },
+    "245824": {
+      "name": "Ayaka Yamashita",
+      "rat": 84,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/245824.png",
+      "fetched_at": "2026-10-18T12:02:31.039Z"
+    },
+    "245839": {
+      "name": "Hina Sugita",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/245839.png",
+      "fetched_at": "2026-10-18T12:06:20.932Z"
+    },
+    "245872": {
+      "name": "Kim Little",
+      "rat": 84,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/245872.png",
+      "fetched_at": "2026-10-18T12:02:53.747Z"
+    },
+    "245882": {
+      "name": "Erin Cuthbert",
+      "rat": 85,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/245882.png",
+      "fetched_at": "2026-10-18T12:02:01.843Z"
+    },
+    "245956": {
+      "name": "Christiane Endler",
+      "rat": 85,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/245956.png",
+      "fetched_at": "2026-10-18T12:01:55.744Z"
+    },
+    "246059": {
+      "name": "Lizbeth Ovalle",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/246059.png",
+      "fetched_at": "2026-10-18T12:06:38.592Z"
+    },
+    "246104": {
+      "name": "Ryan Gravenberch",
+      "rat": 85,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/246104.png",
+      "fetched_at": "2026-10-18T12:02:22.998Z"
+    },
+    "246147": {
+      "name": "Mason Greenwood",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/246147.png",
+      "fetched_at": "2026-10-18T12:03:57.111Z"
+    },
+    "246178": {
+      "name": "Pauline Peyraud-Magnin",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/246178.png",
+      "fetched_at": "2026-10-18T12:07:08.876Z"
+    },
+    "246272": {
+      "name": "Marie Katoto",
+      "rat": 86,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/246272.png",
+      "fetched_at": "2026-10-18T12:01:45.313Z"
+    },
+    "246287": {
+      "name": "Ángela Sosa",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/246287.png",
+      "fetched_at": "2026-10-18T12:07:40.948Z"
+    },
+    "246350": {
+      "name": "Enzo Le Fée",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/246350.png",
+      "fetched_at": "2026-10-18T12:08:11.861Z"
+    },
+    "246414": {
+      "name": "Rebecca Knaak",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/246414.png",
+      "fetched_at": "2026-10-18T12:07:14.517Z"
+    },
+    "246420": {
+      "name": "Jérémy Doku",
+      "rat": 84,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/246420.png",
+      "fetched_at": "2026-10-18T12:02:49.357Z"
+    },
+    "246426": {
+      "name": "Leah Williamson",
+      "rat": 85,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/246426.png",
+      "fetched_at": "2026-10-18T12:02:14.065Z"
+    },
+    "246430": {
+      "name": "Dušan Vlahović",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/246430.png",
+      "fetched_at": "2026-10-18T12:06:09.862Z"
+    },
+    "246630": {
+      "name": "Rasheedat Ajibade",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/246630.png",
+      "fetched_at": "2026-10-18T12:07:12.532Z"
+    },
+    "246641": {
+      "name": "Chiamaka Nnadozie",
+      "rat": 85,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/246641.png",
+      "fetched_at": "2026-10-18T12:01:54.617Z"
+    },
+    "246774": {
+      "name": "Alba Redondo",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/246774.png",
+      "fetched_at": "2026-10-18T12:03:20.179Z"
+    },
+    "246863": {
+      "name": "Felix Nmecha",
+      "rat": 85,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/246863.png",
+      "fetched_at": "2026-10-18T12:02:02.573Z"
+    },
+    "247090": {
+      "name": "Enzo Fernández",
+      "rat": 86,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/247090.png",
+      "fetched_at": "2026-10-18T12:01:38.079Z"
+    },
+    "247103": {
+      "name": "Dávid Hancko",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/247103.png",
+      "fetched_at": "2026-10-18T12:03:30.799Z"
+    },
+    "247246": {
+      "name": "Khéphren Thuram",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/247246.png",
+      "fetched_at": "2026-10-18T12:06:32.794Z"
+    },
+    "247257": {
+      "name": "Ibañez",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/247257.png",
+      "fetched_at": "2026-10-18T12:03:40.557Z"
+    },
+    "247263": {
+      "name": "Edmond Tapsoba",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/247263.png",
+      "fetched_at": "2026-10-18T12:04:36.450Z"
+    },
+    "247394": {
+      "name": "Dejan Kulusevski",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/247394.png",
+      "fetched_at": "2026-10-18T12:06:06.352Z"
+    },
+    "247463": {
+      "name": "Folarin Balogun",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/247463.png",
+      "fetched_at": "2026-10-18T12:08:19.138Z"
+    },
+    "247504": {
+      "name": "Mary Earps",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/247504.png",
+      "fetched_at": "2026-10-18T12:05:09.187Z"
+    },
+    "247513": {
+      "name": "Vanessa Gilles",
+      "rat": 84,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/247513.png",
+      "fetched_at": "2026-10-18T12:03:11.711Z"
+    },
+    "247788": {
+      "name": "Giulia Gwinn",
+      "rat": 84,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/247788.png",
+      "fetched_at": "2026-10-18T12:02:44.430Z"
+    },
+    "247789": {
+      "name": "Merle Frohms",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/247789.png",
+      "fetched_at": "2026-10-18T12:05:11.975Z"
+    },
+    "247790": {
+      "name": "Lena Lattwein",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/247790.png",
+      "fetched_at": "2026-10-18T12:05:02.745Z"
+    },
+    "248148": {
+      "name": "Zubimendi",
+      "rat": 84,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/248148.png",
+      "fetched_at": "2026-10-18T12:03:19.400Z"
+    },
+    "248165": {
+      "name": "Andrei Rațiu",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/248165.png",
+      "fetched_at": "2026-10-18T12:07:38.682Z"
+    },
+    "248343": {
+      "name": "Emily Fox",
+      "rat": 85,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/248343.png",
+      "fetched_at": "2026-10-18T12:02:00.107Z"
+    },
+    "248550": {
+      "name": "Vivian",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/248550.png",
+      "fetched_at": "2026-10-18T12:05:37.015Z"
+    },
+    "248717": {
+      "name": "Lena Oberdorf",
+      "rat": 84,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/248717.png",
+      "fetched_at": "2026-10-18T12:02:55.287Z"
+    },
+    "248799": {
+      "name": "Mary Fowler",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/248799.png",
+      "fetched_at": "2026-10-18T12:08:57.624Z"
+    },
+    "250723": {
+      "name": "Kouadio Manu Koné",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/250723.png",
+      "fetched_at": "2026-10-18T12:06:35.872Z"
+    },
+    "250753": {
+      "name": "Anatoliy Trubin",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/250753.png",
+      "fetched_at": "2026-10-18T12:07:36.134Z"
+    },
+    "250954": {
+      "name": "Chris Richards",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/250954.png",
+      "fetched_at": "2026-10-18T12:07:59.378Z"
+    },
+    "250955": {
+      "name": "Josip Stanišić",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/250955.png",
+      "fetched_at": "2026-10-18T12:08:39.600Z"
+    },
+    "250959": {
+      "name": "Angelo Stiller",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/250959.png",
+      "fetched_at": "2026-10-18T12:03:23.747Z"
+    },
+    "251377": {
+      "name": "Rodrigo Zalazar",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/251377.png",
+      "fetched_at": "2026-10-18T12:05:27.254Z"
+    },
+    "251470": {
+      "name": "Charles De Ketelaere",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/251470.png",
+      "fetched_at": "2026-10-18T12:06:01.210Z"
+    },
+    "251517": {
+      "name": "Joško Gvardiol",
+      "rat": 85,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/251517.png",
+      "fetched_at": "2026-10-18T12:02:06.607Z"
+    },
+    "251570": {
+      "name": "Rayan Cherki",
+      "rat": 86,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/251570.png",
+      "fetched_at": "2026-10-18T12:01:46.707Z"
+    },
+    "251752": {
+      "name": "Lucas Chevalier",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/251752.png",
+      "fetched_at": "2026-10-18T12:08:50.339Z"
+    },
+    "251805": {
+      "name": "Jurriën Timber",
+      "rat": 84,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/251805.png",
+      "fetched_at": "2026-10-18T12:02:51.952Z"
+    },
+    "251809": {
+      "name": "Sven Botman",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/251809.png",
+      "fetched_at": "2026-10-18T12:07:23.608Z"
+    },
+    "251852": {
+      "name": "Karim Adeyemi",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/251852.png",
+      "fetched_at": "2026-10-18T12:04:58.401Z"
+    },
+    "252042": {
+      "name": "João Pedro",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/252042.png",
+      "fetched_at": "2026-10-18T12:03:45.523Z"
+    },
+    "252145": {
+      "name": "Nuno Mendes",
+      "rat": 89,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/252145.png",
+      "fetched_at": "2026-10-18T11:59:43.996Z"
+    },
+    "252154": {
+      "name": "Marco Carnesecchi",
+      "rat": 86,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/252154.png",
+      "fetched_at": "2026-10-18T12:01:44.531Z"
+    },
+    "253109": {
+      "name": "Joey Veerman",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/253109.png",
+      "fetched_at": "2026-10-18T12:04:50.557Z"
+    },
+    "253124": {
+      "name": "Matheus Nunes",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/253124.png",
+      "fetched_at": "2026-10-18T12:03:57.867Z"
+    },
+    "253149": {
+      "name": "Jeremie Frimpong",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/253149.png",
+      "fetched_at": "2026-10-18T12:06:26.463Z"
+    },
+    "253396": {
+      "name": "Giuliano",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/253396.png",
+      "fetched_at": "2026-10-18T12:04:44.165Z"
+    },
+    "253417": {
+      "name": "Lynn Wilms",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/253417.png",
+      "fetched_at": "2026-10-18T12:08:54.773Z"
+    },
+    "253435": {
+      "name": "Laia Aleixandri",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/253435.png",
+      "fetched_at": "2026-10-18T12:06:36.567Z"
+    },
+    "253436": {
+      "name": "Ona Batlle",
+      "rat": 87,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/253436.png",
+      "fetched_at": "2026-10-18T12:01:28.818Z"
+    },
+    "253469": {
+      "name": "Élisa de Almeida",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/253469.png",
+      "fetched_at": "2026-10-18T12:08:09.523Z"
+    },
+    "254117": {
+      "name": "Maximilian Beier",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/254117.png",
+      "fetched_at": "2026-10-18T12:06:53.185Z"
+    },
+    "254243": {
+      "name": "Elliot Anderson",
+      "rat": 84,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/254243.png",
+      "fetched_at": "2026-10-18T12:02:37.745Z"
+    },
+    "254803": {
+      "name": "Senne Lammens",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/254803.png",
+      "fetched_at": "2026-10-18T12:05:33.097Z"
+    },
+    "254817": {
+      "name": "Maximiliano Araújo",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/254817.png",
+      "fetched_at": "2026-10-18T12:06:53.991Z"
+    },
+    "255069": {
+      "name": "Nico González",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/255069.png",
+      "fetched_at": "2026-10-18T12:07:03.078Z"
+    },
+    "255303": {
+      "name": "Elia Caprile",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/255303.png",
+      "fetched_at": "2026-10-18T12:08:08.824Z"
+    },
+    "255475": {
+      "name": "Antony",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/255475.png",
+      "fetched_at": "2026-10-18T12:05:53.231Z"
+    },
+    "255565": {
+      "name": "Kaoru Mitoma",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/255565.png",
+      "fetched_at": "2026-10-18T12:06:32.084Z"
+    },
+    "255654": {
+      "name": "Pierre Kalulu",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/255654.png",
+      "fetched_at": "2026-10-18T12:07:10.314Z"
+    },
+    "256095": {
+      "name": "Perle Morroni",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/256095.png",
+      "fetched_at": "2026-10-18T12:05:23.011Z"
+    },
+    "256197": {
+      "name": "Piero Hincapié",
+      "rat": 84,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/256197.png",
+      "fetched_at": "2026-10-18T12:03:06.586Z"
+    },
+    "256261": {
+      "name": "Malick Thiaw",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/256261.png",
+      "fetched_at": "2026-10-18T12:06:44.415Z"
+    },
+    "256302": {
+      "name": "Ainhoa Moraza",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/256302.png",
+      "fetched_at": "2026-10-18T12:05:42.123Z"
+    },
+    "256489": {
+      "name": "Bethany England",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/256489.png",
+      "fetched_at": "2026-10-18T12:05:56.107Z"
+    },
+    "256516": {
+      "name": "Nico Williams",
+      "rat": 84,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/256516.png",
+      "fetched_at": "2026-10-18T12:03:03.267Z"
+    },
+    "256675": {
+      "name": "Omar Marmoush",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/256675.png",
+      "fetched_at": "2026-10-18T12:05:19.441Z"
+    },
+    "256769": {
+      "name": "Adrien Truffert",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/256769.png",
+      "fetched_at": "2026-10-18T12:07:27.892Z"
+    },
+    "256903": {
+      "name": "Gonçalo Ramos",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/256903.png",
+      "fetched_at": "2026-10-18T12:08:25.035Z"
+    },
+    "256948": {
+      "name": "Christos Tzolis",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/256948.png",
+      "fetched_at": "2026-10-18T12:04:27.790Z"
+    },
+    "257001": {
+      "name": "Chloe Kelly",
+      "rat": 86,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/257001.png",
+      "fetched_at": "2026-10-18T12:01:34.146Z"
+    },
+    "257008": {
+      "name": "Lauren Hemp",
+      "rat": 87,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/257008.png",
+      "fetched_at": "2026-10-18T12:01:26.660Z"
+    },
+    "257057": {
+      "name": "Amadou Onana",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/257057.png",
+      "fetched_at": "2026-10-18T12:05:49.611Z"
+    },
+    "257179": {
+      "name": "Gonçalo Inácio",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/257179.png",
+      "fetched_at": "2026-10-18T12:08:24.340Z"
+    },
+    "257191": {
+      "name": "Anton Stach",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/257191.png",
+      "fetched_at": "2026-10-18T12:07:41.704Z"
+    },
+    "257279": {
+      "name": "Álex Baena",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/257279.png",
+      "fetched_at": "2026-10-18T12:03:21.726Z"
+    },
+    "257289": {
+      "name": "Hugo Ekitiké",
+      "rat": 85,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/257289.png",
+      "fetched_at": "2026-10-18T12:02:04.084Z"
+    },
+    "257530": {
+      "name": "Sophia Kleinherne",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/257530.png",
+      "fetched_at": "2026-10-18T12:07:22.900Z"
+    },
+    "257711": {
+      "name": "Riccardo Calafiori",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/257711.png",
+      "fetched_at": "2026-10-18T12:05:25.802Z"
+    },
+    "257876": {
+      "name": "Nicolas Seiwald",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/257876.png",
+      "fetched_at": "2026-10-18T12:07:04.523Z"
+    },
+    "258310": {
+      "name": "Ann-Katrin Berger",
+      "rat": 87,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/258310.png",
+      "fetched_at": "2026-10-18T11:59:49.564Z"
+    },
+    "258498": {
+      "name": "Bart Verbruggen",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/258498.png",
+      "fetched_at": "2026-10-18T12:05:54.705Z"
+    },
+    "258601": {
+      "name": "Mamadou Sangaré",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/258601.png",
+      "fetched_at": "2026-10-18T12:06:45.102Z"
+    },
+    "258648": {
+      "name": "Carlos Augusto",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/258648.png",
+      "fetched_at": "2026-10-18T12:07:57.231Z"
+    },
+    "258680": {
+      "name": "Daphne van Domselaar",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/258680.png",
+      "fetched_at": "2026-10-18T12:03:30.133Z"
+    },
+    "258706": {
+      "name": "Melvine Malard",
+      "rat": 84,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/258706.png",
+      "fetched_at": "2026-10-18T12:02:58.876Z"
+    },
+    "258729": {
+      "name": "Gabri Veiga",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/258729.png",
+      "fetched_at": "2026-10-18T12:08:20.512Z"
+    },
+    "258781": {
+      "name": "Illia Zabarnyi",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/258781.png",
+      "fetched_at": "2026-10-18T12:08:29.305Z"
+    },
+    "258789": {
+      "name": "Misa",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/258789.png",
+      "fetched_at": "2026-10-18T12:05:12.715Z"
+    },
+    "258908": {
+      "name": "Jan Paul van Hecke",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/258908.png",
+      "fetched_at": "2026-10-18T12:06:25.092Z"
+    },
+    "258966": {
+      "name": "Andrea Cambiaso",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/258966.png",
+      "fetched_at": "2026-10-18T12:07:36.835Z"
+    },
+    "259240": {
+      "name": "Adam Wharton",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/259240.png",
+      "fetched_at": "2026-10-18T12:04:18.623Z"
+    },
+    "259287": {
+      "name": "Pernille Harder",
+      "rat": 87,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/259287.png",
+      "fetched_at": "2026-10-18T12:01:29.674Z"
+    },
+    "259334": {
+      "name": "Nerea Eizagirre",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/259334.png",
+      "fetched_at": "2026-10-18T12:07:02.323Z"
+    },
+    "259372": {
+      "name": "Athenea",
+      "rat": 84,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/259372.png",
+      "fetched_at": "2026-10-18T12:02:28.884Z"
+    },
+    "259480": {
+      "name": "Ismael Saibari",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/259480.png",
+      "fetched_at": "2026-10-18T12:03:42.718Z"
+    },
+    "259516": {
+      "name": "Johnny Cardoso",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/259516.png",
+      "fetched_at": "2026-10-18T12:08:38.123Z"
+    },
+    "259532": {
+      "name": "Joan García",
+      "rat": 86,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/259532.png",
+      "fetched_at": "2026-10-18T12:01:41.681Z"
+    },
+    "260247": {
+      "name": "Morgan Rogers",
+      "rat": 84,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/260247.png",
+      "fetched_at": "2026-10-18T12:02:59.741Z"
+    },
+    "260592": {
+      "name": "Benjamin Šeško",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/260592.png",
+      "fetched_at": "2026-10-18T12:04:25.012Z"
+    },
+    "260599": {
+      "name": "Alan Varela",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/260599.png",
+      "fetched_at": "2026-10-18T12:07:29.326Z"
+    },
+    "260908": {
+      "name": "Milos Kerkez",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/260908.png",
+      "fetched_at": "2026-10-18T12:06:58.729Z"
+    },
+    "260952": {
+      "name": "Andreas Schjelderup",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/260952.png",
+      "fetched_at": "2026-10-18T12:07:37.614Z"
+    },
+    "261050": {
+      "name": "Francisco Conceição",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/261050.png",
+      "fetched_at": "2026-10-18T12:08:19.830Z"
+    },
+    "261188": {
+      "name": "Iliman Ndiaye",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/261188.png",
+      "fetched_at": "2026-10-18T12:04:46.311Z"
+    },
+    "261299": {
+      "name": "Alex Scott",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/261299.png",
+      "fetched_at": "2026-10-18T12:05:46.563Z"
+    },
+    "261514": {
+      "name": "Évelyne Viens",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/261514.png",
+      "fetched_at": "2026-10-18T12:08:15.561Z"
+    },
+    "261733": {
+      "name": "Sandy Baltimore",
+      "rat": 85,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/261733.png",
+      "fetched_at": "2026-10-18T12:02:24.508Z"
+    },
+    "261740": {
+      "name": "Jule Brand",
+      "rat": 84,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/261740.png",
+      "fetched_at": "2026-10-18T12:02:50.136Z"
+    },
+    "261773": {
+      "name": "Laura Freigang",
+      "rat": 84,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/261773.png",
+      "fetched_at": "2026-10-18T12:02:54.478Z"
+    },
+    "261843": {
+      "name": "Andreia Jacinto",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/261843.png",
+      "fetched_at": "2026-10-18T12:04:20.776Z"
+    },
+    "261848": {
+      "name": "Inês Pereira",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/261848.png",
+      "fetched_at": "2026-10-18T12:06:22.330Z"
+    },
+    "261855": {
+      "name": "Kika Nazareth",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/261855.png",
+      "fetched_at": "2026-10-18T12:03:47.656Z"
+    },
+    "262093": {
+      "name": "Sjoeke Nüsken",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/262093.png",
+      "fetched_at": "2026-10-18T12:04:11.499Z"
+    },
+    "262118": {
+      "name": "Tino Livramento",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/262118.png",
+      "fetched_at": "2026-10-18T12:07:24.320Z"
+    },
+    "262138": {
+      "name": "Castello Lukeba",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/262138.png",
+      "fetched_at": "2026-10-18T12:05:59.727Z"
+    },
+    "262330": {
+      "name": "Catarina Macario",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/262330.png",
+      "fetched_at": "2026-10-18T12:04:26.407Z"
+    },
+    "262457": {
+      "name": "Olga Carmona",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/262457.png",
+      "fetched_at": "2026-10-18T12:04:02.879Z"
+    },
+    "262460": {
+      "name": "Rosa Márquez",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/262460.png",
+      "fetched_at": "2026-10-18T12:05:28.898Z"
+    },
+    "262531": {
+      "name": "Claudia Pina",
+      "rat": 89,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/262531.png",
+      "fetched_at": "2026-10-18T11:59:42.595Z"
+    },
+    "262545": {
+      "name": "Amaiur Sarriegi",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/262545.png",
+      "fetched_at": "2026-10-18T12:07:33.888Z"
+    },
+    "262621": {
+      "name": "Giorgi Mamardashvili",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/262621.png",
+      "fetched_at": "2026-10-18T12:03:39.175Z"
+    },
+    "263007": {
+      "name": "Niamh Charles",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/263007.png",
+      "fetched_at": "2026-10-18T12:05:18.704Z"
+    },
+    "263009": {
+      "name": "Hannah Hampton",
+      "rat": 87,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/263009.png",
+      "fetched_at": "2026-10-18T12:01:23.815Z"
+    },
+    "263011": {
+      "name": "Ella Toone",
+      "rat": 84,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/263011.png",
+      "fetched_at": "2026-10-18T12:02:36.836Z"
+    },
+    "263012": {
+      "name": "Millie Turner",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/263012.png",
+      "fetched_at": "2026-10-18T12:06:57.856Z"
+    },
+    "263013": {
+      "name": "Lotte Wubben-Moy",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/263013.png",
+      "fetched_at": "2026-10-18T12:06:39.287Z"
+    },
+    "263139": {
+      "name": "Dominik Greif",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/263139.png",
+      "fetched_at": "2026-10-18T12:06:08.406Z"
+    },
+    "263205": {
+      "name": "Barış Alper Yılmaz",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/263205.png",
+      "fetched_at": "2026-10-18T12:07:52.909Z"
+    },
+    "263578": {
+      "name": "Balde",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/263578.png",
+      "fetched_at": "2026-10-18T12:04:23.560Z"
+    },
+    "263798": {
+      "name": "Robin Roefs",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/263798.png",
+      "fetched_at": "2026-10-18T12:07:16.861Z"
+    },
+    "263964": {
+      "name": "Filippa Angeldahl",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/263964.png",
+      "fetched_at": "2026-10-18T12:06:13.664Z"
+    },
+    "264240": {
+      "name": "Gavi",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/264240.png",
+      "fetched_at": "2026-10-18T12:03:37.738Z"
+    },
+    "264309": {
+      "name": "Arda Güler",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/264309.png",
+      "fetched_at": "2026-10-18T12:03:25.146Z"
+    },
+    "264388": {
+      "name": "Moleiro",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/264388.png",
+      "fetched_at": "2026-10-18T12:05:15.088Z"
+    },
+    "264432": {
+      "name": "Abde",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/264432.png",
+      "fetched_at": "2026-10-18T12:05:39.839Z"
+    },
+    "264453": {
+      "name": "Micky van de Ven",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/264453.png",
+      "fetched_at": "2026-10-18T12:06:56.066Z"
+    },
+    "264652": {
+      "name": "Bradley Barcola",
+      "rat": 85,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/264652.png",
+      "fetched_at": "2026-10-18T12:01:51.856Z"
+    },
+    "264725": {
+      "name": "Eva Navarro",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/264725.png",
+      "fetched_at": "2026-10-18T12:04:40.692Z"
+    },
+    "264862": {
+      "name": "Maghnes Akliouche",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/264862.png",
+      "fetched_at": "2026-10-18T12:06:43.721Z"
+    },
+    "264864": {
+      "name": "Kessya Bussy",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/264864.png",
+      "fetched_at": "2026-10-18T12:03:46.949Z"
+    },
+    "264865": {
+      "name": "Mylène Chavas",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/264865.png",
+      "fetched_at": "2026-10-18T12:05:17.237Z"
+    },
+    "264875": {
+      "name": "Kerstin Casparij",
+      "rat": 85,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/264875.png",
+      "fetched_at": "2026-10-18T12:02:11.130Z"
+    },
+    "264884": {
+      "name": "Paulina Dudek",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/264884.png",
+      "fetched_at": "2026-10-18T12:07:08.206Z"
+    },
+    "264886": {
+      "name": "Glódís Perla Viggósdóttir",
+      "rat": 84,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/264886.png",
+      "fetched_at": "2026-10-18T12:02:45.083Z"
+    },
+    "264895": {
+      "name": "Constance Picaud-Inconnu",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/264895.png",
+      "fetched_at": "2026-10-18T12:03:28.681Z"
+    },
+    "264899": {
+      "name": "Maria-Luisa Grohs",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/264899.png",
+      "fetched_at": "2026-10-18T12:08:56.233Z"
+    },
+    "264903": {
+      "name": "Sarah Zadrazil",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/264903.png",
+      "fetched_at": "2026-10-18T12:07:20.583Z"
+    },
+    "264922": {
+      "name": "Kristin Kögel",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/264922.png",
+      "fetched_at": "2026-10-18T12:04:59.887Z"
+    },
+    "264925": {
+      "name": "Lisanne Gräwe",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/264925.png",
+      "fetched_at": "2026-10-18T12:08:48.232Z"
+    },
+    "264933": {
+      "name": "Barbara Dunst",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/264933.png",
+      "fetched_at": "2026-10-18T12:05:53.942Z"
+    },
+    "264936": {
+      "name": "Géraldine Reuteler",
+      "rat": 84,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/264936.png",
+      "fetched_at": "2026-10-18T12:02:42.118Z"
+    },
+    "264939": {
+      "name": "Lara Prašnikar",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/264939.png",
+      "fetched_at": "2026-10-18T12:05:00.593Z"
+    },
+    "264947": {
+      "name": "Nicole Anyomi",
+      "rat": 84,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/264947.png",
+      "fetched_at": "2026-10-18T12:03:04.136Z"
+    },
+    "264963": {
+      "name": "Daphné Corboz",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/264963.png",
+      "fetched_at": "2026-10-18T12:08:03.045Z"
+    },
+    "264968": {
+      "name": "Mathilde Bourdieu",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/264968.png",
+      "fetched_at": "2026-10-18T12:06:48.682Z"
+    },
+    "264994": {
+      "name": "Katharina Naschenweng",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/264994.png",
+      "fetched_at": "2026-10-18T12:08:40.992Z"
+    },
+    "264995": {
+      "name": "Laura Dick",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/264995.png",
+      "fetched_at": "2026-10-18T12:08:45.297Z"
+    },
+    "265025": {
+      "name": "Selina Cerci",
+      "rat": 84,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/265025.png",
+      "fetched_at": "2026-10-18T12:03:07.316Z"
+    },
+    "265035": {
+      "name": "Elisa Senß",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/265035.png",
+      "fetched_at": "2026-10-18T12:03:35.012Z"
+    },
+    "265058": {
+      "name": "Erëleta Memeti",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/265058.png",
+      "fetched_at": "2026-10-18T12:04:39.806Z"
+    },
+    "265063": {
+      "name": "Janina Minge",
+      "rat": 84,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/265063.png",
+      "fetched_at": "2026-10-18T12:02:48.060Z"
+    },
+    "265092": {
+      "name": "Alice Sombath",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/265092.png",
+      "fetched_at": "2026-10-18T12:07:32.403Z"
+    },
+    "265239": {
+      "name": "Katie McCabe",
+      "rat": 86,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/265239.png",
+      "fetched_at": "2026-10-18T12:01:43.072Z"
+    },
+    "265240": {
+      "name": "Lia Wälti",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/265240.png",
+      "fetched_at": "2026-10-18T12:06:37.914Z"
+    },
+    "265247": {
+      "name": "Jess Carter",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/265247.png",
+      "fetched_at": "2026-10-18T12:06:27.149Z"
+    },
+    "265249": {
+      "name": "Lauren James",
+      "rat": 85,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/265249.png",
+      "fetched_at": "2026-10-18T12:02:12.570Z"
+    },
+    "265293": {
+      "name": "Maya Le Tissier",
+      "rat": 85,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/265293.png",
+      "fetched_at": "2026-10-18T12:02:20.682Z"
+    },
+    "265317": {
+      "name": "Laura Blindkilde Brown",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/265317.png",
+      "fetched_at": "2026-10-18T12:08:44.470Z"
+    },
+    "265340": {
+      "name": "Jess Park",
+      "rat": 85,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/265340.png",
+      "fetched_at": "2026-10-18T12:02:04.844Z"
+    },
+    "265377": {
+      "name": "Vanessa Fudalla",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/265377.png",
+      "fetched_at": "2026-10-18T12:04:14.955Z"
+    },
+    "265536": {
+      "name": "Damaris Egurrola",
+      "rat": 84,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/265536.png",
+      "fetched_at": "2026-10-18T12:02:34.688Z"
+    },
+    "265674": {
+      "name": "Selma Bacha",
+      "rat": 86,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/265674.png",
+      "fetched_at": "2026-10-18T12:01:47.379Z"
+    },
+    "265693": {
+      "name": "Jakub Kiwior",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/265693.png",
+      "fetched_at": "2026-10-18T12:04:47.687Z"
+    },
+    "265695": {
+      "name": "Matías Soulé",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/265695.png",
+      "fetched_at": "2026-10-18T12:08:59.743Z"
+    },
+    "265849": {
+      "name": "Maëlle Lakrar",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/265849.png",
+      "fetched_at": "2026-10-18T12:05:07.116Z"
+    },
+    "265856": {
+      "name": "Anna Moorhouse",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/265856.png",
+      "fetched_at": "2026-10-18T12:05:52.487Z"
+    },
+    "265898": {
+      "name": "Melchie Dumornay",
+      "rat": 88,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/265898.png",
+      "fetched_at": "2026-10-18T11:59:48.069Z"
+    },
+    "265905": {
+      "name": "Vicki Becho",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/265905.png",
+      "fetched_at": "2026-10-18T12:04:15.679Z"
+    },
+    "266039": {
+      "name": "Pubill",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/266039.png",
+      "fetched_at": "2026-10-18T12:07:11.111Z"
+    },
+    "266091": {
+      "name": "Ashley Sanchez",
+      "rat": 84,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/266091.png",
+      "fetched_at": "2026-10-18T12:02:28.216Z"
+    },
+    "266127": {
+      "name": "Lewis Hall",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/266127.png",
+      "fetched_at": "2026-10-18T12:03:51.976Z"
+    },
+    "266254": {
+      "name": "Elisabeth Terland",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/266254.png",
+      "fetched_at": "2026-10-18T12:04:37.846Z"
+    },
+    "266384": {
+      "name": "Sveindís Jane Jónsdóttir",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/266384.png",
+      "fetched_at": "2026-10-18T12:04:13.567Z"
+    },
+    "266401": {
+      "name": "Jaelin Howell",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/266401.png",
+      "fetched_at": "2026-10-18T12:08:32.898Z"
+    },
+    "266816": {
+      "name": "Aubrey Kingsbury",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/266816.png",
+      "fetched_at": "2026-10-18T12:03:27.288Z"
+    },
+    "266866": {
+      "name": "Éderson",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/266866.png",
+      "fetched_at": "2026-10-18T12:04:35.594Z"
+    },
+    "266928": {
+      "name": "Trinity Rodman",
+      "rat": 87,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/266928.png",
+      "fetched_at": "2026-10-18T12:01:32.728Z"
+    },
+    "266933": {
+      "name": "Arianna Caruso",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/266933.png",
+      "fetched_at": "2026-10-18T12:03:25.865Z"
+    },
+    "266970": {
+      "name": "Lucia Di Guglielmo",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/266970.png",
+      "fetched_at": "2026-10-18T12:08:52.473Z"
+    },
+    "266973": {
+      "name": "Giada Greggi",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/266973.png",
+      "fetched_at": "2026-10-18T12:03:38.459Z"
+    },
+    "266996": {
+      "name": "Sofia Cantore",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/266996.png",
+      "fetched_at": "2026-10-18T12:07:21.510Z"
+    },
+    "267200": {
+      "name": "Claudia Dickey",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/267200.png",
+      "fetched_at": "2026-10-18T12:08:00.179Z"
+    },
+    "267201": {
+      "name": "Jess Fishlock",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/267201.png",
+      "fetched_at": "2026-10-18T12:06:27.833Z"
+    },
+    "267212": {
+      "name": "Phallon Tullis-Joyce",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/267212.png",
+      "fetched_at": "2026-10-18T12:04:07.096Z"
+    },
+    "267217": {
+      "name": "Sam Coffey",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/267217.png",
+      "fetched_at": "2026-10-18T12:04:09.330Z"
+    },
+    "267223": {
+      "name": "Olivia Moultrie",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/267223.png",
+      "fetched_at": "2026-10-18T12:04:03.571Z"
+    },
+    "267227": {
+      "name": "Yazmeen Ryan",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/267227.png",
+      "fetched_at": "2026-10-18T12:05:39.153Z"
+    },
+    "267234": {
+      "name": "Kerolin Nicoli",
+      "rat": 85,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/267234.png",
+      "fetched_at": "2026-10-18T12:02:09.469Z"
+    },
+    "267238": {
+      "name": "Denise O'Sullivan",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/267238.png",
+      "fetched_at": "2026-10-18T12:06:07.743Z"
+    },
+    "267276": {
+      "name": "Kayla Sharples",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/267276.png",
+      "fetched_at": "2026-10-18T12:08:41.834Z"
+    },
+    "267336": {
+      "name": "Lo'eau LaBonta",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/267336.png",
+      "fetched_at": "2026-10-18T12:03:53.448Z"
+    },
+    "267339": {
+      "name": "Hailie Mace",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/267339.png",
+      "fetched_at": "2026-10-18T12:06:18.103Z"
+    },
+    "267382": {
+      "name": "Naomi Girma",
+      "rat": 84,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/267382.png",
+      "fetched_at": "2026-10-18T12:03:00.510Z"
+    },
+    "267384": {
+      "name": "Taylor Flint",
+      "rat": 84,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/267384.png",
+      "fetched_at": "2026-10-18T12:03:09.961Z"
+    },
+    "267530": {
+      "name": "Esmee Brugts",
+      "rat": 84,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/267530.png",
+      "fetched_at": "2026-10-18T12:02:38.510Z"
+    },
+    "267531": {
+      "name": "Romée Leuchter",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/267531.png",
+      "fetched_at": "2026-10-18T12:04:08.549Z"
+    },
+    "267660": {
+      "name": "Aïssata Traoré",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/267660.png",
+      "fetched_at": "2026-10-18T12:05:42.994Z"
+    },
+    "268262": {
+      "name": "Rosemonde Kouassi",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/268262.png",
+      "fetched_at": "2026-10-18T12:07:17.653Z"
+    },
+    "268804": {
+      "name": "Mario Gila",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/268804.png",
+      "fetched_at": "2026-10-18T12:06:46.562Z"
+    },
+    "268889": {
+      "name": "Álvaro Carreras",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/268889.png",
+      "fetched_at": "2026-10-18T12:05:47.990Z"
+    },
+    "268942": {
+      "name": "Cata Coll",
+      "rat": 85,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/268942.png",
+      "fetched_at": "2026-10-18T12:01:53.921Z"
+    },
+    "269136": {
+      "name": "Kobbie Mainoo",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/269136.png",
+      "fetched_at": "2026-10-18T12:06:34.222Z"
+    },
+    "269404": {
+      "name": "Salma Paralluelo",
+      "rat": 87,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/269404.png",
+      "fetched_at": "2026-10-18T12:01:30.375Z"
+    },
+    "269701": {
+      "name": "Nathaniel Brown",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/269701.png",
+      "fetched_at": "2026-10-18T12:07:01.632Z"
+    },
+    "269811": {
+      "name": "Anaële Le Moguédec",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/269811.png",
+      "fetched_at": "2026-10-18T12:07:35.440Z"
+    },
+    "269972": {
+      "name": "Lou Bogaert",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/269972.png",
+      "fetched_at": "2026-10-18T12:08:49.671Z"
+    },
+    "270571": {
+      "name": "Gabriel Sara",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/270571.png",
+      "fetched_at": "2026-10-18T12:08:21.202Z"
+    },
+    "270673": {
+      "name": "Warren Zaïre-Emery",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/270673.png",
+      "fetched_at": "2026-10-18T12:04:16.348Z"
+    },
+    "270728": {
+      "name": "Carlos Romero",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/270728.png",
+      "fetched_at": "2026-10-18T12:07:58.652Z"
+    },
+    "270857": {
+      "name": "Mateus Fernandes",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/270857.png",
+      "fetched_at": "2026-10-18T12:08:58.355Z"
+    },
+    "271040": {
+      "name": "Jaedyn Shaw",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/271040.png",
+      "fetched_at": "2026-10-18T12:08:32.126Z"
+    },
+    "271421": {
+      "name": "Désiré Doué",
+      "rat": 86,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/271421.png",
+      "fetched_at": "2026-10-18T12:01:35.619Z"
+    },
+    "271446": {
+      "name": "Vicky López",
+      "rat": 84,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/271446.png",
+      "fetched_at": "2026-10-18T12:03:12.672Z"
+    },
+    "271568": {
+      "name": "Jelena Čanković",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/271568.png",
+      "fetched_at": "2026-10-18T12:08:34.459Z"
+    },
+    "271860": {
+      "name": "Ena Mahmutovic",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/271860.png",
+      "fetched_at": "2026-10-18T12:04:39.102Z"
+    },
+    "271944": {
+      "name": "María Méndez",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/271944.png",
+      "fetched_at": "2026-10-18T12:03:56.414Z"
+    },
+    "272007": {
+      "name": "Paula Fernández",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/272007.png",
+      "fetched_at": "2026-10-18T12:05:21.582Z"
+    },
+    "272076": {
+      "name": "Racheal Kundananji",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/272076.png",
+      "fetched_at": "2026-10-18T12:07:11.818Z"
+    },
+    "272084": {
+      "name": "Lauren Leal",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/272084.png",
+      "fetched_at": "2026-10-18T12:03:50.479Z"
+    },
+    "272094": {
+      "name": "Fiamma Benítez",
+      "rat": 84,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/272094.png",
+      "fetched_at": "2026-10-18T12:02:40.646Z"
+    },
+    "272110": {
+      "name": "Andrea Medina",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/272110.png",
+      "fetched_at": "2026-10-18T12:04:20.009Z"
+    },
+    "272115": {
+      "name": "Leicy Santos",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/272115.png",
+      "fetched_at": "2026-10-18T12:03:51.187Z"
+    },
+    "272153": {
+      "name": "Ainoa",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/272153.png",
+      "fetched_at": "2026-10-18T12:07:28.605Z"
+    },
+    "272163": {
+      "name": "Elena Julve",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/272163.png",
+      "fetched_at": "2026-10-18T12:03:34.313Z"
+    },
+    "272204": {
+      "name": "Allegra Poljak",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/272204.png",
+      "fetched_at": "2026-10-18T12:05:47.294Z"
+    },
+    "272208": {
+      "name": "Manuela Vanegas",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/272208.png",
+      "fetched_at": "2026-10-18T12:08:55.558Z"
+    },
+    "272212": {
+      "name": "Adriana Nanclares",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/272212.png",
+      "fetched_at": "2026-10-18T12:07:27.216Z"
+    },
+    "272217": {
+      "name": "Gift Monday",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/272217.png",
+      "fetched_at": "2026-10-18T12:08:22.925Z"
+    },
+    "272224": {
+      "name": "Natalia Ramos",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/272224.png",
+      "fetched_at": "2026-10-18T12:05:17.981Z"
+    },
+    "272257": {
+      "name": "Elba Vergés",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/272257.png",
+      "fetched_at": "2026-10-18T12:08:07.394Z"
+    },
+    "272449": {
+      "name": "Pablo Barrios",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/272449.png",
+      "fetched_at": "2026-10-18T12:04:05.004Z"
+    },
+    "272500": {
+      "name": "Carlos Baleba",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/272500.png",
+      "fetched_at": "2026-10-18T12:07:57.757Z"
+    },
+    "272834": {
+      "name": "João Neves",
+      "rat": 88,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/272834.png",
+      "fetched_at": "2026-10-18T11:59:46.436Z"
+    },
+    "273018": {
+      "name": "Andrey Santos",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/273018.png",
+      "fetched_at": "2026-10-18T12:07:39.371Z"
+    },
+    "273136": {
+      "name": "Lorena",
+      "rat": 85,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/273136.png",
+      "fetched_at": "2026-10-18T12:02:15.646Z"
+    },
+    "273153": {
+      "name": "Linda Caicedo",
+      "rat": 85,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/273153.png",
+      "fetched_at": "2026-10-18T12:02:14.797Z"
+    },
+    "273227": {
+      "name": "Hinata Miyazawa",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/273227.png",
+      "fetched_at": "2026-10-18T12:08:27.887Z"
+    },
+    "273466": {
+      "name": "Alyssa Thompson",
+      "rat": 85,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/273466.png",
+      "fetched_at": "2026-10-18T12:01:50.385Z"
+    },
+    "273946": {
+      "name": "Korbin Shrader",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/273946.png",
+      "fetched_at": "2026-10-18T12:03:49.794Z"
+    },
+    "274780": {
+      "name": "Luany",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/274780.png",
+      "fetched_at": "2026-10-18T12:05:05.670Z"
+    },
+    "275029": {
+      "name": "Ibrahim Maza",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/275029.png",
+      "fetched_at": "2026-10-18T12:08:28.630Z"
+    },
+    "275138": {
+      "name": "Lamine Camara",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/275138.png",
+      "fetched_at": "2026-10-18T12:08:43.769Z"
+    },
+    "275192": {
+      "name": "Luka Vušković",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/275192.png",
+      "fetched_at": "2026-10-18T12:06:42.167Z"
+    },
+    "275298": {
+      "name": "Aleksandar Pavlović",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/275298.png",
+      "fetched_at": "2026-10-18T12:03:21.007Z"
+    },
+    "275771": {
+      "name": "Igor Thiago",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/275771.png",
+      "fetched_at": "2026-10-18T12:04:45.567Z"
+    },
+    "275906": {
+      "name": "Aoba Fujino",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/275906.png",
+      "fetched_at": "2026-10-18T12:04:22.848Z"
+    },
+    "275916": {
+      "name": "Jennifer Echegini",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/275916.png",
+      "fetched_at": "2026-10-18T12:08:35.177Z"
+    },
+    "276359": {
+      "name": "Barbra Banda",
+      "rat": 88,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/276359.png",
+      "fetched_at": "2026-10-18T11:59:45.572Z"
+    },
+    "276552": {
+      "name": "Olivia Smith",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/276552.png",
+      "fetched_at": "2026-10-18T12:07:06.101Z"
+    },
+    "276694": {
+      "name": "Johan Manzambi",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/276694.png",
+      "fetched_at": "2026-10-18T12:08:37.438Z"
+    },
+    "276825": {
+      "name": "Melween N'Dongala",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/276825.png",
+      "fetched_at": "2026-10-18T12:06:54.688Z"
+    },
+    "276887": {
+      "name": "Isina Corte",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/276887.png",
+      "fetched_at": "2026-10-18T12:08:31.444Z"
+    },
+    "277031": {
+      "name": "Abdukodir Khusanov",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/277031.png",
+      "fetched_at": "2026-10-18T12:04:17.702Z"
+    },
+    "277179": {
+      "name": "Fermín",
+      "rat": 85,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/277179.png",
+      "fetched_at": "2026-10-18T12:02:03.305Z"
+    },
+    "277427": {
+      "name": "Nico O'Reilly",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/277427.png",
+      "fetched_at": "2026-10-18T12:04:02.051Z"
+    },
+    "277452": {
+      "name": "Edna Imade",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/277452.png",
+      "fetched_at": "2026-10-18T12:03:33.594Z"
+    },
+    "277846": {
+      "name": "Nico Paz",
+      "rat": 84,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/277846.png",
+      "fetched_at": "2026-10-18T12:03:02.551Z"
+    },
+    "277869": {
+      "name": "Michael Kayode",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/277869.png",
+      "fetched_at": "2026-10-18T12:06:55.357Z"
+    },
+    "277909": {
+      "name": "Eli Junior Kroupi",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/277909.png",
+      "fetched_at": "2026-10-18T12:08:08.093Z"
+    },
+    "277926": {
+      "name": "Manaka Matsukubo",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/277926.png",
+      "fetched_at": "2026-10-18T12:03:54.915Z"
+    },
+    "277951": {
+      "name": "Lily Yohannes",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/277951.png",
+      "fetched_at": "2026-10-18T12:08:47.411Z"
+    },
+    "277954": {
+      "name": "Kenan Yıldız",
+      "rat": 84,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/277954.png",
+      "fetched_at": "2026-10-18T12:02:52.724Z"
+    },
+    "278016": {
+      "name": "Murillo",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/278016.png",
+      "fetched_at": "2026-10-18T12:05:16.544Z"
+    },
+    "278046": {
+      "name": "Pau Cubarsí",
+      "rat": 86,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/278046.png",
+      "fetched_at": "2026-10-18T12:01:46.007Z"
+    },
+    "278219": {
+      "name": "Tabitha Chawinga",
+      "rat": 87,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/278219.png",
+      "fetched_at": "2026-10-18T12:01:31.100Z"
+    },
+    "278349": {
+      "name": "Dean Huijsen",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/278349.png",
+      "fetched_at": "2026-10-18T12:06:05.636Z"
+    },
+    "278901": {
+      "name": "Ayyoub Bouaddi",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/278901.png",
+      "fetched_at": "2026-10-18T12:07:52.180Z"
+    },
+    "279015": {
+      "name": "Victor Froholdt",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/279015.png",
+      "fetched_at": "2026-10-18T12:05:36.313Z"
+    },
+    "279532": {
+      "name": "Jade Rose",
+      "rat": 83,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/279532.png",
+      "fetched_at": "2026-10-18T12:03:44.119Z"
+    },
+    "279699": {
+      "name": "Claire Hutton",
+      "rat": 81,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/279699.png",
+      "fetched_at": "2026-10-18T12:06:02.759Z"
+    },
+    "279799": {
+      "name": "Temwa Chawinga",
+      "rat": 89,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/279799.png",
+      "fetched_at": "2026-10-18T11:59:44.709Z"
+    },
+    "279811": {
+      "name": "Avery Patterson",
+      "rat": 80,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/279811.png",
+      "fetched_at": "2026-10-18T12:07:49.852Z"
+    },
+    "279812": {
+      "name": "Croix Bethune",
+      "rat": 82,
+      "source": "https://cdn.futbin.com/content/fifa27/img/players/279812.png",
+      "fetched_at": "2026-10-18T12:04:30.653Z"
+    }
+  },
+  "updated_at": "2026-10-18T12:09:01.598Z",
+  "game_code": "fifa27"
+}

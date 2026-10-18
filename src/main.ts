@@ -108,7 +108,8 @@ async function fetchPlayerPortrait(el){
 }
 async function loadPortraitIndex(){try{const r=await fetch('./data/available-portraits.json',{cache:'no-store'});if(!r.ok)throw Error('No portrait index');const data=await r.json();if(!Array.isArray(data.ids))throw Error('Invalid portrait index');AVAILABLE_PORTRAITS.clear();VERIFIED_PHOTO_FILES.clear();for(const id of data.ids)if(Number.isInteger(id))AVAILABLE_PORTRAITS.add(id);for(const [id,file] of Object.entries(data.files||{}))if(/^\d+\.(png|jpg|webp)$/.test(file))VERIFIED_PHOTO_FILES.set(Number(id),file);renderPlayers();}catch(e){console.warn('Portrait index unavailable',e)}}
 function imgFallback(el,id){
-  const urls=[]; // FC26 CDN fallbacks disabled; use verified FC27 assets only when available.
+  const digits=/^\d+$/.test(String(id))?String(id):'';
+  const urls=digits?[`https://cdn.futbin.com/content/fifa27/img/players/${digits}.png`]:[]; // Committed FC27 portraits stay authoritative; this is the current-edition CDN mirror.
   const tried=el.dataset.tried?parseInt(el.dataset.tried):0;
   if(tried<urls.length){el.dataset.tried=tried+1;el.src=urls[tried];}
   else{el.onerror=null;el.removeAttribute('src');el.style.display='none';if(el.parentElement&&!el.parentElement.querySelector('.img-placeholder')){const p=document.createElement('span');p.className='img-placeholder';p.textContent='⚽';p.setAttribute('aria-label','تصویر بازیکن موجود نیست');p.style.cssText='position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:24px;opacity:.4';el.parentElement.appendChild(p);}}
@@ -897,8 +898,11 @@ function renderPlayers(){
     return true;
   });
   if(srt==='rat')list.sort((a,b)=>b.rat-a.rat);
-  else if(srt==='price-h')list.sort((a,b)=>b.price-a.price);
-  else if(srt==='price-l')list.sort((a,b)=>a.price-b.price);
+  else if(srt==='price-h'||srt==='price-l'){
+    // Players without a verified quote sink to the bottom in both directions.
+    const cmp=srt==='price-l'?(x,y)=>x-y:(x,y)=>y-x;
+    list.sort((a,b)=>{const pa=getFC27CardCoins(a),pb=getFC27CardCoins(b);if(pa===null||pb===null)return pa===pb?0:pa===null?1:-1;return cmp(pa,pb);});
+  }
   else if(srt==='az')list.sort((a,b)=>a.nameFA.localeCompare(b.nameFA,'fa'));
   const titles={all:'همه بازیکنان',ATT:'مهاجمان',MID:'هافبک‌ها',DEF:'مدافعان',GK:'دروازه‌بانان'};
   document.getElementById('plSecTitle').textContent=titles[plPos]||'همه بازیکنان';
