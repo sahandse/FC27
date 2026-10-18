@@ -1,7 +1,66 @@
 {
   "source": "FUT.GG",
-  "checked_at": "2026-10-18T15:53:42.353Z",
+  "checked_at": "2026-10-18T20:45:30.122Z",
   "evolutions": [
+    {
+      "name": "Zoomaestro",
+      "url": "https://www.fut.gg/evolutions/2602-zoomaestro/",
+      "description": "Your playmaker always had the vision, now they get the legs. Boost pace and dribbling on your CAM or CM and glide past defenders in a blink.",
+      "levels": [
+        {
+          "name": "Level 1",
+          "tasks": [
+            "Play 2 matches in Squad Battles on min. Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events) using your active EVO Player in game."
+          ],
+          "upgrades": [
+            "+ 7 OVR → 83",
+            "+ 1 SM → 4",
+            "+ 5 Positioning → 84",
+            "+ 10 Short Pass → 85",
+            "+ 7 Balance → 82",
+            "+ 10 Dribbling → 83"
+          ]
+        },
+        {
+          "name": "Level 2",
+          "tasks": [
+            "Play 2 matches in Squad Battles on min. Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events) using your active EVO Player in game."
+          ],
+          "upgrades": [
+            "+ 10 Acceleration → 83",
+            "+ 5 Long Shots → 83",
+            "+ 5 Curve → 81",
+            "+ 7 Reactions → 82",
+            "+ 10 Composure → 81"
+          ]
+        },
+        {
+          "name": "Level 3",
+          "tasks": [
+            "Win 1 match in Squad Battles on min. Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events) using your active EVO Player in game."
+          ],
+          "upgrades": [
+            "+ 10 Sprint Speed → 83",
+            "+ 10 Vision → 82",
+            "+ 7 Agility → 85",
+            "+ 10 Ball Control → 85",
+            "+ 5 Stamina → 84"
+          ]
+        }
+      ],
+      "requirements": [
+        "Overall: Max. 80",
+        "Position: CAM, CM",
+        "Skill Moves: Max. 4",
+        "Max PS: 7",
+        "Pace: Max. 75",
+        "Defending: Max. 74"
+      ],
+      "details": [
+        "Coins Cost: Free",
+        "Points Cost: Free"
+      ]
+    },
     {
       "name": "Middle Management",
       "url": "https://www.fut.gg/evolutions/2562-middle-management/",

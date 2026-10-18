@@ -1,6 +1,6 @@
 {
   "source": "FUT.GG",
-  "checked_at": "2026-10-18T15:53:22.182Z",
+  "checked_at": "2026-10-18T20:44:59.856Z",
   "sections": {
     "objectives": [
       {
@@ -25,7 +25,7 @@
             "reward": "50 Points"
           }
         ],
-        "detail_checked_at": "2026-10-18T15:53:22.182Z"
+        "detail_checked_at": "2026-10-18T20:44:59.856Z"
       },
       {
         "name": "No Room for Racism",
@@ -39,7 +39,7 @@
             "reward": "500 Coins"
           }
         ],
-        "detail_checked_at": "2026-10-18T15:53:22.182Z"
+        "detail_checked_at": "2026-10-18T20:44:59.856Z"
       },
       {
         "name": "Season 1 SP Chase",
@@ -74,7 +74,7 @@
           }
         ],
         "reward": "7,000 total",
-        "detail_checked_at": "2026-10-18T15:53:22.182Z"
+        "detail_checked_at": "2026-10-18T20:44:59.856Z"
       },
       {
         "name": "Weekly Objectives",
@@ -109,7 +109,7 @@
           }
         ],
         "reward": "3,000 total",
-        "detail_checked_at": "2026-10-18T15:53:22.182Z"
+        "detail_checked_at": "2026-10-18T20:44:59.856Z"
       },
       {
         "name": "Daily Objectives",
@@ -129,7 +129,7 @@
           }
         ],
         "reward": "30 total",
-        "detail_checked_at": "2026-10-18T15:53:22.182Z"
+        "detail_checked_at": "2026-10-18T20:44:59.856Z"
       },
       {
         "name": "Weekly Rush Points",
@@ -163,7 +163,7 @@
             "reward": "2X 75+ Gold Players Pack"
           }
         ],
-        "detail_checked_at": "2026-10-18T15:53:22.182Z"
+        "detail_checked_at": "2026-10-18T20:44:59.856Z"
       },
       {
         "name": "Seasonal Objective",
@@ -198,7 +198,7 @@
           }
         ],
         "reward": "3,000 total",
-        "detail_checked_at": "2026-10-18T15:53:22.182Z"
+        "detail_checked_at": "2026-10-18T20:44:59.856Z"
       },
       {
         "name": "Icon Home Kit",
@@ -223,7 +223,7 @@
           }
         ],
         "reward": "2,000 total",
-        "detail_checked_at": "2026-10-18T15:53:22.182Z"
+        "detail_checked_at": "2026-10-18T20:44:59.856Z"
       },
       {
         "name": "Claim the Armband",
@@ -237,7 +237,7 @@
             "reward": "500 Coins"
           }
         ],
-        "detail_checked_at": "2026-10-18T15:53:22.182Z"
+        "detail_checked_at": "2026-10-18T20:44:59.856Z"
       },
       {
         "name": "Ones We Watched Legendary Challenge",
@@ -266,7 +266,7 @@
             "reward": "2X 78+ Gold Players Pack"
           }
         ],
-        "detail_checked_at": "2026-10-18T15:53:22.182Z"
+        "detail_checked_at": "2026-10-18T20:44:59.856Z"
       },
       {
         "name": "Season 1: Ones to Watch Exhibition",
@@ -310,7 +310,7 @@
             "reward": "Consumable"
           }
         ],
-        "detail_checked_at": "2026-10-18T15:53:22.182Z"
+        "detail_checked_at": "2026-10-18T20:44:59.856Z"
       },
       {
         "name": "Season 1: Ones to Watch Exhibition Weekly Play",
@@ -324,7 +324,7 @@
             "reward": "Consumable"
           }
         ],
-        "detail_checked_at": "2026-10-18T15:53:22.182Z"
+        "detail_checked_at": "2026-10-18T20:44:59.856Z"
       },
       {
         "name": "Season 1: Ones to Watch Exhibition Completionist",
@@ -353,7 +353,7 @@
             "reward": "Repeat Delivery"
           }
         ],
-        "detail_checked_at": "2026-10-18T15:53:22.182Z"
+        "detail_checked_at": "2026-10-18T20:44:59.856Z"
       },
       {
         "name": "Ones We Watched Challenge Completionist",
@@ -382,7 +382,7 @@
             "reward": "2,500 Coins"
           }
         ],
-        "detail_checked_at": "2026-10-18T15:53:22.182Z"
+        "detail_checked_at": "2026-10-18T20:44:59.856Z"
       },
       {
         "name": "Ones We Watched Kick Off Challenge",
@@ -411,7 +411,7 @@
             "reward": "Consumable"
           }
         ],
-        "detail_checked_at": "2026-10-18T15:53:22.182Z"
+        "detail_checked_at": "2026-10-18T20:44:59.856Z"
       },
       {
         "name": "Ones We Watched Semi-Pro Challenge",
@@ -440,7 +440,7 @@
             "reward": "Consumable"
           }
         ],
-        "detail_checked_at": "2026-10-18T15:53:22.182Z"
+        "detail_checked_at": "2026-10-18T20:44:59.856Z"
       },
       {
         "name": "Ones We Watched Professional Challenge",
@@ -469,7 +469,7 @@
             "reward": "Consumable"
           }
         ],
-        "detail_checked_at": "2026-10-18T15:53:22.182Z"
+        "detail_checked_at": "2026-10-18T20:44:59.856Z"
       },
       {
         "name": "Ones We Watched World Class Challenge",
@@ -498,7 +498,31 @@
             "reward": "2X 75+ Gold Players Pack"
           }
         ],
-        "detail_checked_at": "2026-10-18T15:53:22.182Z"
+        "detail_checked_at": "2026-10-18T20:44:59.856Z"
+      },
+      {
+        "name": "Heart of the Pitch",
+        "category": "campaign",
+        "description": "Compete in the Heart of the Pitch Flash Rush Event and earn rewards. All rewards are untradeable.",
+        "url": "https://www.fut.gg/objectives/campaigns/132-heart-of-the-pitch/",
+        "tasks": [
+          {
+            "name": "Win 3",
+            "description": "Win 3 matches in the Heart of the Pitch Flash Rush Event.",
+            "reward": "4X 82+ Gold Players Pack"
+          },
+          {
+            "name": "15,000 Rush Points",
+            "description": "Earn 15,000 Rush Points.",
+            "reward": "1 Of 3 83+ Gold Player Pick"
+          },
+          {
+            "name": "Play 3",
+            "description": "Play 3 matches in the Heart of the Pitch Flash Rush Event.",
+            "reward": "2X 82+ Gold Players Pack"
+          }
+        ],
+        "detail_checked_at": "2026-10-18T20:44:59.856Z"
       },
       {
         "name": "Future Stars: Milton Delgado",
@@ -527,7 +551,7 @@
             "reward": "Consumable"
           }
         ],
-        "detail_checked_at": "2026-10-18T15:53:22.182Z"
+        "detail_checked_at": "2026-10-18T20:44:59.856Z"
       },
       {
         "name": "Future Stardom",
@@ -561,7 +585,7 @@
             "reward": "1,000 Coins"
           }
         ],
-        "detail_checked_at": "2026-10-18T15:53:22.182Z"
+        "detail_checked_at": "2026-10-18T20:44:59.856Z"
       },
       {
         "name": "Future Stars SP",
@@ -591,7 +615,7 @@
           }
         ],
         "reward": "1,500 total",
-        "detail_checked_at": "2026-10-18T15:53:22.182Z"
+        "detail_checked_at": "2026-10-18T20:44:59.856Z"
       },
       {
         "name": "Ultimate Gauntlet 2",
@@ -650,7 +674,7 @@
             "reward": "Finn Jeltsch (Loan)"
           }
         ],
-        "detail_checked_at": "2026-10-18T15:53:22.182Z"
+        "detail_checked_at": "2026-10-18T20:44:59.856Z"
       },
       {
         "name": "Future Stars Academy",
@@ -684,7 +708,7 @@
             "reward": "2X 75+ Gold Players Pack"
           }
         ],
-        "detail_checked_at": "2026-10-18T15:53:22.182Z"
+        "detail_checked_at": "2026-10-18T20:44:59.856Z"
       },
       {
         "name": "Rising Through the Ranks",
@@ -719,7 +743,7 @@
           }
         ],
         "reward": "250 total",
-        "detail_checked_at": "2026-10-18T15:53:22.182Z"
+        "detail_checked_at": "2026-10-18T20:44:59.856Z"
       },
       {
         "name": "First Team Dreams",
@@ -744,7 +768,7 @@
           }
         ],
         "reward": "400 total",
-        "detail_checked_at": "2026-10-18T15:53:22.182Z"
+        "detail_checked_at": "2026-10-18T20:44:59.856Z"
       },
       {
         "name": "The Journey Begins",
@@ -774,7 +798,7 @@
           }
         ],
         "reward": "100 total",
-        "detail_checked_at": "2026-10-18T15:53:22.182Z"
+        "detail_checked_at": "2026-10-18T20:44:59.856Z"
       },
       {
         "name": "Total Football",
@@ -799,7 +823,7 @@
           }
         ],
         "reward": "300 total",
-        "detail_checked_at": "2026-10-18T15:53:22.182Z"
+        "detail_checked_at": "2026-10-18T20:44:59.856Z"
       },
       {
         "name": "Gallery Foundations",
@@ -833,7 +857,7 @@
             "reward": "250 Coins"
           }
         ],
-        "detail_checked_at": "2026-10-18T15:53:22.182Z"
+        "detail_checked_at": "2026-10-18T20:44:59.856Z"
       },
       {
         "name": "Ted Lasso&#x27;s Masterclass",
@@ -872,7 +896,7 @@
             "reward": "Award"
           }
         ],
-        "detail_checked_at": "2026-10-18T15:53:22.182Z"
+        "detail_checked_at": "2026-10-18T20:44:59.856Z"
       },
       {
         "name": "Squad Battles Milestone",
@@ -896,7 +920,7 @@
             "reward": "Coin Boost"
           }
         ],
-        "detail_checked_at": "2026-10-18T15:53:22.182Z"
+        "detail_checked_at": "2026-10-18T20:44:59.856Z"
       },
       {
         "name": "Draft Milestone",
@@ -920,7 +944,7 @@
             "reward": "Coin Boost"
           }
         ],
-        "detail_checked_at": "2026-10-18T15:53:22.182Z"
+        "detail_checked_at": "2026-10-18T20:44:59.856Z"
       },
       {
         "name": "Co-Op Milestone",
@@ -944,7 +968,7 @@
             "reward": "Coin Boost"
           }
         ],
-        "detail_checked_at": "2026-10-18T15:53:22.182Z"
+        "detail_checked_at": "2026-10-18T20:44:59.856Z"
       },
       {
         "name": "Rush Milestone",
@@ -983,7 +1007,7 @@
             "reward": "1 Of 2 78+ Gold Player Pick"
           }
         ],
-        "detail_checked_at": "2026-10-18T15:53:22.182Z"
+        "detail_checked_at": "2026-10-18T20:44:59.856Z"
       },
       {
         "name": "Moments Stars Milestone",
@@ -1007,7 +1031,7 @@
             "reward": "Large Bronze Players Pack"
           }
         ],
-        "detail_checked_at": "2026-10-18T15:53:22.182Z"
+        "detail_checked_at": "2026-10-18T20:44:59.856Z"
       },
       {
         "name": "Squad Building Milestone",
@@ -1031,7 +1055,7 @@
             "reward": "1 Of 3 79+ Gold Player Pick"
           }
         ],
-        "detail_checked_at": "2026-10-18T15:53:22.182Z"
+        "detail_checked_at": "2026-10-18T20:44:59.856Z"
       },
       {
         "name": "Transfer Market Milestone",
@@ -1060,7 +1084,7 @@
             "reward": "2,500 Coins"
           }
         ],
-        "detail_checked_at": "2026-10-18T15:53:22.182Z"
+        "detail_checked_at": "2026-10-18T20:44:59.856Z"
       },
       {
         "name": "Live Events Milestone",
@@ -1084,7 +1108,7 @@
             "reward": "1 Of 3 79+ Gold Player Pick"
           }
         ],
-        "detail_checked_at": "2026-10-18T15:53:22.182Z"
+        "detail_checked_at": "2026-10-18T20:44:59.856Z"
       },
       {
         "name": "Rivals Milestone",
@@ -1108,7 +1132,7 @@
             "reward": "1 Of 2 77+ Gold Player Pick"
           }
         ],
-        "detail_checked_at": "2026-10-18T15:53:22.182Z"
+        "detail_checked_at": "2026-10-18T20:44:59.856Z"
       },
       {
         "name": "Champions Milestone",
@@ -1132,7 +1156,7 @@
             "reward": "Coin Boost"
           }
         ],
-        "detail_checked_at": "2026-10-18T15:53:22.182Z"
+        "detail_checked_at": "2026-10-18T20:44:59.856Z"
       },
       {
         "name": "Gallery Milestone",
@@ -1166,10 +1190,30 @@
             "reward": "Jesús Corona"
           }
         ],
-        "detail_checked_at": "2026-10-18T15:53:22.182Z"
+        "detail_checked_at": "2026-10-18T20:44:59.856Z"
       }
     ],
     "sbc": [
+      {
+        "name": "Assane Diao",
+        "category": "players",
+        "description": "Earn a special Future Stars Assane Diao.",
+        "url": "https://www.fut.gg/sbc/players/27-63-assane-diao/",
+        "price": null,
+        "challenges": 1,
+        "squads": [
+          {
+            "name": "Assane Diao",
+            "description": "Earn a special Future Stars Assane Diao.",
+            "score": 41000,
+            "requirements": [
+              "Rating: Min. 45"
+            ]
+          }
+        ],
+        "squads_checked_at": "2026-10-18T20:44:59.856Z",
+        "detail_checked_at": "2026-10-18T20:44:59.856Z"
+      },
       {
         "name": "Liga Portugal Future Stars Player Pick",
         "category": "players",
@@ -1188,8 +1232,8 @@
             ]
           }
         ],
-        "squads_checked_at": "2026-10-18T15:53:22.182Z",
-        "detail_checked_at": "2026-10-18T15:53:22.182Z"
+        "squads_checked_at": "2026-10-18T20:44:59.856Z",
+        "detail_checked_at": "2026-10-18T20:44:59.856Z"
       },
       {
         "name": "Johan Manzambi",
@@ -1208,8 +1252,8 @@
             ]
           }
         ],
-        "squads_checked_at": "2026-10-18T15:53:22.182Z",
-        "detail_checked_at": "2026-10-18T15:53:22.182Z"
+        "squads_checked_at": "2026-10-18T20:44:59.856Z",
+        "detail_checked_at": "2026-10-18T20:44:59.856Z"
       },
       {
         "name": "Cora Zicai",
@@ -1228,8 +1272,8 @@
             ]
           }
         ],
-        "squads_checked_at": "2026-10-18T15:53:22.182Z",
-        "detail_checked_at": "2026-10-18T15:53:22.182Z"
+        "squads_checked_at": "2026-10-18T20:44:59.856Z",
+        "detail_checked_at": "2026-10-18T20:44:59.856Z"
       },
       {
         "name": "Xavi Espart",
@@ -1248,8 +1292,8 @@
             ]
           }
         ],
-        "squads_checked_at": "2026-10-18T15:53:22.182Z",
-        "detail_checked_at": "2026-10-18T15:53:22.182Z"
+        "squads_checked_at": "2026-10-18T20:44:59.856Z",
+        "detail_checked_at": "2026-10-18T20:44:59.856Z"
       },
       {
         "name": "Ligue 1 POTM September",
@@ -1268,8 +1312,8 @@
             ]
           }
         ],
-        "squads_checked_at": "2026-10-18T15:53:22.182Z",
-        "detail_checked_at": "2026-10-18T15:53:22.182Z"
+        "squads_checked_at": "2026-10-18T20:44:59.856Z",
+        "detail_checked_at": "2026-10-18T20:44:59.856Z"
       },
       {
         "name": "Süper Lig Future Stars Pick",
@@ -1289,29 +1333,8 @@
             ]
           }
         ],
-        "squads_checked_at": "2026-10-18T15:53:22.182Z",
-        "detail_checked_at": "2026-10-18T15:53:22.182Z"
-      },
-      {
-        "name": "Base Hero Matchday Player Pick",
-        "category": "players",
-        "description": "Earn 1 of 4 Base Hero Player Item, between Pablo Aimar, Davor Šuker, Sonia Bompastor and Rafael Márquez.(see Reward Details)",
-        "url": "https://www.fut.gg/sbc/players/27-52-base-hero-matchday-player-pick/",
-        "price": null,
-        "reward": "1 of 4 Base Hero Player Pick",
-        "challenges": 1,
-        "squads": [
-          {
-            "name": "Base Hero Matchday Player Pick",
-            "description": "Earn 1 of 4 Base Hero Player Item, between Pablo Aimar, Davor Šuker, Sonia Bompastor and Rafael Márquez.(see Reward Details)",
-            "score": 115000,
-            "requirements": [
-              "Rating: Min. 45"
-            ]
-          }
-        ],
-        "squads_checked_at": "2026-10-18T15:53:22.182Z",
-        "detail_checked_at": "2026-10-18T15:53:22.182Z"
+        "squads_checked_at": "2026-10-18T20:44:59.856Z",
+        "detail_checked_at": "2026-10-18T20:44:59.856Z"
       },
       {
         "name": "Liga F POTM September",
@@ -1330,8 +1353,8 @@
             ]
           }
         ],
-        "squads_checked_at": "2026-10-18T15:53:22.182Z",
-        "detail_checked_at": "2026-10-18T15:53:22.182Z"
+        "squads_checked_at": "2026-10-18T20:44:59.856Z",
+        "detail_checked_at": "2026-10-18T20:44:59.856Z"
       },
       {
         "name": "LALIGA POTM September",
@@ -1350,8 +1373,8 @@
             ]
           }
         ],
-        "squads_checked_at": "2026-10-18T15:53:22.182Z",
-        "detail_checked_at": "2026-10-18T15:53:22.182Z"
+        "squads_checked_at": "2026-10-18T20:44:59.856Z",
+        "detail_checked_at": "2026-10-18T20:44:59.856Z"
       },
       {
         "name": "Premier League POTM September",
@@ -1370,8 +1393,8 @@
             ]
           }
         ],
-        "squads_checked_at": "2026-10-18T15:53:22.182Z",
-        "detail_checked_at": "2026-10-18T15:53:22.182Z"
+        "squads_checked_at": "2026-10-18T20:44:59.856Z",
+        "detail_checked_at": "2026-10-18T20:44:59.856Z"
       },
       {
         "name": "Bundesliga POTM September",
@@ -1390,8 +1413,8 @@
             ]
           }
         ],
-        "squads_checked_at": "2026-10-18T15:53:22.182Z",
-        "detail_checked_at": "2026-10-18T15:53:22.182Z"
+        "squads_checked_at": "2026-10-18T20:44:59.856Z",
+        "detail_checked_at": "2026-10-18T20:44:59.856Z"
       },
       {
         "name": "Serie A POTM September",
@@ -1410,8 +1433,8 @@
             ]
           }
         ],
-        "squads_checked_at": "2026-10-18T15:53:22.182Z",
-        "detail_checked_at": "2026-10-18T15:53:22.182Z"
+        "squads_checked_at": "2026-10-18T20:44:59.856Z",
+        "detail_checked_at": "2026-10-18T20:44:59.856Z"
       },
       {
         "name": "TOTW Upgrade",
@@ -1431,8 +1454,8 @@
             ]
           }
         ],
-        "squads_checked_at": "2026-10-18T15:53:22.182Z",
-        "detail_checked_at": "2026-10-18T15:53:22.182Z"
+        "squads_checked_at": "2026-10-18T20:44:59.856Z",
+        "detail_checked_at": "2026-10-18T20:44:59.856Z"
       },
       {
         "name": "5x 80+ Upgrade",
@@ -1454,8 +1477,8 @@
             ]
           }
         ],
-        "squads_checked_at": "2026-10-18T15:53:22.182Z",
-        "detail_checked_at": "2026-10-18T15:53:22.182Z"
+        "squads_checked_at": "2026-10-18T20:44:59.856Z",
+        "detail_checked_at": "2026-10-18T20:44:59.856Z"
       },
       {
         "name": "3x 79+ Upgrade",
@@ -1476,8 +1499,8 @@
             ]
           }
         ],
-        "squads_checked_at": "2026-10-18T15:53:22.182Z",
-        "detail_checked_at": "2026-10-18T15:53:22.182Z"
+        "squads_checked_at": "2026-10-18T20:44:59.856Z",
+        "detail_checked_at": "2026-10-18T20:44:59.856Z"
       },
       {
         "name": "Gold Upgrade",
@@ -1497,8 +1520,8 @@
             ]
           }
         ],
-        "squads_checked_at": "2026-10-18T15:53:22.182Z",
-        "detail_checked_at": "2026-10-18T15:53:22.182Z"
+        "squads_checked_at": "2026-10-18T20:44:59.856Z",
+        "detail_checked_at": "2026-10-18T20:44:59.856Z"
       },
       {
         "name": "Silver Upgrade",
@@ -1518,8 +1541,8 @@
             ]
           }
         ],
-        "squads_checked_at": "2026-10-18T15:53:22.182Z",
-        "detail_checked_at": "2026-10-18T15:53:22.182Z"
+        "squads_checked_at": "2026-10-18T20:44:59.856Z",
+        "detail_checked_at": "2026-10-18T20:44:59.856Z"
       },
       {
         "name": "Bronze Upgrade",
@@ -1539,8 +1562,33 @@
             ]
           }
         ],
-        "squads_checked_at": "2026-10-18T15:53:22.182Z",
-        "detail_checked_at": "2026-10-18T15:53:22.182Z"
+        "squads_checked_at": "2026-10-18T20:44:59.856Z",
+        "detail_checked_at": "2026-10-18T20:44:59.856Z"
+      },
+      {
+        "name": "Future Stars Challenge 3",
+        "category": "challenges",
+        "description": "Complete this challenge to earn a reward.",
+        "url": "https://www.fut.gg/sbc/challenges/27-61-future-stars-challenge-3/",
+        "price": null,
+        "reward": "1 x Small Electrum Players Pack",
+        "challenges": 1,
+        "squads": [
+          {
+            "name": "Future Stars Challenge 3",
+            "description": "Complete this challenge to earn a reward.",
+            "requirements": [
+              "Same club: Max. 3 players",
+              "Same league: Min. 4 players",
+              "Leagues: Max. 5",
+              "Quality: Min. 2 Silver players",
+              "Quality: Min. Bronze",
+              "Chemistry: Min. 18"
+            ]
+          }
+        ],
+        "squads_checked_at": "2026-10-18T20:44:59.856Z",
+        "detail_checked_at": "2026-10-18T20:44:59.856Z"
       },
       {
         "name": "Marquee Matchups",
@@ -1603,8 +1651,8 @@
             "reward": "1 x Large Electrum Players Pack"
           }
         ],
-        "squads_checked_at": "2026-10-18T15:53:22.182Z",
-        "detail_checked_at": "2026-10-18T15:53:22.182Z"
+        "squads_checked_at": "2026-10-18T20:44:59.856Z",
+        "detail_checked_at": "2026-10-18T20:44:59.856Z"
       },
       {
         "name": "League &amp; Nation Advanced",
@@ -1654,8 +1702,8 @@
             "reward": "1 x Small Gold Players Pack"
           }
         ],
-        "squads_checked_at": "2026-10-18T15:53:22.182Z",
-        "detail_checked_at": "2026-10-18T15:53:22.182Z"
+        "squads_checked_at": "2026-10-18T20:44:59.856Z",
+        "detail_checked_at": "2026-10-18T20:44:59.856Z"
       },
       {
         "name": "Intro to Player SBCs",
@@ -1674,8 +1722,8 @@
             ]
           }
         ],
-        "squads_checked_at": "2026-10-18T15:53:22.182Z",
-        "detail_checked_at": "2026-10-18T15:53:22.182Z"
+        "squads_checked_at": "2026-10-18T20:44:59.856Z",
+        "detail_checked_at": "2026-10-18T20:44:59.856Z"
       },
       {
         "name": "Gold Re-Roll",
@@ -1696,8 +1744,8 @@
             ]
           }
         ],
-        "squads_checked_at": "2026-10-18T15:53:22.182Z",
-        "detail_checked_at": "2026-10-18T15:53:22.182Z"
+        "squads_checked_at": "2026-10-18T20:44:59.856Z",
+        "detail_checked_at": "2026-10-18T20:44:59.856Z"
       },
       {
         "name": "Bronze and Silver Re-roll",
@@ -1718,8 +1766,8 @@
             ]
           }
         ],
-        "squads_checked_at": "2026-10-18T15:53:22.182Z",
-        "detail_checked_at": "2026-10-18T15:53:22.182Z"
+        "squads_checked_at": "2026-10-18T20:44:59.856Z",
+        "detail_checked_at": "2026-10-18T20:44:59.856Z"
       },
       {
         "name": "Intro to Streamlined SBCs",
@@ -1767,8 +1815,8 @@
             "reward": "1 x Large Electrum Players Pack"
           }
         ],
-        "squads_checked_at": "2026-10-18T15:53:22.182Z",
-        "detail_checked_at": "2026-10-18T15:53:22.182Z"
+        "squads_checked_at": "2026-10-18T20:44:59.856Z",
+        "detail_checked_at": "2026-10-18T20:44:59.856Z"
       },
       {
         "name": "Intro to Upgrade SBCs",
@@ -1811,7 +1859,7 @@
           }
         ],
         "squads_checked_at": "2026-10-11T07:00:00Z",
-        "detail_checked_at": "2026-10-18T15:53:22.182Z"
+        "detail_checked_at": "2026-10-18T20:44:59.856Z"
       },
       {
         "name": "Intro to SBCs",
@@ -1862,8 +1910,8 @@
             "reward": "1 x x2 Gold Players Pack"
           }
         ],
-        "squads_checked_at": "2026-10-18T15:53:22.182Z",
-        "detail_checked_at": "2026-10-18T15:53:22.182Z"
+        "squads_checked_at": "2026-10-18T20:44:59.856Z",
+        "detail_checked_at": "2026-10-18T20:44:59.856Z"
       }
     ]
   }
