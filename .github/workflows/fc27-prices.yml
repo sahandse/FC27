@@ -1,13 +1,19 @@
 name: FC27 Verified Card Prices
 on:
   workflow_dispatch:
+    inputs:
+      pages:
+        description: 'How many FUTBIN market pages to read (30 base cards each)'
+        required: false
+        default: '40'
   push:
     paths:
       - 'scripts/probe-fc27-price-sources.mjs'
       - 'scripts/sync-fc27-prices.ts'
+      - 'scripts/sync-fc27-prices-live.mjs'
       - '.github/workflows/fc27-prices.yml'
   schedule:
-    - cron: '7 * * * *'
+    - cron: '7,37 * * * *'
 permissions:
   contents: write
 concurrency:
@@ -24,11 +30,17 @@ jobs:
       - run: npm install --no-audit --no-fund
       - name: Probe public market catalogue reachability
         run: node scripts/probe-fc27-price-sources.mjs
-      - name: Validate current market source and refresh
+      - name: Refresh from the configured private feed
+        if: ${{ vars.FC27_PRICE_FEED_URL != '' }}
         env:
           FC27_PRICE_FEED_URL: ${{ vars.FC27_PRICE_FEED_URL }}
           FC27_PRICE_FEED_TOKEN: ${{ secrets.FC27_PRICE_FEED_TOKEN }}
         run: node --experimental-strip-types scripts/sync-fc27-prices.ts
+      - name: Refresh from the public FUTBIN market table
+        if: ${{ vars.FC27_PRICE_FEED_URL == '' }}
+        env:
+          FC27_PRICE_PAGES: ${{ github.event.inputs.pages || '40' }}
+        run: node scripts/sync-fc27-prices-live.mjs
       - name: Publish only verified data
         run: |
           git config user.name "github-actions[bot]"

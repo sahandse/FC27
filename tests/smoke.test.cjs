@@ -99,3 +99,32 @@ test('verified SBC segments and objective tasks are available in-site',()=>{
  assert.match(html,/مراحل تکامل \/ Evolution levels/);
  assert.match(html,/مأموریت‌های دقیق \/ Objective tasks/);
 });
+
+test('every published card price is sourced, timestamped and matchable',()=>{
+ const feed=JSON.parse(fs.readFileSync('data/fc27-prices.json','utf8'));
+ const ids=new Set(JSON.parse(fs.readFileSync('data/fc27-players.json','utf8')).players.map(p=>String(p.id)));
+ assert.ok(feed.prices.length>0,'price snapshot is empty');
+ assert.ok(Number.isInteger(feed.verification_window_minutes)&&feed.verification_window_minutes>0);
+ const matchable=feed.prices.filter(q=>ids.has(q.cardId)).length;
+ assert.ok(matchable/feed.prices.length>=0.95,'quotes do not resolve to known players');
+ for(const quote of feed.prices){
+  assert.ok(['pc','ps','xbox'].includes(quote.platform),quote.platform);
+  assert.equal(quote.versionId,quote.cardId);
+  assert.ok(Number.isInteger(quote.coins)&&quote.coins>0,quote.coins);
+  assert.equal(new URL(quote.sourceUrl).protocol,'https:');
+  assert.ok(!Number.isNaN(Date.parse(quote.checkedAt)));
+ }
+});
+
+test('indexed portraits resolve to a committed current-edition file',()=>{
+ const index=JSON.parse(fs.readFileSync('data/available-portraits.json','utf8'));
+ const provenance=JSON.parse(fs.readFileSync('data/external-portraits.json','utf8'));
+ const files=new Set(fs.readdirSync('img/players'));
+ assert.equal(index.count,index.ids.length);
+ for(const id of index.ids)assert.ok(files.has((index.files&&index.files[String(id)])||id+'.png'),'missing '+id);
+ for(const [id,entry] of Object.entries(provenance.images)){
+  assert.ok(files.has(id+'.png'),'CDN portrait '+id+' was not committed');
+  assert.equal(new URL(entry.source).hostname,'cdn.futbin.com');
+  assert.match(entry.source,/\/content\/fifa27\/img\/players\/\d+\.png$/);
+ }
+});
