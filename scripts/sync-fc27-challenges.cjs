@@ -1,106 +1,197 @@
 #!/usr/bin/env node
-// Read public FC27 listings only; never infer missing prices, requirements or end dates.
-const fs=require('node:fs');
-const cheerio=require('cheerio');
-const base='https://www.fut.gg';
-const pages=[
- {kind:'objectives',cat:'seasonal',path:'/objectives/seasonal/'},
- {kind:'objectives',cat:'campaign',path:'/objectives/campaigns/'},
- {kind:'objectives',cat:'foundation',path:'/objectives/foundations/'},
- {kind:'objectives',cat:'milestone',path:'/objectives/milestones/'},
- {kind:'sbc',cat:'players',path:'/sbc/category/players/'},
- {kind:'sbc',cat:'upgrades',path:'/sbc/category/upgrades/'},
- {kind:'sbc',cat:'challenges',path:'/sbc/category/challenges/'},
- {kind:'sbc',cat:'foundation',path:'/sbc/category/foundations/'}
+// Reads public FUT.GG listing and detail pages only.
+// Anything the source does not state explicitly is left out instead of guessed.
+const fs = require('node:fs');
+const { base, get, plain, decodeEntities, readTitle, readSubtitle, slugFrom } = require('./lib/futgg.cjs');
+
+const listPages = [
+  { kind: 'objectives', cat: 'seasonal', path: '/objectives/seasonal/' },
+  { kind: 'objectives', cat: 'campaign', path: '/objectives/campaigns/' },
+  { kind: 'objectives', cat: 'foundation', path: '/objectives/foundations/' },
+  { kind: 'objectives', cat: 'milestone', path: '/objectives/milestones/' },
+  { kind: 'sbc', cat: 'players', path: '/sbc/category/players/' },
+  { kind: 'sbc', cat: 'upgrades', path: '/sbc/category/upgrades/' },
+  { kind: 'sbc', cat: 'challenges', path: '/sbc/category/challenges/' },
+  { kind: 'sbc', cat: 'foundation', path: '/sbc/category/foundations/' },
 ];
-async function scrape(p){
- const url=base+p.path;
- const res=await fetch(url,{headers:{'User-Agent':'Mozilla/5.0 (compatible; FC27Hub/1.0)','Accept':'text/html'}});
- if(!res.ok)throw Error(url+' '+res.status);
- const $=cheerio.load(await res.text()),out=[];
- const seen=new Set();
- $('a[href]').each((_,el)=>{
-  let u;try{u=new URL($(el).attr('href'),url)}catch{return}
-  if(u.hostname!=='www.fut.gg'||seen.has(u.pathname))return;
-  if(p.kind==='sbc'?(!u.pathname.startsWith('/sbc/')||/^\/sbc\/(?:category|expired|expiring-soon)\//.test(u.pathname)||u.pathname==='/sbc/') : (!u.pathname.startsWith('/objectives/')||/^\/objectives\/(?:campaigns|seasonal|foundations|milestones|coming-soon|tracker)\/?$/.test(u.pathname)))return;
-  const raw=$(el).text().replace(/\s+/g,' ').trim();
-  if(raw.length<6||raw.length>550)return;
-  const heading=$(el).find('h2,h3,h4').first().text().replace(/\s+/g,' ').trim();
-  const name=(heading||raw.split(/(?:Earn |Complete |Challenges\d|Expires|Repeatable)/)[0]).trim().replace(/^New\s+/,'').replace(/\s+[\d,]{3,}$/,'').slice(0,110);
-  if(name.length<4||/^(View |Image:)/i.test(name))return;
-  const priceMatch=p.kind==='sbc'?raw.match(/\s(\d{1,3}(?:,\d{3})+)\b/):null;
-  const descMatch=raw.match(/(?:Earn |Complete |Exchange |Submit |Play |Compete |Use )[A-Za-z\d\s+.,'-]{12,200}/);
-  const desc=descMatch?descMatch[0].trim():'';
-  seen.add(u.pathname);
-  const obj={name,category:p.cat,description:desc,url:base+u.pathname};
-  if(p.kind==='sbc'){if(/(?:solver|cheapest by rating|sbc rating combinations|all sbcs|view rewards)/i.test(name))return;obj.price=priceMatch?Number(priceMatch[1].replace(/,/g,'')):null;}
-  out.push(obj);
- });
- return out;
+// Detail records always live two levels deep (/sbc/players/<slug>/); a category segment marks a listing page.
+const listingSegments = /^(?:category|expired|expiring-soon|streamlined-solver|solver|tracker|coming-soon)$/;
+
+// FUT.GG renders each challenge segment as <h4 class="font-bold">title</h4> followed by its own block,
+// so segments are split on those headings instead of guessing sentence boundaries.
+function challengeBlocks(html) {
+  const marks = [...html.matchAll(/<h4 class="font-bold">([^<]{2,90})<\/h4>/g)];
+  return marks.map((mark, index) => ({
+    name: decodeEntities(mark[1]),
+    region: html.slice(mark.index + mark[0].length, index + 1 < marks.length ? marks[index + 1].index : mark.index + 6000),
+  }));
 }
-(async()=>{
- const file='data/fc27-challenges.json';
- const prev=fs.existsSync(file)?JSON.parse(fs.readFileSync(file,'utf8')):null;
- const result={source:'FUT.GG',checked_at:new Date().toISOString(),sections:{objectives:prev?.sections?.objectives||[],sbc:[]}};
- let success=0;
- for(const p of pages.filter(x=>x.kind==='sbc')){
-  try{
-   const data=await scrape(p);
-   if(data.length){success++;result.sections[p.kind].push(...data);}
-  }catch(error){console.warn('Skipping unavailable source',p.path,error.message)}
- }
- for(const k of ['objectives','sbc']){
-  result.sections[k]=[...new Map(result.sections[k].map(x=>[x.url,x])).values()];
- }
- // Preserve independently verified squad facts when list snapshots update.
- if(prev?.sections?.sbc){
-  const stored=new Map(prev.sections.sbc.map(item=>[item.url,item]));
-  for(const rec of result.sections.sbc){
-   const earlier=stored.get(rec.url);
-   if(earlier?.squads?.length){
-    rec.squads=earlier.squads;
-    rec.squads_checked_at=earlier.squads_checked_at;
-   }
+
+// Reward chips share their class with navigation labels such as "Solve" and "View <player>".
+function isRewardLabel(value) {
+  return value.length >= 2 && value.length <= 90 && !/^(Solve|total|View|See|Open|More)\b/i.test(value);
+}
+
+function segmentFrom(region) {
+  const segment = {};
+  const description = plain(
+    (region.match(/<p class="text-sm(?: text-gray-300)?">([\s\S]{1,400}?)<\/p>/) ||
+      region.match(/<p class="text-xs font-bold">([\s\S]{1,400}?)<\/p>/) || [])[1]);
+  if (description.length >= 10) segment.description = description;
+  const score = (region.match(/aria-label="([\d,.]+) grading score"/) || [])[1];
+  if (score) segment.score = Number(score.replace(/,/g, ''));
+  const rules = [...region.matchAll(/<ul class="flex flex-col gap-1">([\s\S]{1,4000}?)<\/ul>/g)]
+    .flatMap(list => [...list[1].matchAll(/<li[^>]*>([\s\S]{1,220}?)<\/li>/g)].map(x => plain(x[1])))
+    .filter(x => x.length >= 3 && x.length <= 150 && !/^(Solve|Eligible players)$/i.test(x));
+  if (rules.length) segment.requirements = [...new Set(rules)].slice(0, 16);
+  const rewards = [...region.matchAll(/<span class="text-(?:xs|sm) font-bold[^"]*">([\s\S]{1,140}?)<\/span>/g)]
+    .map(x => plain(x[1])).filter(isRewardLabel);
+  if (rewards.length) segment.reward = [...new Set(rewards)].join(' + ');
+  return segment;
+}
+
+function readStats(html) {
+  const stats = {};
+  for (const [, label, value] of html.matchAll(/<span class="text-xs font-bold text-gray-400 uppercase">([\s\S]{1,60}?)<\/span><span class="text-sm font-bold">([\s\S]{1,160}?)<\/span>/g)) {
+    const name = plain(label);
+    if (name) stats[name] = plain(value);
   }
- }
- // Fail closed: do not overwrite a verified dataset with partial or empty scraping.
- if(success<3||result.sections.objectives.length<3||result.sections.sbc.length<8){
-  throw Error('Incomplete extraction: '+success+' sources; '+result.sections.objectives.length+' objectives; '+result.sections.sbc.length+' SBCs. Existing snapshot preserved.');
- }
- function parseSquads($){
-  const squads=[];
-  // Detailed challenge lists are grouped under titled h3/h4/h5 headings.
-  $('h3,h4,h5').each((_,node)=>{
-   const name=$(node).text().replace(/\s+/g,' ').trim();
-   if(name.length<3||name.length>90||/^(rewards|overview|requirements|eligible players|related sbcs|cheapest|sbc solutions)$/i.test(name))return;
-   const parent=$(node).parent();
-   const block=parent.next().length?parent.next():parent;
-   const rules=block.find('li').map((_,el)=>$(el).text().replace(/\s+/g,' ').trim()).get().filter(x=>x.length>5&&x.length<130&&/^(quality|rating|chemistry|team rating|team chemistry|players|rare|league|nation|club|position|same |leagues|nations|rarity|gold|silver|bronze)/i.test(x)).slice(0,12);
-   if(rules.length && !squads.some(x=>x.name===name))squads.push({name,requirements:rules});
-  });
-  return squads.slice(0,20);
- }
- // Extract facts only when explicitly labelled in the challenge detail page.
- for(const rec of result.sections.sbc){
-  try{
-   const res=await fetch(rec.url,{headers:{'User-Agent':'Mozilla/5.0 FC27Hub/1.0','Accept':'text/html'}});
-   if(!res.ok)continue;
-   const $=cheerio.load(await res.text());
-   const squads=parseSquads($);
-   if(squads.length){rec.squads=squads;rec.squads_checked_at=new Date().toISOString();}
-   const body=$('body').text().replace(/\s+/g,' ').trim();
-   const begin=body.indexOf('Eligible players');
-   const end=begin>=0?body.indexOf(' Solve',begin):-1;
-   const limits=begin>=0?body.slice(begin+16,end>begin?end:begin+800):'';
-   const requirements=[];
-   const rulePattern=/(?:Rating|Chemistry|Players|Rare Players|Team Overall Rating):\s*(?:(?:Min|Max)\.\s*)?\d+/gi;
-   for(const match of limits.matchAll(rulePattern))requirements.push(match[0].trim());
-   if(requirements.length){rec.requirements=[...new Set(requirements)].slice(0,15);rec.requirements_checked_at=new Date().toISOString();}
-   // Reward names are recorded only when clearly bracketed by the detail headings.
-   const rewardMatch=body.match(/\bRewards\s+(1x\s+.{4,90}?\s+(?:Pack|Player|Pick))(?:\s|$)/i);
-   if(rewardMatch)rec.reward=rewardMatch[1].trim();
-  }catch(e){console.warn('Detail not available',rec.url,e.message)}
- }
- fs.mkdirSync('data',{recursive:true});fs.writeFileSync(file,JSON.stringify(result,null,2)+'\n');
- console.log('Updated FC27 listings:',result.sections.objectives.length,result.sections.sbc.length);
-})().catch(e=>{console.error(e);process.exitCode=1});
+  return stats;
+}
+
+function scrapeList(page) {
+  const url = base + page.path;
+  const html = get(url);
+  const out = [];
+  const seen = new Set();
+  for (const [, href] of html.matchAll(/href="([^"]+)"/g)) {
+    let target;
+    try { target = new URL(href, url); } catch { continue; }
+    if (target.hostname !== 'www.fut.gg' || seen.has(target.pathname)) continue;
+    const prefix = page.kind === 'sbc' ? 'sbc' : 'objectives';
+    const parts = target.pathname.split('/').filter(Boolean);
+    if (parts.length !== 3 || parts[0] !== prefix || listingSegments.test(parts[1])) continue;
+    seen.add(target.pathname);
+    out.push({ category: page.cat, url: base + target.pathname });
+  }
+  return out;
+}
+
+function rewardPanel(html, heading) {
+  const match = html.match(new RegExp('<span class="text-base leading-tight font-bold">' + heading + '</span>', 'i'));
+  if (!match) return [];
+  const after = html.slice(match.index + match[0].length);
+  const stop = after.search(/<span class="text-base leading-tight font-bold">/i);
+  const scope = after.slice(0, stop > 0 ? stop : 12000);
+  return [...new Set([...scope.matchAll(/<span class="text-(?:xs|sm) font-bold[^"]*">([\s\S]{1,140}?)<\/span>/g)]
+    .map(x => plain(x[1])).filter(isRewardLabel))].slice(0, 16);
+}
+
+function readSbc(html) {
+  const record = {};
+  const stats = readStats(html);
+  const count = Number((stats.Challenges || '').replace(/,/g, ''));
+  if (Number.isFinite(count) && count > 0) record.challenges = count;
+  if (stats.Repeatable && stats.Repeatable !== '-') record.repeatable = stats.Repeatable;
+  if (stats.Expires) record.expires = stats.Expires;
+  if (stats['Refreshes Every'] && stats['Refreshes Every'] !== '-') record.refreshes = stats['Refreshes Every'];
+  const reward = rewardPanel(html, 'Rewards');
+  if (reward.length) record.reward = reward.join(' + ');
+  const segments = challengeBlocks(html)
+    .map(block => ({ name: block.name, ...segmentFrom(block.region) }))
+    .filter(x => x.description || x.requirements || x.reward);
+  if (segments.length) record.squads = segments.slice(0, 24);
+  return record;
+}
+
+function readObjective(html) {
+  const record = {};
+  const tasks = challengeBlocks(html)
+    .map(block => ({ name: block.name, ...segmentFrom(block.region) }))
+    .filter(x => x.description);
+  if (tasks.length) {
+    record.tasks = tasks.slice(0, 40).map(task => ({
+      name: task.name,
+      description: task.description,
+      ...(task.reward ? { reward: task.reward } : {}),
+    }));
+  }
+  const total = (html.match(/<span class="text-xs font-bold">([\d,.]+\s+total)<\/span>/i) || [])[1];
+  if (total) record.reward = plain(total);
+  return record;
+}
+
+(async () => {
+  const file = 'data/fc27-challenges.json';
+  const previous = fs.existsSync(file) ? JSON.parse(fs.readFileSync(file, 'utf8')) : null;
+  const checkedAt = new Date().toISOString();
+  const found = { objectives: [], sbc: [] };
+
+  for (const page of listPages) {
+    try {
+      for (const entry of scrapeList(page)) {
+        if (!found[page.kind].some(x => x.url === entry.url)) found[page.kind].push(entry);
+      }
+    } catch (error) {
+      console.warn('Listing unavailable', page.path, String(error.message).slice(0, 120));
+    }
+  }
+
+  for (const kind of ['objectives', 'sbc']) {
+    for (const record of found[kind]) {
+      record.name = readTitle('', slugFrom(record.url));
+      try {
+        const html = get(record.url);
+        record.name = readTitle(html, record.name);
+        const detail = kind === 'sbc' ? readSbc(html) : readObjective(html);
+        const subtitle = readSubtitle(html);
+        if (subtitle) record.description = subtitle;
+        Object.assign(record, detail);
+      } catch (error) {
+        console.warn('Detail unavailable', record.url, String(error.message).slice(0, 100));
+      }
+    }
+  }
+
+  // Persian segment titles verified by hand survive an automated pass.
+  const stored = new Map((previous?.sections?.sbc || []).map(x => [x.url, x]));
+  for (const record of found.sbc) {
+    const earlier = stored.get(record.url);
+    if (!earlier) continue;
+    if (!record.description && earlier.description) record.description = earlier.description;
+    if (!record.squads && earlier.squads?.length) {
+      record.squads = earlier.squads;
+      record.squads_checked_at = earlier.squads_checked_at;
+      continue;
+    }
+    if (record.squads?.length && earlier.squads?.some(s => s.nameFA)) {
+      const titles = new Map(earlier.squads.filter(s => s.name && s.nameFA).map(s => [s.name, s.nameFA]));
+      for (const segment of record.squads) if (titles.has(segment.name)) segment.nameFA = titles.get(segment.name);
+      record.squads_checked_at = earlier.squads_checked_at || checkedAt;
+    }
+  }
+  const storedObjectives = new Map((previous?.sections?.objectives || []).map(x => [x.url, x]));
+  for (const record of found.objectives) {
+    const earlier = storedObjectives.get(record.url);
+    if (!record.description && earlier?.description) record.description = earlier.description;
+  }
+
+  const result = {
+    source: 'FUT.GG',
+    checked_at: checkedAt,
+    sections: {
+      objectives: found.objectives.map(x => ({ name: x.name, category: x.category, description: x.description || '', url: x.url, ...(x.tasks ? { tasks: x.tasks } : {}), ...(x.reward ? { reward: x.reward } : {}), detail_checked_at: checkedAt })),
+      sbc: found.sbc.map(x => ({ name: x.name, category: x.category, description: x.description || '', url: x.url, price: x.price ?? null, ...(x.reward ? { reward: x.reward } : {}), ...(x.challenges ? { challenges: x.challenges } : {}), ...(x.repeatable ? { repeatable: x.repeatable } : {}), ...(x.expires ? { expires: x.expires } : {}), ...(x.refreshes ? { refreshes: x.refreshes } : {}), ...(x.squads ? { squads: x.squads, squads_checked_at: x.squads_checked_at || checkedAt } : {}), detail_checked_at: checkedAt })),
+    },
+  };
+
+  // Fail closed: a partial scrape must never replace a better snapshot.
+  const objectiveTasks = result.sections.objectives.filter(x => x.tasks?.length).length;
+  const squadSegments = result.sections.sbc.filter(x => x.squads?.length).length;
+  if (result.sections.objectives.length < 3 || result.sections.sbc.length < 8 || objectiveTasks < 5 || squadSegments < 8) {
+    throw Error('Incomplete extraction: ' + result.sections.objectives.length + ' objectives (' + objectiveTasks + ' with tasks), ' + result.sections.sbc.length + ' SBCs (' + squadSegments + ' with segments). Existing snapshot preserved.');
+  }
+  fs.mkdirSync('data', { recursive: true });
+  fs.writeFileSync(file, JSON.stringify(result, null, 2) + '\n');
+  console.log('Updated FC27 listings:', result.sections.objectives.length, 'objectives with', objectiveTasks, 'task lists,', result.sections.sbc.length, 'SBCs with', squadSegments, 'segment lists.');
+})().catch(error => { console.error(error); process.exitCode = 1; });

@@ -86,15 +86,37 @@ test('challenge details remain in-site and portrait lookup is lazy',()=>{
 
 test('verified FC27 evolutions contain accurate detailed levels',()=>{
  const d=JSON.parse(fs.readFileSync('data/fc27-evolutions.json','utf8'));
- assert.ok(d.evolutions.length>=4);
+ assert.ok(d.evolutions.length>=8);
  const intro=d.evolutions.find(x=>x.name==='Intro to Evolutions');
  assert.ok(intro&&intro.levels.length===3);
  assert.equal(intro.levels.map(l=>l.tasks.length).reduce((a,b)=>a+b,0),3);
+ for(const evo of d.evolutions){
+  assert.match(new URL(evo.url).pathname,/^\/evolutions\/\d+-[a-z0-9-]+\/$/);
+  assert.ok(evo.levels?.length,'levels missing for '+evo.name);
+ }
+ const flat=d.evolutions.flatMap(x=>x.levels||[]);
+ assert.ok(flat.filter(l=>l.tasks?.length||l.upgrades?.length||l.options?.length).length>=flat.length*0.9,'most levels must carry detail');
+ for(const level of flat)assert.match(level.name,/^Level \d+$/);
+ assert.ok(d.evolutions.some(x=>x.levels.some(l=>l.options?.length&&l.pick_one)),'pathway options must be kept separate');
+ assert.ok(d.evolutions.filter(x=>x.levels.some(l=>l.tasks?.length)).length>=8);
+ assert.ok(d.evolutions.some(x=>x.requirements?.length&&x.details?.length));
 });
 test('verified SBC segments and objective tasks are available in-site',()=>{
  const d=JSON.parse(fs.readFileSync('data/fc27-challenges.json','utf8'));
- assert.ok(d.sections.objectives.some(x=>x.tasks?.length>=3));
- assert.ok(d.sections.sbc.some(x=>x.squads?.length>=3));
+ assert.ok(d.sections.objectives.length>=20&&d.sections.sbc.length>=15);
+ for(const item of [...d.sections.objectives,...d.sections.sbc]){
+  assert.match(new URL(item.url).pathname,/^\/(?:objectives|sbc)\/[a-z-]+\/[a-z0-9-]+\/$/);
+  assert.ok(!/FUT\.GG$/.test(item.name),'listing page stored as a record: '+item.name);
+ }
+ for(const obj of d.sections.objectives){
+  assert.ok(obj.tasks?.length,'objectives must carry tasks');
+  for(const task of obj.tasks)assert.ok(task.name&&task.description&&task.reward,task.name);
+ }
+ for(const sbc of d.sections.sbc){
+  assert.ok(sbc.squads?.length,'SBC must carry segments');
+  for(const seg of sbc.squads)assert.ok(seg.name&&seg.requirements?.length,seg.name);
+  assert.equal(sbc.price,null,'coin costs are client-rendered and must not be guessed');
+ }
  assert.match(html,/function loadVerifiedEvolutions/);
  assert.match(html,/مراحل تکامل \/ Evolution levels/);
  assert.match(html,/مأموریت‌های دقیق \/ Objective tasks/);

@@ -1,120 +1,1026 @@
 {
   "source": "FUT.GG",
-  "checked_at": "2026-10-11T07:00:00Z",
+  "checked_at": "2026-10-18T13:10:55.440Z",
   "evolutions": [
     {
-      "name": "Intro to Evolutions",
-      "nameFA": "آشنایی با تکامل",
-      "description": "Welcome to Evolutions in FC 27! Upgrade a player of your choice and unlock their first attribute boost.",
-      "requirements": [
-        "Max Pos. 2",
-        "Overall Max. 75",
-        "Position RB",
-        "Excluded Position CB",
-        "Max PS 7",
-        "Pace Max. 80"
-      ],
-      "upgrades": [],
-      "url": "https://www.fut.gg/evolutions/2491-intro-to-evolutions/",
-      "games": 7,
-      "wins": 0,
-      "cost": "Free",
+      "name": "Middle Management",
+      "url": "https://www.fut.gg/evolutions/2562-middle-management/",
+      "description": "Send your junior midfielder to this training to acquire skills necessary for managing the center of the pitch. From passing & shooting, to interceptions & strength, plus many more.",
       "levels": [
         {
           "name": "Level 1",
-          "nameFA": "مرحله اول",
-          "tasks": [
-            "Play 3 matches in any mode using your active EVO player in game."
+          "upgrades": [
+            "+ 40 OVR → 80",
+            "+ 40 Finishing → 76",
+            "+ 50 Vision → 81",
+            "+ 50 Long Pass → 81",
+            "+ 40 Standing Tackle → 77",
+            "+ 40 Aggression → 75"
           ],
-          "tasksFA": [
-            "با بازیکنی که تکامل را روی آن فعال کرده‌اید، ۳ مسابقه در هر حالت بازی انجام دهید."
+          "training_time": "6 hours"
+        },
+        {
+          "name": "Level 2",
+          "upgrades": [
+            "+ 2 WF → 3",
+            "+ 40 Shot Power → 77",
+            "+ 50 Crossing → 80",
+            "+ 50 Curve → 79",
+            "+ 40 Sliding Tackle → 76"
+          ],
+          "training_time": "6 hours"
+        },
+        {
+          "name": "Level 3",
+          "upgrades": [
+            "+ 40 Acceleration → 75",
+            "+ 40 Long Shots → 76",
+            "+ 50 Fk Accuracy → 80",
+            "+ 40 Interceptions → 77",
+            "+ 40 Jumping → 75"
+          ],
+          "training_time": "6 hours"
+        },
+        {
+          "name": "Level 4",
+          "upgrades": [
+            "+ 40 Sprint Speed → 75",
+            "+ 40 Volleys → 75",
+            "+ 50 Short Pass → 81",
+            "+ 40 Defensive Awareness → 76",
+            "+ 40 Strength → 76"
+          ],
+          "training_time": "6 hours"
+        }
+      ],
+      "requirements": [
+        "Overall: Max. 74",
+        "Position: CDM, CM",
+        "Excluded Position: CAM, CB, ST",
+        "Max PS: 7",
+        "Pace: Max. 83"
+      ],
+      "details": [
+        "Coins Cost: Free",
+        "Points Cost: Free"
+      ]
+    },
+    {
+      "name": "Future Stars Academy IV",
+      "url": "https://www.fut.gg/evolutions/2561-future-stars-academy-iv/",
+      "description": "Graduation day has arrived. Complete your Future Star's journey as a clinical finisher or a creative playmaker, ready to shine on the biggest stage.",
+      "levels": [
+        {
+          "name": "Level 1",
+          "tasks": [
+            "Play 1 match in Squad Battles on min Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events) using your active EVO player in game."
           ],
           "upgrades": [
-            "+34 OVR (cap 79)",
-            "+40 Sprint Speed (cap 80)",
-            "+40 Short Pass (cap 76)",
-            "+40 Balance (cap 77)",
-            "+40 Interceptions (cap 76)",
-            "+40 Sliding Tackle (cap 75)"
+            "+ 2 OVR → 85",
+            "+ 3 Long Shots → 78",
+            "+ 8 Penalties → 75",
+            "+ 3 Composure → 80",
+            "+ 5 Jumping → 70",
+            "+ 4 Strength → 72"
           ]
         },
         {
           "name": "Level 2",
-          "nameFA": "مرحله دوم",
           "tasks": [
-            "Play 2 matches in any mode using your active EVO player in game."
-          ],
-          "tasksFA": [
-            "با بازیکن فعال تکامل، ۲ مسابقه دیگر در هر حالت بازی انجام دهید."
+            "Play 2 matches in Squad Battles on min. Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events) using your active EVO Player in game."
           ],
           "upgrades": [
-            "+40 Vision (cap 75)",
-            "+40 Curve (cap 80)",
-            "+40 Ball Control (cap 80)",
-            "+40 Defensive Awareness (cap 77)",
-            "+40 Stamina (cap 80)"
+            "+ 3 Shot Power → 80",
+            "+ 4 Volleys → 76",
+            "+ 6 Crossing → 80",
+            "+ 4 Heading Acc. → 72",
+            "+ 3 Stamina → 83",
+            "+ 6 Aggression → 60"
           ]
         },
         {
           "name": "Level 3",
-          "nameFA": "مرحله سوم",
           "tasks": [
-            "Play 2 matches in any mode using your active EVO player in game."
+            "Win 2 matches in Squad Battles on min. Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events) using your active EVO Player in game."
           ],
-          "tasksFA": [
-            "با بازیکن فعال تکامل، ۲ مسابقه دیگر در هر حالت بازی انجام دهید."
+          "options": [
+            {
+              "name": "Option A",
+              "upgrades": [
+                "+ 1 Finishing → 84",
+                "+ 3 Shot Power → 86",
+                "+ 2 Long Shots → 82",
+                "+ 4 Volleys → 82",
+                "+ 3 Composure → 84"
+              ]
+            },
+            {
+              "name": "Option B",
+              "upgrades": [
+                "+ 3 Vision → 88",
+                "+ 3 Short Pass → 88",
+                "+ 4 Long Pass → 86",
+                "+ 4 Reactions → 86",
+                "+ 2 Ball Control → 84",
+                "+ 4 Composure → 85"
+              ]
+            }
           ],
-          "upgrades": [
-            "+40 Acceleration (cap 80)",
-            "+40 Crossing (cap 78)",
-            "+40 Agility (cap 78)",
-            "+40 Dribbling (cap 80)",
-            "+40 Standing Tackle (cap 78)",
-            "RB Wingback+"
-          ]
+          "pick_one": true
         }
+      ],
+      "requirements": [
+        "Rarity: Future Stars Academy",
+        "Overall: Min. 83",
+        "Overall: Max. 83",
+        "Max PS: 7"
+      ],
+      "details": [
+        "Coins Cost: Free",
+        "Points Cost: Free"
       ]
     },
     {
-      "name": "Intro to Training Camp EVOs",
-      "nameFA": "آشنایی با تکامل کمپ تمرینی",
-      "description": "Send your players to training camp! Collect their attribute upgrades when the training session concludes.",
+      "name": "Speed Bump",
+      "url": "https://www.fut.gg/evolutions/2557-speed-bump/",
+      "description": "Your centre-back stops attackers. Now they can catch them too. Give a slower CB a pace upgrade and keep the wall standing, even on the counter.",
+      "levels": [
+        {
+          "name": "Level 1",
+          "tasks": [
+            "Play 1 match in Squad Battles on min Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events) using your active EVO player in game."
+          ],
+          "upgrades": [
+            "+ 10 OVR → 83",
+            "+ 10 Acceleration → 77",
+            "+ 4 Long Pass → 76",
+            "+ 14 Composure → 81",
+            "+ 7 Defensive Awareness → 82",
+            "+ 10 Jumping → 85"
+          ]
+        },
+        {
+          "name": "Level 2",
+          "tasks": [
+            "Play 2 matches in Squad Battles on min. Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events) using your active EVO Player in game."
+          ],
+          "upgrades": [
+            "+ 10 Sprint Speed → 77",
+            "+ 7 Reactions → 80",
+            "+ 7 Interceptions → 82",
+            "+ 12 Standing Tackle → 82",
+            "+ 7 Strength → 86"
+          ]
+        },
+        {
+          "name": "Level 3",
+          "tasks": [
+            "Play 1 match in Squad Battles on min Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events) using your active EVO player in game.",
+            "Win 1 match in Squad Battles on min. Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events) using your active EVO Player in game."
+          ],
+          "upgrades": [
+            "+ 11 Short Pass → 80",
+            "+ 5 Ball Control → 76",
+            "+ 5 Heading Acc. → 80",
+            "+ 7 Sliding Tackle → 82",
+            "+ 5 Aggression → 84"
+          ]
+        }
+      ],
       "requirements": [
-        "Overall Max. 80",
-        "Position RB"
+        "Overall: Max. 80",
+        "Position: CB",
+        "Excluded Position: CDM",
+        "Max PS: 7",
+        "Pace: Max. 75"
       ],
-      "upgrades": [
-        "RB Fullback+",
-        "Training Time: 1 hour"
+      "details": [
+        "Coins Cost: Free",
+        "Points Cost: Free"
+      ]
+    },
+    {
+      "name": "Centre Stage",
+      "url": "https://www.fut.gg/evolutions/2556-centre-stage/",
+      "description": "Command the centre circle with a resolute midfielder primed to reclaim possession, withstand physical pressure, and pick out key forward runs.",
+      "levels": [
+        {
+          "name": "Level 1",
+          "tasks": [
+            "Play 2 matches in Squad Battles on min. Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events) using your active EVO Player in game."
+          ],
+          "upgrades": [
+            "+ 10 OVR → 85",
+            "+ 2 WF → 3",
+            "+ 7 Sprint Speed → 77",
+            "+ 10 Short Pass → 82",
+            "+ 10 Heading Acc. → 81",
+            "+ 30 Jumping → 85"
+          ]
+        },
+        {
+          "name": "Level 2",
+          "tasks": [
+            "Play 2 matches in Squad Battles on min. Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events) using your active EVO Player in game."
+          ],
+          "upgrades": [
+            "+ 2 SM → 3",
+            "+ 10 Vision → 83",
+            "+ 10 Long Pass → 83",
+            "+ 10 Defensive Awareness → 80",
+            "+ 30 Stamina → 84"
+          ]
+        },
+        {
+          "name": "Level 3",
+          "tasks": [
+            "Play 1 match in Squad Battles on min Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events) using your active EVO player in game."
+          ],
+          "upgrades": [
+            "+ 10 Crossing → 82",
+            "+ 10 Curve → 82",
+            "+ 10 Standing Tackle → 81",
+            "+ 30 Strength → 85"
+          ]
+        },
+        {
+          "name": "Level 4",
+          "tasks": [
+            "Play 1 match in Squad Battles on min Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events) using your active EVO player in game."
+          ],
+          "upgrades": [
+            "+ 7 Acceleration → 77",
+            "+ 10 Fk Accuracy → 82",
+            "+ 10 Interceptions → 82",
+            "+ 10 Sliding Tackle → 82",
+            "+ 30 Aggression → 85"
+          ]
+        }
       ],
-      "url": "https://www.fut.gg/evolutions/"
+      "requirements": [
+        "Overall: Max. 81",
+        "Position: CDM, CM",
+        "Excluded Position: CB, ST, CAM",
+        "Max PS: 7",
+        "Pace: Max. 85"
+      ],
+      "details": [
+        "Coins Cost: Free",
+        "Points Cost: Free"
+      ]
+    },
+    {
+      "name": "Side Step",
+      "url": "https://www.fut.gg/evolutions/2552-side-step/",
+      "description": "Dominate the touchline by developing a fullback equipped to shut down opposing attackers and lead the charge forward.",
+      "levels": [
+        {
+          "name": "Level 1",
+          "tasks": [
+            "Play 2 matches in Squad Battles on min. Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events) using your active EVO Player in game."
+          ],
+          "upgrades": [
+            "+ 7 OVR → 81",
+            "+ 2 WF → 3",
+            "+ 5 Sprint Speed → 83",
+            "+ 7 Long Shots → 78",
+            "+ 7 Crossing → 81",
+            "+ 7 Long Pass → 76",
+            "+ 7 Defensive Awareness → 78"
+          ]
+        },
+        {
+          "name": "Level 2",
+          "tasks": [
+            "Play 2 matches in Squad Battles on min. Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events) using your active EVO Player in game."
+          ],
+          "upgrades": [
+            "+ 7 Finishing → 78",
+            "+ 7 Volleys → 76",
+            "+ 7 Fk Accuracy → 78",
+            "+ 7 Curve → 77",
+            "+ 7 Standing Tackle → 81"
+          ]
+        },
+        {
+          "name": "Level 3",
+          "tasks": [
+            "Play 2 matches in Squad Battles on min. Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events) using your active EVO Player in game."
+          ],
+          "upgrades": [
+            "+ 5 Acceleration → 83",
+            "+ 7 Shot Power → 77",
+            "+ 7 Vision → 78",
+            "+ 7 Short Pass → 80",
+            "+ 7 Interceptions → 78",
+            "+ 7 Sliding Tackle → 81"
+          ]
+        }
+      ],
+      "requirements": [
+        "Overall: Max. 80",
+        "Position: LB, RB",
+        "Excluded Position: CB, CM",
+        "Max PS: 7",
+        "Pace: Max. 85"
+      ],
+      "details": [
+        "Coins Cost: Free",
+        "Points Cost: Free"
+      ]
+    },
+    {
+      "name": "Future Stars Academy III",
+      "url": "https://www.fut.gg/evolutions/2551-future-stars-academy-iii/",
+      "description": "Time to find their signature. Unlock a new PlayStyle and sharpen their pace, shooting or dribbling as your Future Star rises to the next level.",
+      "levels": [
+        {
+          "name": "Level 1",
+          "tasks": [
+            "Win 2 matches in Squad Battles on min. Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events) using your active EVO Player in game."
+          ],
+          "options": [
+            {
+              "name": "Option A",
+              "upgrades": [
+                "+ 1 OVR → 83",
+                "+ 3 Sprint Speed → 87",
+                "+ 3 Acceleration → 87"
+              ]
+            },
+            {
+              "name": "Option B",
+              "upgrades": [
+                "+ 1 OVR → 83",
+                "+ 4 Finishing → 88",
+                "+ 3 Shot Power → 88",
+                "+ 3 Long Shots → 84",
+                "+ 5 Volleys → 82",
+                "+ 3 Composure → 85"
+              ]
+            },
+            {
+              "name": "Option C",
+              "upgrades": [
+                "+ 1 OVR → 83",
+                "+ 4 Agility → 89",
+                "+ 2 Balance → 85",
+                "+ 3 Reactions → 86",
+                "+ 5 Ball Control → 89",
+                "+ 5 Dribbling → 89"
+              ]
+            }
+          ],
+          "pick_one": true
+        }
+      ],
+      "requirements": [
+        "Rarity: Future Stars Academy",
+        "Overall: Min. 82",
+        "Overall: Max. 82",
+        "Max PS: 7"
+      ],
+      "details": [
+        "Coins Cost: Free",
+        "Points Cost: Free"
+      ]
+    },
+    {
+      "name": "Touchline Magic",
+      "url": "https://www.fut.gg/evolutions/2550-touchline-magic/",
+      "description": "Unlock defences from out wide with a dynamic winger capable of accelerating past markers, showcasing elite dribbling, and scoring crucial goals.",
+      "levels": [
+        {
+          "name": "Level 1",
+          "tasks": [
+            "Play 1 match in Squad Battles on min Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events) using your active EVO player in game."
+          ],
+          "upgrades": [
+            "+ 10 OVR → 84",
+            "+ 10 Sprint Speed → 85",
+            "+ 7 Long Shots → 81",
+            "+ 10 Agility → 84",
+            "+ 10 Dribbling → 84"
+          ]
+        },
+        {
+          "name": "Level 2",
+          "tasks": [
+            "Play 1 match in Squad Battles on min Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events) using your active EVO player in game."
+          ],
+          "upgrades": [
+            "+ 7 Positioning → 81",
+            "+ 7 Vision → 79",
+            "+ 10 Balance → 83",
+            "+ 10 Composure → 83"
+          ]
+        },
+        {
+          "name": "Level 3",
+          "tasks": [
+            "Play 1 match in Squad Battles on min Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events) using your active EVO player in game."
+          ],
+          "upgrades": [
+            "+ 7 Finishing → 82",
+            "+ 7 Short Pass → 80",
+            "+ 10 Reactions → 83",
+            "+ 7 Stamina → 82"
+          ]
+        },
+        {
+          "name": "Level 4",
+          "tasks": [
+            "Play 1 match in Squad Battles on min Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events) using your active EVO player in game."
+          ],
+          "upgrades": [
+            "+ 1 SM → 4",
+            "+ 10 Acceleration → 85",
+            "+ 7 Shot Power → 81",
+            "+ 7 Curve → 83",
+            "+ 10 Ball Control → 84"
+          ]
+        }
+      ],
+      "requirements": [
+        "Overall: Max. 80",
+        "Position: LW, RW",
+        "Excluded Position: ST, CM, CAM",
+        "Max PS: 7",
+        "Pace: Max. 86"
+      ],
+      "details": [
+        "Coins Cost: 20,000",
+        "Points Cost: 150"
+      ]
+    },
+    {
+      "name": "Future Stars Academy II",
+      "url": "https://www.fut.gg/evolutions/2549-future-stars-academy-ii/",
+      "description": "The next step in their journey. Help your Future Star grow into a playmaker, a physical powerhouse or a well-rounded all-rounder.",
+      "levels": [
+        {
+          "name": "Level 1",
+          "tasks": [
+            "Play 1 match in Squad Battles on min Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events) using your active EVO player in game."
+          ],
+          "upgrades": [
+            "+ 1 OVR → 82",
+            "+ 1 Finishing → 80",
+            "+ 1 Long Shots → 78",
+            "+ 2 Reactions → 82",
+            "+ 1 Dribbling → 81",
+            "+ 2 Heading Acc. → 75"
+          ]
+        },
+        {
+          "name": "Level 2",
+          "tasks": [
+            "Play 1 match in Squad Battles on min Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events) using your active EVO player in game."
+          ],
+          "upgrades": [
+            "+ 1 Positioning → 81",
+            "+ 1 Shot Power → 81",
+            "+ 1 Balance → 78",
+            "+ 2 Ball Control → 81",
+            "+ 2 Composure → 80",
+            "+ 1 Stamina → 83"
+          ]
+        },
+        {
+          "name": "Level 3",
+          "tasks": [
+            "Win 1 match in Squad Battles on min. Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events) using your active EVO Player in game."
+          ],
+          "options": [
+            {
+              "name": "Option A",
+              "upgrades": [
+                "+ 10 Vision → 86",
+                "+ 12 Crossing → 82",
+                "+ 15 Fk Accuracy → 80",
+                "+ 8 Short Pass → 86",
+                "+ 12 Long Pass → 82",
+                "+ 12 Curve → 84"
+              ]
+            },
+            {
+              "name": "Option B",
+              "upgrades": [
+                "+ 1 Reactions → 83",
+                "+ 8 Heading Acc. → 79",
+                "+ 20 Jumping → 80",
+                "+ 5 Stamina → 85",
+                "+ 8 Strength → 76",
+                "+ 20 Aggression → 74"
+              ]
+            },
+            {
+              "name": "Option C",
+              "upgrades": [
+                "+ 4 Vision → 84",
+                "+ 4 Short Pass → 84",
+                "+ 6 Long Pass → 79",
+                "+ 8 Jumping → 77",
+                "+ 3 Stamina → 84",
+                "+ 5 Strength → 75"
+              ]
+            }
+          ],
+          "pick_one": true
+        }
+      ],
+      "requirements": [
+        "Rarity: Future Stars Academy",
+        "Overall: Min. 81",
+        "Overall: Max. 81"
+      ],
+      "details": [
+        "Coins Cost: Free",
+        "Points Cost: Free"
+      ]
+    },
+    {
+      "name": "Playmaker Reborn",
+      "url": "https://www.fut.gg/evolutions/2548-playmaker-reborn/",
+      "description": "Reinvent your midfield engine with sharp vision and crisp passes to dictate match tempo from the center.",
+      "levels": [
+        {
+          "name": "Level 1",
+          "upgrades": [
+            "+ 40 OVR → 80",
+            "+ 40 Positioning → 77",
+            "+ 40 Volleys → 76",
+            "+ 50 Fk Accuracy → 79",
+            "+ 40 Agility → 78",
+            "+ 40 Dribbling → 77"
+          ],
+          "training_time": "6 hours"
+        },
+        {
+          "name": "Level 2",
+          "upgrades": [
+            "+ 40 Finishing → 76",
+            "+ 40 Penalties → 77",
+            "+ 50 Short Pass → 80",
+            "+ 40 Balance → 76",
+            "+ 40 Composure → 77"
+          ],
+          "training_time": "6 hours"
+        },
+        {
+          "name": "Level 3",
+          "upgrades": [
+            "+ 40 Acceleration → 76",
+            "+ 40 Shot Power → 75",
+            "+ 50 Vision → 80",
+            "+ 50 Long Pass → 81",
+            "+ 40 Reactions → 74",
+            "+ 40 Stamina → 79"
+          ],
+          "training_time": "6 hours"
+        },
+        {
+          "name": "Level 4",
+          "upgrades": [
+            "+ 40 Sprint Speed → 75",
+            "+ 40 Long Shots → 77",
+            "+ 50 Crossing → 79",
+            "+ 50 Curve → 79",
+            "+ 40 Ball Control → 77"
+          ],
+          "training_time": "6 hours"
+        }
+      ],
+      "requirements": [
+        "Overall: Max. 74",
+        "Position: CAM, CM",
+        "Excluded Position: CDM, CB, ST",
+        "Max PS: 7",
+        "Pace: Max. 85"
+      ],
+      "details": [
+        "Coins Cost: Free",
+        "Points Cost: Free"
+      ]
+    },
+    {
+      "name": "Quick Step [FC 26 Obj]",
+      "url": "https://www.fut.gg/evolutions/2547-quick-step-fc-26-obj/",
+      "description": "Unlocked by completing the FC 26 Season 9 Pass",
+      "levels": [
+        {
+          "name": "Level 1"
+        }
+      ],
+      "requirements": [
+        "Overall: Max. 83",
+        "Max PS: 2"
+      ],
+      "details": [
+        "Coins Cost: Free",
+        "Points Cost: Free"
+      ]
+    },
+    {
+      "name": "Future Stars Academy I",
+      "url": "https://www.fut.gg/evolutions/2541-future-stars-academy-i/",
+      "description": "Every legend starts somewhere. Develop your young forward into a complete player, then choose whether they make their mark with pace, shooting or dribbling.",
+      "levels": [
+        {
+          "name": "Level 1",
+          "tasks": [
+            "Play 1 match in Squad Battles on min Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events) using your active EVO player in game."
+          ],
+          "upgrades": [
+            "+ 34 OVR → 81",
+            "+ 20 Finishing → 79",
+            "+ 30 Vision → 82",
+            "+ 35 Long Pass → 76",
+            "+ 25 Reactions → 80",
+            "+ 20 Heading Acc. → 73"
+          ]
+        },
+        {
+          "name": "Level 2",
+          "tasks": [
+            "Play 1 match in Squad Battles on min Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events) using your active EVO player in game."
+          ],
+          "upgrades": [
+            "+ 20 Acceleration → 81",
+            "+ 20 Shot Power → 80",
+            "+ 35 Crossing → 76",
+            "+ 35 Curve → 76",
+            "+ 20 Ball Control → 80",
+            "+ 25 Stamina → 82"
+          ]
+        },
+        {
+          "name": "Level 3",
+          "tasks": [
+            "Play 1 match in Squad Battles on min Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events) using your active EVO player in game."
+          ],
+          "upgrades": [
+            "+ 20 Sprint Speed → 81",
+            "+ 20 Long Shots → 77",
+            "+ 30 Fk Accuracy → 72",
+            "+ 20 Agility → 80",
+            "+ 20 Dribbling → 80",
+            "+ 15 Strength → 73"
+          ]
+        },
+        {
+          "name": "Level 4",
+          "tasks": [
+            "Play 1 match in Squad Battles on min Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events) using your active EVO player in game."
+          ],
+          "upgrades": [
+            "+ 25 Positioning → 80",
+            "+ 20 Volleys → 75",
+            "+ 35 Short Pass → 82",
+            "+ 25 Balance → 77",
+            "+ 20 Composure → 78"
+          ]
+        },
+        {
+          "name": "Level 5",
+          "tasks": [
+            "Win 1 match in Squad Battles on min. Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events) using your active EVO Player in game."
+          ],
+          "options": [
+            {
+              "name": "Option A",
+              "upgrades": [
+                "+ 2 WF → 4",
+                "+ 12 Acceleration → 84",
+                "+ 12 Sprint Speed → 84",
+                "+ 10 Positioning → 83",
+                "+ 10 Finishing → 82",
+                "+ 10 Agility → 82"
+              ]
+            },
+            {
+              "name": "Option B",
+              "upgrades": [
+                "+ 2 WF → 4",
+                "+ 12 Finishing → 86",
+                "+ 12 Shot Power → 87",
+                "+ 10 Long Shots → 83",
+                "+ 10 Volleys → 84",
+                "+ 10 Composure → 83"
+              ]
+            },
+            {
+              "name": "Option C",
+              "upgrades": [
+                "+ 2 SM → 4",
+                "+ 12 Agility → 87",
+                "+ 10 Balance → 84",
+                "+ 12 Ball Control → 87",
+                "+ 12 Dribbling → 87",
+                "+ 10 Composure → 84"
+              ]
+            }
+          ],
+          "pick_one": true
+        }
+      ],
+      "requirements": [
+        "Overall: Max. 80",
+        "Position: CAM, ST",
+        "Born After: 2003-10-09",
+        "Max PS: 7",
+        "Pace: Max. 86"
+      ],
+      "details": [
+        "Coins Cost: Free",
+        "Points Cost: Free"
+      ]
+    },
+    {
+      "name": "Nine Duty",
+      "url": "https://www.fut.gg/evolutions/2539-nine-duty/",
+      "description": "Elevate your striker’s attacking impact to help them consistently influence matches when leading the line.",
+      "levels": [
+        {
+          "name": "Level 1",
+          "upgrades": [
+            "+ 40 OVR → 79",
+            "+ 50 Positioning → 80",
+            "+ 50 Volleys → 79",
+            "+ 40 Fk Accuracy → 77",
+            "+ 40 Agility → 78",
+            "+ 40 Dribbling → 78"
+          ],
+          "training_time": "6 hours"
+        },
+        {
+          "name": "Level 2",
+          "upgrades": [
+            "+ 50 Finishing → 79",
+            "+ 50 Penalties → 81",
+            "+ 40 Short Pass → 75",
+            "+ 40 Balance → 78",
+            "+ 40 Composure → 76"
+          ],
+          "training_time": "6 hours"
+        },
+        {
+          "name": "Level 3",
+          "upgrades": [
+            "+ 2 SM → 3",
+            "+ 40 Acceleration → 78",
+            "+ 50 Shot Power → 79",
+            "+ 40 Vision → 75",
+            "+ 40 Long Pass → 75",
+            "+ 40 Reactions → 78"
+          ],
+          "training_time": "6 hours"
+        },
+        {
+          "name": "Level 4",
+          "upgrades": [
+            "+ 40 Sprint Speed → 78",
+            "+ 50 Long Shots → 78",
+            "+ 40 Crossing → 75",
+            "+ 40 Curve → 77",
+            "+ 40 Ball Control → 78"
+          ],
+          "training_time": "6 hours"
+        }
+      ],
+      "requirements": [
+        "Overall: Max. 74",
+        "Position: ST",
+        "Excluded Position: CB, CM, CAM",
+        "Max PS: 7",
+        "Pace: Max. 85"
+      ],
+      "details": [
+        "Coins Cost: Free",
+        "Points Cost: Free"
+      ]
+    },
+    {
+      "name": "Midfield Glow Up",
+      "url": "https://www.fut.gg/evolutions/2507-midfield-glow-up/",
+      "description": "Elevate your engine room with a major tactical upgrade, combining enhanced recovery speed, relentless physical presence, and superior distribution across the pitch.",
+      "levels": [
+        {
+          "name": "Level 1",
+          "upgrades": [
+            "+ 40 OVR → 79",
+            "+ 50 Vision → 77",
+            "+ 50 Long Pass → 79",
+            "+ 40 Standing Tackle → 80",
+            "+ 40 Strength → 77"
+          ],
+          "training_time": "6 hours"
+        },
+        {
+          "name": "Level 2",
+          "upgrades": [
+            "+ 50 Crossing → 75",
+            "+ 50 Curve → 75",
+            "+ 40 Sliding Tackle → 75",
+            "+ 40 Aggression → 75"
+          ],
+          "training_time": "6 hours"
+        },
+        {
+          "name": "Level 3",
+          "upgrades": [
+            "+ 40 Acceleration → 75",
+            "+ 50 Fk Accuracy → 74",
+            "+ 40 Interceptions → 75",
+            "+ 40 Jumping → 76",
+            "CDM Deep Lying Playmaker ++"
+          ],
+          "training_time": "6 hours"
+        },
+        {
+          "name": "Level 4",
+          "upgrades": [
+            "+ 40 Sprint Speed → 75",
+            "+ 50 Short Pass → 80",
+            "+ 40 Defensive Awareness → 80",
+            "+ 40 Stamina → 76",
+            "CDM Box Crasher ++"
+          ],
+          "training_time": "6 hours"
+        }
+      ],
+      "requirements": [
+        "Overall: Max. 74",
+        "Position: CDM",
+        "Excluded Position: CAM, CB, ST",
+        "Max PS: 7",
+        "Pace: Max. 85"
+      ],
+      "details": [
+        "Coins Cost: Free",
+        "Points Cost: Free"
+      ]
     },
     {
       "name": "Intro to Repeatable Evolutions",
-      "nameFA": "تکامل تکرارشونده",
+      "url": "https://www.fut.gg/evolutions/2492-intro-to-repeatable-evolutions/",
       "description": "Discover Repeatable Evolutions, allowing you to run multiple players through the same upgrade path!",
+      "levels": [
+        {
+          "name": "Level 1",
+          "tasks": [
+            "Play 1 match in Squad Battles on min Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events) using your active EVO player in game."
+          ],
+          "upgrades": [
+            "+ 1 OVR → 80",
+            "+ 4 Long Shots → 77",
+            "+ 3 Vision → 79",
+            "+ 3 Short Pass → 78",
+            "+ 4 Reactions → 80"
+          ]
+        },
+        {
+          "name": "Level 2",
+          "tasks": [
+            "Play 2 matches in Squad Battles on min. Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events) using your active EVO Player in game."
+          ],
+          "upgrades": [
+            "+ 3 Shot Power → 78",
+            "+ 3 Volleys → 78",
+            "+ 4 Fk Accuracy → 80",
+            "+ 4 Long Pass → 77",
+            "+ 4 Dribbling → 80"
+          ]
+        }
+      ],
       "requirements": [
-        "Overall Max. 79",
-        "Position ST",
-        "Pace Max. 81"
+        "Overall: Max. 79",
+        "Position: ST",
+        "Pace: Max. 81"
       ],
-      "upgrades": [
-        "+1 OVR"
+      "details": [
+        "Coins Cost: Free",
+        "Points Cost: Free"
       ],
-      "url": "https://www.fut.gg/evolutions/"
+      "nameFA": "تکامل تکرارشونده"
+    },
+    {
+      "name": "Intro to Evolutions",
+      "url": "https://www.fut.gg/evolutions/2491-intro-to-evolutions/",
+      "description": "Welcome to Evolutions in FC 27! Upgrade a player of your choice and unlock their first attribute boost.",
+      "levels": [
+        {
+          "name": "Level 1",
+          "tasks": [
+            "Play 3 matches in any mode using your active EVO player in game."
+          ],
+          "upgrades": [
+            "+ 34 OVR → 79",
+            "+ 40 Sprint Speed → 80",
+            "+ 40 Short Pass → 76",
+            "+ 40 Balance → 77",
+            "+ 40 Interceptions → 76",
+            "+ 40 Sliding Tackle → 75"
+          ],
+          "nameFA": "مرحله اول",
+          "tasksFA": [
+            "با بازیکنی که تکامل را روی آن فعال کرده‌اید، ۳ مسابقه در هر حالت بازی انجام دهید."
+          ]
+        },
+        {
+          "name": "Level 2",
+          "tasks": [
+            "Play 2 matches in any mode using your active EVO player in game."
+          ],
+          "upgrades": [
+            "+ 40 Vision → 75",
+            "+ 40 Curve → 80",
+            "+ 40 Ball Control → 80",
+            "+ 40 Defensive Awareness → 77",
+            "+ 40 Stamina → 80"
+          ],
+          "nameFA": "مرحله دوم",
+          "tasksFA": [
+            "با بازیکن فعال تکامل، ۲ مسابقه دیگر در هر حالت بازی انجام دهید."
+          ]
+        },
+        {
+          "name": "Level 3",
+          "tasks": [
+            "Play 2 matches in any mode using your active EVO player in game."
+          ],
+          "upgrades": [
+            "+ 40 Acceleration → 80",
+            "+ 40 Crossing → 78",
+            "+ 40 Agility → 78",
+            "+ 40 Dribbling → 80",
+            "+ 40 Standing Tackle → 78",
+            "RB Wingback ++"
+          ],
+          "nameFA": "مرحله سوم",
+          "tasksFA": [
+            "با بازیکن فعال تکامل، ۲ مسابقه دیگر در هر حالت بازی انجام دهید."
+          ]
+        }
+      ],
+      "requirements": [
+        "Max Pos.: 2",
+        "Overall: Max. 75",
+        "Position: RB",
+        "Excluded Position: CB",
+        "Max PS: 7",
+        "Pace: Max. 80"
+      ],
+      "details": [
+        "Coins Cost: Free",
+        "Points Cost: Free"
+      ],
+      "nameFA": "آشنایی با تکامل"
+    },
+    {
+      "name": "Intro to Training Camp EVOs",
+      "url": "https://www.fut.gg/evolutions/2490-intro-to-training-camp-evos/",
+      "description": "Send your players to training camp! Collect their attribute upgrades when the training session concludes.",
+      "levels": [
+        {
+          "name": "Level 1",
+          "upgrades": [
+            "RB Fullback ++"
+          ],
+          "training_time": "1 hours"
+        }
+      ],
+      "requirements": [
+        "Overall: Max. 80",
+        "Position: RB"
+      ],
+      "details": [
+        "Coins Cost: Free",
+        "Points Cost: Free"
+      ],
+      "nameFA": "آشنایی با تکامل کمپ تمرینی"
     },
     {
       "name": "Intro to Pathway Evolutions",
-      "nameFA": "آشنایی با تکامل چندمسیره",
+      "url": "https://www.fut.gg/evolutions/2488-intro-to-pathway-evolutions/",
       "description": "Explore Pathway Evolutions, a new type of Evolution that allows you to choose how your player develops and upgrades!",
+      "levels": [
+        {
+          "name": "Level 1",
+          "tasks": [
+            "Play 1 match in Squad Battles on min Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events) using your active EVO player in game."
+          ]
+        }
+      ],
       "requirements": [
-        "Overall Max. 80",
-        "Max PS 3"
+        "Overall: Max. 80",
+        "Max PS: 3"
       ],
-      "upgrades": [
-        "Pathway A"
+      "details": [
+        "Coins Cost: Free",
+        "Points Cost: Free"
       ],
-      "url": "https://www.fut.gg/evolutions/"
+      "nameFA": "آشنایی با تکامل چندمسیره"
     }
   ]
 }
