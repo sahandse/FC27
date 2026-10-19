@@ -300,8 +300,7 @@ function renderSolver(){
   const squad=pool.slice(0,meta.n);
   const ownedCount=squad.filter(p=>state.owned[p.id]).length;
   const buyPlayers=squad.filter(p=>!state.owned[p.id]);
-  const missingPrices=buyPlayers.some(p=>getFC27CardCoins(p)===null);
-  const buyCost=missingPrices?null:buyPlayers.reduce((sum,p)=>sum+getFC27CardCoins(p),0);
+  const buyCost=buyPlayers.reduce((sum,p)=>sum+(getFC27CardCoins(p)||(p.rat>=83?1200:p.rat>=75?500:250)),0);
   const chem=calcChem(squad);
   document.getElementById('solverChemLbl').textContent='⚗️ کمیستری: '+chem;
   document.getElementById('solverChemVal').textContent=chem+' / 33';
@@ -309,7 +308,7 @@ function renderSolver(){
   document.getElementById('solverSummary').innerHTML=`
     <div class="slv-stat"><div class="slv-stat-val slv-green">${ownedCount}</div><div class="slv-stat-lbl">دارید</div></div>
     <div class="slv-stat"><div class="slv-stat-val slv-red">${buyPlayers.length}</div><div class="slv-stat-lbl">نیاز خرید</div></div>
-    <div class="slv-stat"><div class="slv-stat-val slv-gold">${buyCost===null?'ناموجود':fmtPrice(buyCost)}</div><div class="slv-stat-lbl">هزینه تخمینی</div></div>
+    <div class="slv-stat"><div class="slv-stat-val slv-gold">${buyPlayers.length===0?'۰ سکه':fmtPrice(buyCost)}</div><div class="slv-stat-lbl">هزینه تخمینی</div></div>
     <div class="slv-stat"><div class="slv-stat-val slv-purple">${squad.length}</div><div class="slv-stat-lbl">بازیکن</div></div>`;
   if(!squad.length){
     document.getElementById('solverPlayers').innerHTML=`<div style="text-align:center;padding:30px;color:var(--t3)">بازیکن کافی در دیتابیس یافت نشد</div>`;
@@ -317,13 +316,14 @@ function renderSolver(){
   }
   document.getElementById('solverPlayers').innerHTML=squad.map(p=>{
     const isOwned=!!state.owned[p.id];
+    const priceText=getFC27CardCoins(p)!==null?getFC27CardPriceText(p):('~'+(p.rat>=83?1200:p.rat>=75?500:250).toLocaleString('fa-IR')+' سکه');
     return `<div class="slv-player ${isOwned?'owned':'need-buy'}">
       <div class="slv-rat">${p.rat}</div>
       <div class="slv-info">
         <div class="slv-name">${p.nameFA}</div>
         <div class="slv-club">${p.flag} ${p.club} · ${p.leagueFA}</div>
       </div>
-      <div class="slv-price ${isOwned?'zero':''}">${isOwned?'✓ موجود':getFC27CardPriceText(p)}</div>
+      <div class="slv-price ${isOwned?'zero':''}">${isOwned?'✓ موجود':priceText}</div>
       <button class="own-toggle ${isOwned?'is-owned':''}" onclick="toggleOwned('${p.id}')">${isOwned?'✓ دارم':'دارم؟'}</button>
     </div>`;
   }).join('');
@@ -647,9 +647,19 @@ function updateChem(){
   const el=document.getElementById('chemVal');
   const fill=document.getElementById('chemFill');
   const badge=document.getElementById('chemBadge');
-  if(el)el.textContent=chem;
+  if(el)el.textContent=chem.toLocaleString('fa-IR');
   if(fill)fill.style.width=Math.round(chem/33*100)+'%';
-  if(badge)badge.textContent='شیمی تقریبی: '+chem+' / 33';
+  if(badge)badge.textContent='کمیستری: '+chem.toLocaleString('fa-IR')+' / ۳۳';
+
+  const costEl=document.getElementById('squadTotalCost');
+  if(costEl){
+    let total=0;
+    for(const p of players){
+      const c=getFC27CardCoins(p);
+      if(c)total+=c;
+    }
+    costEl.textContent=total>0?total.toLocaleString('fa-IR')+' سکه':'۰ سکه';
+  }
 }
 function openSquadPicker(slotIdx){
   activeSquadSlot=slotIdx;
@@ -684,6 +694,7 @@ function renderSquadPicker(){
         <div class="squad-pl-name">${p.nameFA}</div>
         <div class="squad-pl-pos">${p.pos} · ${p.flag} ${p.club}</div>
       </div>
+      <div class="squad-pl-price" style="margin-right:auto;font-size:11px;color:var(--gold);font-weight:700">${getFC27CardPriceText(p)}</div>
     </div>`).join('');
 }
 function selectSquadPlayer(pid){
@@ -988,7 +999,7 @@ function renderPlayers(){
 function galleryCardHTML(p){
   const img=portraitHTML(p,34);
   const nameShort=(p.nameFA||p.name).split(' ').slice(-1)[0];
-  return `<div class="pgal-card" onclick="openPlayerModal('${p.id}')">
+  return `<div class="pgal-card" onclick="openPlayerDetails('${p.id}')">
     <div class="pgal-img">${img}<span class="pgal-rat">${p.rat}</span><span class="pgal-pos">${p.pos}</span><span class="pgal-flag">${p.flag}</span></div>
     <div class="pgal-name">${nameShort}</div>
     <div class="pgal-club">${p.club}</div>
@@ -1579,4 +1590,12 @@ loadLiveFC27,
 init
 });
 
-document.addEventListener('DOMContentLoaded',()=>{if(onPage('players'))setupVerifiedMarkets(renderPlayers)});
+document.addEventListener('DOMContentLoaded',()=>{
+  if(onPage('players')||onPage('squad')||onPage('sbc')){
+    setupVerifiedMarkets(()=>{
+      if(onPage('players'))renderPlayers();
+      if(onPage('squad')){renderPitch();updateChem();}
+      if(onPage('sbc'))renderSolver();
+    });
+  }
+});
