@@ -928,6 +928,7 @@ function openPlayerDetails(id){
   const p=PLAYERS_RAW.find(x=>x.id===id);if(!p)return;
   const old=document.getElementById('player-detail-dialog');if(old)old.remove();
   const overlay=fc27Node('div','fc27-detail-overlay');overlay.id='player-detail-dialog';
+  overlay.classList.add('open');
   overlay.setAttribute('role','dialog');overlay.setAttribute('aria-modal','true');overlay.setAttribute('aria-label','مشخصات بازیکن');overlay.tabIndex=-1;
   const panel=fc27Node('section','fc27-detail-panel');
   const head=fc27Node('div','fc27-detail-head');const names=fc27Node('div','');
@@ -1309,21 +1310,140 @@ function renderEANewsPage(){
   }
   if(empty)empty.style.display='none';
 
-  grid.innerHTML=list.map(item=>`
-    <article class="ea-news-card">
+  grid.innerHTML=list.map(item=>{
+    const originalIndex = EA_NEWS_RAW.indexOf(item);
+    const imgUrl = item.image || './img/news/launch-feedback.svg';
+    return `
+    <article class="ea-news-card" id="news-card-${originalIndex}">
+      <div class="ea-news-banner" onclick="openEANewsArticle(${originalIndex})" style="cursor:pointer" title="مطالعه متن کامل خبر">
+        <img src="${imgUrl}" alt="${item.titleFA||item.title}" class="ea-news-img" loading="lazy" />
+      </div>
       <div class="ea-news-top">
         <span class="ea-news-tag">${item.tagFA||'📢 خبر رسمی'}</span>
         <time class="ea-news-date">📅 ${item.published||''}</time>
       </div>
-      <h2 class="ea-news-headline">${item.titleFA||item.title}</h2>
+      <h2 class="ea-news-headline" onclick="openEANewsArticle(${originalIndex})" style="cursor:pointer">${item.titleFA||item.title}</h2>
       <p class="ea-news-en-sub">${item.title}</p>
       <p class="ea-news-lead">${item.summaryFA||item.summary}</p>
-      <div class="ea-news-foot">
-        <span class="ea-news-src">منبع رسمی: Electronic Arts</span>
-        <a class="ea-news-link" href="${item.url}" target="_blank" rel="noopener noreferrer">مشاهده در سایت رسمی EA ↗</a>
+      <div class="ea-news-actions">
+        <button class="ea-news-read-btn" type="button" onclick="openEANewsArticle(${originalIndex})">📖 مطالعه کامل خبر در همین سایت</button>
+        <div class="ea-news-foot">
+          <span class="ea-news-src">منبع: Electronic Arts</span>
+          <a class="ea-news-link" href="${item.url}" target="_blank" rel="noopener noreferrer">سایت رسمی EA ↗</a>
+        </div>
       </div>
-    </article>
-  `).join('');
+    </article>`;
+  }).join('');
+}
+
+function openEANewsArticle(idx){
+  const item = EA_NEWS_RAW[idx];
+  if(!item) return;
+  const old = document.getElementById('ea-news-dialog');
+  if(old) old.remove();
+
+  const overlay = fc27Node('div', 'ea-news-overlay');
+  overlay.id = 'ea-news-dialog';
+  overlay.classList.add('open');
+  overlay.setAttribute('role', 'dialog');
+  overlay.setAttribute('aria-modal', 'true');
+  overlay.setAttribute('aria-label', item.titleFA || item.title);
+  overlay.tabIndex = -1;
+
+  const panel = fc27Node('article', 'ea-news-panel');
+
+  const hero = fc27Node('div', 'ea-news-panel-hero');
+  const img = document.createElement('img');
+  img.src = item.image || './img/news/launch-feedback.svg';
+  img.alt = item.titleFA || item.title;
+  hero.appendChild(img);
+  panel.appendChild(hero);
+
+  const body = fc27Node('div', 'ea-news-panel-body');
+
+  const head = fc27Node('div', 'ea-news-panel-head');
+  const titles = fc27Node('div', '');
+  titles.append(
+    fc27Node('h2', '', item.titleFA || item.title),
+    fc27Node('p', 'ea-news-panel-en', item.title)
+  );
+  const close = fc27Node('button', 'fc27-detail-close', '×');
+  close.type = 'button';
+  close.setAttribute('aria-label', 'بستن');
+  close.onclick = () => overlay.remove();
+  head.append(titles, close);
+  body.appendChild(head);
+
+  const meta = fc27Node('div', 'ea-news-panel-meta');
+  meta.innerHTML = `
+    <span class="ea-news-tag">${item.tagFA || '📢 خبر رسمی'}</span>
+    <time class="ea-news-date">📅 ${item.published || ''}</time>
+    <span class="ea-news-src" style="color:var(--fc-volt)">✓ منبع رسمی تأییدشده: Electronic Arts</span>
+  `;
+  body.appendChild(meta);
+
+  const full = item.fullContentFA;
+  if(full){
+    if(full.intro){
+      body.appendChild(fc27Node('p', 'ea-news-modal-intro', full.intro));
+    }
+    if(Array.isArray(full.keyPoints) && full.keyPoints.length){
+      const sec = fc27Node('div', 'ea-news-modal-sec');
+      sec.appendChild(fc27Node('h3', '', '📌 نکات کلیدی و تغییرات اصلی:'));
+      const ul = fc27Node('ul', 'ea-news-modal-list');
+      for(const pt of full.keyPoints){
+        ul.appendChild(fc27Node('li', '', pt));
+      }
+      sec.appendChild(ul);
+      body.appendChild(sec);
+    }
+    if(full.impact){
+      const box = fc27Node('div', 'ea-news-modal-box');
+      box.innerHTML = `<strong>⚡ تاثیر بر گیم‌پلی و تجربه بازیکنان:</strong>${full.impact}`;
+      body.appendChild(box);
+    }
+    if(full.tips){
+      const box = fc27Node('div', 'ea-news-modal-box');
+      box.style.borderColor = 'rgba(0, 255, 135, 0.35)';
+      box.style.background = 'rgba(0, 255, 135, 0.05)';
+      box.innerHTML = `<strong style="color:var(--fc-volt)">💡 توصیه کاربردی برای بازیکنان:</strong>${full.tips}`;
+      body.appendChild(box);
+    }
+  } else {
+    body.appendChild(fc27Node('p', 'ea-news-modal-intro', item.summaryFA || item.summary));
+  }
+
+  const foot = fc27Node('div', 'ea-news-panel-foot');
+  const eaLink = document.createElement('a');
+  eaLink.className = 'ea-news-link';
+  eaLink.href = item.url;
+  eaLink.target = '_blank';
+  eaLink.rel = 'noopener noreferrer';
+  eaLink.textContent = 'مشاهده اصل خبر در سایت رسمی EA SPORTS ↗';
+
+  const closeBtn = fc27Node('button', 'ea-news-close-btn', 'بستن پنجره');
+  closeBtn.type = 'button';
+  closeBtn.onclick = () => overlay.remove();
+
+  foot.append(eaLink, closeBtn);
+  body.appendChild(foot);
+
+  panel.appendChild(body);
+  overlay.appendChild(panel);
+
+  overlay.addEventListener('click', e => {
+    if (e.target === overlay) overlay.remove();
+  });
+  const esc = e => {
+    if (e.key === 'Escape') {
+      overlay.remove();
+      document.removeEventListener('keydown', esc);
+    }
+  };
+  document.addEventListener('keydown', esc);
+
+  document.body.appendChild(overlay);
+  close.focus();
 }
 
 const CATEGORY_FA={seasonal:'فصلی',campaign:'کمپین',foundation:'پایه',milestone:'دستاورد',players:'بازیکنان',upgrades:'ارتقاها',challenges:'چالش‌ها'};
@@ -1402,7 +1522,9 @@ function fc27OptionLabel(option,level){
 
 function openFC27Details(kind,rec){
  const old=document.getElementById('fc27-detail-dialog');if(old)old.remove();
- const overlay=fc27Node('div','fc27-detail-overlay');overlay.id='fc27-detail-dialog';overlay.setAttribute('role','dialog');overlay.setAttribute('aria-modal','true');overlay.setAttribute('aria-label','جزئیات چالش');overlay.tabIndex=-1;
+ const overlay=fc27Node('div','fc27-detail-overlay');overlay.id='fc27-detail-dialog';
+ overlay.classList.add('open');
+ overlay.setAttribute('role','dialog');overlay.setAttribute('aria-modal','true');overlay.setAttribute('aria-label','جزئیات چالش');overlay.tabIndex=-1;
  const panel=fc27Node('section','fc27-detail-panel');
  const head=fc27Node('div','fc27-detail-head');const names=fc27Node('div','');
  names.append(fc27Node('h2','',rec.nameFA||FC27_FA[rec.name]||rec.name),fc27Node('p','fc27-original-title',rec.name));
@@ -1467,7 +1589,11 @@ function openFC27Details(kind,rec){
    if(Array.isArray(seg.requirements))part.appendChild(fc27List(seg.requirements,seg.requirementsFA));
    squads.appendChild(part);
   }panel.appendChild(squads);
- }else{panel.appendChild(fc27Node('p','fc27-detail-note',kind==='sbc'?'شرایط دقیق تیم هنوز دریافت نشده‌اند. اطلاعات تأییدنشده نمایش داده نمی‌شوند.':'مراحل و شروط دقیق این هدف هنوز به‌صورت ساختاری دریافت نشده‌اند.'))}
+ }else if(kind==='sbc'){
+  panel.appendChild(fc27Node('p','fc27-detail-note','شرایط دقیق تیم هنوز دریافت نشده‌اند. اطلاعات تأییدنشده نمایش داده نمی‌شوند.'));
+ }else if(kind==='objectives'&&(!Array.isArray(rec.tasks)||!rec.tasks.length)){
+  panel.appendChild(fc27Node('p','fc27-detail-note','مراحل و شروط دقیق این هدف هنوز به‌صورت ساختاری دریافت نشده‌اند.'));
+ }
  const walkthrough=fc27Node('section','fc27-detail-subsection');walkthrough.appendChild(fc27Node('h3','','راهنمای انجام / Walkthrough'));
  const fa=kind==='evolutions'?['در Ultimate Team وارد Evolutions شوید.','این تکامل را پیدا کنید و شرایط موقعیت، امتیاز و PlayStyles را با کارت بازیکن مقایسه کنید.','قبل از شروع، ارتقاها و مهلت دقیق مراحل را در بازی بررسی کنید.','مراحل مسابقات یا تمرین را انجام دهید و پاداش تکامل را دریافت کنید.']:guideFC27(kind,rec);
  const en=kind==='evolutions'?['Open Evolutions in Ultimate Team.','Find this evolution and match its position, overall and PlayStyle restrictions to your selected item.','Check the exact level upgrades and deadlines in-game before confirming.','Complete the listed match or training tasks and claim each upgrade.']:fc27EnglishGuide(kind,rec);
@@ -2020,6 +2146,7 @@ renderDNS,
 setEANewsCat,
 filterEANews,
 renderEANewsPage,
+openEANewsArticle,
 loadEANewsPage,
 init
 });

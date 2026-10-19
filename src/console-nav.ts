@@ -159,10 +159,12 @@ export function initConsoleNav(cancelOverlay: () => void) {
 }
 
 export function closeAnyOverlay() {
-  const modals = document.querySelectorAll('.ps-overlay.open,.draft-overlay.open,.modal-ov.open,.squad-picker.open,.cc-overlay.open,.solver-modal.open');
+  const modals = document.querySelectorAll('.ps-overlay.open,.draft-overlay.open,.modal-ov.open,.squad-picker.open,.cc-overlay.open,.solver-modal.open,.ea-news-overlay.open');
   let closed = false;
   for (const modal of modals) if (modal.classList.contains('open')) { modal.classList.remove('open'); closed = true; }
-  const dialog = document.getElementById('fc27-detail-dialog');
-  if (dialog) { dialog.remove(); closed = true; }
+  for (const id of ['fc27-detail-dialog', 'player-detail-dialog', 'ea-news-dialog']) {
+    const dialog = document.getElementById(id);
+    if (dialog) { dialog.remove(); closed = true; }
+  }
   return closed;
 }
