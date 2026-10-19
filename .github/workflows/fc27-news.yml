@@ -17,8 +17,6 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-      - name: Install HTML parser
-        run: npm install --no-save --no-package-lock cheerio@1.0.0
       - name: Sync EA verified news
         run: node scripts/sync-fc27-news.cjs
       - name: Commit only changed verified feed

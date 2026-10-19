@@ -3,6 +3,19 @@
 // Values the source renders client-side (submission deadlines, coin costs) are left out instead of guessed.
 const fs = require('node:fs');
 const { get, plain, readTitle, readSubtitle, slugFrom, panel, panelRows, detailUrl } = require('./lib/futgg.cjs');
+const { faTask, faRequirement, faSegment, faUpgrade, faName, faDuration } = require('./lib/fa.cjs');
+const { faText } = require('./lib/fa-text.cjs');
+
+// Persian is stored only where a rule covered the whole source string; a missing key means the UI shows the
+// English source instead of a partial translation. Hand-verified Persian is never overwritten.
+const fill = (target, fields) => {
+  for (const [key, value] of Object.entries(fields)) if (value && target[key] === undefined) target[key] = value;
+};
+const parallel = (list, build) => {
+  if (!list || !list.length) return undefined;
+  const out = list.map(build);
+  return out.every(Boolean) ? out : undefined;
+};
 
 function scrapeList() {
   const html = get('/evolutions/');
@@ -121,6 +134,34 @@ function labelledRows(html, heading) {
       if (!before) continue;
       if (before.nameFA) level.nameFA = before.nameFA;
       if (before.tasksFA?.length && before.tasks.join('|') === level.tasks?.join('|')) level.tasksFA = before.tasksFA;
+    }
+  }
+
+  // One localisation pass covers freshly scraped records and anything carried over from a snapshot.
+  // Hand-translated titles and descriptions win over the rule engine.
+  const applyVerified = target => {
+    const verified = faText('evolutions', target.name);
+    if (verified.nameFA) target.nameFA = verified.nameFA;
+    if (verified.descriptionFA && target.description) target.descriptionFA = verified.descriptionFA;
+  };
+  for (const record of evolutions) {
+    applyVerified(record);
+    fill(record, {
+      nameFA: faName(record.name),
+      descriptionFA: faSegment(record.description),
+      requirementsFA: parallel(record.requirements, faRequirement),
+      detailsFA: parallel(record.details, faRequirement),
+    });
+    for (const level of record.levels || []) {
+      fill(level, {
+        nameFA: faName(level.name),
+        tasksFA: parallel(level.tasks, faTask),
+        upgradesFA: parallel(level.upgrades, faUpgrade),
+        training_timeFA: faDuration(level.training_time),
+      });
+      for (const option of level.options || []) {
+        fill(option, { nameFA: faName(option.name), upgradesFA: parallel(option.upgrades, faUpgrade) });
+      }
     }
   }
 

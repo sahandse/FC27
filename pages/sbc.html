@@ -1,0 +1,34 @@
+<main class="main" id="sec-sbc"><section><h2 style="color:#caff38;font-size:19px;margin:14px 0">SBCهای واقعی FC27</h2><input class="fc-feed-search" id="live-sbc-search" oninput="renderLiveFC27()" placeholder="جستجو…"/><p class="fc-feed-meta" id="live-sbc-status">در حال بررسی داده‌های معتبر…</p><div class="fc-feed-grid" id="live-sbc"></div></section>
+  <div class="search-wrap">
+    <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+    <input type="text" class="search-input" id="sbcSearch" placeholder="جستجو در SBC‌ها، شرایط، راهنما..." oninput="renderSBC()" />
+  </div>
+  <div class="cat-tabs" id="sbcCatTabs">
+    <button class="cat-tab active" data-cat="all"        onclick="setSBCCat('all')">همه <span class="cat-cnt" id="scn-all">0</span></button>
+    <button class="cat-tab"        data-cat="iconic"     onclick="setSBCCat('iconic')">آیکونیک <span class="cat-cnt" id="scn-iconic">0</span></button>
+    <button class="cat-tab"        data-cat="foundation" onclick="setSBCCat('foundation')">پایه <span class="cat-cnt" id="scn-foundation">0</span></button>
+    <button class="cat-tab"        data-cat="league"     onclick="setSBCCat('league')">لیگ <span class="cat-cnt" id="scn-league">0</span></button>
+    <button class="cat-tab"        data-cat="tots"       onclick="setSBCCat('tots')">TOTS <span class="cat-cnt" id="scn-tots">0</span></button>
+    <button class="cat-tab"        data-cat="limited"    onclick="setSBCCat('limited')">محدود <span class="cat-cnt" id="scn-limited">0</span></button>
+  </div>
+  <div class="filter-row">
+    <button class="f-btn" id="sfb-fav" onclick="toggleSF('fav')">⭐ علاقه‌مندی‌ها</button>
+    <button class="f-btn" id="sfb-inc" onclick="toggleSF('inc')">⏳ تکمیل نشده</button>
+    <button class="f-btn" id="sfb-exp" onclick="toggleSF('exp')">🔥 در حال انقضا</button>
+    <select class="sort-sel" id="sbcSort" onchange="renderSBC()">
+      <option value="def">مرتب‌سازی: پیش‌فرض</option>
+      <option value="rew">جایزه: بالاترین</option>
+      <option value="cost">هزینه: کمتر</option>
+      <option value="exp">انقضا: زودتر</option>
+      <option value="dif">سختی: بیشتر</option>
+    </select>
+  </div>
+  <div class="section-row">
+    <span class="section-title" id="sbcSecTitle">همه SBC‌ها</span>
+    <span class="section-cnt" id="sbcSecCnt"></span>
+  </div>
+  <div class="grid" id="sbcGrid"></div>
+  <div class="empty" id="sbcEmpty" style="display:none">
+    <div class="empty-icon">🔍</div><h3>SBC‌ای یافت نشد</h3><p>جستجو یا فیلتر خود را تغییر دهید</p>
+  </div>
+</main>

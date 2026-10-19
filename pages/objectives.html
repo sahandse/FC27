@@ -1,0 +1,35 @@
+<main class="main" id="sec-obj"><section><h2 style="color:#caff38;font-size:19px;margin:14px 0">اهداف واقعی FC27</h2><input class="fc-feed-search" id="live-objectives-search" oninput="renderLiveFC27()" placeholder="جستجو…"/><p class="fc-feed-meta" id="live-objectives-status">در حال بررسی داده‌های معتبر…</p><div class="fc-feed-grid" id="live-objectives"></div></section>
+  <div class="search-wrap">
+    <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+    <input type="text" class="search-input" id="objSearch" placeholder="جستجو در اهداف، شرایط، جایزه..." oninput="renderObj()" />
+  </div>
+  <div class="cat-tabs" id="objCatTabs">
+    <button class="cat-tab active" data-cat="all"       onclick="setObjCat('all')">همه <span class="cat-cnt" id="ocn-all">0</span></button>
+    <button class="cat-tab"        data-cat="weekly"    onclick="setObjCat('weekly')">هفتگی <span class="cat-cnt" id="ocn-weekly">0</span></button>
+    <button class="cat-tab"        data-cat="daily"     onclick="setObjCat('daily')">روزانه <span class="cat-cnt" id="ocn-daily">0</span></button>
+    <button class="cat-tab"        data-cat="milestone" onclick="setObjCat('milestone')">مایل‌استون <span class="cat-cnt" id="ocn-milestone">0</span></button>
+    <button class="cat-tab"        data-cat="event"     onclick="setObjCat('event')">رویداد <span class="cat-cnt" id="ocn-event">0</span></button>
+    <button class="cat-tab"        data-cat="seasonal"  onclick="setObjCat('seasonal')">فصلی <span class="cat-cnt" id="ocn-seasonal">0</span></button>
+    <button class="cat-tab"        data-cat="league"    onclick="setObjCat('league')">رقابتی <span class="cat-cnt" id="ocn-league">0</span></button>
+  </div>
+  <div class="filter-row">
+    <button class="f-btn" id="ofb-fav" onclick="toggleOF('fav')">⭐ علاقه‌مندی‌ها</button>
+    <button class="f-btn" id="ofb-inc" onclick="toggleOF('inc')">⏳ تکمیل نشده</button>
+    <button class="f-btn" id="ofb-exp" onclick="toggleOF('exp')">🔥 در حال انقضا</button>
+    <select class="sort-sel" id="objSort" onchange="renderObj()">
+      <option value="def">مرتب‌سازی: پیش‌فرض</option>
+      <option value="rew">جایزه: بالاترین</option>
+      <option value="exp">انقضا: زودتر</option>
+      <option value="dif">سختی: بیشتر</option>
+      <option value="az">نام: الفبا</option>
+    </select>
+  </div>
+  <div class="section-row">
+    <span class="section-title" id="objSecTitle">همه اهداف</span>
+    <span class="section-cnt" id="objSecCnt"></span>
+  </div>
+  <div class="grid" id="objGrid"></div>
+  <div class="empty" id="objEmpty">
+    <div class="empty-icon">🔍</div><h3>هدفی یافت نشد</h3><p>جستجو یا فیلتر خود را تغییر دهید</p>
+  </div>
+</main>

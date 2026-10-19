@@ -1,2 +1,19 @@
 import { defineConfig } from 'vite';
-export default defineConfig({base:'./',build:{target:'es2022',outDir:'dist'}});
+
+// Five entries because each section is its own page now; shared modules still bundle once.
+export default defineConfig({
+  base: './',
+  build: {
+    target: 'es2022',
+    outDir: 'dist',
+    rollupOptions: {
+      input: {
+        index: 'index.html',
+        sbc: 'sbc.html',
+        players: 'players.html',
+        squad: 'squad.html',
+        evolutions: 'evolutions.html',
+      },
+    },
+  },
+});

@@ -30,8 +30,9 @@ function plain(fragment) {
 }
 
 function readTitle(html, fallback) {
-  const title = (html.match(/<title>([^<]{4,140})<\/title>/i) || [])[1] || '';
-  return title.replace(/\s*[-–]\s*EA SPORTS FC \d+.*$/i, '').replace(/\s*\|\s*FUT\.GG.*$/i, '').trim() || fallback;
+  const raw = (html.match(/<title>([^<]{4,140})<\/title>/i) || [])[1] || '';
+  const title = plain(raw).replace(/\s*[-–]\s*EA SPORTS FC \d+.*$/i, '').replace(/\s*\|\s*FUT\.GG.*$/i, '').trim();
+  return title || fallback;
 }
 
 function slugFrom(url) {

@@ -40,6 +40,7 @@ jobs:
         if: ${{ vars.FC27_PRICE_FEED_URL == '' }}
         env:
           FC27_PRICE_PAGES: ${{ github.event.inputs.pages || '40' }}
+          FC27_PRICE_STALE_MINUTES: '720'
         run: node scripts/sync-fc27-prices-live.mjs
       - name: Publish only verified data
         run: |

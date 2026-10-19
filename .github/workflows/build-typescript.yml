@@ -5,8 +5,14 @@ on:
       - claude/fc26-objectives-page-yAjCT
     paths:
       - 'index.html'
+      - 'sbc.html'
+      - 'players.html'
+      - 'squad.html'
+      - 'evolutions.html'
+      - 'pages/**'
       - 'src/**'
       - 'tests/**'
+      - 'scripts/build-pages.mjs'
       - 'scripts/sync-fc27-prices.ts'
       - 'data/fc27-prices.json'
       - 'data/**'

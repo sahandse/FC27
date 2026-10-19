@@ -1,0 +1,79 @@
+<main class="main" id="sec-players">
+<section class="page-guide" aria-label="راهنمای صفحه بازیکنان">
+<h2>راهنمای صفحهٔ بازیکنان / Players guide</h2>
+<ol>
+  <li>در جستجو می‌توانید نام، باشگاه، ملیت یا لیگ را به فارسی یا انگلیسی بنویسید.<span class="pg-en">Search by name, club, nationality or league.</span></li>
+  <li>با تب‌های پوزیشن و نوع کارت نتایج را کم کنید؛ «همه» همه‌چیز را برمی‌گرداند.<span class="pg-en">Filter by position and card type.</span></li>
+  <li>🎛️ فیلتر آمار، کمترین مقدار هر ویژگی را تعیین می‌کند. فقط کارت‌هایی که آمار تأییدشده دارند در این حالت نمایش داده می‌شوند.<span class="pg-en">Stat filters only match cards with verified attribute values.</span></li>
+  <li>⭐ علاقه‌مندی‌ها و 👁️ واچ‌لیست فقط در همین مرورگر ذخیره می‌شوند و به سروری فرستاده نمی‌شوند.<span class="pg-en">Favourites and watchlist stay in your browser.</span></li>
+  <li>📄 مشخصات، جدول کامل ویژگی‌های همان کارت را باز می‌کند. اگر منبع کارتی آمار نداشته باشد، جای آن پیام «تأیید نشده» می‌آید و عددی ساخته نمی‌شود.<span class="pg-en">The specs sheet only shows verified attributes; missing data is labelled, never invented.</span></li>
+  <li>قیمت فقط برای نسخه کارت و پلتفرمی منتشر می‌شود که منبع جدول بازار دارد. نبودِ قیمت یعنی منبع آن نسخه را منتشر نکرده است، نه اینکه کارت بی‌ارزش باشد.<span class="pg-en">A missing price means the source publishes no quote for that version and platform.</span></li>
+  <li>با 📺 حالت تلویزیون (منوی بالا) با فلش‌های جهت‌دار یا D-pad کنترلر بین کارت‌ها جابه‌جا شوید و با Enter یا دکمهٔ A وارد شوید.<span class="pg-en">In TV mode use the arrow keys or a controller D-pad, Enter/A to activate.</span></li>
+</ol>
+</section>
+<section class="fc-card-prices" aria-label="FC27 card market">
+<h2>قیمت کارت‌ها / Card Prices</h2>
+<p>فقط قیمت تأییدشده همین نسخه کارت و پلتفرم نشان داده می‌شود. داده قدیمی به‌عنوان قیمت زنده نمایش داده نمی‌شود. قیمت کارت‌های پایهٔ PS و PC از جدول بازار FUTBIN خوانده می‌شود؛ برای Xbox و نسخه‌های ویژهای که این منبع منتشر نمی‌کند، قیمتی نمایش داده نمی‌شود.</p>
+<div class="fc-price-controls"><label>شناسه نسخه کارت / Version ID<input id="fcPriceVersion" inputmode="numeric" placeholder="مثلاً 231747" /></label><label>پلتفرم / Platform<select id="fcPricePlatform"><option value="ps">PlayStation / Console</option><option value="xbox">Xbox / Console</option><option value="pc">PC</option></select></label><button type="button" id="fcPriceCheck">بررسی قیمت</button></div>
+<div id="fcPriceResult" role="status" aria-live="polite">برای مشاهده قیمت، شناسه دقیق نسخه کارت را وارد کنید.</div>
+<p id="fcPriceFeed" role="status">در حال بررسی منبع قیمت…</p>
+</section>
+  <div class="search-wrap">
+    <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+    <input type="text" class="search-input" id="plSearch" placeholder="جستجو: نام، باشگاه، ملیت، لیگ..." oninput="playerPage=1;renderPlayers()" />
+  </div>
+  <div class="pos-tabs" id="posTabs">
+    <button class="pos-tab active" data-pos="all" onclick="setPos('all')">همه</button>
+    <button class="pos-tab" data-pos="ATT" onclick="setPos('ATT')">⚽ مهاجم</button>
+    <button class="pos-tab" data-pos="MID" onclick="setPos('MID')">🔄 هافبک</button>
+    <button class="pos-tab" data-pos="DEF" onclick="setPos('DEF')">🛡️ مدافع</button>
+    <button class="pos-tab" data-pos="GK" onclick="setPos('GK')">🧤 دروازه‌بان</button>
+  </div>
+  <div class="pos-tabs" id="cardTypeTabs" style="margin-bottom:12px">
+    <button class="ctype-tab ct-all active" data-ct="all" onclick="setCardType('all')">همه</button>
+    <button class="ctype-tab ct-gold" data-ct="gold" onclick="setCardType('gold')">🥇 گلد</button>
+    <button class="ctype-tab ct-silver" data-ct="silver" onclick="setCardType('silver')">🥈 سیلور</button>
+    <button class="ctype-tab ct-bronze" data-ct="bronze" onclick="setCardType('bronze')">🥉 برنز</button>
+    <button class="ctype-tab ct-tots" data-ct="tots" onclick="setCardType('tots')">🌟 TOTS</button>
+    <button class="ctype-tab ct-toty" data-ct="toty" onclick="setCardType('toty')">🏆 TOTY</button>
+    <button class="ctype-tab ct-hero" data-ct="hero" onclick="setCardType('hero')">⚡ Hero</button>
+    <button class="ctype-tab ct-special" data-ct="special" onclick="setCardType('special')">💎 Special</button>
+    <button class="ctype-tab ct-fut" data-ct="fut" onclick="setCardType('fut')">🔮 FUT Born</button>
+    <button class="ctype-tab ct-ptg" data-ct="ptg" onclick="setCardType('ptg')">🌅 Path to Glory</button>
+  </div>
+  <div class="filter-row">
+    <button class="f-btn" id="pfb-fav" onclick="togglePF('fav')">⭐ علاقه‌مندی‌ها</button>
+    <button class="f-btn" id="pfb-wl" onclick="togglePF('wl')">👁️ واچ‌لیست <span id="wl-cnt"></span></button>
+    <button class="adv-toggle" id="advToggleBtn" onclick="toggleAdvFilter()">🎛️ فیلتر آمار</button>
+    <button class="adv-toggle" onclick="showPlayStyleGuide()" style="border-color:rgba(59,130,246,.4);color:#7EB8FF">🎮 PlayStyle</button>
+    <button class="adv-toggle" onclick="openCC()" style="border-color:rgba(245,176,20,.4);color:var(--gold)">🃏 ساخت کارت</button>
+    <button class="adv-toggle" id="galToggleBtn" onclick="toggleGallery()" style="border-color:rgba(20,184,166,.4);color:var(--teal)">🖼️ گالری</button>
+    <select class="sort-sel" id="plSort" onchange="playerPage=1;renderPlayers()">
+      <option value="rat">امتیاز: بالاترین</option>
+      <option value="price-h">قیمت: بالاترین</option>
+      <option value="price-l">قیمت: کمترین</option>
+      <option value="az">نام: الفبا</option>
+    </select>
+  </div>
+  <!-- ADVANCED STAT FILTER PANEL -->
+  <div class="adv-panel" id="advPanel">
+    <div class="adv-grid" id="advGrid"></div>
+    <button class="adv-reset" onclick="resetAdvFilter()">↺ بازنشانی فیلترها</button>
+  </div>
+  <div class="section-row">
+    <span class="section-title" id="plSecTitle">همه بازیکنان</span>
+    <span class="section-cnt" id="plSecCnt"></span>
+  </div>
+  <div class="player-grid" id="plGrid"></div>
+  <div class="empty" id="plEmpty" style="display:none">
+    <div class="empty-icon">🔍</div><h3>بازیکنی یافت نشد</h3><p>جستجو یا فیلتر خود را تغییر دهید</p>
+  </div>
+  <!-- WATCHLIST SECTION (shown when wl filter active) -->
+  <div class="wl-section" id="wlSection" style="display:none">
+    <div class="section-row" style="margin-top:10px">
+      <span class="section-title">👁️ واچ‌لیست من</span>
+      <span class="section-cnt" id="wlSecCnt"></span>
+    </div>
+    <div id="wlContent"></div>
+  </div>
+</main>

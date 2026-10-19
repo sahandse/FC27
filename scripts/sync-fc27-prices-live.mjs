@@ -1,12 +1,23 @@
 #!/usr/bin/env node
 // Refreshes data/fc27-prices.json from FUTBIN's server-rendered FC 27 market table.
 // FUTBIN is served behind Cloudflare and rejects Node's TLS fingerprint, so requests go through curl.
-import { writeFileSync } from 'node:fs';
+import { writeFileSync, readFileSync } from 'node:fs';
 import { execFileSync } from 'node:child_process';
 import path from 'node:path';
 
 const root = path.join(import.meta.dirname, '..');
 const dest = path.join(root, 'data/fc27-prices.json');
+const staleAfterMinutes = Math.max(60, Number(process.env.FC27_PRICE_STALE_MINUTES || 720));
+const annotate = (level, message) => console.log(process.env.GITHUB_ACTIONS ? `::${level}::${message}` : `${level}: ${message}`);
+function retainedAge() {
+  try {
+    const snapshot = JSON.parse(readFileSync(dest, 'utf8'));
+    const at = Date.parse(snapshot.updated_at);
+    return Number.isFinite(at) ? (Date.now() - at) / 60000 : Infinity;
+  } catch {
+    return Infinity;
+  }
+}
 const provider = 'https://www.futbin.com/27/players';
 const pages = Math.max(1, Math.min(Number(process.env.FC27_PRICE_PAGES || 40), 300));
 const windowMinutes = Math.max(15, Number(process.env.FC27_PRICE_WINDOW_MINUTES || 75));
@@ -74,8 +85,13 @@ for (let page = 1; page <= pages; page++) {
 }
 
 if (pagesOk === 0) {
-  console.error('FUTBIN returned no parseable FC 27 market rows; preserving the existing price snapshot.');
-  process.exitCode = 1;
+  const age = retainedAge();
+  const message = 'FUTBIN published no parseable FC 27 market rows. The price snapshot ('
+    + (Number.isFinite(age) ? Math.round(age) + ' min old' : 'missing')
+    + ') stays untouched, so the site shows no prices instead of guessed ones.';
+  // One refused refresh is a provider outage, not a broken build; aged-out published prices are the real failure.
+  if (age > staleAfterMinutes) { annotate('error', message); process.exitCode = 1; }
+  else annotate('warning', message);
 } else {
   const prices = [...byVersion.values()];
   const output = {

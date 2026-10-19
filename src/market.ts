@@ -4,6 +4,7 @@ interface PriceFeed {updated_at:string|null;verification_window_minutes?:number;
 const quotes=new Map<string,CardPrice>();
 const platforms=new Set<Platform>(['pc','ps','xbox']);
 let freshnessWindow=45;
+let snapshotStamp:string|null=null;
 function currentPlatform():Platform{
  const el=document.getElementById('fcPricePlatform') as HTMLSelectElement|null;
  const val=el?.value as Platform|undefined;
@@ -39,11 +40,13 @@ function showVerifiedCardPrice():void{
 }
 async function refreshPrices():Promise<void>{
  quotes.clear();
+ snapshotStamp=null;
  try{
   const response=await fetch('./data/fc27-prices.json',{cache:'no-store'});
   if(!response.ok)throw new Error('No verified price snapshot');
   const data:PriceFeed=await response.json();
   if(!Array.isArray(data.prices))throw new Error('Invalid prices');
+  snapshotStamp=typeof data.updated_at==='string'?data.updated_at:null;
   freshnessWindow=Number.isFinite(data.verification_window_minutes)&&data.verification_window_minutes>0?data.verification_window_minutes:45;
   for(const record of data.prices){
    if(!record||!/^\d+$/.test(String(record.versionId))||!platforms.has(record.platform))continue;
@@ -51,6 +54,17 @@ async function refreshPrices():Promise<void>{
    if(safe.status==='verified')quotes.set(safe.versionId+':'+safe.platform,safe);
   }
  }catch(error){freshnessWindow=45;console.warn('Price feed unavailable; market remains unquoted',error)}
+ reportFeedState();
+}
+// The provider can be reachable yet every quote older than the verification window; both states mean
+// "no price is shown", so the page says which one it is instead of leaving the gap unexplained.
+function reportFeedState():void{
+ const line=document.getElementById('fcPriceFeed');
+ if(!line)return;
+ if(quotes.size){line.textContent='منبع قیمت: '+quotes.size+' قیمت تأییدشدهٔ تازه'+(snapshotStamp?' · آخرین snapshot: '+new Date(snapshotStamp).toLocaleString('fa-IR'):'');return}
+ line.textContent=snapshotStamp
+  ? 'هیچ قیمت این snapshot تازه نیست (بررسیٔ آخرین: '+new Date(snapshotStamp).toLocaleString('fa-IR')+'؛ مجاز: '+freshnessWindow+' دقیقه). برای جلوگیری از نمایش قیمت ساخته‌شده، قیمتی نشان داده نمی‌شود.'
+  : 'snapshot قیمتی در دسترس نیست؛ منبع تأییدشدهٔ قیمت برنگشت. برای جلوگیری از نمایش قیمت ساخته‌شده، قیمتی نشان داده نمی‌شود.';
 }
 export function setupVerifiedMarkets(onUpdate:()=>void):void{
  document.getElementById('fcPriceCheck')?.addEventListener('click',showVerifiedCardPrice);

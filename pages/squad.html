@@ -1,0 +1,39 @@
+<main class="main" id="sec-squad">
+  <div class="section-row">
+    <span class="section-title">⚽ تیم‌ساز</span>
+    <span class="section-cnt" id="chemBadge">کمیستری: ۰</span>
+  </div>
+  <div class="formation-sel" id="formationSel">
+    <button class="form-btn active" data-f="4-3-3" onclick="setFormation('4-3-3')">4-3-3</button>
+    <button class="form-btn" data-f="4-2-3-1" onclick="setFormation('4-2-3-1')">4-2-3-1</button>
+    <button class="form-btn" data-f="4-4-2" onclick="setFormation('4-4-2')">4-4-2</button>
+    <button class="form-btn" data-f="3-5-2" onclick="setFormation('3-5-2')">3-5-2</button>
+    <button class="form-btn" data-f="5-3-2" onclick="setFormation('5-3-2')">5-3-2</button>
+  </div>
+  <div class="chem-display">
+    <div class="chem-val" id="chemVal">۰</div>
+    <div style="flex:1">
+      <div class="chem-lbl">کمیستری تیم (حداکثر ۳۳)</div>
+      <div class="chem-track"><div class="chem-fill" id="chemFill" style="width:0%"></div></div>
+    </div>
+  </div>
+  <div class="pitch-wrap">
+    <svg class="pitch-svg-ov" viewBox="0 0 300 435" preserveAspectRatio="none">
+      <rect x="1" y="1" width="298" height="433" fill="none" stroke="rgba(255,255,255,1)" stroke-width="1.5"/>
+      <line x1="150" y1="0" x2="150" y2="435" stroke="rgba(255,255,255,1)" stroke-width="1"/>
+      <circle cx="150" cy="217" r="45" fill="none" stroke="rgba(255,255,255,1)" stroke-width="1"/>
+      <circle cx="150" cy="217" r="4" fill="rgba(255,255,255,1)"/>
+      <rect x="88" y="1" width="124" height="58" fill="none" stroke="rgba(255,255,255,1)" stroke-width="1"/>
+      <rect x="114" y="1" width="72" height="27" fill="none" stroke="rgba(255,255,255,1)" stroke-width="1"/>
+      <rect x="88" y="376" width="124" height="58" fill="none" stroke="rgba(255,255,255,1)" stroke-width="1"/>
+      <rect x="114" y="407" width="72" height="27" fill="none" stroke="rgba(255,255,255,1)" stroke-width="1"/>
+    </svg>
+    <div class="pitch-ar">
+      <div class="pitch-abs" id="pitchSlots"></div>
+    </div>
+  </div>
+  <div class="squad-actions">
+    <button class="draft-btn" onclick="startDraft()">🎲 شبیه‌ساز درافت</button>
+    <button class="squad-clear" onclick="clearSquad()">🗑️ پاک کردن تیم</button>
+  </div>
+</main>

@@ -4,7 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "vite build && node scripts/copy-static.mjs",
+    "pages": "node scripts/build-pages.mjs",
+    "build": "node scripts/build-pages.mjs && vite build && node scripts/copy-static.mjs",
     "check": "tsc --noEmit",
     "test": "node --test tests/smoke.test.cjs"
   },

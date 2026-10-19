@@ -3,6 +3,33 @@
 // Anything the source does not state explicitly is left out instead of guessed.
 const fs = require('node:fs');
 const { base, get, plain, decodeEntities, readTitle, readSubtitle, slugFrom } = require('./lib/futgg.cjs');
+const { faTask, faRequirement, faSegment, faReward, faName } = require('./lib/fa.cjs');
+const { faText } = require('./lib/fa-text.cjs');
+
+// Localiser output is stored only when a rule covered the whole string; no match means the UI keeps the
+// source text rather than showing a partial translation.
+function faFields(value, kind) {
+  const record = {};
+  const describe = kind === 'task' ? faTask : faSegment;
+  if (value.description) {
+    // A segment summary can read either as a reward sentence ("Earn …") or as a task ("Win 3 …").
+    const out = describe(value.description) || (kind === 'segment' ? faTask(value.description) : '');
+    if (out) record.descriptionFA = out;
+  }
+  if (value.requirements) {
+    const list = value.requirements.map(x => faRequirement(typeof x === 'string' ? x : x.label + ' ' + (x.value || '')));
+    if (list.every(Boolean)) record.requirementsFA = list;
+  }
+  if (value.reward) {
+    const out = faReward(value.reward);
+    if (out) record.rewardFA = out;
+  }
+  if (value.name) {
+    const out = faName(value.name);
+    if (out) record.nameFA = out;
+  }
+  return record;
+}
 
 const listPages = [
   { kind: 'objectives', cat: 'seasonal', path: '/objectives/seasonal/' },
@@ -176,12 +203,33 @@ function readObjective(html) {
     if (!record.description && earlier?.description) record.description = earlier.description;
   }
 
+  // A single localisation pass covers freshly scraped records and anything carried over from a snapshot.
+  // Hand-translated titles and campaign prose win; the rule engine fills whatever is left.
+  const fill = (target, kind) => {
+    for (const [key, value] of Object.entries(faFields(target, kind))) if (target[key] === undefined) target[key] = value;
+  };
+  const applyVerified = (target, section) => {
+    const verified = faText(section, target.name);
+    if (verified.nameFA) target.nameFA = verified.nameFA;
+    if (verified.descriptionFA && target.description) target.descriptionFA = verified.descriptionFA;
+  };
+  for (const record of found.objectives) {
+    applyVerified(record, 'objectives');
+    fill(record, 'segment');
+    for (const task of record.tasks || []) { applyVerified(task, 'tasks'); fill(task, 'task'); }
+  }
+  for (const record of found.sbc) {
+    applyVerified(record, 'sbc');
+    fill(record, 'segment');
+    for (const segment of record.squads || []) { applyVerified(segment, 'sbc'); fill(segment, 'segment'); }
+  }
+
   const result = {
     source: 'FUT.GG',
     checked_at: checkedAt,
     sections: {
-      objectives: found.objectives.map(x => ({ name: x.name, category: x.category, description: x.description || '', url: x.url, ...(x.tasks ? { tasks: x.tasks } : {}), ...(x.reward ? { reward: x.reward } : {}), detail_checked_at: checkedAt })),
-      sbc: found.sbc.map(x => ({ name: x.name, category: x.category, description: x.description || '', url: x.url, price: x.price ?? null, ...(x.reward ? { reward: x.reward } : {}), ...(x.challenges ? { challenges: x.challenges } : {}), ...(x.repeatable ? { repeatable: x.repeatable } : {}), ...(x.expires ? { expires: x.expires } : {}), ...(x.refreshes ? { refreshes: x.refreshes } : {}), ...(x.squads ? { squads: x.squads, squads_checked_at: x.squads_checked_at || checkedAt } : {}), detail_checked_at: checkedAt })),
+      objectives: found.objectives.map(x => ({ name: x.name, category: x.category, description: x.description || '', url: x.url, ...(x.nameFA ? { nameFA: x.nameFA } : {}), ...(x.descriptionFA ? { descriptionFA: x.descriptionFA } : {}), ...(x.rewardFA ? { rewardFA: x.rewardFA } : {}), ...(x.tasks ? { tasks: x.tasks } : {}), ...(x.reward ? { reward: x.reward } : {}), detail_checked_at: checkedAt })),
+      sbc: found.sbc.map(x => ({ name: x.name, category: x.category, description: x.description || '', url: x.url, price: x.price ?? null, ...(x.nameFA ? { nameFA: x.nameFA } : {}), ...(x.descriptionFA ? { descriptionFA: x.descriptionFA } : {}), ...(x.rewardFA ? { rewardFA: x.rewardFA } : {}), ...(x.reward ? { reward: x.reward } : {}), ...(x.challenges ? { challenges: x.challenges } : {}), ...(x.repeatable ? { repeatable: x.repeatable } : {}), ...(x.expires ? { expires: x.expires } : {}), ...(x.refreshes ? { refreshes: x.refreshes } : {}), ...(x.squads ? { squads: x.squads, squads_checked_at: x.squads_checked_at || checkedAt } : {}), detail_checked_at: checkedAt })),
     },
   };
 
