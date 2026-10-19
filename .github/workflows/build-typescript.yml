@@ -8,6 +8,7 @@ on:
       - 'sbc.html'
       - 'players.html'
       - 'squad.html'
+      - 'dns.html'
       - 'evolutions.html'
       - 'pages/**'
       - 'src/**'
