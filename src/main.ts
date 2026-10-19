@@ -1463,6 +1463,339 @@ async function loadLiveFC27(){
  }catch(error){console.warn('FC27 sourced data not available',error)}
  renderLiveFC27();
 }
+/* ── 20 BEST GAMING DNS SERVERS FOR CONSOLE (PS5 & FC27) ── */
+const DNS_LIST = [
+  {
+    id: 'electro',
+    name: 'الکترو (Electro)',
+    nameEN: 'Electro Gaming DNS',
+    cat: 'anti-sanction',
+    badge: '🌟 ویژه FC 27 و PSN',
+    primary: '78.157.42.101',
+    secondary: '78.157.42.100',
+    ping: 'عالی (داخلی)',
+    desc: 'محبوب‌ترین DNS گیمینگ در ایران برای حل خطای اتصال سرورهای EA، آلتیمیت تیم و رفع تحریم‌های فروشگاه سونی.',
+    suitable: 'ورود به Ultimate Team، مچ‌میکینگ بدون تحریم'
+  },
+  {
+    id: 'radar',
+    name: 'رادار گیم (Radar Game)',
+    nameEN: 'Radar Game DNS',
+    cat: 'anti-sanction',
+    badge: '🎮 کاهش پکت‌لاس',
+    primary: '10.202.10.10',
+    secondary: '10.202.10.11',
+    ping: 'عالی (داخلی)',
+    desc: 'کاهش شدید پکت‌لاس در مسابقات آنلاین Division Rivals و Champions و بهبود روتینگ بسته‌ها به سرورهای EA.',
+    suitable: 'حذف پکت‌لاس و لگ در مسابقات آنلاین'
+  },
+  {
+    id: 'shecan',
+    name: 'شکن (Shecan)',
+    nameEN: 'Shecan DNS',
+    cat: 'anti-sanction',
+    badge: '🛡️ تحریم‌شکن جامع',
+    primary: '178.22.122.100',
+    secondary: '185.51.200.2',
+    ping: 'خیلی خوب',
+    desc: 'سرویس رفع تحریم برای دسترسی به استور پلی‌استیشن و خدمات تحریم‌شده گیمینگ بدون افت سرعت.',
+    suitable: 'دانلود از PS Store و آپدیت‌های بازی'
+  },
+  {
+    id: '403',
+    name: '۴۰۳ آنلاین (403.online)',
+    nameEN: '403 Online DNS',
+    cat: 'anti-sanction',
+    badge: '⚡ پرسرعت ضدتحریم',
+    primary: '10.202.10.202',
+    secondary: '10.202.10.102',
+    ping: 'عالی',
+    desc: 'پروژه اختصاصی عبور از تحریم‌های فناوری و اینترنت با پایداری بالا در تمامی ارائه‌دهندگان اینترنت.',
+    suitable: 'حل ارورهای تحریم 403 در بازی‌ها'
+  },
+  {
+    id: 'begzar',
+    name: 'بگذر (Begzar)',
+    nameEN: 'Begzar DNS',
+    cat: 'anti-sanction',
+    badge: '🔒 پایداری در مچ‌میکینگ',
+    primary: '185.55.226.26',
+    secondary: '185.55.225.25',
+    ping: 'خیلی خوب',
+    desc: 'دی‌ان‌اس اختصاصی گیمینگ برای باز شدن سریع‌تر منوهای آلتیمیت تیم و حل مشکل پیدا نکردن حریف.',
+    suitable: 'مچ‌میکینگ سریع‌تر و ثبات در بازی'
+  },
+  {
+    id: 'cloudflare',
+    name: 'کلودفلر اصلی (Cloudflare Standard)',
+    nameEN: 'Cloudflare Public DNS',
+    cat: 'speed',
+    badge: '🚀 سریع‌ترین در جهان',
+    primary: '1.1.1.1',
+    secondary: '1.0.0.1',
+    ping: 'بسیار کم (جهانی)',
+    desc: 'سریع‌ترین رزولوشن DNS جهان با شبکه توزیع‌شده جهانی Anycast و بیشترین حریم خصوصی.',
+    suitable: 'پینگ فوق‌العاده کم و اتصال پایدار'
+  },
+  {
+    id: 'cloudflare-sec',
+    name: 'کلودفلر امنیت (Cloudflare Security)',
+    nameEN: 'Cloudflare 1.1.1.2',
+    cat: 'stability',
+    badge: '🛡️ فیلتر بدافزار',
+    primary: '1.1.1.2',
+    secondary: '1.0.0.2',
+    ping: 'بسیار کم',
+    desc: 'همان سرعت بالای کلودفلر همراه با مسدودسازی هوشمند ترافیک مخرب و ناهنجاری‌های شبکه.',
+    suitable: 'امنیت شبکه کنسول و کاهش نوسان پینگ'
+  },
+  {
+    id: 'google',
+    name: 'گوگل پابلیک (Google Public DNS)',
+    nameEN: 'Google Public DNS',
+    cat: 'speed',
+    badge: '🌐 پایدارترین در PSN',
+    primary: '8.8.8.8',
+    secondary: '8.8.4.4',
+    ping: 'کم و باثبات',
+    desc: 'سازگارترین دی‌ان‌اس با تمامی سرورهای بازی سونی و EA در سراسر جهان با آپ‌تایم ۹۹.۹۹٪.',
+    suitable: 'هماهنگی ۱۰۰٪ با تمامی ریجن‌های پلی‌استیشن'
+  },
+  {
+    id: 'quad9',
+    name: 'کواد ۹ امن (Quad9 Secure)',
+    nameEN: 'Quad9 DNS',
+    cat: 'stability',
+    badge: '🎯 مسدودسازی تهدیدات',
+    primary: '9.9.9.9',
+    secondary: '149.112.112.112',
+    ping: 'کم',
+    desc: 'توصیه شده توسط کارشناسان امنیت شبکه برای جلوگیری از دستکاری پکت‌های ارسالی بدون کاهش سرعت.',
+    suitable: 'مسابقات آنلاین بدون قطعی ناگهانی'
+  },
+  {
+    id: 'opendns',
+    name: 'سیسکو اوپن دی‌ان‌اس (Cisco OpenDNS)',
+    nameEN: 'Cisco OpenDNS Home',
+    cat: 'speed',
+    badge: '⚡ پهنای باند بالا',
+    primary: '208.67.222.222',
+    secondary: '208.67.220.220',
+    ping: 'کم',
+    desc: 'شبکه قدرتمند سیسکو با پهنای باند عالی جهت دانلود با حداکثر سرعت در پلی‌استیشن ۵.',
+    suitable: 'دانلود بازی و آپدیت‌های حجیم در PS5'
+  },
+  {
+    id: 'cisco-umbrella',
+    name: 'سیسکو آمبرلا گیمینگ (Cisco Umbrella)',
+    nameEN: 'Cisco Umbrella',
+    cat: 'stability',
+    badge: '🏆 سرورهای تجاری',
+    primary: '208.67.222.2',
+    secondary: '208.67.220.2',
+    ping: 'کم',
+    desc: 'زیرساخت اینترپرایز سیسکو جهت اتصال بی‌وقفه در مسابقات طولانی و ماراتن‌های Weekend League.',
+    suitable: 'مسابقات فشرده Champions و Division Rivals'
+  },
+  {
+    id: 'adguard',
+    name: 'ادگارد استاندارد (AdGuard DNS)',
+    nameEN: 'AdGuard Standard',
+    cat: 'stability',
+    badge: '🚫 حذف تبلیغات مخرب',
+    primary: '94.140.14.14',
+    secondary: '94.140.15.15',
+    ping: 'مناسب',
+    desc: 'مسدودسازی درخواست‌های تبلیغاتی و ردیاب‌ها برای کاهش مصرف ترافیک و باز شدن سریع‌تر وب.',
+    suitable: 'مرور وب و استور کنسول با ترافیک بهینه'
+  },
+  {
+    id: 'adguard-unfiltered',
+    name: 'ادگارد دایرکت (AdGuard Non-Filtering)',
+    nameEN: 'AdGuard Direct',
+    cat: 'speed',
+    badge: '⚡ دایرکت گیمینگ',
+    primary: '94.140.14.140',
+    secondary: '94.140.14.141',
+    ping: 'کم',
+    desc: 'اتصال خالص و بدون فیلترینگ با پاسخگویی فوق‌سریع برای بازی‌های شوتر و آنلاین رقابتی.',
+    suitable: 'گیمینگ بدون واسطه با پاسخ‌دهی آنی'
+  },
+  {
+    id: 'level3',
+    name: 'لول ۳ لومن (Level 3 / CenturyLink)',
+    nameEN: 'Level 3 Backbone DNS',
+    cat: 'speed',
+    badge: '🌍 ستون فقرات شبکه (Tier 1)',
+    primary: '4.2.2.4',
+    secondary: '4.2.2.2',
+    ping: 'کم',
+    desc: 'مسیریابی مستقیم از طریق نودهای Tier 1 اینترنت بین‌المللی با حداقل تعداد هاپ تا سرورهای بازی.',
+    suitable: 'کاهش نوسان پینگ در اتصال به اروپا'
+  },
+  {
+    id: 'dnswatch',
+    name: 'دی‌ان‌اس واچ (DNS.WATCH)',
+    nameEN: 'DNS.WATCH Germany',
+    cat: 'stability',
+    badge: '🇩🇪 بهینه‌سازی سرورهای اروپا',
+    primary: '84.200.69.80',
+    secondary: '84.200.70.40',
+    ping: 'بسیار مناسب',
+    desc: 'سرورهای آلمان با پینگ عالی برای دیتاسنترهای اروپایی EA Sports FC و بدون هرگونه ثبت لاگ.',
+    suitable: 'بازی روی سرورهای فرانکفورت EA'
+  },
+  {
+    id: 'comodo',
+    name: 'کومودو سکیور (Comodo Secure)',
+    nameEN: 'Comodo Secure DNS',
+    cat: 'stability',
+    badge: '🔒 Anycast مطمئن',
+    primary: '8.26.56.26',
+    secondary: '8.20.247.20',
+    ping: 'کم',
+    desc: 'پایداری بالا در زمان افت کیفیت خط یا نوسانات اینترنت با روتینگ خودکار به سالم‌ترین سرور.',
+    suitable: 'جلوگیری از قطعی حین بازی'
+  },
+  {
+    id: 'controld',
+    name: 'کنترل دی گیمینگ (Control D)',
+    nameEN: 'Control D Gaming',
+    cat: 'speed',
+    badge: '🎮 نسل نهمی و مدرن',
+    primary: '76.76.2.0',
+    secondary: '76.76.10.0',
+    ping: 'کم',
+    desc: 'پروتکل Anycast نسل نهم با زمان پاسخگویی سریع، مخصوص کنسول‌های جدید پلی‌استیشن ۵.',
+    suitable: 'کنسول نسل ۹ و بازی‌های ورزشی EA'
+  },
+  {
+    id: 'nextdns',
+    name: 'نکست دی‌ان‌اس (NextDNS Ultra)',
+    nameEN: 'NextDNS Ultra Low Latency',
+    cat: 'speed',
+    badge: '⏱️ حداقل تاخیر جتر (Jitter)',
+    primary: '45.90.28.0',
+    secondary: '45.90.30.0',
+    ping: 'بسیار کم',
+    desc: 'طراحی شده برای به حداقل رساندن نوسان زمان تاخیر بسته (Jitter) در مسابقات ورزش‌های الکترونیک.',
+    suitable: 'مسابقات حساس و رنک‌آپ بدون لگ'
+  },
+  {
+    id: 'ultradns',
+    name: 'نیواستار اولترا (Neustar UltraDNS)',
+    nameEN: 'Neustar UltraDNS',
+    cat: 'stability',
+    badge: '📡 آنتی دی‌داس و پایدار',
+    primary: '156.154.70.1',
+    secondary: '156.154.71.1',
+    ping: 'مناسب',
+    desc: 'زیرساخت مقاومت در برابر حملات توزیع‌شده با آپ‌تایم دائمی و پهنای باند گسترده.',
+    suitable: 'استریم پایدار و اتصال مطمئن'
+  },
+  {
+    id: 'alternate',
+    name: 'ورتکس گیمینگ (Alternate DNS)',
+    nameEN: 'Alternate DNS',
+    cat: 'stability',
+    badge: '🔀 مسیر جایگزین خلوت',
+    primary: '76.76.19.19',
+    secondary: '76.223.122.150',
+    ping: 'مناسب',
+    desc: 'مسیردهی از گره‌های خلوت شبکه اینترنت در ساعات پیک مصرف و ترافیک سنگین مسابقات جمعه.',
+    suitable: 'ساعات شلوغی اینترنت و ساعات مسابقات'
+  }
+];
+
+let dnsCat = 'all';
+
+function copyDNS(ip, label) {
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(ip).then(() => {
+      toast(`✅ ${label} کپی شد: ${ip}`, 's');
+    }).catch(() => fallbackCopy(ip, label));
+  } else {
+    fallbackCopy(ip, label);
+  }
+}
+
+function fallbackCopy(ip, label) {
+  const el = document.createElement('textarea');
+  el.value = ip;
+  document.body.appendChild(el);
+  el.select();
+  document.execCommand('copy');
+  el.remove();
+  toast(`✅ ${label} کپی شد: ${ip}`, 's');
+}
+
+function setDNSCat(cat) {
+  dnsCat = cat;
+  document.querySelectorAll('#dnsCatTabs .cat-tab').forEach(t => {
+    t.classList.toggle('active', t.dataset.cat === cat);
+  });
+  renderDNS();
+}
+
+function filterDNS() {
+  renderDNS();
+}
+
+function renderDNS() {
+  if (!onPage('dns')) return;
+  const searchInput = document.getElementById('dnsSearch');
+  const q = (searchInput && searchInput.value ? searchInput.value : '').toLowerCase().trim();
+  const list = DNS_LIST.filter(item => {
+    if (dnsCat !== 'all' && item.cat !== dnsCat) return false;
+    if (q) {
+      const hay = [item.name, item.nameEN, item.primary, item.secondary, item.desc, item.suitable, item.badge].join(' ').toLowerCase();
+      if (!hay.includes(q)) return false;
+    }
+    return true;
+  });
+
+  const secCnt = document.getElementById('dnsSecCnt');
+  const grid = document.getElementById('dnsGrid');
+  const empty = document.getElementById('dnsEmpty');
+  if (secCnt) secCnt.textContent = list.length + ' دی‌ان‌اس فعال';
+
+  if (!grid) return;
+  if (!list.length) {
+    grid.innerHTML = '';
+    if (empty) empty.style.display = 'block';
+    return;
+  }
+  if (empty) empty.style.display = 'none';
+
+  grid.innerHTML = list.map(d => `
+    <article class="dns-card ${d.cat}">
+      <div class="dns-card-head">
+        <div>
+          <span class="dns-badge ${d.cat}">${d.badge}</span>
+          <h3 class="dns-card-title">${d.name}</h3>
+          <p class="dns-card-sub">${d.nameEN}</p>
+        </div>
+        <div class="dns-ping-pill">پینگ: ${d.ping}</div>
+      </div>
+      <p class="dns-desc">${d.desc}</p>
+      <div class="dns-ip-group">
+        <div class="dns-ip-box" onclick="copyDNS('${d.primary}','Primary DNS')" title="کلیک برای کپی" tabindex="0" role="button">
+          <div class="dns-ip-lbl">Primary DNS</div>
+          <div class="dns-ip-val"><code>${d.primary}</code><button class="dns-copy-btn" type="button" aria-label="کپی Primary DNS">📋 کپی</button></div>
+        </div>
+        <div class="dns-ip-box" onclick="copyDNS('${d.secondary}','Secondary DNS')" title="کلیک برای کپی" tabindex="0" role="button">
+          <div class="dns-ip-lbl">Secondary DNS</div>
+          <div class="dns-ip-val"><code>${d.secondary}</code><button class="dns-copy-btn" type="button" aria-label="کپی Secondary DNS">📋 کپی</button></div>
+        </div>
+      </div>
+      <div class="dns-card-foot">
+        <span class="dns-suitable-lbl">مناسب برای:</span>
+        <span class="dns-suitable-val">${d.suitable}</span>
+      </div>
+    </article>
+  `).join('');
+}
+
 function init(){
   const photoWatcher=new MutationObserver(()=>observePlayerPortraits());photoWatcher.observe(document.body,{childList:true,subtree:true});
   loadState();
@@ -1472,6 +1805,7 @@ function init(){
   if(onPage('evo'))loadVerifiedEvolutions();
   if(onPage('players')||onPage('squad'))loadPortraitIndex();
   if(onPage('obj'))loadOfficialNews();
+  if(onPage('dns'))renderDNS();
   if(!state.squad)state.squad={formation:'4-3-3',slots:{}};
   if(!state.compSel)state.compSel=[];
   if(!state.evoProgs)state.evoProgs={};
@@ -1587,6 +1921,10 @@ fc27Node,
 openFC27Details,
 renderLiveFC27,
 loadLiveFC27,
+copyDNS,
+setDNSCat,
+filterDNS,
+renderDNS,
 init
 });
 

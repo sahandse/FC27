@@ -846,4 +846,165 @@ body.tv :where(a,button,input,select,summary,[tabindex]):focus-visible{animation
   body.tv .page-guide h2{font-size:24px}
   body.tv .page-guide ol{font-size:18px}
   body.tv aside[role="status"]{font-size:16px;padding:18px 22px}
+  body.tv .dns-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
+  body.tv .dns-card{padding:26px;border-radius:20px}
+  body.tv .dns-card-title{font-size:24px}
+  body.tv .dns-card-sub{font-size:15px}
+  body.tv .dns-desc{font-size:16px;line-height:1.9}
+  body.tv .dns-ip-val{font-size:20px}
+  body.tv .dns-copy-btn{font-size:16px;padding:10px 18px}
+  body.tv .dns-step-card{padding:20px;font-size:17px}
+  body.tv .dns-step-num{width:38px;height:38px;font-size:20px}
 }
+
+/* ── DNS & PS5 GAMING STYLES ── */
+.dns-ps5-tutorial{
+  background:linear-gradient(135deg,rgba(0,112,209,.12),rgba(15,23,42,.8));
+  border:1px solid rgba(0,112,209,.35);
+  border-radius:16px;
+  padding:20px 24px;
+  margin-bottom:20px;
+  box-shadow:0 8px 24px rgba(0,0,0,.3);
+}
+.dns-tutorial-head{display:flex;align-items:center;gap:14px;margin-bottom:16px}
+.dns-tut-icon{font-size:32px;filter:drop-shadow(0 0 10px rgba(0,112,209,.6))}
+.dns-tut-title{font-size:19px;font-weight:800;color:#60A5FA;margin:0 0 4px}
+.dns-tut-desc{font-size:13px;color:var(--t2);margin:0}
+.dns-steps-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.dns-step-card{display:flex;align-items:center;gap:12px;background:rgba(15,23,42,.6);border:1px solid var(--border);border-radius:12px;padding:12px 14px}
+.dns-step-num{width:30px;height:30px;border-radius:50%;background:#0070D1;color:#fff;font-weight:900;display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:15px}
+.dns-step-txt{font-size:12px;line-height:1.7;color:var(--t1)}
+.dns-step-txt strong{color:#93C5FD}
+
+.dns-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:16px;margin-bottom:30px}
+.dns-card{
+  background:var(--bg2);
+  border:1px solid var(--border);
+  border-radius:16px;
+  padding:18px 20px;
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+  transition:all .2s ease;
+  position:relative;
+  overflow:hidden;
+}
+.dns-card::before{
+  content:'';
+  position:absolute;
+  top:0;right:0;left:0;height:3px;
+  background:linear-gradient(90deg,var(--gold),var(--teal));
+  opacity:.6;
+}
+.dns-card.anti-sanction::before{background:linear-gradient(90deg,#10B981,#3B82F6)}
+.dns-card.speed::before{background:linear-gradient(90deg,#F5B014,#EF4444)}
+.dns-card.stability::before{background:linear-gradient(90deg,#8B5CF6,#3B82F6)}
+.dns-card:hover{border-color:var(--gold);transform:translateY(-2px);box-shadow:0 8px 24px rgba(0,0,0,.35)}
+.dns-card:focus-within{border-color:var(--gold);outline:2px solid var(--gold)}
+
+.dns-card-head{display:flex;align-items:flex-start;justify-content:space-between;gap:10px}
+.dns-badge{
+  display:inline-block;
+  font-size:10px;
+  font-weight:800;
+  padding:3px 8px;
+  border-radius:8px;
+  background:rgba(245,176,20,.12);
+  color:var(--gold);
+  border:1px solid rgba(245,176,20,.25);
+  margin-bottom:6px;
+}
+.dns-badge.anti-sanction{background:rgba(16,185,129,.12);color:#34D399;border-color:rgba(16,185,129,.25)}
+.dns-badge.speed{background:rgba(239,68,68,.12);color:#F87171;border-color:rgba(239,68,68,.25)}
+.dns-badge.stability{background:rgba(139,92,246,.12);color:#A78BFA;border-color:rgba(139,92,246,.25)}
+
+.dns-card-title{font-size:17px;font-weight:800;margin:0 0 2px;color:var(--t1)}
+.dns-card-sub{font-size:11px;color:var(--t3);margin:0;direction:ltr;text-align:right}
+.dns-ping-pill{font-size:11px;font-weight:700;padding:4px 9px;border-radius:10px;background:rgba(255,255,255,.05);color:var(--t2);border:1px solid var(--border);white-space:nowrap}
+
+.dns-desc{font-size:12px;color:var(--t2);line-height:1.7;margin:0;flex:1}
+
+.dns-ip-group{display:flex;flex-direction:column;gap:8px}
+.dns-ip-box{
+  background:rgba(0,0,0,.3);
+  border:1px solid var(--border);
+  border-radius:10px;
+  padding:8px 12px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  cursor:pointer;
+  transition:all .15s ease;
+}
+.dns-ip-box:hover{border-color:var(--gold);background:rgba(245,176,20,.05)}
+.dns-ip-box:focus{outline:3px solid var(--gold);outline-offset:2px}
+.dns-ip-lbl{font-size:10px;color:var(--t3);font-weight:600;text-transform:uppercase}
+.dns-ip-val{display:flex;align-items:center;gap:8px;font-size:15px;font-weight:800;color:var(--t1)}
+.dns-ip-val code{font-family:monospace;direction:ltr;color:#FDE047}
+.dns-copy-btn{
+  background:rgba(255,255,255,.07);
+  border:1px solid var(--border);
+  border-radius:6px;
+  color:var(--t2);
+  font-size:11px;
+  font-family:'Vazirmatn',sans-serif;
+  font-weight:600;
+  padding:4px 8px;
+  cursor:pointer;
+  transition:all .15s ease;
+}
+.dns-copy-btn:hover{background:var(--gold);color:#000;border-color:var(--gold)}
+
+.dns-card-foot{
+  display:flex;
+  align-items:baseline;
+  gap:6px;
+  font-size:11px;
+  padding-top:8px;
+  border-top:1px solid rgba(255,255,255,.05);
+  color:var(--t3);
+}
+.dns-suitable-lbl{font-weight:700;color:var(--t2)}
+.dns-suitable-val{color:var(--teal);flex:1}
+
+/* ── PS5 CONTROLLER BOTTOM HINTS BAR ── */
+.ps5-controller-bar{
+  position:fixed;
+  bottom:12px;
+  left:50%;
+  transform:translateX(-50%);
+  z-index:9999;
+  display:none;
+  align-items:center;
+  gap:16px;
+  background:rgba(15,23,42,.92);
+  backdrop-filter:blur(10px);
+  -webkit-backdrop-filter:blur(10px);
+  border:1px solid rgba(255,255,255,.15);
+  border-radius:30px;
+  padding:8px 20px;
+  box-shadow:0 10px 30px rgba(0,0,0,.6);
+  pointer-events:none;
+}
+body.tv .ps5-controller-bar,
+body.ps-console .ps5-controller-bar{
+  display:flex;
+}
+.ps5-hint{font-size:13px;font-weight:700;color:var(--t1);display:flex;align-items:center;gap:6px}
+.ps5-hint kbd{
+  display:inline-block;
+  background:rgba(255,255,255,.12);
+  border:1px solid rgba(255,255,255,.25);
+  border-radius:6px;
+  padding:2px 7px;
+  font-size:12px;
+  font-family:system-ui,sans-serif;
+  font-weight:900;
+  color:#FDE047;
+}
+
+@media(max-width:768px){
+  .ps5-controller-bar{gap:8px;padding:6px 14px;font-size:11px}
+  .dns-steps-grid{grid-template-columns:1fr}
+}
+

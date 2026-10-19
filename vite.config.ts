@@ -12,6 +12,7 @@ export default defineConfig({
         sbc: 'sbc.html',
         players: 'players.html',
         squad: 'squad.html',
+        dns: 'dns.html',
         evolutions: 'evolutions.html',
       },
     },
