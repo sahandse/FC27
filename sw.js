@@ -1,5 +1,5 @@
 const CACHE = 'fc27-v7';
-const CORE = ['./', './index.html', './sbc.html', './players.html', './squad.html', './dns.html', './evolutions.html', './manifest.json'];
+const CORE = ['./', './index.html', './sbc.html', './players.html', './news.html', './squad.html', './dns.html', './evolutions.html', './manifest.json'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(CORE)).then(() => self.skipWaiting()));
 });
