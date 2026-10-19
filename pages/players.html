@@ -1,6 +1,6 @@
 <main class="main" id="sec-players">
-<section class="page-guide" aria-label="راهنمای صفحه بازیکنان">
-<h2>راهنمای صفحهٔ بازیکنان / Players guide</h2>
+<details class="page-guide" aria-label="راهنمای صفحه بازیکنان">
+<summary><h2>📖 راهنمای صفحهٔ بازیکنان / Players guide <span class="guide-toggle-hint">(کلیک برای مشاهده راهنما ▾)</span></h2></summary>
 <ol>
   <li>در جستجو می‌توانید نام، باشگاه، ملیت یا لیگ را به فارسی یا انگلیسی بنویسید.<span class="pg-en">Search by name, club, nationality or league.</span></li>
   <li>با تب‌های پوزیشن و نوع کارت نتایج را کم کنید؛ «همه» همه‌چیز را برمی‌گرداند.<span class="pg-en">Filter by position and card type.</span></li>
@@ -8,9 +8,9 @@
   <li>⭐ علاقه‌مندی‌ها و 👁️ واچ‌لیست فقط در همین مرورگر ذخیره می‌شوند و به سروری فرستاده نمی‌شوند.<span class="pg-en">Favourites and watchlist stay in your browser.</span></li>
   <li>📄 مشخصات، جدول کامل ویژگی‌های همان کارت را باز می‌کند. اگر منبع کارتی آمار نداشته باشد، جای آن پیام «تأیید نشده» می‌آید و عددی ساخته نمی‌شود.<span class="pg-en">The specs sheet only shows verified attributes; missing data is labelled, never invented.</span></li>
   <li>قیمت فقط برای نسخه کارت و پلتفرمی منتشر می‌شود که منبع جدول بازار دارد. نبودِ قیمت یعنی منبع آن نسخه را منتشر نکرده است، نه اینکه کارت بی‌ارزش باشد.<span class="pg-en">A missing price means the source publishes no quote for that version and platform.</span></li>
-  <li>با 📺 حالت تلویزیون (منوی بالا) با فلش‌های جهت‌دار یا D-pad کنترلر بین کارت‌ها جابه‌جا شوید و با Enter یا دکمهٔ A وارد شوید.<span class="pg-en">In TV mode use the arrow keys or a controller D-pad, Enter/A to activate.</span></li>
+  <li>با 🎮 حالت کنسول (منوی بالا) با فلش‌های جهت‌دار یا D-pad کنترلر بین کارت‌ها جابه‌جا شوید و با Enter یا دکمهٔ A وارد شوید.<span class="pg-en">In Console mode use the arrow keys or a controller D-pad, Enter/A to activate.</span></li>
 </ol>
-</section>
+</details>
 <section class="fc-card-prices" aria-label="FC27 card market">
 <h2>قیمت کارت‌ها / Card Prices</h2>
 <p>فقط قیمت تأییدشده همین نسخه کارت و پلتفرم نشان داده می‌شود. داده قدیمی به‌عنوان قیمت زنده نمایش داده نمی‌شود. قیمت کارت‌های پایهٔ PS و PC از جدول بازار FUTBIN خوانده می‌شود؛ برای Xbox و نسخه‌های ویژهای که این منبع منتشر نمی‌کند، قیمتی نمایش داده نمی‌شود.</p>
@@ -34,9 +34,11 @@
     <button class="ctype-tab ct-gold" data-ct="gold" onclick="setCardType('gold')">🥇 گلد</button>
     <button class="ctype-tab ct-silver" data-ct="silver" onclick="setCardType('silver')">🥈 سیلور</button>
     <button class="ctype-tab ct-bronze" data-ct="bronze" onclick="setCardType('bronze')">🥉 برنز</button>
-    <button class="ctype-tab ct-tots" data-ct="tots" onclick="setCardType('tots')">🌟 TOTS</button>
-    <button class="ctype-tab ct-toty" data-ct="toty" onclick="setCardType('toty')">🏆 TOTY</button>
+    <button class="ctype-tab ct-icon" data-ct="icon" onclick="setCardType('icon')">👑 Icon</button>
     <button class="ctype-tab ct-hero" data-ct="hero" onclick="setCardType('hero')">⚡ Hero</button>
+    <button class="ctype-tab ct-toty" data-ct="toty" onclick="setCardType('toty')">🏆 TOTY</button>
+    <button class="ctype-tab ct-tots" data-ct="tots" onclick="setCardType('tots')">🌟 TOTS</button>
+    <button class="ctype-tab ct-totw" data-ct="totw" onclick="setCardType('totw')">🔥 TOTW</button>
     <button class="ctype-tab ct-special" data-ct="special" onclick="setCardType('special')">💎 Special</button>
     <button class="ctype-tab ct-fut" data-ct="fut" onclick="setCardType('fut')">🔮 FUT Born</button>
     <button class="ctype-tab ct-ptg" data-ct="ptg" onclick="setCardType('ptg')">🌅 Path to Glory</button>

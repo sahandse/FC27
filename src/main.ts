@@ -22,6 +22,10 @@ function fmtExp(iso){
 function isExpiring(o){if(!o.exp)return false;const left=new Date(o.exp)-Date.now();return Number.isFinite(left)&&left>0&&left<3*864e5;}
 function cardCls(rat,sp){
   if(rat===0)return'fc-pack';
+  if(sp==='icon')return'fc-icon';
+  if(sp==='hero')return'fc-hero';
+  if(sp==='toty')return'fc-toty';
+  if(sp==='totw')return'fc-totw';
   if(sp)return'fc-special';
   if(rat>=94)return'fc-tots';
   if(rat>=84)return'fc-gold';
@@ -56,7 +60,8 @@ const PIMG={
   'Granit Xhaka':199503,'Ferran Torres':254292,'Lionel Messi':158023,
   'Dani Carvajal':204963,'Casemiro':200145,'Reece James':238074,
   'Joao Cancelo':210514,'Leroy Sane':222492,'Kingsley Coman':213345,
-  'Niclas Füllkrug':208277,'Jonathan Tah':221458,'Sergio Ramos':199736
+  'Niclas Füllkrug':208277,'Jonathan Tah':221458,'Sergio Ramos':199736,
+  'Zinedine Zidane':251570,'Ronaldo Nazário':237086,'Ronaldo':237086,'Cristiano Ronaldo':20801,'Luka Modrić':177003
 };
 
 /* ── PLAYERS DATA ── */
@@ -337,7 +342,7 @@ function setText(id,value){const el=document.getElementById(id);if(el)el.textCon
 function toggleTVMode(){
   const on=!document.body.classList.contains('tv');
   setTVMode(on);
-  toast(on?'📺 حالت تلویزیون روشن شد':'🖥️ حالت تلویزیون خاموش شد','i');
+  toast(on?'🎮 حالت کنسول فعال شد':'🖥️ حالت کنسول غیرفعال شد','i');
 }
 
 function renderObj(){
@@ -844,9 +849,11 @@ function resolvedCT(p){return p.cardType||(p.rat>=84?'gold':p.rat>=64?'silver':'
 function realCT(p){if(p.cardType)return p.cardType;if(p.rat>=84)return'gold';if(p.rat>=64)return'silver';return'bronze';}
 function pcardImgCls(p){
   switch(realCT(p)){
+    case'icon':return'pimg-icon';
+    case'hero':return'pimg-hero';
     case'toty':return'pimg-toty';
     case'tots':return'pimg-tots';
-    case'hero':return'pimg-hero';
+    case'totw':return'pimg-totw';
     case'special':return'pimg-special';
     case'fut':return'pimg-fut';
     case'ptg':return'pimg-ptg';
@@ -855,7 +862,19 @@ function pcardImgCls(p){
     default:return'pimg-gold';
   }
 }
-const CT_BADGE={tots:['TOTS','pbt-tots'],toty:['TOTY','pbt-toty'],hero:['Hero','pbt-hero'],special:['Special','pbt-special'],fut:['FUT Born','pbt-fut'],ptg:['PTG','pbt-ptg']};
+const CT_BADGE={
+  icon:['Icon','pbt-icon'],
+  hero:['Hero','pbt-hero'],
+  toty:['TOTY','pbt-toty'],
+  tots:['TOTS','pbt-tots'],
+  totw:['TOTW','pbt-totw'],
+  special:['Special','pbt-special'],
+  fut:['FUT Born','pbt-fut'],
+  ptg:['PTG','pbt-ptg'],
+  gold:['Gold','pbt-gold'],
+  silver:['Silver','pbt-silver'],
+  bronze:['Bronze','pbt-bronze']
+};
 function fmtPrice(n){
   if(!Number.isFinite(n))return 'ناموجود';
   if(n>=1000000)return(n/1000000).toFixed(1).replace('.0','')+'M';
@@ -1233,6 +1252,78 @@ async function loadOfficialNews(){
   list.textContent='اخبار را مستقیماً از سایت رسمی EA دنبال کنید.';
   const a=document.createElement('a');a.href='https://www.ea.com/games/ea-sports-fc/fc-27';a.target='_blank';a.rel='noopener noreferrer';a.textContent='اخبار رسمی FC27 ↗';list.appendChild(a);
  }
+}
+
+/* ── EA SPORTS OFFICIAL NEWS PAGE ── */
+let EA_NEWS_RAW=[];
+let eaNewsCat='all';
+
+function setEANewsCat(cat){
+  eaNewsCat=cat;
+  document.querySelectorAll('#eaNewsTabs .cat-tab').forEach(t=>t.classList.toggle('active',t.dataset.cat===cat));
+  renderEANewsPage();
+}
+
+function filterEANews(){
+  renderEANewsPage();
+}
+
+async function loadEANewsPage(){
+  if(!onPage('news'))return;
+  try{
+    const res=await fetch('./data/fc27-news.json?t='+Date.now(),{cache:'no-store',signal:AbortSignal.timeout(10000)});
+    if(!res.ok)throw new Error('No verified feed');
+    const data=await res.json();
+    if(data.source!=='Electronic Arts'||!Array.isArray(data.items))throw new Error('Invalid feed');
+    EA_NEWS_RAW=data.items;
+    renderEANewsPage();
+  }catch(e){
+    console.warn('Could not load EA news feed',e);
+  }
+}
+
+function renderEANewsPage(){
+  if(!onPage('news'))return;
+  const q=(document.getElementById('eaNewsSearch')?.value||'').toLowerCase().trim();
+  const list=EA_NEWS_RAW.filter(item=>{
+    if(eaNewsCat==='patch'&&!/title-update|update-v|patch/i.test(item.url))return false;
+    if(eaNewsCat==='fut'&&!/fut|ultimate-team|destined|future-stars/i.test(item.url))return false;
+    if(eaNewsCat==='gameplay'&&!/gameplay|launch-feedback/i.test(item.url))return false;
+    if(eaNewsCat==='modes'&&!/career|grounds|clubs/i.test(item.url))return false;
+    if(q){
+      const hay=[item.title,item.titleFA,item.summary,item.summaryFA,item.tagFA,item.published].join(' ').toLowerCase();
+      if(!hay.includes(q))return false;
+    }
+    return true;
+  });
+
+  const grid=document.getElementById('eaNewsGrid');
+  const empty=document.getElementById('eaNewsEmpty');
+  const cnt=document.getElementById('eaNewsCnt');
+  if(cnt)cnt.textContent=list.length+' خبر رسمی';
+  if(!grid)return;
+  if(!list.length){
+    grid.innerHTML='';
+    if(empty)empty.style.display='block';
+    return;
+  }
+  if(empty)empty.style.display='none';
+
+  grid.innerHTML=list.map(item=>`
+    <article class="ea-news-card">
+      <div class="ea-news-top">
+        <span class="ea-news-tag">${item.tagFA||'📢 خبر رسمی'}</span>
+        <time class="ea-news-date">📅 ${item.published||''}</time>
+      </div>
+      <h2 class="ea-news-headline">${item.titleFA||item.title}</h2>
+      <p class="ea-news-en-sub">${item.title}</p>
+      <p class="ea-news-lead">${item.summaryFA||item.summary}</p>
+      <div class="ea-news-foot">
+        <span class="ea-news-src">منبع رسمی: Electronic Arts</span>
+        <a class="ea-news-link" href="${item.url}" target="_blank" rel="noopener noreferrer">مشاهده در سایت رسمی EA ↗</a>
+      </div>
+    </article>
+  `).join('');
 }
 
 const CATEGORY_FA={seasonal:'فصلی',campaign:'کمپین',foundation:'پایه',milestone:'دستاورد',players:'بازیکنان',upgrades:'ارتقاها',challenges:'چالش‌ها'};
@@ -1805,6 +1896,7 @@ function init(){
   if(onPage('evo'))loadVerifiedEvolutions();
   if(onPage('players')||onPage('squad'))loadPortraitIndex();
   if(onPage('obj'))loadOfficialNews();
+  if(onPage('news'))loadEANewsPage();
   if(onPage('dns'))renderDNS();
   if(!state.squad)state.squad={formation:'4-3-3',slots:{}};
   if(!state.compSel)state.compSel=[];
@@ -1925,6 +2017,10 @@ copyDNS,
 setDNSCat,
 filterDNS,
 renderDNS,
+setEANewsCat,
+filterEANews,
+renderEANewsPage,
+loadEANewsPage,
 init
 });
 
