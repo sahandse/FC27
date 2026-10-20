@@ -702,5 +702,37 @@
     "artist": "Werner100359",
     "source": "https://upload.wikimedia.org/wikipedia/commons/7/71/Maximilian_W%C3%B6ber_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "extension": "jpg"
+  },
+  {
+    "id": 79003,
+    "name": "Jude Bellingham",
+    "license": "CC BY-SA 4.0",
+    "artist": "Bryan Berlin",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/2/23/Jude_Bellingham_England_v_Ghana_23_June_2026-061_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "extension": "jpg"
+  },
+  {
+    "id": 79010,
+    "name": "Harry Kane",
+    "license": "CC BY-SA 4.0",
+    "artist": "Bryan Berlin",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Harry_Kane_England_v_Ghana_23_June_2026-024_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "extension": "jpg"
+  },
+  {
+    "id": 79013,
+    "name": "Phil Foden",
+    "license": "CC BY-SA 4.0",
+    "artist": "Steffen Prößdorf",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/5/53/2023-10-04_Fu%C3%9Fball%2C_M%C3%A4nner%2C_UEFA_Champions_League%2C_RB_Leipzig_-_Manchester_City_FC_1DX_2613%2C_Phil_Foden.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "extension": "jpg"
+  },
+  {
+    "id": 237078,
+    "name": "Johan Cruyff",
+    "license": "CC0",
+    "artist": "Rob Mieremet / Anefo",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Johan_Cruijff_%281974%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "extension": "jpg"
   }
 ]
