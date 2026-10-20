@@ -1,7 +1,7 @@
 {
   "source": "Electronic Arts",
   "source_url": "https://www.ea.com/games/ea-sports-fc/fc-27",
-  "checked_at": "2026-10-20T13:39:59.753Z",
+  "checked_at": "2026-10-20T23:14:02.439Z",
   "items": [
     {
       "title": "EA SPORTS FC™ 27 | The Grounds Developer Archetypes Update",
@@ -74,18 +74,18 @@
       "summary": "With the help of votes from the FC community, meet the players set to shine this season in EA SPORTS FC™ 27 Football Ultimate Team™."
     },
     {
-      "title": "How to Get Started in The Grounds and Clubs",
-      "url": "https://www.ea.com/games/ea-sports-fc/fc-27/news/how-to-get-started-in-the-grounds",
-      "source": "Electronic Arts",
-      "published": "September 25, 2026",
-      "summary": "Learn more about your first steps onto The Grounds, including how to access Clubs."
-    },
-    {
       "title": "Which EA SPORTS FC™ 27 Mode Is Right For You?",
       "url": "https://www.ea.com/games/ea-sports-fc/fc-27/news/which-fc27-mode-is-right-for-you",
       "source": "Electronic Arts",
       "published": "September 25, 2026",
       "summary": "Learn more about what’s included in FC 27, including immersive offline experiences, competitive events, and online matches with friends."
+    },
+    {
+      "title": "How to Get Started in The Grounds and Clubs",
+      "url": "https://www.ea.com/games/ea-sports-fc/fc-27/news/how-to-get-started-in-the-grounds",
+      "source": "Electronic Arts",
+      "published": "September 25, 2026",
+      "summary": "Learn more about your first steps onto The Grounds, including how to access Clubs."
     }
   ]
 }
