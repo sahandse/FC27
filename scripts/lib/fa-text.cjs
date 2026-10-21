@@ -177,6 +177,10 @@ const SBC = {
   'Xavi Espart': { nameFA: 'چالش بازیکن: Xavi Espart' },
   'Liga Portugal Future Stars Player Pick': { nameFA: 'انتخاب بازیکن Future Stars لیگ پرتغال' },
   'Süper Lig Future Stars Pick': { nameFA: 'انتخاب بازیکن Future Stars سوپرلیگ' },
+  'MLS Future Stars Player Pick': {
+    nameFA: 'انتخاب بازیکن Future Stars لیگ MLS',
+    descriptionFA: 'یکی از بازیکنان Future Stars لیگ MLS را از میان Niko Tsakiris، Tate Johnson، Manu Duah و Frankie Westfield انتخاب کنید (جزئیات جایزه را ببینید).',
+  },
   'Future Stars Challenge 3': { nameFA: 'چالش ۳ بازیکنان Future Stars' },
   'Marquee Matchups': { nameFA: 'رقابت‌های بزرگ' },
   'League & Nation Advanced': { nameFA: 'لیگ و ملیت (پیشرفته)' },
@@ -186,6 +190,14 @@ const SBC = {
   'Intro to SBCs': { nameFA: 'آشنایی با SBC' },
   'Gold Re-Roll': { nameFA: 'Re-roll کارت طلایی' },
   'Bronze and Silver Re-roll': { nameFA: 'Re-roll کارت برنزی و نقره‌ای' },
+  'Max. 87 Base Hero Upgrade': {
+    nameFA: 'Max. 87 Base Hero — ارتقا',
+    descriptionFA: 'بسته‌ای شامل ۱ آیتم بازیکن Hero پایه با امتیاز حداکثر ۸۷ بگیرید.',
+  },
+  '1 of 3 79+ Gold Player Pick': {
+    nameFA: 'انتخاب بازیکن طلایی ۷۹+ (۱ از ۳)',
+    descriptionFA: 'از میان ۳ آیتم بازیکن طلایی با امتیاز ۷۹ یا بالاتر، ۱ مورد را انتخاب کنید.',
+  },
   'FC Bayern München v RB Leipzig': { nameFA: 'FC Bayern München در برابر RB Leipzig' },
   'Juventus FC v SS Lazio': { nameFA: 'Juventus FC در برابر SS Lazio' },
   'Real Betis v FC Barcelona': { nameFA: 'Real Betis در برابر FC Barcelona' },
@@ -275,6 +287,10 @@ const EVOLUTIONS = {
   'Intro to Pathway Evolutions': {
     nameFA: 'آشنایی با تکامل چندمسیره',
     descriptionFA: 'تکامل‌های چندمسیره را کاوش کنید؛ نوع تازه‌ای از تکامل که انتخاب می‌کند بازیکن شما چگونه رشد و ارتقا پیدا کند.',
+  },
+  'Poor Sophia': {
+    nameFA: 'دیگر Sophiaِ ضعیف نه!',
+    descriptionFA: 'دیگر Sophiaِ ضعیف نه! کمی سرعت بیشتر (هیجان‌زده نشوید، هنوز دروازه‌بان است) و حرکت‌های مهارتی اضافه؛ کافی است تا توپ را از لای پای مهاجم رد کنید و آرام به سمت دروازه برگردید.',
   },
 };
 

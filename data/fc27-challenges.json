@@ -1788,11 +1788,15 @@
             ],
             "requirementsFA": [
               "حداقل امتیاز بازیکن: ۴۵"
-            ]
+            ],
+            "nameFA": "انتخاب بازیکن Future Stars لیگ MLS",
+            "descriptionFA": "یکی از بازیکنان Future Stars لیگ MLS را از میان Niko Tsakiris، Tate Johnson، Manu Duah و Frankie Westfield انتخاب کنید (جزئیات جایزه را ببینید)."
           }
         ],
         "squads_checked_at": "2026-10-20T21:38:11.332Z",
-        "detail_checked_at": "2026-10-20T21:38:11.332Z"
+        "detail_checked_at": "2026-10-20T21:38:11.332Z",
+        "nameFA": "انتخاب بازیکن Future Stars لیگ MLS",
+        "descriptionFA": "یکی از بازیکنان Future Stars لیگ MLS را از میان Niko Tsakiris، Tate Johnson، Manu Duah و Frankie Westfield انتخاب کنید (جزئیات جایزه را ببینید)."
       },
       {
         "name": "Assane Diao",
@@ -2120,11 +2124,13 @@
             "nameFA": "Max. 87 Base Hero — ارتقا",
             "requirementsFA": [
               "حداقل امتیاز بازیکن: ۴۵"
-            ]
+            ],
+            "descriptionFA": "بسته‌ای شامل ۱ آیتم بازیکن Hero پایه با امتیاز حداکثر ۸۷ بگیرید."
           }
         ],
         "squads_checked_at": "2026-10-19T22:22:00.217Z",
-        "detail_checked_at": "2026-10-20T21:38:11.332Z"
+        "detail_checked_at": "2026-10-20T21:38:11.332Z",
+        "descriptionFA": "بسته‌ای شامل ۱ آیتم بازیکن Hero پایه با امتیاز حداکثر ۸۷ بگیرید."
       },
       {
         "name": "1 of 3 79+ Gold Player Pick",
@@ -2147,11 +2153,15 @@
             "requirementsFA": [
               "حداقل کیفیت: بازیکن طلایی",
               "تعداد بازیکنان: ۱۰"
-            ]
+            ],
+            "nameFA": "انتخاب بازیکن طلایی ۷۹+ (۱ از ۳)",
+            "descriptionFA": "از میان ۳ آیتم بازیکن طلایی با امتیاز ۷۹ یا بالاتر، ۱ مورد را انتخاب کنید."
           }
         ],
         "squads_checked_at": "2026-10-20T21:38:11.332Z",
-        "detail_checked_at": "2026-10-20T21:38:11.332Z"
+        "detail_checked_at": "2026-10-20T21:38:11.332Z",
+        "nameFA": "انتخاب بازیکن طلایی ۷۹+ (۱ از ۳)",
+        "descriptionFA": "از میان ۳ آیتم بازیکن طلایی با امتیاز ۷۹ یا بالاتر، ۱ مورد را انتخاب کنید."
       },
       {
         "name": "TOTW Upgrade",

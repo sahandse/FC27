@@ -210,6 +210,7 @@ const REQUIREMENTS = [
   [/^Position: (.+)$/i, (v) => 'پست: ' + v],
   [/^Overall: (Max|Min)\. ([\d,]+)$/i, (b, n) => (b === 'Max' ? 'حداکثر' : 'حداقل') + ' امتیاز کلی: ' + digits(n)],
   [/^Max PS: ([\d,]+)$/i, (n) => 'حداکثر PlayStyle-plus: ' + digits(n)],
+  [/^Max PS\+: ([\d,]+)$/i, (n) => 'حداکثر PlayStyle+: ' + digits(n)],
   [/^Rarity: (.+)$/i, (v) => 'کمیابی: ' + title(v)],
   [/^Born (After|Before): ([\d-]+)$/i, (b, d) => (b === 'After' ? 'متولد بعد از ' : 'متولد قبل از ') + digits(d)],
   [/^Pace: (Max|Min)\. ([\d,]+)$/i, (b, n) => 'سرعت: ' + (b === 'Max' ? 'حداکثر ' : 'حداقل ') + digits(n)],
