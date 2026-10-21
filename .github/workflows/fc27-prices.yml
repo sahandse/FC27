@@ -1,15 +1,11 @@
 name: FC27 Verified Card Prices
 on:
   workflow_dispatch:
-    inputs:
-      pages:
-        description: 'How many FUTBIN market pages to read (30 base cards each)'
-        required: false
-        default: '40'
   push:
     paths:
       - 'scripts/probe-fc27-price-sources.mjs'
       - 'scripts/sync-fc27-prices.ts'
+      - 'scripts/sync-fc27-prices-futgg.mjs'
       - 'scripts/sync-fc27-prices-live.mjs'
       - '.github/workflows/fc27-prices.yml'
   schedule:
@@ -36,12 +32,11 @@ jobs:
           FC27_PRICE_FEED_URL: ${{ vars.FC27_PRICE_FEED_URL }}
           FC27_PRICE_FEED_TOKEN: ${{ secrets.FC27_PRICE_FEED_TOKEN }}
         run: node --experimental-strip-types scripts/sync-fc27-prices.ts
-      - name: Refresh from the public FUTBIN market table
+      - name: Refresh from the public FUT.GG CDN price blobs
         if: ${{ vars.FC27_PRICE_FEED_URL == '' }}
         env:
-          FC27_PRICE_PAGES: ${{ github.event.inputs.pages || '40' }}
           FC27_PRICE_STALE_MINUTES: '720'
-        run: node scripts/sync-fc27-prices-live.mjs
+        run: node scripts/sync-fc27-prices-futgg.mjs
       - name: Publish only verified data
         run: |
           git config user.name "github-actions[bot]"
@@ -49,5 +44,25 @@ jobs:
           git add data/fc27-prices.json
           if ! git diff --cached --quiet; then
             git commit -m "data(fc27): refresh verified card prices"
+            git push origin HEAD:"${GITHUB_REF_NAME}"
+          fi
+  card-art:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Index FC27 card artwork paths from FUT.GG
+        env:
+          FC27_ART_DELAY_MS: '400'
+        run: node scripts/sync-fc27-card-art.mjs
+      - name: Commit card-art index only when it changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/fc27-card-art.json
+          if ! git diff --cached --quiet; then
+            git commit -m "data(fc27): refresh card-art index"
             git push origin HEAD:"${GITHUB_REF_NAME}"
           fi

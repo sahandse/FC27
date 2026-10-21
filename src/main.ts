@@ -62,10 +62,17 @@ const PIMG={
 /* ── PLAYERS DATA ── */
 const PLAYERS_RAW=[]; // Populated from validated FC27 public-rating snapshot
 
+const CARD_ART=new Map();
+const cardArtURL=(id,width)=>{const hash=CARD_ART.get(String(id));return hash?`https://game-assets.fut.gg/cdn-cgi/image/quality=85,format=auto,width=${width}/2027/futgg-player-item-card/27-${id}.${hash}.webp`:''};
+
 function playerFUT(name,rat,pos,sp,big){
   const id=PIMG[name];
   const cls=cardCls(rat,sp)+(big?' big':'');
   const lastName=name?(name.split(' ').pop()||name):'';
+  const art=id?cardArtURL(id,big?320:150):'';
+  if(art){
+    return `<div class="fut-card art ${cls}"><img class="fut-card-art" src="${art}" alt="${name}" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div>`;
+  }
   if(id){
     return `<div class="fut-card ${cls}"><div class="fc-inner"><div class="fc-info-col"><div class="fc-rat">${rat}</div><div class="fc-pos">${pos}</div></div><div class="fc-photo"><img class="pface" src="img/players/${id}.png" alt="${name}" loading="lazy" onerror="imgFallback(this,${id})"></div></div><div class="fc-name-band">${lastName}</div></div>`;
   }
@@ -108,6 +115,7 @@ async function fetchPlayerPortrait(el){
  const img=document.createElement('img');img.src=src;img.alt=name;img.loading='lazy';img.decoding='async';img.referrerPolicy='no-referrer';img.onerror=()=>{img.replaceWith(el);el.setAttribute('aria-label','تصویر بازیکن پیدا نشد')};el.replaceWith(img);
 }
 async function loadPortraitIndex(){try{const r=await fetch('./data/available-portraits.json',{cache:'no-store'});if(!r.ok)throw Error('No portrait index');const data=await r.json();if(!Array.isArray(data.ids))throw Error('Invalid portrait index');AVAILABLE_PORTRAITS.clear();VERIFIED_PHOTO_FILES.clear();for(const id of data.ids)if(Number.isInteger(id))AVAILABLE_PORTRAITS.add(id);for(const [id,file] of Object.entries(data.files||{}))if(/^\d+\.(png|jpg|webp)$/.test(file))VERIFIED_PHOTO_FILES.set(Number(id),file);renderPlayers();}catch(e){console.warn('Portrait index unavailable',e)}}
+async function loadCardArtIndex(){try{const r=await fetch('./data/fc27-card-art.json',{cache:'no-store'});if(!r.ok)throw Error('No card-art index');const data=await r.json();if(!data.art||typeof data.art!=='object')throw Error('Invalid card-art index');CARD_ART.clear();for(const [id,hash] of Object.entries(data.art))if(/^\d+$/.test(id)&&/^[0-9a-f]{64}$/.test(String(hash)))CARD_ART.set(id,String(hash));renderPlayers();if(onPage('squad'))renderPitch();}catch(e){console.warn('Card-art index unavailable',e)}}
 function imgFallback(el,id){
   const digits=/^\d+$/.test(String(id))?String(id):'';
   const urls=digits?[`https://cdn.futbin.com/content/fifa27/img/players/${digits}.png`]:[]; // Committed FC27 portraits stay authoritative; this is the current-edition CDN mirror.
@@ -865,8 +873,10 @@ function playerCardHTML(p){
     return `<div class="pstat"><span class="pstat-val ${cls}">${s.v}</span><span class="pstat-lbl">${s.lbl}</span></div>`;
   }).join(''):'<div class="pstat" style="grid-column:1/-1;padding:9px;font-size:11px;color:var(--t2)">آمار دقیق این کارت تأیید نشده</div>';
   const trendHTML='';
-  return `<div class="pcard${fav?' fav':''}" id="pc-${p.id}">
-    <div class="pcard-upper ${bg}">
+  const art=cardArtURL(p.id,240);
+  const upper=art
+    ?`<div class="pcard-upper art"><img class="pcard-art" src="${art}" alt="${p.name}" loading="lazy" decoding="async" referrerpolicy="no-referrer"><button class="pcard-fav" onclick="togglePlFav('${p.id}')">${fav?'⭐':'☆'}</button></div>`
+    :`<div class="pcard-upper ${bg}">
       <div class="pcard-inner">
         <div class="pcard-info-col">
           <div class="pci-rat">${p.rat}</div>
@@ -878,7 +888,9 @@ function playerCardHTML(p){
         <button class="pcard-fav" onclick="togglePlFav('${p.id}')">${fav?'⭐':'☆'}</button>
       </div>
       <div class="pcard-name-band">${p.nameFA}</div>
-    </div>
+    </div>`;
+  return `<div class="pcard${fav?' fav':''}" id="pc-${p.id}">
+    ${upper}
     <div class="pcard-stats">${statsHTML}</div>
     <div class="pcard-body">
       <div class="pcard-club">${p.flag} ${p.club} · ${p.leagueFA}</div>
@@ -904,6 +916,12 @@ function openPlayerDetails(id){
   names.append(fc27Node('h2','',p.nameFA||p.name),fc27Node('p','fc27-original-title',p.name));
   const close=fc27Node('button','fc27-detail-close','×');close.type='button';close.setAttribute('aria-label','بستن');close.onclick=()=>overlay.remove();
   head.append(names,close);panel.appendChild(head);
+  const art=cardArtURL(p.id,320);
+  if(art){
+    const img=document.createElement('img');img.className='fc27-detail-art';img.src=art;img.alt=p.name;img.loading='lazy';img.decoding='async';img.referrerPolicy='no-referrer';img.onerror=()=>img.remove();
+    panel.appendChild(img);
+    panel.appendChild(fc27Node('p','fc27-detail-note','عکس کارت: CDN FUT.GG'));
+  }
   const facts=fc27Node('div','fc27-detail-facts');
   const rows=[['امتیاز کلی / Rating',p.rat],['پوزیشن / Position',p.pos+(p.posType?' ('+p.posType+')':'')],['نوع کارت / Card type',realCT(p)],['باشگاه / Club',p.club],['لیگ / League',p.leagueFA||p.league],['ملیت / Nation',p.nat],['دسته / Category',p.gender],['شناسهٔ نسخه / Version ID',p.id]];
   for(const [label,value] of rows){
@@ -1459,7 +1477,7 @@ function init(){
   // Each page pulls only the dataset it renders; the 20k-card file stays off the guide pages.
   if(onPage('obj')||onPage('sbc'))loadLiveFC27();
   if(onPage('evo'))loadVerifiedEvolutions();
-  if(onPage('players')||onPage('squad'))loadPortraitIndex();
+  if(onPage('players')||onPage('squad')){loadPortraitIndex();loadCardArtIndex();}
   if(onPage('obj'))loadOfficialNews();
   if(!state.squad)state.squad={formation:'4-3-3',slots:{}};
   if(!state.compSel)state.compSel=[];

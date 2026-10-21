@@ -12,4 +12,4 @@ for(const provider of providers){
   console.log(JSON.stringify({provider:provider.name,httpStatus:response.status,pageReachable:valid,perVersionPerPlatformLivePriceVerified:false,checkedAt:new Date().toISOString()}));
  }catch(error){console.warn(JSON.stringify({provider:provider.name,pageReachable:false,reason:String(error).slice(0,160)}))}
 }
-console.log('Reachable public providers:',reachable,'; base-card PS/PC quotes come from scripts/sync-fc27-prices-live.mjs. Xbox and promoted card versions remain UNVERIFIED.');
+console.log('Reachable public providers:',reachable,'; base-card PS5/PC quotes come from scripts/sync-fc27-prices-futgg.mjs. Xbox and promoted card versions remain UNVERIFIED.');

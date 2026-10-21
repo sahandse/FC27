@@ -3,7 +3,7 @@ interface CardIdentity{id?:string|number;versionId?:string|number;itemId?:string
 interface PriceFeed {updated_at:string|null;verification_window_minutes?:number;prices:CardPrice[]}
 const quotes=new Map<string,CardPrice>();
 const platforms=new Set<Platform>(['pc','ps','xbox']);
-let freshnessWindow=45;
+let freshnessWindow=720;
 let snapshotStamp:string|null=null;
 function currentPlatform():Platform{
  const el=document.getElementById('fcPricePlatform') as HTMLSelectElement|null;
@@ -53,7 +53,7 @@ async function refreshPrices():Promise<void>{
    const safe=validatedPrice(record,Date.now(),freshnessWindow);
    if(safe.status==='verified')quotes.set(safe.versionId+':'+safe.platform,safe);
   }
- }catch(error){freshnessWindow=45;console.warn('Price feed unavailable; market remains unquoted',error)}
+ }catch(error){freshnessWindow=720;console.warn('Price feed unavailable; market remains unquoted',error)}
  reportFeedState();
 }
 // The provider can be reachable yet every quote older than the verification window; both states mean

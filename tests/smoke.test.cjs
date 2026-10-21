@@ -71,7 +71,7 @@ test('shared overlays and toasts exist on every page so the runtime never derefe
 test('data loading is gated to the pages that need it',()=>{
  assert.match(runtime, /if\(onPage\('obj'\)\|\|onPage\('sbc'\)\)loadLiveFC27\(\)/);
  assert.match(runtime, /if\(onPage\('evo'\)\)loadVerifiedEvolutions\(\)/);
- assert.match(runtime, /if\(onPage\('players'\)\|\|onPage\('squad'\)\)loadPortraitIndex\(\)/);
+ assert.match(runtime, /if\(onPage\('players'\)\|\|onPage\('squad'\)\)\{loadPortraitIndex\(\);loadCardArtIndex\(\);\}/);
  assert.match(shell['players.html'], /id="fcPricePlatform"/);
  assert.match(fs.readFileSync('src/market.ts', 'utf8'), /document\.getElementById\('fcPriceCheck'\)\?\.addEventListener/);
 });
@@ -276,18 +276,20 @@ test('the landing page names its sources and shows the official EA feed',()=>{
 });
 
 test('a price provider outage warns while the retained snapshot is recent and fails once it ages out',()=>{
- const sync = fs.readFileSync('scripts/sync-fc27-prices-live.mjs', 'utf8');
+ const sync = fs.readFileSync('scripts/sync-fc27-prices-futgg.mjs', 'utf8');
  assert.match(sync, /FC27_PRICE_STALE_MINUTES/);
  assert.match(sync, /if \(age > staleAfterMinutes\) \{ annotate\('error', message\); process\.exitCode = 1; \}/);
  assert.match(sync, /else annotate\('warning', message\)/);
  assert.match(sync, /const snapshot = JSON\.parse\(readFileSync\(dest, 'utf8'\)\)/);
- // The outage path must never rewrite good data.
- assert.ok(sync.indexOf('writeFileSync(dest') > sync.indexOf('annotate('), 'the snapshot must only be written on a successful refresh');
+ // The outage path must never rewrite good data: the single write sits in the success branch.
+ assert.equal(sync.split('writeFileSync(dest').length-1,1,'snapshot write must appear exactly once');
+ assert.ok(sync.indexOf('writeFileSync(dest') < sync.indexOf('catch (error)'),'the snapshot must only be written on a successful refresh');
 });
 
 test('every published card price is sourced, timestamped and matchable',()=>{
  const feed=JSON.parse(fs.readFileSync('data/fc27-prices.json','utf8'));
  const ids=new Set(JSON.parse(fs.readFileSync('data/fc27-players.json','utf8')).players.map(p=>String(p.id)));
+ assert.equal(feed.source,'fut.gg');
  assert.ok(feed.prices.length>0,'price snapshot is empty');
  assert.ok(Number.isInteger(feed.verification_window_minutes)&&feed.verification_window_minutes>0);
  const matchable=feed.prices.filter(q=>ids.has(q.cardId)).length;
@@ -296,9 +298,23 @@ test('every published card price is sourced, timestamped and matchable',()=>{
   assert.ok(['pc','ps','xbox'].includes(quote.platform),quote.platform);
   assert.equal(quote.versionId,quote.cardId);
   assert.ok(Number.isInteger(quote.coins)&&quote.coins>0,quote.coins);
-  assert.equal(new URL(quote.sourceUrl).protocol,'https:');
+  assert.equal(new URL(quote.sourceUrl).hostname,'www.fut.gg');
   assert.ok(!Number.isNaN(Date.parse(quote.checkedAt)));
  }
+});
+
+test('the card-art index only lists verified FC27 artwork paths',()=>{
+ const art=JSON.parse(fs.readFileSync('data/fc27-card-art.json','utf8'));
+ const ids=new Set(JSON.parse(fs.readFileSync('data/fc27-players.json','utf8')).players.map(p=>String(p.id)));
+ assert.equal(art.source,'game-assets.fut.gg');
+ assert.ok(Object.keys(art.art).length>5000,'card-art index is too small');
+ for(const [id,hash] of Object.entries(art.art)){
+  assert.ok(ids.has(id),'card art for unknown player '+id);
+  assert.match(hash,/^[0-9a-f]{64}$/,'bad hash for '+id);
+ }
+ const main=fs.readFileSync('src/main.ts','utf8');
+ assert.match(main,/futgg-player-item-card\/27-\$\{id\}\.\$\{hash\}\.webp/);
+ assert.match(main,/loadCardArtIndex\(\)/);
 });
 
 test('indexed portraits resolve to a committed current-edition file',()=>{

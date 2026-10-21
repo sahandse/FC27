@@ -731,6 +731,12 @@ body{background:radial-gradient(ellipse 90% 360px at 65% -140px,rgba(202,255,56,
 .done-btn,.sbc-guide-btn{border-radius:10px;min-height:38px;padding:9px 12px}
 .player-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:15px}
 .pcard-upper{height:214px}.pcard-photo img{height:195px;width:140px}.pcard-name-band{padding:8px;font-size:12px}
+.pcard-upper.art{display:flex;align-items:center;justify-content:center;background:radial-gradient(120% 90% at 50% 0%,#233042,#0e141b 70%);padding:8px 8px 0}
+.pcard-art{height:100%;width:auto;max-width:100%;object-fit:contain;filter:drop-shadow(0 10px 16px rgba(0,0,0,.45))}
+.fut-card.art{background:transparent;overflow:visible}
+.fut-card.art::before{display:none}
+.fut-card-art{width:100%;height:100%;object-fit:contain;filter:drop-shadow(0 3px 6px rgba(0,0,0,.5))}
+.fc27-detail-art{display:block;width:min(300px,72vw);height:auto;margin:4px auto 6px;filter:drop-shadow(0 14px 26px rgba(0,0,0,.5))}
 .pcard-body{padding:14px}.pcard-club{font-size:11px}.pcard-price{font-size:18px}
 .pcard-stats{padding:8px 4px}.pstat-lbl{font-size:9px}.pstat-val{font-size:12px}
 .pcard-fav{background:rgba(6,8,11,.7);width:33px;height:33px;border-radius:10px}
