@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080C14"/>
+      <stop offset="50%" stop-color="#0D1322"/>
+      <stop offset="100%" stop-color="#05080E"/>
+    </linearGradient>
+    <linearGradient id="brandGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00FF87"/>
+      <stop offset="100%" stop-color="#00A86B"/>
+    </linearGradient>
+    <linearGradient id="starGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00F0FF"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDE047"/>
+      <stop offset="50%" stop-color="#EAB308"/>
+      <stop offset="100%" stop-color="#713F12"/>
+    </linearGradient>
+    <linearGradient id="gloryGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F43F5E"/>
+      <stop offset="50%" stop-color="#A855F7"/>
+      <stop offset="100%" stop-color="#3B82F6"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255,255,255,0.04)" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="450" fill="url(#bgGrad)"/>
+  <rect width="800" height="450" fill="url(#grid)"/>
+
+  <!-- Geometric Field Elements -->
+  <circle cx="800" cy="0" r="320" fill="#00FF87" opacity="0.08" filter="blur(60px)"/>
+  <circle cx="200" cy="450" r="280" fill="#00A86B" opacity="0.06" filter="blur(80px)"/>
+
+  <path d="M -50 450 L 350 -50" stroke="rgba(255,255,255,0.03)" stroke-width="80"/>
+  <path d="M 480 500 L 850 130" stroke="#00FF87" stroke-width="2" opacity="0.25"/>
+
+  <!-- Left/Center Graphic Feature -->
+  <g transform="translate(20, 10)">
+    <circle cx="220" cy="215" r="140" fill="rgba(0,0,0,0.4)" stroke="rgba(255,255,255,0.06)" stroke-width="2"/>
+    <path d="M120 220 L160 180 L200 240 L240 160 L280 200 L320 150" fill="none" stroke="#00FF87" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+           <circle cx="320" cy="150" r="10" fill="#00FF87" filter="drop-shadow(0 0 10px #00FF87)"/>
+           <rect x="140" y="270" width="160" height="40" rx="20" fill="rgba(0,255,135,0.15)" stroke="#00FF87" stroke-width="2"/>
+           <text x="220" y="295" fill="#00FF87" font-size="14" font-weight="900" text-anchor="middle" font-family="sans-serif">SYSTEM STATUS: OPTIMAL</text>
+  </g>
+
+  <!-- Divider Slashes -->
+  <polygon points="410,50 440,50 410,400 380,400" fill="url(#brandGrad)" opacity="0.3"/>
+  <polygon points="435,50 450,50 420,400 405,400" fill="#00FF87" opacity="0.9"/>
+
+  <!-- Right Information Block -->
+  <g transform="translate(460, 60)">
+    <!-- Category Pill -->
+    <rect x="0" y="30" width="160" height="28" rx="14" fill="rgba(255,255,255,0.08)" stroke="#00FF87" stroke-width="1.5"/>
+    <text x="80" y="49" fill="#00FF87" font-size="11" font-weight="900" letter-spacing="1.5" text-anchor="middle" font-family="sans-serif">DEVELOPER UPDATE</text>
+
+    <!-- Main Title -->
+    <text x="0" y="115" fill="#FFFFFF" font-size="28" font-weight="900" font-family="'Segoe UI', -apple-system, sans-serif" letter-spacing="0.5">LAUNCH FEEDBACK UPDATE</text>
+
+    <!-- Subtitle -->
+    <text x="0" y="150" fill="rgba(255,255,255,0.65)" font-size="13" font-weight="700" font-family="sans-serif" letter-spacing="1">GAMEPLAY · FUT · CAREER · CLUBS</text>
+
+    <!-- Official Badge -->
+    <g transform="translate(0, 195)">
+      <rect x="0" y="0" width="280" height="54" rx="12" fill="rgba(12,17,26,0.85)" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+      <circle cx="28" cy="27" r="14" fill="#00FF87"/>
+      <text x="28" y="33" fill="#000" font-size="14" font-weight="900" text-anchor="middle" font-family="sans-serif">✓</text>
+      <text x="52" y="24" fill="#FFFFFF" font-size="12" font-weight="800" font-family="sans-serif">EA SPORTS FC™ 27</text>
+      <text x="52" y="42" fill="rgba(255,255,255,0.5)" font-size="10" font-weight="600" font-family="sans-serif">OFFICIAL DISPATCH · ELECTRONIC ARTS</text>
+    </g>
+  </g>
+
+  <!-- Bottom Accent Stripe -->
+  <rect x="0" y="442" width="800" height="8" fill="url(#brandGrad)"/>
+</svg>

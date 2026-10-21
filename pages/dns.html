@@ -1,0 +1,64 @@
+<main class="main" id="sec-dns">
+  <section class="page-guide" aria-label="راهنمای صفحه DNS">
+    <h2>🎮 ۲۰ دی‌ان‌اس برتر کنسول PS5 برای FC27 / Best Gaming DNS for Console</h2>
+    <ol>
+      <li><strong>رفع تحریم و اتصال به سرورهای EA:</strong> اگر در ورود به Ultimate Team یا اتصال به سرورهای EA خطای اتصال دریافت می‌کنید، از بخش «ضدتحریم گیمینگ» استفاده کنید.<span class="pg-en">Use Anti-Sanction DNS to bypass region locks on EA Sports FC.</span></li>
+      <li><strong>کاهش پینگ و پکت‌لاس:</strong> برای کاهش تاخیر در مچ‌های آنلاین Champions و Rivals، از DNSهای نزدیک با پینگ پایین استفاده نمایید.<span class="pg-en">Low ping DNS optimizes match routing and eliminates packet loss.</span></li>
+      <li><strong>کپی آسان:</strong> با زدن دکمه 📋 یا فشردن کلید روی هر آدرس، IP فوراً کپی می‌شود.<span class="pg-en">Click or press on any address to copy it to clipboard.</span></li>
+      <li><strong>ناوبری با کنترلر PS5:</strong> در حالت کنسول می‌توانید با D-Pad یا آنالوگ چپ بین کارت‌ها حرکت کنید و با دکمه X کپی کنید.<span class="pg-en">Navigate with D-Pad/Left stick and press X to copy in Console mode.</span></li>
+    </ol>
+  </section>
+
+  <!-- PS5 Configuration Step Guide -->
+  <section class="dns-ps5-tutorial">
+    <div class="dns-tutorial-head">
+      <div class="dns-tut-icon">🕹️</div>
+      <div>
+        <h3 class="dns-tut-title">راهنمای گام‌به‌گام تنظیم DNS در پلی‌استیشن ۵ (PS5)</h3>
+        <p class="dns-tut-desc">تنظیم در کمتر از ۳۰ ثانیه در منوی تنظیمات کنسول</p>
+      </div>
+    </div>
+    <div class="dns-steps-grid">
+      <div class="dns-step-card">
+        <div class="dns-step-num">۱</div>
+        <div class="dns-step-txt">وارد <strong>Settings</strong> کنسول شده و بخش <strong>Network</strong> را باز کنید.</div>
+      </div>
+      <div class="dns-step-card">
+        <div class="dns-step-num">۲</div>
+        <div class="dns-step-txt">به <strong>Settings &gt; Set Up Internet Connection</strong> بروید.</div>
+      </div>
+      <div class="dns-step-card">
+        <div class="dns-step-num">۳</div>
+        <div class="dns-step-txt">روی وای‌فای یا کابل متصل دکمه <strong>Options</strong> را زده و <strong>Advanced Settings</strong> را انتخاب کنید.</div>
+      </div>
+      <div class="dns-step-card">
+        <div class="dns-step-num">۴</div>
+        <div class="dns-step-txt">بخش <strong>DNS Settings</strong> را به <strong>Manual</strong> تغییر داده و مقادیر Primary و Secondary را وارد کنید.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Search & Category Filters -->
+  <div class="search-wrap">
+    <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+    <input type="text" class="search-input" id="dnsSearch" placeholder="جستجوی نام دی‌ان‌اس، ویژگی، کاربرد (مثلاً الکترو، پینگ، تحریم)..." oninput="filterDNS()" />
+  </div>
+
+  <div class="cat-tabs" id="dnsCatTabs">
+    <button class="cat-tab active" data-cat="all" onclick="setDNSCat('all')">همه (۲۰) <span class="cat-cnt" id="dcn-all">20</span></button>
+    <button class="cat-tab" data-cat="anti-sanction" onclick="setDNSCat('anti-sanction')">🇮🇷 ضدتحریم گیمینگ <span class="cat-cnt" id="dcn-anti">5</span></button>
+    <button class="cat-tab" data-cat="speed" onclick="setDNSCat('speed')">⚡ سریع و کم‌پینگ <span class="cat-cnt" id="dcn-speed">7</span></button>
+    <button class="cat-tab" data-cat="stability" onclick="setDNSCat('stability')">🛡️ پایدار و امن <span class="cat-cnt" id="dcn-stab">8</span></button>
+  </div>
+
+  <div class="section-row">
+    <span class="section-title" id="dnsSecTitle">فهرست برترین DNSهای کنسول</span>
+    <span class="section-cnt" id="dnsSecCnt">۲۰ دی‌ان‌اس فعال</span>
+  </div>
+
+  <!-- DNS Grid -->
+  <div class="dns-grid" id="dnsGrid"></div>
+  <div class="empty" id="dnsEmpty" style="display:none">
+    <div class="empty-icon">🔍</div><h3>DNSای یافت نشد</h3><p>جستجو یا فیلتر دسته‌بندی را تغییر دهید</p>
+  </div>
+</main>

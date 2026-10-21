@@ -65,11 +65,41 @@ export function setTVMode(on: boolean) {
 }
 
 export function isTVMode() {
+  if (typeof navigator !== 'undefined' && /PlayStation/i.test(navigator.userAgent)) return true;
   try { return localStorage.getItem(TV_KEY) !== '0'; } catch (e) { return true; }
 }
 
+function cycleNavTab(delta: number) {
+  const navLinks = Array.from(document.querySelectorAll<HTMLAnchorElement>('nav.top-nav a.tnav-btn'));
+  if (!navLinks.length) return;
+  const currentIdx = navLinks.findIndex(a => a.getAttribute('aria-current') === 'page');
+  const nextIdx = (currentIdx + delta + navLinks.length) % navLinks.length;
+  const target = navLinks[nextIdx];
+  if (target && target.href) {
+    location.href = target.href;
+  }
+}
+
+function ensurePS5ControllerBar() {
+  if (document.getElementById('ps5-controller-bar')) return;
+  const bar = document.createElement('div');
+  bar.id = 'ps5-controller-bar';
+  bar.className = 'ps5-controller-bar';
+  bar.setAttribute('aria-hidden', 'true');
+  bar.innerHTML = `
+    <span class="ps5-hint"><kbd>D-Pad / L-Stick</kbd> جابه‌جایی</span>
+    <span class="ps5-hint"><kbd>✕</kbd> تأیید / کپی</span>
+    <span class="ps5-hint"><kbd>◯</kbd> بازگشت / بستن</span>
+    <span class="ps5-hint"><kbd>L1</kbd><kbd>R1</kbd> تغییر تب</span>
+  `;
+  document.body.appendChild(bar);
+}
+
 export function initConsoleNav(cancelOverlay: () => void) {
+  const isPS = typeof navigator !== 'undefined' && /PlayStation/i.test(navigator.userAgent);
+  if (isPS) document.body.classList.add('ps-console');
   setTVMode(isTVMode());
+  ensurePS5ControllerBar();
 
   document.addEventListener('keydown', event => {
     const direction = event.key === 'ArrowUp' ? 'up' : event.key === 'ArrowDown' ? 'down'
@@ -88,15 +118,39 @@ export function initConsoleNav(cancelOverlay: () => void) {
     const pads = typeof navigator.getGamepads === 'function' ? navigator.getGamepads() : [];
     const pad = [...pads].find(entry => entry && entry.connected);
     if (pad) {
+      // D-Pad buttons (12: up, 13: down, 14: left, 15: right)
       for (const [index, direction] of Object.entries(DPAD)) {
         const down = !!pad.buttons[Number(index)]?.pressed;
         if (down && !state[index]) moveFocus(direction);
         state[index] = down;
       }
-      const a = !!pad.buttons[0]?.pressed, b = !!pad.buttons[1]?.pressed;
+
+      // Left analog thumbstick navigation (axes[0] X, axes[1] Y)
+      const stickX = pad.axes[0] || 0, stickY = pad.axes[1] || 0;
+      const DEADZONE = 0.55;
+      if (stickX < -DEADZONE && !state.stickLeft) { moveFocus('left'); state.stickLeft = true; }
+      else if (stickX > DEADZONE && !state.stickRight) { moveFocus('right'); state.stickRight = true; }
+      else if (Math.abs(stickX) <= 0.25) { state.stickLeft = false; state.stickRight = false; }
+
+      if (stickY < -DEADZONE && !state.stickUp) { moveFocus('up'); state.stickUp = true; }
+      else if (stickY > DEADZONE && !state.stickDown) { moveFocus('down'); state.stickDown = true; }
+      else if (Math.abs(stickY) <= 0.25) { state.stickUp = false; state.stickDown = false; }
+
+      // Cross button (A / X) activates focused element
+      const a = !!pad.buttons[0]?.pressed;
       if (a && !state.a) activateFocused();
+      state.a = a;
+
+      // Circle button (B / O) closes modals
+      const b = !!pad.buttons[1]?.pressed;
       if (b && !state.b) cancelOverlay();
-      state.a = a; state.b = b;
+      state.b = b;
+
+      // L1 (button 4) / R1 (button 5) cycle main navigation tabs
+      const l1 = !!pad.buttons[4]?.pressed, r1 = !!pad.buttons[5]?.pressed;
+      if (l1 && !state.l1) cycleNavTab(-1);
+      if (r1 && !state.r1) cycleNavTab(1);
+      state.l1 = l1; state.r1 = r1;
     }
     frame = requestAnimationFrame(poll);
   };
@@ -105,10 +159,12 @@ export function initConsoleNav(cancelOverlay: () => void) {
 }
 
 export function closeAnyOverlay() {
-  const modals = document.querySelectorAll('.ps-overlay.open,.draft-overlay.open,.modal-ov.open,.squad-picker.open,.cc-overlay.open,.solver-modal.open');
+  const modals = document.querySelectorAll('.ps-overlay.open,.draft-overlay.open,.modal-ov.open,.squad-picker.open,.cc-overlay.open,.solver-modal.open,.ea-news-overlay.open');
   let closed = false;
   for (const modal of modals) if (modal.classList.contains('open')) { modal.classList.remove('open'); closed = true; }
-  const dialog = document.getElementById('fc27-detail-dialog');
-  if (dialog) { dialog.remove(); closed = true; }
+  for (const id of ['fc27-detail-dialog', 'player-detail-dialog', 'ea-news-dialog']) {
+    const dialog = document.getElementById(id);
+    if (dialog) { dialog.remove(); closed = true; }
+  }
   return closed;
 }

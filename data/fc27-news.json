@@ -1,8 +1,15 @@
 {
   "source": "Electronic Arts",
   "source_url": "https://www.ea.com/games/ea-sports-fc/fc-27",
-  "checked_at": "2026-10-18T19:22:53.282Z",
+  "checked_at": "2026-10-20T23:14:02.439Z",
   "items": [
+    {
+      "title": "EA SPORTS FC™ 27 | The Grounds Developer Archetypes Update",
+      "url": "https://www.ea.com/games/ea-sports-fc/fc-27/news/fc-27-the-grounds-developer-archetypes-update",
+      "source": "Electronic Arts",
+      "published": "October 19, 2026",
+      "summary": "Explore the latest Archetype and Attribute Points changes to The Grounds and Clubs in EA SPORTS FC™ 27."
+    },
     {
       "title": "EA SPORTS FC™ 27 | Launch Feedback Update",
       "url": "https://www.ea.com/games/ea-sports-fc/fc-27/news/fc-27-launch-feedback-update",
@@ -79,13 +86,6 @@
       "source": "Electronic Arts",
       "published": "September 25, 2026",
       "summary": "Learn more about your first steps onto The Grounds, including how to access Clubs."
-    },
-    {
-      "title": "EA SPORTS FC™ 27 Football Ultimate Team™ for Beginners",
-      "url": "https://www.ea.com/games/ea-sports-fc/fc-27/news/football-ultimate-team-for-beginners",
-      "source": "Electronic Arts",
-      "published": "September 25, 2026",
-      "summary": "Learn how to build your first Football Ultimate Team™ through the Foundations tutorial."
     }
   ]
 }

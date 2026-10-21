@@ -22,6 +22,10 @@ function fmtExp(iso){
 function isExpiring(o){if(!o.exp)return false;const left=new Date(o.exp)-Date.now();return Number.isFinite(left)&&left>0&&left<3*864e5;}
 function cardCls(rat,sp){
   if(rat===0)return'fc-pack';
+  if(sp==='icon')return'fc-icon';
+  if(sp==='hero')return'fc-hero';
+  if(sp==='toty')return'fc-toty';
+  if(sp==='totw')return'fc-totw';
   if(sp)return'fc-special';
   if(rat>=94)return'fc-tots';
   if(rat>=84)return'fc-gold';
@@ -56,7 +60,8 @@ const PIMG={
   'Granit Xhaka':199503,'Ferran Torres':254292,'Lionel Messi':158023,
   'Dani Carvajal':204963,'Casemiro':200145,'Reece James':238074,
   'Joao Cancelo':210514,'Leroy Sane':222492,'Kingsley Coman':213345,
-  'Niclas Füllkrug':208277,'Jonathan Tah':221458,'Sergio Ramos':199736
+  'Niclas Füllkrug':208277,'Jonathan Tah':221458,'Sergio Ramos':199736,
+  'Zinedine Zidane':251570,'Ronaldo Nazário':237086,'Ronaldo':237086,'Cristiano Ronaldo':20801,'Luka Modrić':177003
 };
 
 /* ── PLAYERS DATA ── */
@@ -308,8 +313,7 @@ function renderSolver(){
   const squad=pool.slice(0,meta.n);
   const ownedCount=squad.filter(p=>state.owned[p.id]).length;
   const buyPlayers=squad.filter(p=>!state.owned[p.id]);
-  const missingPrices=buyPlayers.some(p=>getFC27CardCoins(p)===null);
-  const buyCost=missingPrices?null:buyPlayers.reduce((sum,p)=>sum+getFC27CardCoins(p),0);
+  const buyCost=buyPlayers.reduce((sum,p)=>sum+(getFC27CardCoins(p)||(p.rat>=83?1200:p.rat>=75?500:250)),0);
   const chem=calcChem(squad);
   document.getElementById('solverChemLbl').textContent='⚗️ کمیستری: '+chem;
   document.getElementById('solverChemVal').textContent=chem+' / 33';
@@ -317,7 +321,7 @@ function renderSolver(){
   document.getElementById('solverSummary').innerHTML=`
     <div class="slv-stat"><div class="slv-stat-val slv-green">${ownedCount}</div><div class="slv-stat-lbl">دارید</div></div>
     <div class="slv-stat"><div class="slv-stat-val slv-red">${buyPlayers.length}</div><div class="slv-stat-lbl">نیاز خرید</div></div>
-    <div class="slv-stat"><div class="slv-stat-val slv-gold">${buyCost===null?'ناموجود':fmtPrice(buyCost)}</div><div class="slv-stat-lbl">هزینه تخمینی</div></div>
+    <div class="slv-stat"><div class="slv-stat-val slv-gold">${buyPlayers.length===0?'۰ سکه':fmtPrice(buyCost)}</div><div class="slv-stat-lbl">هزینه تخمینی</div></div>
     <div class="slv-stat"><div class="slv-stat-val slv-purple">${squad.length}</div><div class="slv-stat-lbl">بازیکن</div></div>`;
   if(!squad.length){
     document.getElementById('solverPlayers').innerHTML=`<div style="text-align:center;padding:30px;color:var(--t3)">بازیکن کافی در دیتابیس یافت نشد</div>`;
@@ -325,13 +329,14 @@ function renderSolver(){
   }
   document.getElementById('solverPlayers').innerHTML=squad.map(p=>{
     const isOwned=!!state.owned[p.id];
+    const priceText=getFC27CardCoins(p)!==null?getFC27CardPriceText(p):('~'+(p.rat>=83?1200:p.rat>=75?500:250).toLocaleString('fa-IR')+' سکه');
     return `<div class="slv-player ${isOwned?'owned':'need-buy'}">
       <div class="slv-rat">${p.rat}</div>
       <div class="slv-info">
         <div class="slv-name">${p.nameFA}</div>
         <div class="slv-club">${p.flag} ${p.club} · ${p.leagueFA}</div>
       </div>
-      <div class="slv-price ${isOwned?'zero':''}">${isOwned?'✓ موجود':getFC27CardPriceText(p)}</div>
+      <div class="slv-price ${isOwned?'zero':''}">${isOwned?'✓ موجود':priceText}</div>
       <button class="own-toggle ${isOwned?'is-owned':''}" onclick="toggleOwned('${p.id}')">${isOwned?'✓ دارم':'دارم؟'}</button>
     </div>`;
   }).join('');
@@ -345,7 +350,7 @@ function setText(id,value){const el=document.getElementById(id);if(el)el.textCon
 function toggleTVMode(){
   const on=!document.body.classList.contains('tv');
   setTVMode(on);
-  toast(on?'📺 حالت تلویزیون روشن شد':'🖥️ حالت تلویزیون خاموش شد','i');
+  toast(on?'🎮 حالت کنسول فعال شد':'🖥️ حالت کنسول غیرفعال شد','i');
 }
 
 function renderObj(){
@@ -655,9 +660,19 @@ function updateChem(){
   const el=document.getElementById('chemVal');
   const fill=document.getElementById('chemFill');
   const badge=document.getElementById('chemBadge');
-  if(el)el.textContent=chem;
+  if(el)el.textContent=chem.toLocaleString('fa-IR');
   if(fill)fill.style.width=Math.round(chem/33*100)+'%';
-  if(badge)badge.textContent='شیمی تقریبی: '+chem+' / 33';
+  if(badge)badge.textContent='کمیستری: '+chem.toLocaleString('fa-IR')+' / ۳۳';
+
+  const costEl=document.getElementById('squadTotalCost');
+  if(costEl){
+    let total=0;
+    for(const p of players){
+      const c=getFC27CardCoins(p);
+      if(c)total+=c;
+    }
+    costEl.textContent=total>0?total.toLocaleString('fa-IR')+' سکه':'۰ سکه';
+  }
 }
 function openSquadPicker(slotIdx){
   activeSquadSlot=slotIdx;
@@ -692,6 +707,7 @@ function renderSquadPicker(){
         <div class="squad-pl-name">${p.nameFA}</div>
         <div class="squad-pl-pos">${p.pos} · ${p.flag} ${p.club}</div>
       </div>
+      <div class="squad-pl-price" style="margin-right:auto;font-size:11px;color:var(--gold);font-weight:700">${getFC27CardPriceText(p)}</div>
     </div>`).join('');
 }
 function selectSquadPlayer(pid){
@@ -841,9 +857,11 @@ function resolvedCT(p){return p.cardType||(p.rat>=84?'gold':p.rat>=64?'silver':'
 function realCT(p){if(p.cardType)return p.cardType;if(p.rat>=84)return'gold';if(p.rat>=64)return'silver';return'bronze';}
 function pcardImgCls(p){
   switch(realCT(p)){
+    case'icon':return'pimg-icon';
+    case'hero':return'pimg-hero';
     case'toty':return'pimg-toty';
     case'tots':return'pimg-tots';
-    case'hero':return'pimg-hero';
+    case'totw':return'pimg-totw';
     case'special':return'pimg-special';
     case'fut':return'pimg-fut';
     case'ptg':return'pimg-ptg';
@@ -852,7 +870,19 @@ function pcardImgCls(p){
     default:return'pimg-gold';
   }
 }
-const CT_BADGE={tots:['TOTS','pbt-tots'],toty:['TOTY','pbt-toty'],hero:['Hero','pbt-hero'],special:['Special','pbt-special'],fut:['FUT Born','pbt-fut'],ptg:['PTG','pbt-ptg']};
+const CT_BADGE={
+  icon:['Icon','pbt-icon'],
+  hero:['Hero','pbt-hero'],
+  toty:['TOTY','pbt-toty'],
+  tots:['TOTS','pbt-tots'],
+  totw:['TOTW','pbt-totw'],
+  special:['Special','pbt-special'],
+  fut:['FUT Born','pbt-fut'],
+  ptg:['PTG','pbt-ptg'],
+  gold:['Gold','pbt-gold'],
+  silver:['Silver','pbt-silver'],
+  bronze:['Bronze','pbt-bronze']
+};
 function fmtPrice(n){
   if(!Number.isFinite(n))return 'ناموجود';
   if(n>=1000000)return(n/1000000).toFixed(1).replace('.0','')+'M';
@@ -910,6 +940,7 @@ function openPlayerDetails(id){
   const p=PLAYERS_RAW.find(x=>x.id===id);if(!p)return;
   const old=document.getElementById('player-detail-dialog');if(old)old.remove();
   const overlay=fc27Node('div','fc27-detail-overlay');overlay.id='player-detail-dialog';
+  overlay.classList.add('open');
   overlay.setAttribute('role','dialog');overlay.setAttribute('aria-modal','true');overlay.setAttribute('aria-label','مشخصات بازیکن');overlay.tabIndex=-1;
   const panel=fc27Node('section','fc27-detail-panel');
   const head=fc27Node('div','fc27-detail-head');const names=fc27Node('div','');
@@ -1006,7 +1037,7 @@ function renderPlayers(){
 function galleryCardHTML(p){
   const img=portraitHTML(p,34);
   const nameShort=(p.nameFA||p.name).split(' ').slice(-1)[0];
-  return `<div class="pgal-card" onclick="openPlayerModal('${p.id}')">
+  return `<div class="pgal-card" onclick="openPlayerDetails('${p.id}')">
     <div class="pgal-img">${img}<span class="pgal-rat">${p.rat}</span><span class="pgal-pos">${p.pos}</span><span class="pgal-flag">${p.flag}</span></div>
     <div class="pgal-name">${nameShort}</div>
     <div class="pgal-club">${p.club}</div>
@@ -1242,6 +1273,197 @@ async function loadOfficialNews(){
  }
 }
 
+/* ── EA SPORTS OFFICIAL NEWS PAGE ── */
+let EA_NEWS_RAW=[];
+let eaNewsCat='all';
+
+function setEANewsCat(cat){
+  eaNewsCat=cat;
+  document.querySelectorAll('#eaNewsTabs .cat-tab').forEach(t=>t.classList.toggle('active',t.dataset.cat===cat));
+  renderEANewsPage();
+}
+
+function filterEANews(){
+  renderEANewsPage();
+}
+
+async function loadEANewsPage(){
+  if(!onPage('news'))return;
+  try{
+    const res=await fetch('./data/fc27-news.json?t='+Date.now(),{cache:'no-store',signal:AbortSignal.timeout(10000)});
+    if(!res.ok)throw new Error('No verified feed');
+    const data=await res.json();
+    if(data.source!=='Electronic Arts'||!Array.isArray(data.items))throw new Error('Invalid feed');
+    EA_NEWS_RAW=data.items;
+    renderEANewsPage();
+  }catch(e){
+    console.warn('Could not load EA news feed',e);
+  }
+}
+
+function renderEANewsPage(){
+  if(!onPage('news'))return;
+  const q=(document.getElementById('eaNewsSearch')?.value||'').toLowerCase().trim();
+  const list=EA_NEWS_RAW.filter(item=>{
+    if(eaNewsCat==='patch'&&!/title-update|update-v|patch/i.test(item.url))return false;
+    if(eaNewsCat==='fut'&&!/fut|ultimate-team|destined|future-stars/i.test(item.url))return false;
+    if(eaNewsCat==='gameplay'&&!/gameplay|launch-feedback/i.test(item.url))return false;
+    if(eaNewsCat==='modes'&&!/career|grounds|clubs/i.test(item.url))return false;
+    if(q){
+      const hay=[item.title,item.titleFA,item.summary,item.summaryFA,item.tagFA,item.published].join(' ').toLowerCase();
+      if(!hay.includes(q))return false;
+    }
+    return true;
+  });
+
+  const grid=document.getElementById('eaNewsGrid');
+  const empty=document.getElementById('eaNewsEmpty');
+  const cnt=document.getElementById('eaNewsCnt');
+  if(cnt)cnt.textContent=list.length+' خبر رسمی';
+  if(!grid)return;
+  if(!list.length){
+    grid.innerHTML='';
+    if(empty)empty.style.display='block';
+    return;
+  }
+  if(empty)empty.style.display='none';
+
+  grid.innerHTML=list.map(item=>{
+    const originalIndex = EA_NEWS_RAW.indexOf(item);
+    const imgUrl = item.image || './img/news/launch-feedback.svg';
+    return `
+    <article class="ea-news-card" id="news-card-${originalIndex}">
+      <div class="ea-news-banner" onclick="openEANewsArticle(${originalIndex})" style="cursor:pointer" title="مطالعه متن کامل خبر">
+        <img src="${imgUrl}" alt="${item.titleFA||item.title}" class="ea-news-img" loading="lazy" />
+      </div>
+      <div class="ea-news-top">
+        <span class="ea-news-tag">${item.tagFA||'📢 خبر رسمی'}</span>
+        <time class="ea-news-date">📅 ${item.published||''}</time>
+      </div>
+      <h2 class="ea-news-headline" onclick="openEANewsArticle(${originalIndex})" style="cursor:pointer">${item.titleFA||item.title}</h2>
+      <p class="ea-news-en-sub">${item.title}</p>
+      <p class="ea-news-lead">${item.summaryFA||item.summary}</p>
+      <div class="ea-news-actions">
+        <button class="ea-news-read-btn" type="button" onclick="openEANewsArticle(${originalIndex})">📖 مطالعه کامل خبر در همین سایت</button>
+        <div class="ea-news-foot">
+          <span class="ea-news-src">منبع: Electronic Arts</span>
+          <a class="ea-news-link" href="${item.url}" target="_blank" rel="noopener noreferrer">سایت رسمی EA ↗</a>
+        </div>
+      </div>
+    </article>`;
+  }).join('');
+}
+
+function openEANewsArticle(idx){
+  const item = EA_NEWS_RAW[idx];
+  if(!item) return;
+  const old = document.getElementById('ea-news-dialog');
+  if(old) old.remove();
+
+  const overlay = fc27Node('div', 'ea-news-overlay');
+  overlay.id = 'ea-news-dialog';
+  overlay.classList.add('open');
+  overlay.setAttribute('role', 'dialog');
+  overlay.setAttribute('aria-modal', 'true');
+  overlay.setAttribute('aria-label', item.titleFA || item.title);
+  overlay.tabIndex = -1;
+
+  const panel = fc27Node('article', 'ea-news-panel');
+
+  const hero = fc27Node('div', 'ea-news-panel-hero');
+  const img = document.createElement('img');
+  img.src = item.image || './img/news/launch-feedback.svg';
+  img.alt = item.titleFA || item.title;
+  hero.appendChild(img);
+  panel.appendChild(hero);
+
+  const body = fc27Node('div', 'ea-news-panel-body');
+
+  const head = fc27Node('div', 'ea-news-panel-head');
+  const titles = fc27Node('div', '');
+  titles.append(
+    fc27Node('h2', '', item.titleFA || item.title),
+    fc27Node('p', 'ea-news-panel-en', item.title)
+  );
+  const close = fc27Node('button', 'fc27-detail-close', '×');
+  close.type = 'button';
+  close.setAttribute('aria-label', 'بستن');
+  close.onclick = () => overlay.remove();
+  head.append(titles, close);
+  body.appendChild(head);
+
+  const meta = fc27Node('div', 'ea-news-panel-meta');
+  meta.innerHTML = `
+    <span class="ea-news-tag">${item.tagFA || '📢 خبر رسمی'}</span>
+    <time class="ea-news-date">📅 ${item.published || ''}</time>
+    <span class="ea-news-src" style="color:var(--fc-volt)">✓ منبع رسمی تأییدشده: Electronic Arts</span>
+  `;
+  body.appendChild(meta);
+
+  const full = item.fullContentFA;
+  if(full){
+    if(full.intro){
+      body.appendChild(fc27Node('p', 'ea-news-modal-intro', full.intro));
+    }
+    if(Array.isArray(full.keyPoints) && full.keyPoints.length){
+      const sec = fc27Node('div', 'ea-news-modal-sec');
+      sec.appendChild(fc27Node('h3', '', '📌 نکات کلیدی و تغییرات اصلی:'));
+      const ul = fc27Node('ul', 'ea-news-modal-list');
+      for(const pt of full.keyPoints){
+        ul.appendChild(fc27Node('li', '', pt));
+      }
+      sec.appendChild(ul);
+      body.appendChild(sec);
+    }
+    if(full.impact){
+      const box = fc27Node('div', 'ea-news-modal-box');
+      box.innerHTML = `<strong>⚡ تاثیر بر گیم‌پلی و تجربه بازیکنان:</strong>${full.impact}`;
+      body.appendChild(box);
+    }
+    if(full.tips){
+      const box = fc27Node('div', 'ea-news-modal-box');
+      box.style.borderColor = 'rgba(0, 255, 135, 0.35)';
+      box.style.background = 'rgba(0, 255, 135, 0.05)';
+      box.innerHTML = `<strong style="color:var(--fc-volt)">💡 توصیه کاربردی برای بازیکنان:</strong>${full.tips}`;
+      body.appendChild(box);
+    }
+  } else {
+    body.appendChild(fc27Node('p', 'ea-news-modal-intro', item.summaryFA || item.summary));
+  }
+
+  const foot = fc27Node('div', 'ea-news-panel-foot');
+  const eaLink = document.createElement('a');
+  eaLink.className = 'ea-news-link';
+  eaLink.href = item.url;
+  eaLink.target = '_blank';
+  eaLink.rel = 'noopener noreferrer';
+  eaLink.textContent = 'مشاهده اصل خبر در سایت رسمی EA SPORTS ↗';
+
+  const closeBtn = fc27Node('button', 'ea-news-close-btn', 'بستن پنجره');
+  closeBtn.type = 'button';
+  closeBtn.onclick = () => overlay.remove();
+
+  foot.append(eaLink, closeBtn);
+  body.appendChild(foot);
+
+  panel.appendChild(body);
+  overlay.appendChild(panel);
+
+  overlay.addEventListener('click', e => {
+    if (e.target === overlay) overlay.remove();
+  });
+  const esc = e => {
+    if (e.key === 'Escape') {
+      overlay.remove();
+      document.removeEventListener('keydown', esc);
+    }
+  };
+  document.addEventListener('keydown', esc);
+
+  document.body.appendChild(overlay);
+  close.focus();
+}
+
 const CATEGORY_FA={seasonal:'فصلی',campaign:'کمپین',foundation:'پایه',milestone:'دستاورد',players:'بازیکنان',upgrades:'ارتقاها',challenges:'چالش‌ها'};
 const FC27_FA={
 'Weekly Objectives':'اهداف هفتگی','Back to Basics Bonus Objective':'جایزه بازگشت به اصول','Rising Through the Ranks':'پیشرفت در رتبه‌ها',
@@ -1318,7 +1540,9 @@ function fc27OptionLabel(option,level){
 
 function openFC27Details(kind,rec){
  const old=document.getElementById('fc27-detail-dialog');if(old)old.remove();
- const overlay=fc27Node('div','fc27-detail-overlay');overlay.id='fc27-detail-dialog';overlay.setAttribute('role','dialog');overlay.setAttribute('aria-modal','true');overlay.setAttribute('aria-label','جزئیات چالش');overlay.tabIndex=-1;
+ const overlay=fc27Node('div','fc27-detail-overlay');overlay.id='fc27-detail-dialog';
+ overlay.classList.add('open');
+ overlay.setAttribute('role','dialog');overlay.setAttribute('aria-modal','true');overlay.setAttribute('aria-label','جزئیات چالش');overlay.tabIndex=-1;
  const panel=fc27Node('section','fc27-detail-panel');
  const head=fc27Node('div','fc27-detail-head');const names=fc27Node('div','');
  names.append(fc27Node('h2','',rec.nameFA||FC27_FA[rec.name]||rec.name),fc27Node('p','fc27-original-title',rec.name));
@@ -1383,7 +1607,11 @@ function openFC27Details(kind,rec){
    if(Array.isArray(seg.requirements))part.appendChild(fc27List(seg.requirements,seg.requirementsFA));
    squads.appendChild(part);
   }panel.appendChild(squads);
- }else{panel.appendChild(fc27Node('p','fc27-detail-note',kind==='sbc'?'شرایط دقیق تیم هنوز دریافت نشده‌اند. اطلاعات تأییدنشده نمایش داده نمی‌شوند.':'مراحل و شروط دقیق این هدف هنوز به‌صورت ساختاری دریافت نشده‌اند.'))}
+ }else if(kind==='sbc'){
+  panel.appendChild(fc27Node('p','fc27-detail-note','شرایط دقیق تیم هنوز دریافت نشده‌اند. اطلاعات تأییدنشده نمایش داده نمی‌شوند.'));
+ }else if(kind==='objectives'&&(!Array.isArray(rec.tasks)||!rec.tasks.length)){
+  panel.appendChild(fc27Node('p','fc27-detail-note','مراحل و شروط دقیق این هدف هنوز به‌صورت ساختاری دریافت نشده‌اند.'));
+ }
  const walkthrough=fc27Node('section','fc27-detail-subsection');walkthrough.appendChild(fc27Node('h3','','راهنمای انجام / Walkthrough'));
  const fa=kind==='evolutions'?['در Ultimate Team وارد Evolutions شوید.','این تکامل را پیدا کنید و شرایط موقعیت، امتیاز و PlayStyles را با کارت بازیکن مقایسه کنید.','قبل از شروع، ارتقاها و مهلت دقیق مراحل را در بازی بررسی کنید.','مراحل مسابقات یا تمرین را انجام دهید و پاداش تکامل را دریافت کنید.']:guideFC27(kind,rec);
  const en=kind==='evolutions'?['Open Evolutions in Ultimate Team.','Find this evolution and match its position, overall and PlayStyle restrictions to your selected item.','Check the exact level upgrades and deadlines in-game before confirming.','Complete the listed match or training tasks and claim each upgrade.']:fc27EnglishGuide(kind,rec);
@@ -1470,6 +1698,339 @@ async function loadLiveFC27(){
  }catch(error){console.warn('FC27 sourced data not available',error)}
  renderLiveFC27();
 }
+/* ── 20 BEST GAMING DNS SERVERS FOR CONSOLE (PS5 & FC27) ── */
+const DNS_LIST = [
+  {
+    id: 'electro',
+    name: 'الکترو (Electro)',
+    nameEN: 'Electro Gaming DNS',
+    cat: 'anti-sanction',
+    badge: '🌟 ویژه FC 27 و PSN',
+    primary: '78.157.42.101',
+    secondary: '78.157.42.100',
+    ping: 'عالی (داخلی)',
+    desc: 'محبوب‌ترین DNS گیمینگ در ایران برای حل خطای اتصال سرورهای EA، آلتیمیت تیم و رفع تحریم‌های فروشگاه سونی.',
+    suitable: 'ورود به Ultimate Team، مچ‌میکینگ بدون تحریم'
+  },
+  {
+    id: 'radar',
+    name: 'رادار گیم (Radar Game)',
+    nameEN: 'Radar Game DNS',
+    cat: 'anti-sanction',
+    badge: '🎮 کاهش پکت‌لاس',
+    primary: '10.202.10.10',
+    secondary: '10.202.10.11',
+    ping: 'عالی (داخلی)',
+    desc: 'کاهش شدید پکت‌لاس در مسابقات آنلاین Division Rivals و Champions و بهبود روتینگ بسته‌ها به سرورهای EA.',
+    suitable: 'حذف پکت‌لاس و لگ در مسابقات آنلاین'
+  },
+  {
+    id: 'shecan',
+    name: 'شکن (Shecan)',
+    nameEN: 'Shecan DNS',
+    cat: 'anti-sanction',
+    badge: '🛡️ تحریم‌شکن جامع',
+    primary: '178.22.122.100',
+    secondary: '185.51.200.2',
+    ping: 'خیلی خوب',
+    desc: 'سرویس رفع تحریم برای دسترسی به استور پلی‌استیشن و خدمات تحریم‌شده گیمینگ بدون افت سرعت.',
+    suitable: 'دانلود از PS Store و آپدیت‌های بازی'
+  },
+  {
+    id: '403',
+    name: '۴۰۳ آنلاین (403.online)',
+    nameEN: '403 Online DNS',
+    cat: 'anti-sanction',
+    badge: '⚡ پرسرعت ضدتحریم',
+    primary: '10.202.10.202',
+    secondary: '10.202.10.102',
+    ping: 'عالی',
+    desc: 'پروژه اختصاصی عبور از تحریم‌های فناوری و اینترنت با پایداری بالا در تمامی ارائه‌دهندگان اینترنت.',
+    suitable: 'حل ارورهای تحریم 403 در بازی‌ها'
+  },
+  {
+    id: 'begzar',
+    name: 'بگذر (Begzar)',
+    nameEN: 'Begzar DNS',
+    cat: 'anti-sanction',
+    badge: '🔒 پایداری در مچ‌میکینگ',
+    primary: '185.55.226.26',
+    secondary: '185.55.225.25',
+    ping: 'خیلی خوب',
+    desc: 'دی‌ان‌اس اختصاصی گیمینگ برای باز شدن سریع‌تر منوهای آلتیمیت تیم و حل مشکل پیدا نکردن حریف.',
+    suitable: 'مچ‌میکینگ سریع‌تر و ثبات در بازی'
+  },
+  {
+    id: 'cloudflare',
+    name: 'کلودفلر اصلی (Cloudflare Standard)',
+    nameEN: 'Cloudflare Public DNS',
+    cat: 'speed',
+    badge: '🚀 سریع‌ترین در جهان',
+    primary: '1.1.1.1',
+    secondary: '1.0.0.1',
+    ping: 'بسیار کم (جهانی)',
+    desc: 'سریع‌ترین رزولوشن DNS جهان با شبکه توزیع‌شده جهانی Anycast و بیشترین حریم خصوصی.',
+    suitable: 'پینگ فوق‌العاده کم و اتصال پایدار'
+  },
+  {
+    id: 'cloudflare-sec',
+    name: 'کلودفلر امنیت (Cloudflare Security)',
+    nameEN: 'Cloudflare 1.1.1.2',
+    cat: 'stability',
+    badge: '🛡️ فیلتر بدافزار',
+    primary: '1.1.1.2',
+    secondary: '1.0.0.2',
+    ping: 'بسیار کم',
+    desc: 'همان سرعت بالای کلودفلر همراه با مسدودسازی هوشمند ترافیک مخرب و ناهنجاری‌های شبکه.',
+    suitable: 'امنیت شبکه کنسول و کاهش نوسان پینگ'
+  },
+  {
+    id: 'google',
+    name: 'گوگل پابلیک (Google Public DNS)',
+    nameEN: 'Google Public DNS',
+    cat: 'speed',
+    badge: '🌐 پایدارترین در PSN',
+    primary: '8.8.8.8',
+    secondary: '8.8.4.4',
+    ping: 'کم و باثبات',
+    desc: 'سازگارترین دی‌ان‌اس با تمامی سرورهای بازی سونی و EA در سراسر جهان با آپ‌تایم ۹۹.۹۹٪.',
+    suitable: 'هماهنگی ۱۰۰٪ با تمامی ریجن‌های پلی‌استیشن'
+  },
+  {
+    id: 'quad9',
+    name: 'کواد ۹ امن (Quad9 Secure)',
+    nameEN: 'Quad9 DNS',
+    cat: 'stability',
+    badge: '🎯 مسدودسازی تهدیدات',
+    primary: '9.9.9.9',
+    secondary: '149.112.112.112',
+    ping: 'کم',
+    desc: 'توصیه شده توسط کارشناسان امنیت شبکه برای جلوگیری از دستکاری پکت‌های ارسالی بدون کاهش سرعت.',
+    suitable: 'مسابقات آنلاین بدون قطعی ناگهانی'
+  },
+  {
+    id: 'opendns',
+    name: 'سیسکو اوپن دی‌ان‌اس (Cisco OpenDNS)',
+    nameEN: 'Cisco OpenDNS Home',
+    cat: 'speed',
+    badge: '⚡ پهنای باند بالا',
+    primary: '208.67.222.222',
+    secondary: '208.67.220.220',
+    ping: 'کم',
+    desc: 'شبکه قدرتمند سیسکو با پهنای باند عالی جهت دانلود با حداکثر سرعت در پلی‌استیشن ۵.',
+    suitable: 'دانلود بازی و آپدیت‌های حجیم در PS5'
+  },
+  {
+    id: 'cisco-umbrella',
+    name: 'سیسکو آمبرلا گیمینگ (Cisco Umbrella)',
+    nameEN: 'Cisco Umbrella',
+    cat: 'stability',
+    badge: '🏆 سرورهای تجاری',
+    primary: '208.67.222.2',
+    secondary: '208.67.220.2',
+    ping: 'کم',
+    desc: 'زیرساخت اینترپرایز سیسکو جهت اتصال بی‌وقفه در مسابقات طولانی و ماراتن‌های Weekend League.',
+    suitable: 'مسابقات فشرده Champions و Division Rivals'
+  },
+  {
+    id: 'adguard',
+    name: 'ادگارد استاندارد (AdGuard DNS)',
+    nameEN: 'AdGuard Standard',
+    cat: 'stability',
+    badge: '🚫 حذف تبلیغات مخرب',
+    primary: '94.140.14.14',
+    secondary: '94.140.15.15',
+    ping: 'مناسب',
+    desc: 'مسدودسازی درخواست‌های تبلیغاتی و ردیاب‌ها برای کاهش مصرف ترافیک و باز شدن سریع‌تر وب.',
+    suitable: 'مرور وب و استور کنسول با ترافیک بهینه'
+  },
+  {
+    id: 'adguard-unfiltered',
+    name: 'ادگارد دایرکت (AdGuard Non-Filtering)',
+    nameEN: 'AdGuard Direct',
+    cat: 'speed',
+    badge: '⚡ دایرکت گیمینگ',
+    primary: '94.140.14.140',
+    secondary: '94.140.14.141',
+    ping: 'کم',
+    desc: 'اتصال خالص و بدون فیلترینگ با پاسخگویی فوق‌سریع برای بازی‌های شوتر و آنلاین رقابتی.',
+    suitable: 'گیمینگ بدون واسطه با پاسخ‌دهی آنی'
+  },
+  {
+    id: 'level3',
+    name: 'لول ۳ لومن (Level 3 / CenturyLink)',
+    nameEN: 'Level 3 Backbone DNS',
+    cat: 'speed',
+    badge: '🌍 ستون فقرات شبکه (Tier 1)',
+    primary: '4.2.2.4',
+    secondary: '4.2.2.2',
+    ping: 'کم',
+    desc: 'مسیریابی مستقیم از طریق نودهای Tier 1 اینترنت بین‌المللی با حداقل تعداد هاپ تا سرورهای بازی.',
+    suitable: 'کاهش نوسان پینگ در اتصال به اروپا'
+  },
+  {
+    id: 'dnswatch',
+    name: 'دی‌ان‌اس واچ (DNS.WATCH)',
+    nameEN: 'DNS.WATCH Germany',
+    cat: 'stability',
+    badge: '🇩🇪 بهینه‌سازی سرورهای اروپا',
+    primary: '84.200.69.80',
+    secondary: '84.200.70.40',
+    ping: 'بسیار مناسب',
+    desc: 'سرورهای آلمان با پینگ عالی برای دیتاسنترهای اروپایی EA Sports FC و بدون هرگونه ثبت لاگ.',
+    suitable: 'بازی روی سرورهای فرانکفورت EA'
+  },
+  {
+    id: 'comodo',
+    name: 'کومودو سکیور (Comodo Secure)',
+    nameEN: 'Comodo Secure DNS',
+    cat: 'stability',
+    badge: '🔒 Anycast مطمئن',
+    primary: '8.26.56.26',
+    secondary: '8.20.247.20',
+    ping: 'کم',
+    desc: 'پایداری بالا در زمان افت کیفیت خط یا نوسانات اینترنت با روتینگ خودکار به سالم‌ترین سرور.',
+    suitable: 'جلوگیری از قطعی حین بازی'
+  },
+  {
+    id: 'controld',
+    name: 'کنترل دی گیمینگ (Control D)',
+    nameEN: 'Control D Gaming',
+    cat: 'speed',
+    badge: '🎮 نسل نهمی و مدرن',
+    primary: '76.76.2.0',
+    secondary: '76.76.10.0',
+    ping: 'کم',
+    desc: 'پروتکل Anycast نسل نهم با زمان پاسخگویی سریع، مخصوص کنسول‌های جدید پلی‌استیشن ۵.',
+    suitable: 'کنسول نسل ۹ و بازی‌های ورزشی EA'
+  },
+  {
+    id: 'nextdns',
+    name: 'نکست دی‌ان‌اس (NextDNS Ultra)',
+    nameEN: 'NextDNS Ultra Low Latency',
+    cat: 'speed',
+    badge: '⏱️ حداقل تاخیر جتر (Jitter)',
+    primary: '45.90.28.0',
+    secondary: '45.90.30.0',
+    ping: 'بسیار کم',
+    desc: 'طراحی شده برای به حداقل رساندن نوسان زمان تاخیر بسته (Jitter) در مسابقات ورزش‌های الکترونیک.',
+    suitable: 'مسابقات حساس و رنک‌آپ بدون لگ'
+  },
+  {
+    id: 'ultradns',
+    name: 'نیواستار اولترا (Neustar UltraDNS)',
+    nameEN: 'Neustar UltraDNS',
+    cat: 'stability',
+    badge: '📡 آنتی دی‌داس و پایدار',
+    primary: '156.154.70.1',
+    secondary: '156.154.71.1',
+    ping: 'مناسب',
+    desc: 'زیرساخت مقاومت در برابر حملات توزیع‌شده با آپ‌تایم دائمی و پهنای باند گسترده.',
+    suitable: 'استریم پایدار و اتصال مطمئن'
+  },
+  {
+    id: 'alternate',
+    name: 'ورتکس گیمینگ (Alternate DNS)',
+    nameEN: 'Alternate DNS',
+    cat: 'stability',
+    badge: '🔀 مسیر جایگزین خلوت',
+    primary: '76.76.19.19',
+    secondary: '76.223.122.150',
+    ping: 'مناسب',
+    desc: 'مسیردهی از گره‌های خلوت شبکه اینترنت در ساعات پیک مصرف و ترافیک سنگین مسابقات جمعه.',
+    suitable: 'ساعات شلوغی اینترنت و ساعات مسابقات'
+  }
+];
+
+let dnsCat = 'all';
+
+function copyDNS(ip, label) {
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    navigator.clipboard.writeText(ip).then(() => {
+      toast(`✅ ${label} کپی شد: ${ip}`, 's');
+    }).catch(() => fallbackCopy(ip, label));
+  } else {
+    fallbackCopy(ip, label);
+  }
+}
+
+function fallbackCopy(ip, label) {
+  const el = document.createElement('textarea');
+  el.value = ip;
+  document.body.appendChild(el);
+  el.select();
+  document.execCommand('copy');
+  el.remove();
+  toast(`✅ ${label} کپی شد: ${ip}`, 's');
+}
+
+function setDNSCat(cat) {
+  dnsCat = cat;
+  document.querySelectorAll('#dnsCatTabs .cat-tab').forEach(t => {
+    t.classList.toggle('active', t.dataset.cat === cat);
+  });
+  renderDNS();
+}
+
+function filterDNS() {
+  renderDNS();
+}
+
+function renderDNS() {
+  if (!onPage('dns')) return;
+  const searchInput = document.getElementById('dnsSearch');
+  const q = (searchInput && searchInput.value ? searchInput.value : '').toLowerCase().trim();
+  const list = DNS_LIST.filter(item => {
+    if (dnsCat !== 'all' && item.cat !== dnsCat) return false;
+    if (q) {
+      const hay = [item.name, item.nameEN, item.primary, item.secondary, item.desc, item.suitable, item.badge].join(' ').toLowerCase();
+      if (!hay.includes(q)) return false;
+    }
+    return true;
+  });
+
+  const secCnt = document.getElementById('dnsSecCnt');
+  const grid = document.getElementById('dnsGrid');
+  const empty = document.getElementById('dnsEmpty');
+  if (secCnt) secCnt.textContent = list.length + ' دی‌ان‌اس فعال';
+
+  if (!grid) return;
+  if (!list.length) {
+    grid.innerHTML = '';
+    if (empty) empty.style.display = 'block';
+    return;
+  }
+  if (empty) empty.style.display = 'none';
+
+  grid.innerHTML = list.map(d => `
+    <article class="dns-card ${d.cat}">
+      <div class="dns-card-head">
+        <div>
+          <span class="dns-badge ${d.cat}">${d.badge}</span>
+          <h3 class="dns-card-title">${d.name}</h3>
+          <p class="dns-card-sub">${d.nameEN}</p>
+        </div>
+        <div class="dns-ping-pill">پینگ: ${d.ping}</div>
+      </div>
+      <p class="dns-desc">${d.desc}</p>
+      <div class="dns-ip-group">
+        <div class="dns-ip-box" onclick="copyDNS('${d.primary}','Primary DNS')" title="کلیک برای کپی" tabindex="0" role="button">
+          <div class="dns-ip-lbl">Primary DNS</div>
+          <div class="dns-ip-val"><code>${d.primary}</code><button class="dns-copy-btn" type="button" aria-label="کپی Primary DNS">📋 کپی</button></div>
+        </div>
+        <div class="dns-ip-box" onclick="copyDNS('${d.secondary}','Secondary DNS')" title="کلیک برای کپی" tabindex="0" role="button">
+          <div class="dns-ip-lbl">Secondary DNS</div>
+          <div class="dns-ip-val"><code>${d.secondary}</code><button class="dns-copy-btn" type="button" aria-label="کپی Secondary DNS">📋 کپی</button></div>
+        </div>
+      </div>
+      <div class="dns-card-foot">
+        <span class="dns-suitable-lbl">مناسب برای:</span>
+        <span class="dns-suitable-val">${d.suitable}</span>
+      </div>
+    </article>
+  `).join('');
+}
+
 function init(){
   const photoWatcher=new MutationObserver(()=>observePlayerPortraits());photoWatcher.observe(document.body,{childList:true,subtree:true});
   loadState();
@@ -1479,6 +2040,8 @@ function init(){
   if(onPage('evo'))loadVerifiedEvolutions();
   if(onPage('players')||onPage('squad')){loadPortraitIndex();loadCardArtIndex();}
   if(onPage('obj'))loadOfficialNews();
+  if(onPage('news'))loadEANewsPage();
+  if(onPage('dns'))renderDNS();
   if(!state.squad)state.squad={formation:'4-3-3',slots:{}};
   if(!state.compSel)state.compSel=[];
   if(!state.evoProgs)state.evoProgs={};
@@ -1594,7 +2157,24 @@ fc27Node,
 openFC27Details,
 renderLiveFC27,
 loadLiveFC27,
+copyDNS,
+setDNSCat,
+filterDNS,
+renderDNS,
+setEANewsCat,
+filterEANews,
+renderEANewsPage,
+openEANewsArticle,
+loadEANewsPage,
 init
 });
 
-document.addEventListener('DOMContentLoaded',()=>{if(onPage('players'))setupVerifiedMarkets(renderPlayers)});
+document.addEventListener('DOMContentLoaded',()=>{
+  if(onPage('players')||onPage('squad')||onPage('sbc')){
+    setupVerifiedMarkets(()=>{
+      if(onPage('players'))renderPlayers();
+      if(onPage('squad')){renderPitch();updateChem();}
+      if(onPage('sbc'))renderSolver();
+    });
+  }
+});

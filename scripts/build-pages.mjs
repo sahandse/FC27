@@ -14,14 +14,15 @@ const PAGES = [
   { file: 'index.html', key: 'obj', body: 'objectives.html', nav: '🎯', label: 'اهداف', title: 'FC27 Hub | اهداف و مأموریت‌ها', description: 'اهداف واقعی FC27 با راهنمای گام‌به‌گام فارسی؛ داده‌های تأیید نشده مشخص شده‌اند.', hero: true, news: true },
   { file: 'sbc.html', key: 'sbc', body: 'sbc.html', nav: '⚗️', label: 'SBC', title: 'FC27 Hub | چالش‌های SBC', description: 'SBCهای واقعی FC27 با بخش‌های تیمی، شرط‌ها و راهنمای فارسی.' },
   { file: 'players.html', key: 'players', body: 'players.html', nav: '👥', label: 'بازیکنان', title: 'FC27 Hub | بازیکنان', description: 'کارت‌های بازیکن FC27 با مشخصات، راهنمای فارسی و قیمت تأییدشده.' },
-  { file: 'squad.html', key: 'squad', body: 'squad.html', nav: '⚽', label: 'تیم‌ساز', title: 'FC27 Hub | تیم‌ساز', description: 'چیدمان ترکیب، کمیستری و شبیه‌ساز درافت برای FC27.' },
+  { file: 'news.html', key: 'news', body: 'news.html', nav: '📰', label: 'اخبار جدید', title: 'FC27 Hub | اخبار جدید EA SPORTS', description: 'آخرین اخبار، به‌روزرسانی‌ها و پچ‌نوت‌های رسمی EA SPORTS FC 27 با ترجمه فارسی.' },
+  { file: 'dns.html', key: 'dns', body: 'dns.html', nav: '🌐', label: 'DNS کنسول', title: 'FC27 Hub | بهترین DNSهای گیمینگ کنسول PS5', description: '۲۰ تا از بهترین DNSهای گیمینگ، ضدتحریم و کاهش پینگ برای کنسول PS5 و بازی FC27.' },
   { file: 'evolutions.html', key: 'evo', body: 'evolutions.html', nav: '🧬', label: 'تکامل', title: 'FC27 Hub | تکامل‌ها', description: 'تکامل‌های واقعی FC27 با مراحل، ارتقاها و راهنمای فارسی.' },
 ];
 
 const navigation = activeKey => '<nav class="top-nav" aria-label="بخش‌های اصلی">\n'
   + PAGES.map(page => '  <a class="tnav-btn" href="./' + page.file + '"' + (page.key === activeKey ? ' aria-current="page"' : '')
     + '><span class="tnav-icon">' + page.nav + '</span><span>' + page.label + '</span></a>').join('\n')
-  + '\n  <button class="tnav-btn tnav-tv" id="tvToggle" type="button" aria-pressed="false" onclick="toggleTVMode()"><span class="tnav-icon">📺</span><span>حالت تلویزیون</span></button>\n</nav>';
+  + '\n  <button class="tnav-btn tnav-tv" id="tvToggle" type="button" aria-pressed="false" onclick="toggleTVMode()"><span class="tnav-icon">🎮</span><span>حالت کنسول</span></button>\n</nav>';
 
 const partialHeader = read('partials/header.html');
 const partialHero = read('partials/hero.html');
@@ -74,3 +75,20 @@ for (const page of PAGES) {
   fs.writeFileSync(path.join(root, page.file), shell(page).replace(/\n/g, '\r\n'));
   console.log('built', page.file);
 }
+
+const squadRedirect = `<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="refresh" content="0; url=./dns.html">
+  <title>در حال انتقال به صفحه DNS...</title>
+  <script>location.replace('./dns.html');</script>
+</head>
+<body data-page="squad">
+  <main class="main" id="sec-squad"><p>در حال انتقال به <a href="./dns.html">صفحه DNS کنسول</a>...</p></main>
+</body>
+</html>
+`;
+fs.writeFileSync(path.join(root, 'squad.html'), squadRedirect.replace(/\n/g, '\r\n'));
+console.log('built squad.html (redirect to dns.html)');
+

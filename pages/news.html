@@ -1,0 +1,30 @@
+<main class="main" id="sec-news">
+  <div class="news-hero-banner">
+    <div class="nhb-badge">🔴 پوشش زنده اخبار EA SPORTS</div>
+    <h1 class="nhb-title">📰 اخبار جدید و رسمی EA SPORTS FC 27</h1>
+    <p class="nhb-sub">تمام پچ‌نوت‌ها، به‌روزرسانی‌های گیم‌پلی، ایونت‌های Ultimate Team و تغییرات کریر مود با ترجمه اختصاصی و روان فارسی.</p>
+  </div>
+
+  <div class="search-wrap" style="margin-bottom:14px">
+    <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+    <input type="text" class="search-input" id="eaNewsSearch" placeholder="جستجو در عناوین و متن اخبار EA SPORTS..." oninput="filterEANews()" />
+  </div>
+
+  <div class="cat-tabs" id="eaNewsTabs" style="margin-bottom:16px">
+    <button class="cat-tab active" data-cat="all" onclick="setEANewsCat('all')">همه اخبار (۱۲)</button>
+    <button class="cat-tab" data-cat="patch" onclick="setEANewsCat('patch')">⚙️ پچ و آپدیت</button>
+    <button class="cat-tab" data-cat="fut" onclick="setEANewsCat('fut')">🌟 آلتیمیت تیم</button>
+    <button class="cat-tab" data-cat="gameplay" onclick="setEANewsCat('gameplay')">⚽ گیم‌پلی و سازندگان</button>
+    <button class="cat-tab" data-cat="modes" onclick="setEANewsCat('modes')">📋 کریر و کلابز</button>
+  </div>
+
+  <div class="section-row">
+    <span class="section-title" id="eaNewsTitle">آخرین اطلاعیه‌ها</span>
+    <span class="section-cnt" id="eaNewsCnt">۱۲ خبر</span>
+  </div>
+
+  <div class="ea-news-grid" id="eaNewsGrid"></div>
+  <div class="empty" id="eaNewsEmpty" style="display:none">
+    <div class="empty-icon">🔍</div><h3>خبری با این مشخصات یافت نشد</h3><p>عبارت جستجو یا فیلتر دسته‌بندی را تغییر دهید</p>
+  </div>
+</main>
