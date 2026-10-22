@@ -1,7 +1,134 @@
 {
   "source": "FUT.GG",
-  "checked_at": "2026-10-21T21:43:55.978Z",
+  "checked_at": "2026-10-22T11:54:27.204Z",
   "evolutions": [
+    {
+      "name": "Composed Stopper",
+      "url": "https://www.fut.gg/evolutions/2606-composed-stopper/",
+      "description": "Big matches require absolute composure. Evolve your CB into a Composed Stopper who shines under pressure. Stop every dangerous attack, win back possession, and help your team to keep the clean sheet.",
+      "levels": [
+        {
+          "name": "Level 1",
+          "tasks": [
+            "Play 1 match in any mode using your active EVO player in game."
+          ],
+          "upgrades": [
+            "+ 10 OVR → 85",
+            "+ 8 Sprint Speed → 78",
+            "+ 5 Agility → 75",
+            "+ 5 Dribbling → 75",
+            "+ 12 Defensive Awareness → 85",
+            "+ 12 Stamina → 80"
+          ],
+          "nameFA": "سطح ۱",
+          "tasksFA": [
+            "۱ مسابقه را بازی کنید، در هر حالت بازی، با بازیکن فعال تکامل."
+          ],
+          "upgradesFA": [
+            "+۱۰ امتیاز کلی (به ۸۵)",
+            "+۸ سرعت اسپرینت (به ۷۸)",
+            "+۵ چابکی (به ۷۵)",
+            "+۵ دریبل (به ۷۵)",
+            "+۱۲ آگاهی دفاعی (به ۸۵)",
+            "+۱۲ استقامت (به ۸۰)"
+          ]
+        },
+        {
+          "name": "Level 2",
+          "tasks": [
+            "Play 1 match in any mode using your active EVO player in game."
+          ],
+          "upgrades": [
+            "+ 10 Vision → 80",
+            "+ 10 Balance → 80",
+            "+ 12 Composure → 83",
+            "+ 10 Standing Tackle → 85",
+            "+ 10 Strength → 86"
+          ],
+          "nameFA": "سطح ۲",
+          "tasksFA": [
+            "۱ مسابقه را بازی کنید، در هر حالت بازی، با بازیکن فعال تکامل."
+          ],
+          "upgradesFA": [
+            "+۱۰ دید (به ۸۰)",
+            "+۱۰ تعادل (به ۸۰)",
+            "+۱۲ خونسردی (به ۸۳)",
+            "+۱۰ تکل ایستاده (به ۸۵)",
+            "+۱۰ قدرت بدنی (به ۸۶)"
+          ]
+        },
+        {
+          "name": "Level 3",
+          "tasks": [
+            "Play 1 match in any mode using your active EVO player in game."
+          ],
+          "upgrades": [
+            "+ 10 Short Pass → 82",
+            "+ 12 Reactions → 83",
+            "+ 10 Interceptions → 84",
+            "+ 10 Sliding Tackle → 84",
+            "+ 10 Aggression → 82"
+          ],
+          "nameFA": "سطح ۳",
+          "tasksFA": [
+            "۱ مسابقه را بازی کنید، در هر حالت بازی، با بازیکن فعال تکامل."
+          ],
+          "upgradesFA": [
+            "+۱۰ پس کوتاه (به ۸۲)",
+            "+۱۲ واکنش (به ۸۳)",
+            "+۱۰ قطع توپ (به ۸۴)",
+            "+۱۰ تکل کشیده (به ۸۴)",
+            "+۱۰ تندخویی (به ۸۲)"
+          ]
+        },
+        {
+          "name": "Level 4",
+          "tasks": [
+            "Play 1 match in any mode using your active EVO player in game."
+          ],
+          "upgrades": [
+            "+ 8 Acceleration → 78",
+            "+ 10 Long Pass → 78",
+            "+ 5 Ball Control → 75",
+            "+ 10 Heading Acc. → 82",
+            "+ 12 Jumping → 86"
+          ],
+          "nameFA": "سطح ۴",
+          "tasksFA": [
+            "۱ مسابقه را بازی کنید، در هر حالت بازی، با بازیکن فعال تکامل."
+          ],
+          "upgradesFA": [
+            "+۸ شتاب (به ۷۸)",
+            "+۱۰ پس بلند (به ۷۸)",
+            "+۵ کنترل توپ (به ۷۵)",
+            "+۱۰ دقت سرزنی (به ۸۲)",
+            "+۱۲ پرش (به ۸۶)"
+          ]
+        }
+      ],
+      "requirements": [
+        "Overall: Max. 83",
+        "Position: CB",
+        "Excluded Position: CDM",
+        "Max PS: 7",
+        "Pace: Max. 82"
+      ],
+      "details": [
+        "Coins Cost: Free",
+        "Points Cost: Free"
+      ],
+      "requirementsFA": [
+        "حداکثر امتیاز کلی: ۸۳",
+        "پست: CB",
+        "پست مجاز نیست: CDM",
+        "حداکثر PlayStyle-plus: ۷",
+        "سرعت: حداکثر ۸۲"
+      ],
+      "detailsFA": [
+        "هزینهٔ سکه: رایگان",
+        "هزینهٔ امتیاز: رایگان"
+      ]
+    },
     {
       "name": "Side Stopper",
       "url": "https://www.fut.gg/evolutions/2604-side-stopper/",
@@ -1242,121 +1369,6 @@
         "کمیابی: Future Stars Academy",
         "حداقل امتیاز کلی: ۸۱",
         "حداکثر امتیاز کلی: ۸۱"
-      ],
-      "detailsFA": [
-        "هزینهٔ سکه: رایگان",
-        "هزینهٔ امتیاز: رایگان"
-      ]
-    },
-    {
-      "name": "Playmaker Reborn",
-      "url": "https://www.fut.gg/evolutions/2548-playmaker-reborn/",
-      "description": "Reinvent your midfield engine with sharp vision and crisp passes to dictate match tempo from the center.",
-      "levels": [
-        {
-          "name": "Level 1",
-          "upgrades": [
-            "+ 40 OVR → 80",
-            "+ 40 Positioning → 77",
-            "+ 40 Volleys → 76",
-            "+ 50 Fk Accuracy → 79",
-            "+ 40 Agility → 78",
-            "+ 40 Dribbling → 77"
-          ],
-          "training_time": "6 hours",
-          "nameFA": "سطح ۱",
-          "upgradesFA": [
-            "+۴۰ امتیاز کلی (به ۸۰)",
-            "+۴۰ پوزیشن‌گیری (به ۷۷)",
-            "+۴۰ والی (به ۷۶)",
-            "+۵۰ دقت ضربات آزاد (به ۷۹)",
-            "+۴۰ چابکی (به ۷۸)",
-            "+۴۰ دریبل (به ۷۷)"
-          ],
-          "training_timeFA": "۶ ساعت"
-        },
-        {
-          "name": "Level 2",
-          "upgrades": [
-            "+ 40 Finishing → 76",
-            "+ 40 Penalties → 77",
-            "+ 50 Short Pass → 80",
-            "+ 40 Balance → 76",
-            "+ 40 Composure → 77"
-          ],
-          "training_time": "6 hours",
-          "nameFA": "سطح ۲",
-          "upgradesFA": [
-            "+۴۰ تمام‌کنندگی (به ۷۶)",
-            "+۴۰ پنالتی (به ۷۷)",
-            "+۵۰ پس کوتاه (به ۸۰)",
-            "+۴۰ تعادل (به ۷۶)",
-            "+۴۰ خونسردی (به ۷۷)"
-          ],
-          "training_timeFA": "۶ ساعت"
-        },
-        {
-          "name": "Level 3",
-          "upgrades": [
-            "+ 40 Acceleration → 76",
-            "+ 40 Shot Power → 75",
-            "+ 50 Vision → 80",
-            "+ 50 Long Pass → 81",
-            "+ 40 Reactions → 74",
-            "+ 40 Stamina → 79"
-          ],
-          "training_time": "6 hours",
-          "nameFA": "سطح ۳",
-          "upgradesFA": [
-            "+۴۰ شتاب (به ۷۶)",
-            "+۴۰ قدرت شوت (به ۷۵)",
-            "+۵۰ دید (به ۸۰)",
-            "+۵۰ پس بلند (به ۸۱)",
-            "+۴۰ واکنش (به ۷۴)",
-            "+۴۰ استقامت (به ۷۹)"
-          ],
-          "training_timeFA": "۶ ساعت"
-        },
-        {
-          "name": "Level 4",
-          "upgrades": [
-            "+ 40 Sprint Speed → 75",
-            "+ 40 Long Shots → 77",
-            "+ 50 Crossing → 79",
-            "+ 50 Curve → 79",
-            "+ 40 Ball Control → 77"
-          ],
-          "training_time": "6 hours",
-          "nameFA": "سطح ۴",
-          "upgradesFA": [
-            "+۴۰ سرعت اسپرینت (به ۷۵)",
-            "+۴۰ شوت از راه دور (به ۷۷)",
-            "+۵۰ سانتر (به ۷۹)",
-            "+۵۰ کرن (به ۷۹)",
-            "+۴۰ کنترل توپ (به ۷۷)"
-          ],
-          "training_timeFA": "۶ ساعت"
-        }
-      ],
-      "requirements": [
-        "Overall: Max. 74",
-        "Position: CAM, CM",
-        "Excluded Position: CDM, CB, ST",
-        "Max PS: 7",
-        "Pace: Max. 85"
-      ],
-      "details": [
-        "Coins Cost: Free",
-        "Points Cost: Free"
-      ],
-      "nameFA": "بازی‌ساز دوباره متولد",
-      "descriptionFA": "موتور هافبک خود را با دید تیز و پاس‌های دقیق بازسازی کنید تا ریتم مسابقه را از مرکز در دست بگیرد.",
-      "requirementsFA": [
-        "حداکثر امتیاز کلی: ۷۴",
-        "پست: CAM, CM",
-        "پست مجاز نیست: CDM, CB, ST",
-        "حداکثر PlayStyle-plus: ۷",
-        "سرعت: حداکثر ۸۵"
       ],
       "detailsFA": [
         "هزینهٔ سکه: رایگان",

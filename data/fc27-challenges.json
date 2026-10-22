@@ -1,8 +1,465 @@
 {
   "source": "FUT.GG",
-  "checked_at": "2026-10-21T21:43:42.228Z",
+  "checked_at": "2026-10-22T11:54:09.055Z",
   "sections": {
     "objectives": [
+      {
+        "name": "Daily Objectives",
+        "category": "seasonal",
+        "description": "Play, complete and earn SP from daily objective every 24 hours!",
+        "url": "https://www.fut.gg/objectives/seasonal/168-daily-objectives/",
+        "nameFA": "اهداف روزانه",
+        "descriptionFA": "هر ۲۴ ساعت اهداف روزانه را بازی و کامل کنید و از آن‌ها SP بگیرید.",
+        "rewardFA": "۳۰ در مجموع",
+        "tasks": [
+          {
+            "name": "Play 1",
+            "description": "Play 1 match in any FUT game mode.",
+            "reward": "10 SP",
+            "descriptionFA": "۱ مسابقه را بازی کنید، در هر حالت بازی FUT.",
+            "rewardFA": "۱۰ SP",
+            "nameFA": "۱ مسابقه"
+          },
+          {
+            "name": "Scoring Success",
+            "description": "Score 2 goals in any FUT game mode.",
+            "reward": "10 SP",
+            "nameFA": "موفقیت در گل‌زنی",
+            "descriptionFA": "۲ گل به ثمر برسانید، در هر حالت بازی FUT.",
+            "rewardFA": "۱۰ SP"
+          }
+        ],
+        "reward": "30 total",
+        "detail_checked_at": "2026-10-22T11:54:09.055Z"
+      },
+      {
+        "name": "Weekly Objectives",
+        "category": "seasonal",
+        "description": "Complete Weekly Objectives to earn SP!",
+        "url": "https://www.fut.gg/objectives/seasonal/134-weekly-objectives/",
+        "nameFA": "اهداف هفتگی",
+        "descriptionFA": "اهداف هفتگی را کامل کنید و SP بگیرید.",
+        "rewardFA": "۵۰۰ در مجموع",
+        "tasks": [
+          {
+            "name": "Score 10",
+            "description": "Score 10 goals in any FUT game mode using a player from Germany.",
+            "reward": "50 SP",
+            "rewardFA": "۵۰ SP",
+            "nameFA": "۱۰ گل"
+          },
+          {
+            "name": "Win 10",
+            "description": "Win 10 matches in Squad Battles on min. Semi-Pro difficulty (or Rivals/Champions/Live Events/Rush).",
+            "reward": "50 SP",
+            "descriptionFA": "۱۰ مسابقه را ببرید، در Squad Battles، روی سختی نیمه‌حرفه‌ای (یا Rivals/Champions/Live Events/Rush).",
+            "rewardFA": "۵۰ SP",
+            "nameFA": "۱۰ برد"
+          },
+          {
+            "name": "Play 10",
+            "description": "Play 10 matches in Squad Battles on any difficulty (or Rush/Rivals).",
+            "reward": "50 SP",
+            "descriptionFA": "۱۰ مسابقه را بازی کنید، در Squad Battles، روی سختی دلخواه (یا Rush/Rivals).",
+            "rewardFA": "۵۰ SP",
+            "nameFA": "۱۰ مسابقه"
+          },
+          {
+            "name": "Buy 10",
+            "description": "Buy 10 Player Items using Buy Now in the Transfer Market.",
+            "reward": "50 SP",
+            "descriptionFA": "۱۰ بازیکن را خرید کنید، با Buy Now، در Transfer Market.",
+            "rewardFA": "۵۰ SP",
+            "nameFA": "۱۰ خرید"
+          },
+          {
+            "name": "List 10",
+            "description": "List 10 player items in the Transfer Market.",
+            "reward": "50 SP",
+            "descriptionFA": "۱۰ بازیکن را لیست کنید، در Transfer Market.",
+            "rewardFA": "۵۰ SP",
+            "nameFA": "۱۰ لیست"
+          }
+        ],
+        "reward": "500 total",
+        "detail_checked_at": "2026-10-22T11:54:09.055Z"
+      },
+      {
+        "name": "Season 2 Daily Knockout Tournament",
+        "category": "seasonal",
+        "description": "Complete 7 of 8 challenges in the Season 2 Daily Knockout Tournament and earn packs, coins, and exclusive rewards! All rewards are untradeable.",
+        "url": "https://www.fut.gg/objectives/seasonal/154-season-2-daily-knockout-tournament/",
+        "tasks": [
+          {
+            "name": "Win Tournament Five Times",
+            "description": "Win the Season 2 Daily Knockout Tournament five times.",
+            "reward": "3X 84+ Gold Players Pack",
+            "rewardFA": "۳ عدد بستهٔ بازیکن طلایی ۸۴+"
+          },
+          {
+            "name": "Score in 50",
+            "description": "Score at least 1 goal in 50 separate matches in the Season 2 Daily Knockout Tournament.",
+            "reward": "3X 84+ Gold Players Pack",
+            "rewardFA": "۳ عدد بستهٔ بازیکن طلایی ۸۴+",
+            "nameFA": "۵۰ گل"
+          },
+          {
+            "name": "Win Tournament",
+            "description": "Win the Season 2 Daily Knockout Tournament.",
+            "reward": "3X 83+ Gold Players Pack",
+            "rewardFA": "۳ عدد بستهٔ بازیکن طلایی ۸۳+"
+          },
+          {
+            "name": "Score in 12",
+            "description": "Score at least 1 goal in 12 separate matches in the Season 2 Daily Knockout Tournament.",
+            "reward": "2X 83+ Gold Players Pack",
+            "rewardFA": "۲ عدد بستهٔ بازیکن طلایی ۸۳+",
+            "nameFA": "۱۲ گل"
+          },
+          {
+            "name": "Score 15",
+            "description": "Score 15 goals in the Season 2 Daily Knockout Tournament.",
+            "reward": "3X 82+ Gold Players Pack",
+            "rewardFA": "۳ عدد بستهٔ بازیکن طلایی ۸۲+",
+            "nameFA": "۱۵ گل"
+          },
+          {
+            "name": "Play 20",
+            "description": "Play 20 matches in the Season 2 Daily Knockout Tournament.",
+            "reward": "3X 81+ Gold Players Pack",
+            "rewardFA": "۳ عدد بستهٔ بازیکن طلایی ۸۱+",
+            "nameFA": "۲۰ مسابقه"
+          },
+          {
+            "name": "Play 10",
+            "description": "Play 10 matches in the Season 2 Daily Knockout Tournament.",
+            "reward": "Award",
+            "rewardFA": "جایزه",
+            "nameFA": "۱۰ مسابقه"
+          },
+          {
+            "name": "Play 1",
+            "description": "Play 1 match in the Season 2 Daily Knockout Tournament.",
+            "reward": "1,500 Coins",
+            "rewardFA": "۱,۵۰۰ سکه",
+            "nameFA": "۱ مسابقه"
+          }
+        ],
+        "detail_checked_at": "2026-10-22T11:54:09.055Z"
+      },
+      {
+        "name": "FC Heritage Circuit Semi-Pro Event",
+        "category": "seasonal",
+        "description": "Compete in the FC Heritage Circuit Semi-Pro Event to earn packs and more. All rewards are untradeable.",
+        "url": "https://www.fut.gg/objectives/seasonal/155-fc-heritage-circuit-semi-pro-event/",
+        "tasks": [
+          {
+            "name": "Madrid After Midnight",
+            "description": "Win 2 matches while having Min. 2 Real Madrid (LALIGA) players in your starting 11 in the FC Heritage Circuit Semi-Pro Event.",
+            "reward": "81+ Gold Player Pack",
+            "descriptionFA": "۲ مسابقه را ببرید، با حداقل ۲ بازیکن Real Madrid (LALIGA) در ترکیب اصلی، در «FC Heritage Circuit Semi-Pro Event».",
+            "rewardFA": "بستهٔ بازیکن طلایی ۸۱+"
+          },
+          {
+            "name": "MLS After Dark",
+            "description": "Score at least 2 goals in one match while having Min. 1 MLS player in your starting 11 in the FC Heritage Circuit Semi-Pro Event.",
+            "reward": "80+ Gold Player Pack",
+            "rewardFA": "بستهٔ بازیکن طلایی ۸۰+"
+          },
+          {
+            "name": "French Fright",
+            "description": "Assist at least 3 goals while having Min. 1 Ligue 1 player in your starting 11 in the FC Heritage Circuit Semi-Pro Event.",
+            "reward": "1,500 Coins",
+            "descriptionFA": "حداقل ۳ پاس گل بدهید، با حداقل ۱ بازیکن Ligue 1 در ترکیب اصلی، در «FC Heritage Circuit Semi-Pro Event».",
+            "rewardFA": "۱,۵۰۰ سکه"
+          },
+          {
+            "name": "Scream in Serie A",
+            "description": "Score in 2 separate matches while having Min. 1 Serie A player in your starting 11 in the FC Heritage Circuit Semi-Pro Event.",
+            "reward": "Consumable",
+            "descriptionFA": "گل بزنید، در ۲ مسابقهٔ جداگانه، در «FC Heritage Circuit Semi-Pro Event»، با حداقل ۱ بازیکن Serie A در ترکیب اصلی.",
+            "rewardFA": "آیتم مصرفی"
+          },
+          {
+            "name": "Win 1",
+            "description": "Win 1 match in the FC Heritage Circuit Semi-Pro Event and qualify for the FC Heritage Circuit Professional Event.",
+            "reward": "2X 78+ Gold Players Pack",
+            "rewardFA": "۲ عدد بستهٔ بازیکن طلایی ۷۸+",
+            "nameFA": "۱ برد"
+          }
+        ],
+        "detail_checked_at": "2026-10-22T11:54:09.055Z"
+      },
+      {
+        "name": "FC Heritage Circuit Professional Event",
+        "category": "seasonal",
+        "description": "Compete in the FC Heritage Circuit Professional Event to earn packs and more. All rewards are untradeable.",
+        "url": "https://www.fut.gg/objectives/seasonal/157-fc-heritage-circuit-professional-event/",
+        "tasks": [
+          {
+            "name": "Premier Pride",
+            "description": "Win 2 matches while having Min. 3 Premier League players in your starting 11 in the FC Heritage Circuit Professional Event.",
+            "reward": "82+ Gold Player Pack",
+            "descriptionFA": "۲ مسابقه را ببرید، با حداقل ۳ بازیکن Premier League در ترکیب اصلی، در «FC Heritage Circuit Professional Event».",
+            "rewardFA": "بستهٔ بازیکن طلایی ۸۲+"
+          },
+          {
+            "name": "French Connection",
+            "description": "Score at least 3 goals in one match while having Min. 1 French player in your starting 11 in the FC Heritage Circuit Professional Event.",
+            "reward": "2X 80+ Gold Players Pack",
+            "rewardFA": "۲ عدد بستهٔ بازیکن طلایی ۸۰+"
+          },
+          {
+            "name": "Belgian Tower",
+            "description": "Assist at least 3 goals while having Min. 1 Belgian player in your starting 11 in the FC Heritage Circuit Professional Event.",
+            "reward": "2,000 Coins",
+            "descriptionFA": "حداقل ۳ پاس گل بدهید، با حداقل ۱ بازیکن بلژیکی در ترکیب اصلی، در «FC Heritage Circuit Professional Event».",
+            "rewardFA": "۲,۰۰۰ سکه"
+          },
+          {
+            "name": "Three Lions Legacy",
+            "description": "Score at least 1 goal in 2 separate matches while having Min. 1 English player in your starting 11 in the FC Heritage Circuit Professional Event.",
+            "reward": "Consumable",
+            "descriptionFA": "حداقل ۱ گل به ثمر برسانید، در ۲ مسابقهٔ جداگانه، در «FC Heritage Circuit Professional Event»، با حداقل ۱ بازیکن انگلیسی در ترکیب اصلی.",
+            "rewardFA": "آیتم مصرفی"
+          },
+          {
+            "name": "Win 1",
+            "description": "Win 1 match in the FC Heritage Circuit Professional Event and qualify for the FC Heritage Circuit World Class Event.",
+            "reward": "80+ Gold Player Pack",
+            "rewardFA": "بستهٔ بازیکن طلایی ۸۰+",
+            "nameFA": "۱ برد"
+          }
+        ],
+        "detail_checked_at": "2026-10-22T11:54:09.055Z"
+      },
+      {
+        "name": "FC Heritage Circuit Tournament",
+        "category": "seasonal",
+        "description": "Compete in the FC Heritage Circuit Tournament to earn a special FC Heritage Alexis Sánchez, packs and more. All rewards are untradeable.",
+        "url": "https://www.fut.gg/objectives/seasonal/158-fc-heritage-circuit-tournament/",
+        "tasks": [
+          {
+            "name": "Heritage Champion",
+            "description": "Win the FC Heritage Circuit Tournament 3 times.",
+            "reward": "2X 84+ Gold Players Pack",
+            "rewardFA": "۲ عدد بستهٔ بازیکن طلایی ۸۴+"
+          },
+          {
+            "name": "Thunder Final",
+            "description": "Win the FC Heritage Circuit Tournament while having Min. 2 Premier League players in your starting 11.",
+            "reward": "2X 83+ Gold Players Pack",
+            "rewardFA": "۲ عدد بستهٔ بازیکن طلایی ۸۳+"
+          },
+          {
+            "name": "Ligue 1 Finest",
+            "description": "Win 2 matches while having Min. 2 Ligue 1 players in your starting 11 in the FC Heritage Circuit Tournament.",
+            "reward": "3X 81+ Gold Players Pack",
+            "rewardFA": "۳ عدد بستهٔ بازیکن طلایی ۸۱+"
+          },
+          {
+            "name": "Oranje Legacy",
+            "description": "Assist at least 1 goal in 3 separate matches while having Min. 1 Dutch player in your starting 11 in the FC Heritage Circuit Tournament.",
+            "reward": "3X 80+ Gold Players Pack",
+            "rewardFA": "۳ عدد بستهٔ بازیکن طلایی ۸۰+"
+          },
+          {
+            "name": "Madrid Royalty",
+            "description": "Score at least 1 goal in 3 separate matches while having Min. 1 Real Madrid (LALIGA) player in your starting 11 in the FC Heritage Circuit Tournament.",
+            "reward": "2X 82+ Gold Players Pack",
+            "rewardFA": "۲ عدد بستهٔ بازیکن طلایی ۸۲+"
+          },
+          {
+            "name": "French Thrill",
+            "description": "Score at least 2 goals in 1 match while having Min. 1 French player in your starting 11 in the FC Heritage Circuit Tournament.",
+            "reward": "3,000 Coins",
+            "rewardFA": "۳,۰۰۰ سکه"
+          },
+          {
+            "name": "Serie A after Dark",
+            "description": "Win 1 Quarter-Finals match while having Min. 2 Serie A players in your starting 11 in the FC Heritage Circuit Tournament.",
+            "reward": "Consumable",
+            "rewardFA": "آیتم مصرفی"
+          }
+        ],
+        "detail_checked_at": "2026-10-22T11:54:09.055Z"
+      },
+      {
+        "name": "FC Heritage Circuit Kick Off Event",
+        "category": "seasonal",
+        "description": "Compete in the FC Heritage Circuit Kick Off Event to earn packs and more. All rewards are untradeable.",
+        "url": "https://www.fut.gg/objectives/seasonal/160-fc-heritage-circuit-kick-off-event/",
+        "tasks": [
+          {
+            "name": "Win 1",
+            "description": "Win 1 match in the FC Heritage Circuit Kick Off Event.",
+            "reward": "78+ Gold Player Pack",
+            "descriptionFA": "۱ مسابقه را ببرید، در «FC Heritage Circuit Kick Off Event».",
+            "rewardFA": "بستهٔ بازیکن طلایی ۷۸+",
+            "nameFA": "۱ برد"
+          },
+          {
+            "name": "Assist in 2",
+            "description": "Assist at least 1 goal in 2 separate matches in the FC Heritage Circuit Kick Off Event.",
+            "reward": "2X 75+ Gold Players Pack",
+            "descriptionFA": "حداقل ۱ پاس گل بدهید، در ۲ مسابقهٔ جداگانه، در «FC Heritage Circuit Kick Off Event».",
+            "rewardFA": "۲ عدد بستهٔ بازیکن طلایی ۷۵+",
+            "nameFA": "۲ پاس گل"
+          },
+          {
+            "name": "Play 2",
+            "description": "Play 2 matches in the FC Heritage Circuit Kick Off Event.",
+            "reward": "1,500 Coins",
+            "descriptionFA": "۲ مسابقه را بازی کنید، در «FC Heritage Circuit Kick Off Event».",
+            "rewardFA": "۱,۵۰۰ سکه",
+            "nameFA": "۲ مسابقه"
+          },
+          {
+            "name": "Score 1",
+            "description": "Score 1 goal in the FC Heritage Circuit Kick Off Event.",
+            "reward": "Consumable",
+            "descriptionFA": "۱ گل به ثمر برسانید، در «FC Heritage Circuit Kick Off Event».",
+            "rewardFA": "آیتم مصرفی",
+            "nameFA": "۱ گل"
+          }
+        ],
+        "detail_checked_at": "2026-10-22T11:54:09.055Z"
+      },
+      {
+        "name": "FC Heritage Circuit World Class Event",
+        "category": "seasonal",
+        "description": "Compete in the FC Heritage Circuit World Class Event to earn packs and more. All rewards are untradeable.",
+        "url": "https://www.fut.gg/objectives/seasonal/161-fc-heritage-circuit-world-class-event/",
+        "tasks": [
+          {
+            "name": "Bundesliga Backbone",
+            "description": "Win 3 matches while having Min. 3 player items from Bundesliga in your starting 11 in the FC Heritage Circuit World Class Event.",
+            "reward": "2X 81+ Gold Players Pack",
+            "rewardFA": "۲ عدد بستهٔ بازیکن طلایی ۸۱+"
+          },
+          {
+            "name": "Bavarian Thunder",
+            "description": "Score 5 goals while having Min. 1 FC Bayern München (Bundesliga) player item in your starting 11 in the FC Heritage Circuit World Class Event.",
+            "reward": "3X 80+ Gold Players Pack",
+            "rewardFA": "۳ عدد بستهٔ بازیکن طلایی ۸۰+"
+          },
+          {
+            "name": "Paris Power Surge",
+            "description": "Assist 4 goals while having Min. 1 PSG (Ligue 1) player item in your starting 11 in the FC Heritage Circuit World Class Event.",
+            "reward": "2,500 Coins",
+            "rewardFA": "۲,۵۰۰ سکه"
+          },
+          {
+            "name": "Bernabéu Thunder",
+            "description": "Score at least 1 goal in 3 separate matches while having Min. 1 Real Madrid (LALIGA) player item in your starting 11 in the FC Heritage Circuit World Class Event.",
+            "reward": "Consumable",
+            "rewardFA": "آیتم مصرفی"
+          },
+          {
+            "name": "Win 1",
+            "description": "Win 1 match in the FC Heritage Circuit World Class Event and qualify for the FC Heritage Circuit Tournament.",
+            "reward": "81+ Gold Player Pack",
+            "rewardFA": "بستهٔ بازیکن طلایی ۸۱+",
+            "nameFA": "۱ برد"
+          }
+        ],
+        "detail_checked_at": "2026-10-22T11:54:09.055Z"
+      },
+      {
+        "name": "FC Heritage Circuit Completionist",
+        "category": "seasonal",
+        "description": "Complete the FC Heritage Circuit Objectives to earn rewards. All rewards are untradeable.",
+        "url": "https://www.fut.gg/objectives/seasonal/164-fc-heritage-circuit-completionist/",
+        "descriptionFA": "چالش «FC Heritage Circuit Objectives» را کامل کنید و rewards. All rewards are untradeable را بگیرید.",
+        "tasks": [
+          {
+            "name": "FC Heritage Circuit World Class Challenge",
+            "description": "Complete the FC Heritage Circuit World Class Event objective.",
+            "reward": "7,000 Coins",
+            "descriptionFA": "مأموریت «FC Heritage Circuit World Class Event» را کامل کنید.",
+            "rewardFA": "۷,۰۰۰ سکه"
+          },
+          {
+            "name": "FC Heritage Circuit Professional Challenge",
+            "description": "Complete the FC Heritage Circuit Professional Event objective.",
+            "reward": "6,000 Coins",
+            "descriptionFA": "مأموریت «FC Heritage Circuit Professional Event» را کامل کنید.",
+            "rewardFA": "۶,۰۰۰ سکه"
+          },
+          {
+            "name": "FC Heritage Circuit Semi-Pro Challenge",
+            "description": "Complete the FC Heritage Circuit Semi-Pro Event objective.",
+            "reward": "4,000 Coins",
+            "descriptionFA": "مأموریت «FC Heritage Circuit Semi-Pro Event» را کامل کنید.",
+            "rewardFA": "۴,۰۰۰ سکه"
+          }
+        ],
+        "detail_checked_at": "2026-10-22T11:54:09.055Z"
+      },
+      {
+        "name": "Season 2 Daily Knockout Tournament Weekly Play",
+        "category": "seasonal",
+        "description": "Compete in the Season 2 Daily Knockout Tournament to earn exclusive rewards! All rewards are untradeable.",
+        "url": "https://www.fut.gg/objectives/seasonal/166-season-2-daily-knockout-tournament-weekly-play/",
+        "tasks": [
+          {
+            "name": "Score in 5",
+            "description": "Score at least 1 goal in 5 separate matches in the Season 2 Daily Knockout Tournament.",
+            "reward": "Finisher",
+            "nameFA": "۵ گل"
+          }
+        ],
+        "detail_checked_at": "2026-10-22T11:54:09.055Z"
+      },
+      {
+        "name": "Season 2 Daily Knockout Tournament Weekly Play Completionist",
+        "category": "seasonal",
+        "description": "Complete all Season 2 Daily Knockout Tournament Weekly Play objectives to earn FC Heritage Axel Witsel and Coins! All rewards are untradeable.",
+        "url": "https://www.fut.gg/objectives/seasonal/167-season-2-daily-knockout-tournament-weekly-play-completionist/",
+        "tasks": [
+          {
+            "name": "5 Completions",
+            "description": "Complete the Season 2 Daily Knockout Tournament Weekly Play Objective 5 times.",
+            "reward": "8,000 Coins",
+            "descriptionFA": "مأموریت «Season 2 Daily Knockout Tournament Weekly Play» را کامل کنید — ۵ بار.",
+            "rewardFA": "۸,۰۰۰ سکه",
+            "nameFA": "۵ بار کامل کردن"
+          },
+          {
+            "name": "4 Completions",
+            "description": "Complete the Season 2 Daily Knockout Tournament Weekly Play Objective 4 times.",
+            "reward": "6,000 Coins",
+            "descriptionFA": "مأموریت «Season 2 Daily Knockout Tournament Weekly Play» را کامل کنید — ۴ بار.",
+            "rewardFA": "۶,۰۰۰ سکه",
+            "nameFA": "۴ بار کامل کردن"
+          },
+          {
+            "name": "3 Completions",
+            "description": "Complete the Season 2 Daily Knockout Tournament Weekly Play Objective 3 times.",
+            "reward": "5,000 Coins",
+            "descriptionFA": "مأموریت «Season 2 Daily Knockout Tournament Weekly Play» را کامل کنید — ۳ بار.",
+            "rewardFA": "۵,۰۰۰ سکه",
+            "nameFA": "۳ بار کامل کردن"
+          },
+          {
+            "name": "2 Completions",
+            "description": "Complete the Season 2 Daily Knockout Tournament Weekly Play Objective 2 times.",
+            "reward": "3,500 Coins",
+            "descriptionFA": "مأموریت «Season 2 Daily Knockout Tournament Weekly Play» را کامل کنید — ۲ بار.",
+            "rewardFA": "۳,۵۰۰ سکه",
+            "nameFA": "۲ بار کامل کردن"
+          },
+          {
+            "name": "1 Completion",
+            "description": "Complete the Season 2 Daily Knockout Tournament Weekly Play Objective 1 time.",
+            "reward": "2,500 Coins",
+            "descriptionFA": "مأموریت «Season 2 Daily Knockout Tournament Weekly Play» را کامل کنید — ۱ بار.",
+            "rewardFA": "۲,۵۰۰ سکه",
+            "nameFA": "۱ بار کامل کردن"
+          }
+        ],
+        "detail_checked_at": "2026-10-22T11:54:09.055Z"
+      },
       {
         "name": "Weekly Rush Points",
         "category": "seasonal",
@@ -52,7 +509,7 @@
             "nameFA": "۲,۵۰۰ امتیاز Rush"
           }
         ],
-        "detail_checked_at": "2026-10-21T21:43:42.228Z"
+        "detail_checked_at": "2026-10-22T11:54:09.055Z"
       },
       {
         "name": "Squad Battles: Champions Qualification Points",
@@ -87,7 +544,7 @@
             "nameFA": "۱۰ برد"
           }
         ],
-        "detail_checked_at": "2026-10-21T21:43:42.228Z"
+        "detail_checked_at": "2026-10-22T11:54:09.055Z"
       },
       {
         "name": "No Room for Racism",
@@ -106,232 +563,7 @@
             "nameFA": "۳ مسابقه"
           }
         ],
-        "detail_checked_at": "2026-10-21T21:43:42.228Z"
-      },
-      {
-        "name": "Season 1 SP Chase",
-        "category": "seasonal",
-        "description": "Complete challenges across FUT to earn SP!",
-        "url": "https://www.fut.gg/objectives/seasonal/70-season-1-sp-chase/",
-        "nameFA": "تعقیب SP در فصل ۱",
-        "descriptionFA": "چالش‌ها را در سراسر FUT کامل کنید و SP بگیرید.",
-        "rewardFA": "۷,۰۰۰ در مجموع",
-        "tasks": [
-          {
-            "name": "Play 15",
-            "description": "Play 15 matches in any FUT game mode.",
-            "reward": "1,500 SP",
-            "descriptionFA": "۱۵ مسابقه را بازی کنید، در هر حالت بازی FUT.",
-            "rewardFA": "۱,۵۰۰ SP",
-            "nameFA": "۱۵ مسابقه"
-          },
-          {
-            "name": "Complete 7",
-            "description": "Complete any 7 SBC groups.",
-            "reward": "1,500 SP",
-            "descriptionFA": "هر ۷ گروه SBC را کامل کنید.",
-            "rewardFA": "۱,۵۰۰ SP",
-            "nameFA": "کامل کردن 7"
-          },
-          {
-            "name": "Play 12",
-            "description": "Play 12 matches in Rivals.",
-            "reward": "1,500 SP",
-            "descriptionFA": "۱۲ مسابقه را بازی کنید، در Rivals.",
-            "rewardFA": "۱,۵۰۰ SP",
-            "nameFA": "۱۲ مسابقه"
-          },
-          {
-            "name": "Assist 5",
-            "description": "Assist 5 goals in Squad Battles on min. Semi-Pro difficulty (or Rivals/Champions/Live Events/Rush).",
-            "reward": "250 SP",
-            "descriptionFA": "۵ پاس گل بدهید، در Squad Battles، روی سختی نیمه‌حرفه‌ای (یا Rivals/Champions/Live Events/Rush).",
-            "rewardFA": "۲۵۰ SP",
-            "nameFA": "۵ پاس گل"
-          },
-          {
-            "name": "Score 5",
-            "description": "Score 5 goals in Squad Battles on min. Semi-Pro difficulty (or Rivals/Champions/Live Events/Rush).",
-            "reward": "250 SP",
-            "descriptionFA": "۵ گل به ثمر برسانید، در Squad Battles، روی سختی نیمه‌حرفه‌ای (یا Rivals/Champions/Live Events/Rush).",
-            "rewardFA": "۲۵۰ SP",
-            "nameFA": "۵ گل"
-          }
-        ],
-        "reward": "7,000 total",
-        "detail_checked_at": "2026-10-21T21:43:42.228Z"
-      },
-      {
-        "name": "Weekly Objectives",
-        "category": "seasonal",
-        "description": "Complete Weekly Objectives to earn SP!",
-        "url": "https://www.fut.gg/objectives/seasonal/68-weekly-objectives/",
-        "nameFA": "اهداف هفتگی",
-        "descriptionFA": "اهداف هفتگی را کامل کنید و SP بگیرید.",
-        "rewardFA": "۳,۰۰۰ در مجموع",
-        "tasks": [
-          {
-            "name": "Score 10",
-            "description": "Score 10 goals in any FUT game mode using a Brazilian player.",
-            "reward": "400 SP",
-            "descriptionFA": "۱۰ گل به ثمر برسانید، در هر حالت بازی FUT، با یک بازیکن برزیلی.",
-            "rewardFA": "۴۰۰ SP",
-            "nameFA": "۱۰ گل"
-          },
-          {
-            "name": "Win 10",
-            "description": "Win 10 matches in Squad Battles on min. Semi-Pro difficulty (or Rivals/Champions/Live Events/Rush).",
-            "reward": "400 SP",
-            "descriptionFA": "۱۰ مسابقه را ببرید، در Squad Battles، روی سختی نیمه‌حرفه‌ای (یا Rivals/Champions/Live Events/Rush).",
-            "rewardFA": "۴۰۰ SP",
-            "nameFA": "۱۰ برد"
-          },
-          {
-            "name": "Play 10",
-            "description": "Play 10 matches in Squad Battles on any difficulty (or Rush/Rivals).",
-            "reward": "400 SP",
-            "descriptionFA": "۱۰ مسابقه را بازی کنید، در Squad Battles، روی سختی دلخواه (یا Rush/Rivals).",
-            "rewardFA": "۴۰۰ SP",
-            "nameFA": "۱۰ مسابقه"
-          },
-          {
-            "name": "Buy 10",
-            "description": "Buy 10 Player Items using Buy Now in the Transfer Market.",
-            "reward": "400 SP",
-            "descriptionFA": "۱۰ بازیکن را خرید کنید، با Buy Now، در Transfer Market.",
-            "rewardFA": "۴۰۰ SP",
-            "nameFA": "۱۰ خرید"
-          },
-          {
-            "name": "List 10",
-            "description": "List 10 player items in the Transfer Market.",
-            "reward": "400 SP",
-            "descriptionFA": "۱۰ بازیکن را لیست کنید، در Transfer Market.",
-            "rewardFA": "۴۰۰ SP",
-            "nameFA": "۱۰ لیست"
-          }
-        ],
-        "reward": "3,000 total",
-        "detail_checked_at": "2026-10-21T21:43:42.228Z"
-      },
-      {
-        "name": "Daily Objectives",
-        "category": "seasonal",
-        "description": "Play, complete and earn SP from daily objective every 24 hours!",
-        "url": "https://www.fut.gg/objectives/seasonal/64-daily-objectives/",
-        "nameFA": "اهداف روزانه",
-        "descriptionFA": "هر ۲۴ ساعت اهداف روزانه را بازی و کامل کنید و از آن‌ها SP بگیرید.",
-        "rewardFA": "۳۰ در مجموع",
-        "tasks": [
-          {
-            "name": "Play 1",
-            "description": "Play 1 match in any FUT game mode.",
-            "reward": "10 SP",
-            "descriptionFA": "۱ مسابقه را بازی کنید، در هر حالت بازی FUT.",
-            "rewardFA": "۱۰ SP",
-            "nameFA": "۱ مسابقه"
-          },
-          {
-            "name": "Scoring Success",
-            "description": "Score 2 goals in any FUT game mode.",
-            "reward": "10 SP",
-            "nameFA": "موفقیت در گل‌زنی",
-            "descriptionFA": "۲ گل به ثمر برسانید، در هر حالت بازی FUT.",
-            "rewardFA": "۱۰ SP"
-          }
-        ],
-        "reward": "30 total",
-        "detail_checked_at": "2026-10-21T21:43:42.228Z"
-      },
-      {
-        "name": "Seasonal Objective",
-        "category": "seasonal",
-        "description": "Complete Seasonal Objectives to earn SP!",
-        "url": "https://www.fut.gg/objectives/seasonal/69-seasonal-objective/",
-        "nameFA": "هدف فصلی",
-        "descriptionFA": "اهداف فصلی را کامل کنید و SP بگیرید.",
-        "rewardFA": "۳,۰۰۰ در مجموع",
-        "tasks": [
-          {
-            "name": "Play 25",
-            "description": "Play 25 matches in Squad Battles on any difficulty (or Rivals/Champions).",
-            "reward": "300 SP",
-            "descriptionFA": "۲۵ مسابقه را بازی کنید، در Squad Battles، روی سختی دلخواه (یا Rivals/Champions).",
-            "rewardFA": "۳۰۰ SP",
-            "nameFA": "۲۵ مسابقه"
-          },
-          {
-            "name": "Play 20",
-            "description": "Play 20 matches in Squad Battles on any difficulty (or Rivals/Champions).",
-            "reward": "300 SP",
-            "descriptionFA": "۲۰ مسابقه را بازی کنید، در Squad Battles، روی سختی دلخواه (یا Rivals/Champions).",
-            "rewardFA": "۳۰۰ SP",
-            "nameFA": "۲۰ مسابقه"
-          },
-          {
-            "name": "Play 15",
-            "description": "Play 15 matches in Squad Battles on any difficulty (or Rivals/Champions).",
-            "reward": "300 SP",
-            "descriptionFA": "۱۵ مسابقه را بازی کنید، در Squad Battles، روی سختی دلخواه (یا Rivals/Champions).",
-            "rewardFA": "۳۰۰ SP",
-            "nameFA": "۱۵ مسابقه"
-          },
-          {
-            "name": "Play 10",
-            "description": "Play 10 matches in Squad Battles on any difficulty (or Rivals/Champions).",
-            "reward": "300 SP",
-            "descriptionFA": "۱۰ مسابقه را بازی کنید، در Squad Battles، روی سختی دلخواه (یا Rivals/Champions).",
-            "rewardFA": "۳۰۰ SP",
-            "nameFA": "۱۰ مسابقه"
-          },
-          {
-            "name": "Play 5",
-            "description": "Play 5 matches in Squad Battles on any difficulty (or Rivals/Champions).",
-            "reward": "300 SP",
-            "descriptionFA": "۵ مسابقه را بازی کنید، در Squad Battles، روی سختی دلخواه (یا Rivals/Champions).",
-            "rewardFA": "۳۰۰ SP",
-            "nameFA": "۵ مسابقه"
-          }
-        ],
-        "reward": "3,000 total",
-        "detail_checked_at": "2026-10-21T21:43:42.228Z"
-      },
-      {
-        "name": "Icon Home Kit",
-        "category": "seasonal",
-        "description": "Equip the Icon Home Kit and complete the objectives to earn additional SP.",
-        "url": "https://www.fut.gg/objectives/seasonal/77-icon-home-kit/",
-        "nameFA": "کیت خانگی Icon",
-        "descriptionFA": "کیت خانگی Icon را بپوشید و اهداف را کامل کنید تا SP اضافه بگیرید. همهٔ جایزه‌ها غیرقابل‌فروش‌اند.",
-        "rewardFA": "۲,۰۰۰ در مجموع",
-        "tasks": [
-          {
-            "name": "Win 3",
-            "description": "Win 3 matches in any FUT game mode while having the Icon Home Kit equipped.",
-            "reward": "500 SP",
-            "descriptionFA": "۳ مسابقه را ببرید، در هر حالت بازی FUT، در حالی که «Icon Home Kit» تجهیز شده است.",
-            "rewardFA": "۵۰۰ SP",
-            "nameFA": "۳ برد"
-          },
-          {
-            "name": "Score 3",
-            "description": "Score 3 goals in any FUT game mode while having the Icon Home Kit equipped.",
-            "reward": "250 SP",
-            "descriptionFA": "۳ گل به ثمر برسانید، در هر حالت بازی FUT، در حالی که «Icon Home Kit» تجهیز شده است.",
-            "rewardFA": "۲۵۰ SP",
-            "nameFA": "۳ گل"
-          },
-          {
-            "name": "Play 3",
-            "description": "Play 3 matches in any FUT game mode while having the Icon Home Kit equipped.",
-            "reward": "250 SP",
-            "descriptionFA": "۳ مسابقه را بازی کنید، در هر حالت بازی FUT، در حالی که «Icon Home Kit» تجهیز شده است.",
-            "rewardFA": "۲۵۰ SP",
-            "nameFA": "۳ مسابقه"
-          }
-        ],
-        "reward": "2,000 total",
-        "detail_checked_at": "2026-10-21T21:43:42.228Z"
+        "detail_checked_at": "2026-10-22T11:54:09.055Z"
       },
       {
         "name": "Claim the Armband",
@@ -350,428 +582,7 @@
             "nameFA": "۱ مسابقه"
           }
         ],
-        "detail_checked_at": "2026-10-21T21:43:42.228Z"
-      },
-      {
-        "name": "Ones We Watched Legendary Challenge",
-        "category": "seasonal",
-        "description": "Beat the Ones We Watched Legendary challenges to earn rewards. All rewards are untradeable.",
-        "url": "https://www.fut.gg/objectives/seasonal/83-ones-we-watched-legendary-challenge/",
-        "nameFA": "چالش Legend مجموعه Ones We Watched",
-        "descriptionFA": "چالش‌های Legend در مجموعهٔ Ones We Watched را ببرید و جایزه بگیرید. همهٔ جایزه‌ها غیرقابل‌فروش‌اند.",
-        "tasks": [
-          {
-            "name": "The Final Challenge",
-            "description": "Win 4 matches in the Ones We Watched Legendary Challenge.",
-            "reward": "10X 75+ Gold Players Pack",
-            "nameFA": "چالش پایانی",
-            "descriptionFA": "۴ مسابقه را ببرید، در «Ones We Watched Legendary Challenge».",
-            "rewardFA": "۱۰ عدد بستهٔ بازیکن طلایی ۷۵+"
-          },
-          {
-            "name": "Defensive Masterclass",
-            "description": "Win 1 match in the Ones We Watched Legendary Challenge.",
-            "reward": "3X 80+ Gold Players Pack",
-            "nameFA": "کلاس دفاعی",
-            "descriptionFA": "۱ مسابقه را ببرید، در «Ones We Watched Legendary Challenge».",
-            "rewardFA": "۳ عدد بستهٔ بازیکن طلایی ۸۰+"
-          },
-          {
-            "name": "Score 5",
-            "description": "Score 5 times in the Ones We Watched Legendary Challenge.",
-            "reward": "5,000 Coins",
-            "descriptionFA": "۵ بار گل بزنید، در «Ones We Watched Legendary Challenge».",
-            "rewardFA": "۵,۰۰۰ سکه",
-            "nameFA": "۵ گل"
-          },
-          {
-            "name": "Play 1",
-            "description": "Play 1 match in the Ones We Watched Legendary Challenge.",
-            "reward": "2X 78+ Gold Players Pack",
-            "descriptionFA": "۱ مسابقه را بازی کنید، در «Ones We Watched Legendary Challenge».",
-            "rewardFA": "۲ عدد بستهٔ بازیکن طلایی ۷۸+",
-            "nameFA": "۱ مسابقه"
-          }
-        ],
-        "detail_checked_at": "2026-10-21T21:43:42.228Z"
-      },
-      {
-        "name": "Season 1: Ones to Watch Exhibition",
-        "category": "seasonal",
-        "description": "Complete the below challenges in the Season 1: Ones to Watch Exhibition. All rewards are untradeable.",
-        "url": "https://www.fut.gg/objectives/seasonal/88-season-1-ones-to-watch-exhibition/",
-        "nameFA": "فصل ۱: نمایشگاه Ones to Watch",
-        "descriptionFA": "چالش‌های زیر را در نمایشگاه Ones to Watch فصل ۱ کامل کنید. همهٔ جایزه‌ها غیرقابل‌فروش‌اند.",
-        "tasks": [
-          {
-            "name": "Score in 30",
-            "description": "Score in 30 separate matches in the Season 1: Ones to Watch Exhibition.",
-            "reward": "2X 81+ Gold Players Pack",
-            "descriptionFA": "گل بزنید، در ۳۰ مسابقهٔ جداگانه، در «Season 1: Ones to Watch Exhibition».",
-            "rewardFA": "۲ عدد بستهٔ بازیکن طلایی ۸۱+",
-            "nameFA": "۳۰ گل"
-          },
-          {
-            "name": "Score in 20",
-            "description": "Score in 20 separate matches in the Season 1: Ones to Watch Exhibition.",
-            "reward": "2X 80+ Gold Players Pack",
-            "descriptionFA": "گل بزنید، در ۲۰ مسابقهٔ جداگانه، در «Season 1: Ones to Watch Exhibition».",
-            "rewardFA": "۲ عدد بستهٔ بازیکن طلایی ۸۰+",
-            "nameFA": "۲۰ گل"
-          },
-          {
-            "name": "Assist 20",
-            "description": "Assist in 20 separate matches in the Season 1: Ones to Watch Exhibition.",
-            "reward": "80+ Gold Player Pack",
-            "descriptionFA": "پاس گل بدهید، در ۲۰ مسابقهٔ جداگانه، در «Season 1: Ones to Watch Exhibition».",
-            "rewardFA": "بستهٔ بازیکن طلایی ۸۰+",
-            "nameFA": "۲۰ پاس گل"
-          },
-          {
-            "name": "Assist 15",
-            "description": "Assist in 15 separate matches in the Season 1: Ones to Watch Exhibition.",
-            "reward": "2X 78+ Gold Players Pack",
-            "descriptionFA": "پاس گل بدهید، در ۱۵ مسابقهٔ جداگانه، در «Season 1: Ones to Watch Exhibition».",
-            "rewardFA": "۲ عدد بستهٔ بازیکن طلایی ۷۸+",
-            "nameFA": "۱۵ پاس گل"
-          },
-          {
-            "name": "Play 15",
-            "description": "Play 15 matches in the Season 1: Ones to Watch Exhibition.",
-            "reward": "2X 75+ Gold Players Pack",
-            "descriptionFA": "۱۵ مسابقه را بازی کنید، در «Season 1: Ones to Watch Exhibition».",
-            "rewardFA": "۲ عدد بستهٔ بازیکن طلایی ۷۵+",
-            "nameFA": "۱۵ مسابقه"
-          },
-          {
-            "name": "Play 5",
-            "description": "Play 5 matches in the Season 1: Ones to Watch Exhibition.",
-            "reward": "Consumables Pack",
-            "descriptionFA": "۵ مسابقه را بازی کنید، در «Season 1: Ones to Watch Exhibition».",
-            "rewardFA": "بستهٔ آیتم مصرفی",
-            "nameFA": "۵ مسابقه"
-          },
-          {
-            "name": "Play 1",
-            "description": "Play 1 match in the Season 1: Ones to Watch Exhibition.",
-            "reward": "Consumable",
-            "descriptionFA": "۱ مسابقه را بازی کنید، در «Season 1: Ones to Watch Exhibition».",
-            "rewardFA": "آیتم مصرفی",
-            "nameFA": "۱ مسابقه"
-          }
-        ],
-        "detail_checked_at": "2026-10-21T21:43:42.228Z"
-      },
-      {
-        "name": "Season 1: Ones to Watch Exhibition Weekly Play",
-        "category": "seasonal",
-        "description": "Compete in the Season 1: Ones to Watch Exhibition to earn exclusive rewards! All rewards are untradeable.",
-        "url": "https://www.fut.gg/objectives/seasonal/80-season-1-ones-to-watch-exhibition-weekly-play/",
-        "nameFA": "بازی هفتگی نمایشگاه Ones to Watch فصل ۱",
-        "descriptionFA": "در نمایشگاه Ones to Watch فصل ۱ شرکت کنید و جوایز ویژه بگیرید. همهٔ جایزه‌ها غیرقابل‌فروش‌اند.",
-        "tasks": [
-          {
-            "name": "Score in 9",
-            "description": "Score in 9 separate matches in the Season 1: Ones to Watch Exhibition.",
-            "reward": "Consumable",
-            "descriptionFA": "گل بزنید، در ۹ مسابقهٔ جداگانه، در «Season 1: Ones to Watch Exhibition».",
-            "rewardFA": "آیتم مصرفی",
-            "nameFA": "۹ گل"
-          }
-        ],
-        "detail_checked_at": "2026-10-21T21:43:42.228Z"
-      },
-      {
-        "name": "Season 1: Ones to Watch Exhibition Completionist",
-        "category": "seasonal",
-        "description": "Complete all Season 1: Ones to Watch Exhibition Weekly Play Objectives, to earn Ones to Watch Ousmane Diomandé, an EVO and Coins! All rewards are untradeable.",
-        "url": "https://www.fut.gg/objectives/seasonal/79-season-1-ones-to-watch-exhibition-completionist/",
-        "nameFA": "کامل‌کنندهٔ نمایشگاه Ones to Watch فصل ۱",
-        "descriptionFA": "همهٔ اهداف بازی هفتگیٔ نمایشگاه Ones to Watch فصل ۱ را کامل کنید تا کارت Ones to Watch بازیکن Ousmane Diomandé، یک تکامل و سکه بگیرید. همهٔ جایزه‌ها غیرقابل‌فروش‌اند.",
-        "tasks": [
-          {
-            "name": "4 Completions",
-            "description": "Complete the Season 1: Ones to Watch Exhibition Weekly Play Objective 4 times.",
-            "reward": "7,000 Coins",
-            "descriptionFA": "مأموریت «Season 1: Ones to Watch Exhibition Weekly Play» را کامل کنید — ۴ بار.",
-            "rewardFA": "۷,۰۰۰ سکه",
-            "nameFA": "۴ بار کامل کردن"
-          },
-          {
-            "name": "3 Completions",
-            "description": "Complete the Season 1: Ones to Watch Exhibition Weekly Play Objective 3 times.",
-            "reward": "4,000 Coins",
-            "descriptionFA": "مأموریت «Season 1: Ones to Watch Exhibition Weekly Play» را کامل کنید — ۳ بار.",
-            "rewardFA": "۴,۰۰۰ سکه",
-            "nameFA": "۳ بار کامل کردن"
-          },
-          {
-            "name": "2 Completions",
-            "description": "Complete the Season 1: Ones to Watch Exhibition Weekly Play Objective 2 times.",
-            "reward": "2,000 Coins",
-            "descriptionFA": "مأموریت «Season 1: Ones to Watch Exhibition Weekly Play» را کامل کنید — ۲ بار.",
-            "rewardFA": "۲,۰۰۰ سکه",
-            "nameFA": "۲ بار کامل کردن"
-          },
-          {
-            "name": "1 Completion",
-            "description": "Complete the Season 1: Ones to Watch Exhibition Weekly Play Objective 1 time.",
-            "reward": "Repeat Delivery",
-            "descriptionFA": "مأموریت «Season 1: Ones to Watch Exhibition Weekly Play» را کامل کنید — ۱ بار.",
-            "rewardFA": "ارسال مجدد",
-            "nameFA": "۱ بار کامل کردن"
-          }
-        ],
-        "detail_checked_at": "2026-10-21T21:43:42.228Z"
-      },
-      {
-        "name": "Ones We Watched Challenge Completionist",
-        "category": "seasonal",
-        "description": "Beat the Ones We Watched Objectives to earn rewards. All rewards are untradeable.",
-        "url": "https://www.fut.gg/objectives/seasonal/87-ones-we-watched-challenge-completionist/",
-        "nameFA": "کامل‌کنندهٔ چالش‌های Ones We Watched",
-        "descriptionFA": "هدف‌های Ones We Watched را کامل کنید و جایزه بگیرید. همهٔ جایزه‌ها غیرقابل‌فروش‌اند.",
-        "tasks": [
-          {
-            "name": "Ones We Watched Legendary Challenge",
-            "description": "Complete the Ones We Watched Legendary Challenge objective.",
-            "reward": "5,000 Coins",
-            "nameFA": "چالش Legendary مجموعه Ones We Watched",
-            "descriptionFA": "مأموریت «Ones We Watched Legendary Challenge» را کامل کنید.",
-            "rewardFA": "۵,۰۰۰ سکه"
-          },
-          {
-            "name": "Ones We Watched World Class Challenge",
-            "description": "Complete the Ones We Watched World Class Challenge objective.",
-            "reward": "4,500 Coins",
-            "nameFA": "چالش World Class مجموعه Ones We Watched",
-            "descriptionFA": "مأموریت «Ones We Watched World Class Challenge» را کامل کنید.",
-            "rewardFA": "۴,۵۰۰ سکه"
-          },
-          {
-            "name": "Ones We Watched Professional Challenge",
-            "description": "Complete the Ones We Watched Professional Challenge objective.",
-            "reward": "4,000 Coins",
-            "nameFA": "چالش Professional مجموعه Ones We Watched",
-            "descriptionFA": "مأموریت «Ones We Watched Professional Challenge» را کامل کنید.",
-            "rewardFA": "۴,۰۰۰ سکه"
-          },
-          {
-            "name": "Ones We Watched Semi-Pro Challenge",
-            "description": "Complete the Ones We Watched Semi-Pro Challenge objective.",
-            "reward": "2,500 Coins",
-            "nameFA": "چالش Semi-Pro مجموعه Ones We Watched",
-            "descriptionFA": "مأموریت «Ones We Watched Semi-Pro Challenge» را کامل کنید.",
-            "rewardFA": "۲,۵۰۰ سکه"
-          }
-        ],
-        "detail_checked_at": "2026-10-21T21:43:42.228Z"
-      },
-      {
-        "name": "Ones We Watched Kick Off Challenge",
-        "category": "seasonal",
-        "description": "Beat the Ones We Watched Kick Off Challenges to earn rewards. All rewards are untradeable.",
-        "url": "https://www.fut.gg/objectives/seasonal/84-ones-we-watched-kick-off-challenge/",
-        "nameFA": "چالش Kick Off مجموعه Ones We Watched",
-        "descriptionFA": "چالش‌های Kick Off در مجموعهٔ Ones We Watched را ببرید و جایزه بگیرید. همهٔ جایزه‌ها غیرقابل‌فروش‌اند.",
-        "tasks": [
-          {
-            "name": "Win 1",
-            "description": "Win 1 match in the Ones We Watched Kick Off Challenge.",
-            "reward": "80+ Gold Player Pack",
-            "descriptionFA": "۱ مسابقه را ببرید، در «Ones We Watched Kick Off Challenge».",
-            "rewardFA": "بستهٔ بازیکن طلایی ۸۰+",
-            "nameFA": "۱ برد"
-          },
-          {
-            "name": "Assist in 3",
-            "description": "Assist in 3 separate matches in the Ones We Watched Kick Off Challenge.",
-            "reward": "Consumables Pack",
-            "descriptionFA": "پاس گل بدهید، در ۳ مسابقهٔ جداگانه، در «Ones We Watched Kick Off Challenge».",
-            "rewardFA": "بستهٔ آیتم مصرفی",
-            "nameFA": "۳ پاس گل"
-          },
-          {
-            "name": "Play 2",
-            "description": "Play 2 matches in the Ones We Watched Kick Off Challenge.",
-            "reward": "500 Coins",
-            "descriptionFA": "۲ مسابقه را بازی کنید، در «Ones We Watched Kick Off Challenge».",
-            "rewardFA": "۵۰۰ سکه",
-            "nameFA": "۲ مسابقه"
-          },
-          {
-            "name": "Score 1",
-            "description": "Score in the Ones We Watched Kick Off Challenge.",
-            "reward": "Consumable",
-            "descriptionFA": "گل بزنید، در «Ones We Watched Kick Off Challenge».",
-            "rewardFA": "آیتم مصرفی",
-            "nameFA": "۱ گل"
-          }
-        ],
-        "detail_checked_at": "2026-10-21T21:43:42.228Z"
-      },
-      {
-        "name": "Ones We Watched Semi-Pro Challenge",
-        "category": "seasonal",
-        "description": "Beat the Ones We Watched Semi-Pro Challenges to earn rewards. All rewards are untradeable.",
-        "url": "https://www.fut.gg/objectives/seasonal/85-ones-we-watched-semi-pro-challenge/",
-        "nameFA": "چالش Semi-Pro مجموعه Ones We Watched",
-        "descriptionFA": "چالش‌های Semi-Pro در مجموعهٔ Ones We Watched را ببرید و جایزه بگیرید. همهٔ جایزه‌ها غیرقابل‌فروش‌اند.",
-        "tasks": [
-          {
-            "name": "Win 1",
-            "description": "Win 1 match in the Ones We Watched Semi-Pro Challenge.",
-            "reward": "2X 75+ Gold Players Pack",
-            "descriptionFA": "۱ مسابقه را ببرید، در «Ones We Watched Semi-Pro Challenge».",
-            "rewardFA": "۲ عدد بستهٔ بازیکن طلایی ۷۵+",
-            "nameFA": "۱ برد"
-          },
-          {
-            "name": "Assist 3",
-            "description": "Assist 3 goals in the Ones We Watched Semi-Pro Challenge.",
-            "reward": "Consumables Pack",
-            "descriptionFA": "۳ پاس گل بدهید، در «Ones We Watched Semi-Pro Challenge».",
-            "rewardFA": "بستهٔ آیتم مصرفی",
-            "nameFA": "۳ پاس گل"
-          },
-          {
-            "name": "Play 2",
-            "description": "Play 2 matches with min. 1 Spanish player in your starting XI in the Ones We Watched Semi-Pro Challenge.",
-            "reward": "750 Coins",
-            "descriptionFA": "۲ مسابقه را بازی کنید، با حداقل ۱ بازیکن اسپانیایی در ترکیب اصلی، در «Ones We Watched Semi-Pro Challenge».",
-            "rewardFA": "۷۵۰ سکه",
-            "nameFA": "۲ مسابقه"
-          },
-          {
-            "name": "Score 1",
-            "description": "Score in the Ones We Watched Semi-Pro Challenge.",
-            "reward": "Consumable",
-            "descriptionFA": "گل بزنید، در «Ones We Watched Semi-Pro Challenge».",
-            "rewardFA": "آیتم مصرفی",
-            "nameFA": "۱ گل"
-          }
-        ],
-        "detail_checked_at": "2026-10-21T21:43:42.228Z"
-      },
-      {
-        "name": "Ones We Watched Professional Challenge",
-        "category": "seasonal",
-        "description": "Beat the Ones We Watched Professional Challenges to earn rewards. All rewards are untradeable.",
-        "url": "https://www.fut.gg/objectives/seasonal/86-ones-we-watched-professional-challenge/",
-        "nameFA": "چالش Professional مجموعه Ones We Watched",
-        "descriptionFA": "چالش‌های Professional در مجموعهٔ Ones We Watched را ببرید و جایزه بگیرید. همهٔ جایزه‌ها غیرقابل‌فروش‌اند.",
-        "tasks": [
-          {
-            "name": "Top Scorer",
-            "description": "Score in 5 separate matches while having min. 1 Serie A player in your starting XI in the Ones We Watched Professional Challenge.",
-            "reward": "2X 75+ Gold Players Pack",
-            "nameFA": "بیشترین گل",
-            "descriptionFA": "گل بزنید، در ۵ مسابقهٔ جداگانه، در «Ones We Watched Professional Challenge»، با حداقل ۱ بازیکن Serie A در ترکیب اصلی.",
-            "rewardFA": "۲ عدد بستهٔ بازیکن طلایی ۷۵+"
-          },
-          {
-            "name": "Win 1",
-            "description": "Win 1 match in the Ones We Watched Professional Challenge.",
-            "reward": "1,750 Coins",
-            "descriptionFA": "۱ مسابقه را ببرید، در «Ones We Watched Professional Challenge».",
-            "rewardFA": "۱,۷۵۰ سکه",
-            "nameFA": "۱ برد"
-          },
-          {
-            "name": "Assister",
-            "description": "Assist 2 goals in 1 match in the Ones We Watched Professional Challenge.",
-            "reward": "Consumables Pack",
-            "nameFA": "پاس‌گل‌دهندهٔ برتر",
-            "descriptionFA": "۲ پاس گل بدهید، در ۱ مسابقه، در «Ones We Watched Professional Challenge».",
-            "rewardFA": "بستهٔ آیتم مصرفی"
-          },
-          {
-            "name": "Play 1",
-            "description": "Play 1 match in the Ones We Watched Professional Challenge.",
-            "reward": "Consumable",
-            "descriptionFA": "۱ مسابقه را بازی کنید، در «Ones We Watched Professional Challenge».",
-            "rewardFA": "آیتم مصرفی",
-            "nameFA": "۱ مسابقه"
-          }
-        ],
-        "detail_checked_at": "2026-10-21T21:43:42.228Z"
-      },
-      {
-        "name": "Ones We Watched World Class Challenge",
-        "category": "seasonal",
-        "description": "Beat the Ones We Watched World Class challenges to earn rewards. All rewards are untradeable.",
-        "url": "https://www.fut.gg/objectives/seasonal/82-ones-we-watched-world-class-challenge/",
-        "nameFA": "چالش World Class مجموعه Ones We Watched",
-        "descriptionFA": "چالش‌های World Class در مجموعهٔ Ones We Watched را ببرید و جایزه بگیرید. همهٔ جایزه‌ها غیرقابل‌فروش‌اند.",
-        "tasks": [
-          {
-            "name": "Pep's Domination",
-            "description": "Win 1 match in the Ones We Watched World Class Challenge.",
-            "reward": "Pinged Pass",
-            "nameFA": "سلطهٔ پپ",
-            "descriptionFA": "۱ مسابقه را ببرید، در «Ones We Watched World Class Challenge»."
-          },
-          {
-            "name": "Finesse",
-            "description": "Score two Finesse goals in 3 separate matches in the Ones We Watched World Class Challenge.",
-            "reward": "Consumable",
-            "nameFA": "ظرافت",
-            "descriptionFA": "۲ گل Finesse به ثمر برسانید، در ۳ مسابقهٔ جداگانه، در «Ones We Watched World Class Challenge».",
-            "rewardFA": "آیتم مصرفی"
-          },
-          {
-            "name": "Serial Winner",
-            "description": "Assist 1 goal while having min. 1 Spanish player in your starting XI in the Ones We Watched World Class Challenge.",
-            "reward": "1,500 Coins",
-            "nameFA": "برندهٔ پی‌درپی",
-            "descriptionFA": "۱ پاس گل بدهید، با حداقل ۱ بازیکن اسپانیایی در ترکیب اصلی، در «Ones We Watched World Class Challenge».",
-            "rewardFA": "۱,۵۰۰ سکه"
-          },
-          {
-            "name": "PL Scorer",
-            "description": "Score with a Premier League player in the Ones We Watched World Class Challenge.",
-            "reward": "2X 75+ Gold Players Pack",
-            "nameFA": "گل‌زن پریمیرلیگ",
-            "descriptionFA": "گل بزنید، با یک بازیکن Premier League، در «Ones We Watched World Class Challenge».",
-            "rewardFA": "۲ عدد بستهٔ بازیکن طلایی ۷۵+"
-          }
-        ],
-        "detail_checked_at": "2026-10-21T21:43:42.228Z"
-      },
-      {
-        "name": "Heart of the Pitch",
-        "category": "campaign",
-        "description": "Compete in the Heart of the Pitch Flash Rush Event and earn rewards. All rewards are untradeable.",
-        "url": "https://www.fut.gg/objectives/campaigns/132-heart-of-the-pitch/",
-        "nameFA": "قلب میدان",
-        "descriptionFA": "در رویداد Flash Rushِ Heart of the Pitch شرکت کنید و جایزه بگیرید. همهٔ جایزه‌ها غیرقابل‌فروش‌اند.",
-        "tasks": [
-          {
-            "name": "Win 3",
-            "description": "Win 3 matches in the Heart of the Pitch Flash Rush Event.",
-            "reward": "4X 82+ Gold Players Pack",
-            "descriptionFA": "۳ مسابقه را ببرید، در «Heart of the Pitch Flash Rush Event».",
-            "rewardFA": "۴ عدد بستهٔ بازیکن طلایی ۸۲+",
-            "nameFA": "۳ برد"
-          },
-          {
-            "name": "15,000 Rush Points",
-            "description": "Earn 15,000 Rush Points.",
-            "reward": "1 Of 3 83+ Gold Player Pick",
-            "descriptionFA": "۱۵,۰۰۰ امتیاز Rush کسب کنید.",
-            "rewardFA": "انتخاب بازیکن طلایی ۸۳+ (۱ از ۳)",
-            "nameFA": "۱۵,۰۰۰ امتیاز Rush"
-          },
-          {
-            "name": "Play 3",
-            "description": "Play 3 matches in the Heart of the Pitch Flash Rush Event.",
-            "reward": "2X 82+ Gold Players Pack",
-            "descriptionFA": "۳ مسابقه را بازی کنید، در «Heart of the Pitch Flash Rush Event».",
-            "rewardFA": "۲ عدد بستهٔ بازیکن طلایی ۸۲+",
-            "nameFA": "۳ مسابقه"
-          }
-        ],
-        "detail_checked_at": "2026-10-21T21:43:42.228Z"
+        "detail_checked_at": "2026-10-22T11:54:09.055Z"
       },
       {
         "name": "Future Stars: Milton Delgado",
@@ -814,7 +625,7 @@
             "rewardFA": "آیتم مصرفی"
           }
         ],
-        "detail_checked_at": "2026-10-21T21:43:42.228Z"
+        "detail_checked_at": "2026-10-22T11:54:09.055Z"
       },
       {
         "name": "Future Stardom",
@@ -865,52 +676,7 @@
             "rewardFA": "۱,۰۰۰ سکه"
           }
         ],
-        "detail_checked_at": "2026-10-21T21:43:42.228Z"
-      },
-      {
-        "name": "Future Stars SP",
-        "category": "campaign",
-        "description": "Complete these challenges to earn SP!",
-        "url": "https://www.fut.gg/objectives/campaigns/144-future-stars-sp/",
-        "nameFA": "SP بازیکنان Future Stars",
-        "descriptionFA": "چالش‌های these را کامل کنید و SP بگیرید.",
-        "rewardFA": "۱,۵۰۰ در مجموع",
-        "tasks": [
-          {
-            "name": "Portuguese Maestro",
-            "description": "Assist 2 goals in 2 separate matches with min. 1 Portuguese player in your starting XI in Squad Battles on min. Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events).",
-            "reward": "250 SP",
-            "nameFA": "استاد پرتغالی",
-            "descriptionFA": "۲ پاس گل بدهید، در ۲ مسابقهٔ جداگانه، در Squad Battles، روی سختی نیمه‌حرفه‌ای (یا Rush/Rivals/Champions/Live Events)، با حداقل ۱ بازیکن پرتغالی در ترکیب اصلی.",
-            "rewardFA": "۲۵۰ SP"
-          },
-          {
-            "name": "Azzurri's Wall",
-            "description": "Keep 2 Clean Sheets with min. 1 Italian player in your starting XI in Squad Battles on min. Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events).",
-            "reward": "250 SP",
-            "nameFA": "دیوار آتزوری",
-            "descriptionFA": "۲ بار دروازهٔ خود را بسته نگه دارید (کلین‌شیت)، با حداقل ۱ بازیکن ایتالیایی در ترکیب اصلی، در Squad Battles، روی سختی نیمه‌حرفه‌ای (یا Rush/Rivals/Champions/Live Events).",
-            "rewardFA": "۲۵۰ SP"
-          },
-          {
-            "name": "The Viking",
-            "description": "Score in 3 separate matches with a ST in Squad Battles on min. Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events).",
-            "reward": "250 SP",
-            "nameFA": "وایکینگ",
-            "descriptionFA": "گل بزنید، در ۳ مسابقهٔ جداگانه، در Squad Battles، روی سختی نیمه‌حرفه‌ای (یا Rush/Rivals/Champions/Live Events)، با یک بازیکن ST.",
-            "rewardFA": "۲۵۰ SP"
-          },
-          {
-            "name": "Madridista Flair",
-            "description": "Play 3 matches with min. 1 Brazilian player in your starting XI in Squad Battles on min. Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events).",
-            "reward": "250 SP",
-            "nameFA": "استیل مادریدی",
-            "descriptionFA": "۳ مسابقه را بازی کنید، با حداقل ۱ بازیکن برزیلی در ترکیب اصلی، در Squad Battles، روی سختی نیمه‌حرفه‌ای (یا Rush/Rivals/Champions/Live Events).",
-            "rewardFA": "۲۵۰ SP"
-          }
-        ],
-        "reward": "1,500 total",
-        "detail_checked_at": "2026-10-21T21:43:42.228Z"
+        "detail_checked_at": "2026-10-22T11:54:09.055Z"
       },
       {
         "name": "Ultimate Gauntlet 2",
@@ -1000,7 +766,7 @@
             "nameFA": "۱ گل"
           }
         ],
-        "detail_checked_at": "2026-10-21T21:43:42.228Z"
+        "detail_checked_at": "2026-10-22T11:54:09.055Z"
       },
       {
         "name": "Future Stars Academy",
@@ -1051,7 +817,7 @@
             "rewardFA": "۲ عدد بستهٔ بازیکن طلایی ۷۵+"
           }
         ],
-        "detail_checked_at": "2026-10-21T21:43:42.228Z"
+        "detail_checked_at": "2026-10-22T11:54:09.055Z"
       },
       {
         "name": "Rising Through the Ranks",
@@ -1104,7 +870,7 @@
           }
         ],
         "reward": "250 total",
-        "detail_checked_at": "2026-10-21T21:43:42.228Z"
+        "detail_checked_at": "2026-10-22T11:54:09.055Z"
       },
       {
         "name": "First Team Dreams",
@@ -1141,7 +907,7 @@
           }
         ],
         "reward": "400 total",
-        "detail_checked_at": "2026-10-21T21:43:42.228Z"
+        "detail_checked_at": "2026-10-22T11:54:09.055Z"
       },
       {
         "name": "The Journey Begins",
@@ -1186,7 +952,7 @@
           }
         ],
         "reward": "100 total",
-        "detail_checked_at": "2026-10-21T21:43:42.228Z"
+        "detail_checked_at": "2026-10-22T11:54:09.055Z"
       },
       {
         "name": "Total Football",
@@ -1223,7 +989,7 @@
           }
         ],
         "reward": "300 total",
-        "detail_checked_at": "2026-10-21T21:43:42.228Z"
+        "detail_checked_at": "2026-10-22T11:54:09.055Z"
       },
       {
         "name": "Gallery Foundations",
@@ -1274,7 +1040,7 @@
             "rewardFA": "۲۵۰ سکه"
           }
         ],
-        "detail_checked_at": "2026-10-21T21:43:42.228Z"
+        "detail_checked_at": "2026-10-22T11:54:09.055Z"
       },
       {
         "name": "Ted Lasso's Masterclass",
@@ -1333,7 +1099,7 @@
             "rewardFA": "جایزه"
           }
         ],
-        "detail_checked_at": "2026-10-21T21:43:42.228Z"
+        "detail_checked_at": "2026-10-22T11:54:09.055Z"
       },
       {
         "name": "Squad Battles Milestone",
@@ -1368,7 +1134,7 @@
             "nameFA": "۵ مسابقه"
           }
         ],
-        "detail_checked_at": "2026-10-21T21:43:42.228Z"
+        "detail_checked_at": "2026-10-22T11:54:09.055Z"
       },
       {
         "name": "Draft Milestone",
@@ -1403,7 +1169,7 @@
             "nameFA": "۵ مسابقه"
           }
         ],
-        "detail_checked_at": "2026-10-21T21:43:42.228Z"
+        "detail_checked_at": "2026-10-22T11:54:09.055Z"
       },
       {
         "name": "Co-Op Milestone",
@@ -1438,7 +1204,7 @@
             "nameFA": "۵ مسابقه"
           }
         ],
-        "detail_checked_at": "2026-10-21T21:43:42.228Z"
+        "detail_checked_at": "2026-10-22T11:54:09.055Z"
       },
       {
         "name": "Rush Milestone",
@@ -1497,7 +1263,7 @@
             "nameFA": "۵ مسابقه"
           }
         ],
-        "detail_checked_at": "2026-10-21T21:43:42.228Z"
+        "detail_checked_at": "2026-10-22T11:54:09.055Z"
       },
       {
         "name": "Moments Stars Milestone",
@@ -1532,7 +1298,7 @@
             "nameFA": "۱۵ ستاره"
           }
         ],
-        "detail_checked_at": "2026-10-21T21:43:42.228Z"
+        "detail_checked_at": "2026-10-22T11:54:09.055Z"
       },
       {
         "name": "Squad Building Milestone",
@@ -1567,7 +1333,7 @@
             "nameFA": "۵ SBC"
           }
         ],
-        "detail_checked_at": "2026-10-21T21:43:42.228Z"
+        "detail_checked_at": "2026-10-22T11:54:09.055Z"
       },
       {
         "name": "Transfer Market Milestone",
@@ -1610,7 +1376,7 @@
             "nameFA": "۲۵ خرید Buy Now"
           }
         ],
-        "detail_checked_at": "2026-10-21T21:43:42.228Z"
+        "detail_checked_at": "2026-10-22T11:54:09.055Z"
       },
       {
         "name": "Live Events Milestone",
@@ -1645,7 +1411,7 @@
             "nameFA": "۵ مسابقه"
           }
         ],
-        "detail_checked_at": "2026-10-21T21:43:42.228Z"
+        "detail_checked_at": "2026-10-22T11:54:09.055Z"
       },
       {
         "name": "Rivals Milestone",
@@ -1680,7 +1446,7 @@
             "nameFA": "۵ مسابقه"
           }
         ],
-        "detail_checked_at": "2026-10-21T21:43:42.228Z"
+        "detail_checked_at": "2026-10-22T11:54:09.055Z"
       },
       {
         "name": "Champions Milestone",
@@ -1715,7 +1481,7 @@
             "nameFA": "۵ مسابقه"
           }
         ],
-        "detail_checked_at": "2026-10-21T21:43:42.228Z"
+        "detail_checked_at": "2026-10-22T11:54:09.055Z"
       },
       {
         "name": "Gallery Milestone",
@@ -1765,7 +1531,7 @@
             "nameFA": "سطح ۵"
           }
         ],
-        "detail_checked_at": "2026-10-21T21:43:42.228Z"
+        "detail_checked_at": "2026-10-22T11:54:09.055Z"
       }
     ],
     "sbc": [
@@ -1791,8 +1557,8 @@
             ]
           }
         ],
-        "squads_checked_at": "2026-10-21T21:43:42.228Z",
-        "detail_checked_at": "2026-10-21T21:43:42.228Z"
+        "squads_checked_at": "2026-10-22T11:54:09.055Z",
+        "detail_checked_at": "2026-10-22T11:54:09.055Z"
       },
       {
         "name": "MLS Future Stars Player Pick",
@@ -1821,7 +1587,7 @@
           }
         ],
         "squads_checked_at": "2026-10-21T11:50:39.002Z",
-        "detail_checked_at": "2026-10-21T21:43:42.228Z"
+        "detail_checked_at": "2026-10-22T11:54:09.055Z"
       },
       {
         "name": "Assane Diao",
@@ -1848,7 +1614,7 @@
           }
         ],
         "squads_checked_at": "2026-10-18T18:00:00.439Z",
-        "detail_checked_at": "2026-10-21T21:43:42.228Z"
+        "detail_checked_at": "2026-10-22T11:54:09.055Z"
       },
       {
         "name": "Liga Portugal Future Stars Player Pick",
@@ -1877,7 +1643,7 @@
           }
         ],
         "squads_checked_at": "2026-10-18T18:00:00.439Z",
-        "detail_checked_at": "2026-10-21T21:43:42.228Z"
+        "detail_checked_at": "2026-10-22T11:54:09.055Z"
       },
       {
         "name": "Johan Manzambi",
@@ -1904,7 +1670,7 @@
           }
         ],
         "squads_checked_at": "2026-10-18T18:00:00.439Z",
-        "detail_checked_at": "2026-10-21T21:43:42.228Z"
+        "detail_checked_at": "2026-10-22T11:54:09.055Z"
       },
       {
         "name": "Cora Zicai",
@@ -1931,7 +1697,7 @@
           }
         ],
         "squads_checked_at": "2026-10-18T18:00:00.439Z",
-        "detail_checked_at": "2026-10-21T21:43:42.228Z"
+        "detail_checked_at": "2026-10-22T11:54:09.055Z"
       },
       {
         "name": "Ligue 1 POTM September",
@@ -1958,7 +1724,7 @@
           }
         ],
         "squads_checked_at": "2026-10-18T17:20:01.281Z",
-        "detail_checked_at": "2026-10-21T21:43:42.228Z"
+        "detail_checked_at": "2026-10-22T11:54:09.055Z"
       },
       {
         "name": "Liga F POTM September",
@@ -1985,7 +1751,7 @@
           }
         ],
         "squads_checked_at": "2026-10-18T17:20:01.281Z",
-        "detail_checked_at": "2026-10-21T21:43:42.228Z"
+        "detail_checked_at": "2026-10-22T11:54:09.055Z"
       },
       {
         "name": "LALIGA POTM September",
@@ -2012,7 +1778,7 @@
           }
         ],
         "squads_checked_at": "2026-10-18T17:20:01.281Z",
-        "detail_checked_at": "2026-10-21T21:43:42.228Z"
+        "detail_checked_at": "2026-10-22T11:54:09.055Z"
       },
       {
         "name": "Premier League POTM September",
@@ -2039,7 +1805,7 @@
           }
         ],
         "squads_checked_at": "2026-10-18T17:20:01.281Z",
-        "detail_checked_at": "2026-10-21T21:43:42.228Z"
+        "detail_checked_at": "2026-10-22T11:54:09.055Z"
       },
       {
         "name": "Bundesliga POTM September",
@@ -2066,7 +1832,7 @@
           }
         ],
         "squads_checked_at": "2026-10-18T17:20:01.281Z",
-        "detail_checked_at": "2026-10-21T21:43:42.228Z"
+        "detail_checked_at": "2026-10-22T11:54:09.055Z"
       },
       {
         "name": "Serie A POTM September",
@@ -2093,7 +1859,7 @@
           }
         ],
         "squads_checked_at": "2026-10-18T17:20:01.281Z",
-        "detail_checked_at": "2026-10-21T21:43:42.228Z"
+        "detail_checked_at": "2026-10-22T11:54:09.055Z"
       },
       {
         "name": "2x 83+ Upgrade",
@@ -2124,7 +1890,7 @@
           }
         ],
         "squads_checked_at": "2026-10-20T17:08:43.224Z",
-        "detail_checked_at": "2026-10-21T21:43:42.228Z"
+        "detail_checked_at": "2026-10-22T11:54:09.055Z"
       },
       {
         "name": "Max. 87 Base Hero Upgrade",
@@ -2155,7 +1921,7 @@
           }
         ],
         "squads_checked_at": "2026-10-19T22:22:00.217Z",
-        "detail_checked_at": "2026-10-21T21:43:42.228Z"
+        "detail_checked_at": "2026-10-22T11:54:09.055Z"
       },
       {
         "name": "1 of 3 79+ Gold Player Pick",
@@ -2186,7 +1952,7 @@
           }
         ],
         "squads_checked_at": "2026-10-21T11:50:39.002Z",
-        "detail_checked_at": "2026-10-21T21:43:42.228Z"
+        "detail_checked_at": "2026-10-22T11:54:09.055Z"
       },
       {
         "name": "TOTW Upgrade",
@@ -2215,7 +1981,7 @@
           }
         ],
         "squads_checked_at": "2026-10-18T17:20:01.281Z",
-        "detail_checked_at": "2026-10-21T21:43:42.228Z"
+        "detail_checked_at": "2026-10-22T11:54:09.055Z"
       },
       {
         "name": "Gold Upgrade",
@@ -2244,7 +2010,7 @@
           }
         ],
         "squads_checked_at": "2026-10-18T17:20:01.281Z",
-        "detail_checked_at": "2026-10-21T21:43:42.228Z"
+        "detail_checked_at": "2026-10-22T11:54:09.055Z"
       },
       {
         "name": "Silver Upgrade",
@@ -2273,7 +2039,7 @@
           }
         ],
         "squads_checked_at": "2026-10-18T17:20:01.281Z",
-        "detail_checked_at": "2026-10-21T21:43:42.228Z"
+        "detail_checked_at": "2026-10-22T11:54:09.055Z"
       },
       {
         "name": "Bronze Upgrade",
@@ -2302,7 +2068,7 @@
           }
         ],
         "squads_checked_at": "2026-10-18T17:20:01.281Z",
-        "detail_checked_at": "2026-10-21T21:43:42.228Z"
+        "detail_checked_at": "2026-10-22T11:54:09.055Z"
       },
       {
         "name": "Future Stars Challenge 4",
@@ -2337,8 +2103,8 @@
             ]
           }
         ],
-        "squads_checked_at": "2026-10-21T21:43:42.228Z",
-        "detail_checked_at": "2026-10-21T21:43:42.228Z"
+        "squads_checked_at": "2026-10-22T11:54:09.055Z",
+        "detail_checked_at": "2026-10-22T11:54:09.055Z"
       },
       {
         "name": "Marquee Matchups",
@@ -2448,7 +2214,7 @@
           }
         ],
         "squads_checked_at": "2026-10-18T18:00:00.439Z",
-        "detail_checked_at": "2026-10-21T21:43:42.228Z"
+        "detail_checked_at": "2026-10-22T11:54:09.055Z"
       },
       {
         "name": "League & Nation Advanced",
@@ -2534,7 +2300,7 @@
           }
         ],
         "squads_checked_at": "2026-10-18T18:00:00.439Z",
-        "detail_checked_at": "2026-10-21T21:43:42.228Z"
+        "detail_checked_at": "2026-10-22T11:54:09.055Z"
       },
       {
         "name": "Intro to Player SBCs",
@@ -2561,7 +2327,7 @@
           }
         ],
         "squads_checked_at": "2026-10-18T18:00:00.439Z",
-        "detail_checked_at": "2026-10-21T21:43:42.228Z"
+        "detail_checked_at": "2026-10-22T11:54:09.055Z"
       },
       {
         "name": "Gold Re-Roll",
@@ -2591,7 +2357,7 @@
           }
         ],
         "squads_checked_at": "2026-10-18T18:00:00.439Z",
-        "detail_checked_at": "2026-10-21T21:43:42.228Z"
+        "detail_checked_at": "2026-10-22T11:54:09.055Z"
       },
       {
         "name": "Bronze and Silver Re-roll",
@@ -2621,7 +2387,7 @@
           }
         ],
         "squads_checked_at": "2026-10-18T18:00:00.439Z",
-        "detail_checked_at": "2026-10-21T21:43:42.228Z"
+        "detail_checked_at": "2026-10-22T11:54:09.055Z"
       },
       {
         "name": "Intro to Streamlined SBCs",
@@ -2697,7 +2463,7 @@
           }
         ],
         "squads_checked_at": "2026-10-18T18:00:00.439Z",
-        "detail_checked_at": "2026-10-21T21:43:42.228Z"
+        "detail_checked_at": "2026-10-22T11:54:09.055Z"
       },
       {
         "name": "Intro to Upgrade SBCs",
@@ -2761,7 +2527,7 @@
           }
         ],
         "squads_checked_at": "2026-10-11T07:00:00Z",
-        "detail_checked_at": "2026-10-21T21:43:42.228Z"
+        "detail_checked_at": "2026-10-22T11:54:09.055Z"
       },
       {
         "name": "Intro to SBCs",
@@ -2847,7 +2613,7 @@
           }
         ],
         "squads_checked_at": "2026-10-18T18:00:00.439Z",
-        "detail_checked_at": "2026-10-21T21:43:42.228Z"
+        "detail_checked_at": "2026-10-22T11:54:09.055Z"
       }
     ]
   }
