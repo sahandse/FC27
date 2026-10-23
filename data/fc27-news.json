@@ -1,7 +1,7 @@
 {
   "source": "Electronic Arts",
   "source_url": "https://www.ea.com/games/ea-sports-fc/fc-27",
-  "checked_at": "2026-10-23T13:35:33.274Z",
+  "checked_at": "2026-10-23T23:13:54.063Z",
   "items": [
     {
       "title": "Football Ultimate Team™ 27 - Season 2: FC Heritage",
@@ -9,6 +9,13 @@
       "source": "Electronic Arts",
       "published": "October 22, 2026",
       "summary": "Join a Season-wide celebration of Football Ultimate Team™ nostalgia as Season 2: FC Heritage honours FUT™ favourites."
+    },
+    {
+      "title": "Football Ultimate Team™ 27 - Ultimate Scream",
+      "url": "https://www.ea.com/games/ea-sports-fc/fc-27/news/fc-27-ultimate-scream",
+      "source": "Electronic Arts",
+      "published": "October 23, 2026",
+      "summary": "EA SPORTS FC™ 27 | Ultimate Scream"
     },
     {
       "title": "EA SPORTS FC™ 27 | The Grounds Developer Archetypes Update",
@@ -79,13 +86,6 @@
       "source": "Electronic Arts",
       "published": "September 25, 2026",
       "summary": "With the help of votes from the FC community, meet the players set to shine this season in EA SPORTS FC™ 27 Football Ultimate Team™."
-    },
-    {
-      "title": "Which EA SPORTS FC™ 27 Mode Is Right For You?",
-      "url": "https://www.ea.com/games/ea-sports-fc/fc-27/news/which-fc27-mode-is-right-for-you",
-      "source": "Electronic Arts",
-      "published": "September 25, 2026",
-      "summary": "Learn more about what’s included in FC 27, including immersive offline experiences, competitive events, and online matches with friends."
     }
   ]
 }
