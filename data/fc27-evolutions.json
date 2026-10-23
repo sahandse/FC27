@@ -1,7 +1,600 @@
 {
   "source": "FUT.GG",
-  "checked_at": "2026-10-23T11:40:59.428Z",
+  "checked_at": "2026-10-23T17:08:29.205Z",
   "evolutions": [
+    {
+      "name": "Center Spectre",
+      "url": "https://www.fut.gg/evolutions/2631-center-spectre/",
+      "description": "Stadium, after dark, match time. Spectres rising in the middle of the field. Will they become a heavy mist to trap all passes or a howling wind which scores and assists?",
+      "levels": [
+        {
+          "name": "Level 1",
+          "tasks": [
+            "Play 1 match in Squad Battles on min Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events) using your active EVO player in game."
+          ],
+          "upgrades": [
+            "+ 5 OVR → 81",
+            "+ 5 Agility → 80",
+            "+ 7 Reactions → 80",
+            "+ 5 Dribbling → 80",
+            "+ 3 Heading Acc. → 77",
+            "+ 7 Stamina → 81"
+          ],
+          "nameFA": "سطح ۱",
+          "tasksFA": [
+            "۱ مسابقه را بازی کنید، در Squad Battles، روی سختی نیمه‌حرفه‌ای (یا Rush/Rivals/Champions/Live Events)، با بازیکن فعال تکامل."
+          ],
+          "upgradesFA": [
+            "+۵ امتیاز کلی (به ۸۱)",
+            "+۵ چابکی (به ۸۰)",
+            "+۷ واکنش (به ۸۰)",
+            "+۵ دریبل (به ۸۰)",
+            "+۳ دقت سرزنی (به ۷۷)",
+            "+۷ استقامت (به ۸۱)"
+          ]
+        },
+        {
+          "name": "Level 2",
+          "tasks": [
+            "Play 1 match in Squad Battles on min Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events) using your active EVO player in game."
+          ],
+          "upgrades": [
+            "+ 7 Short Pass → 82",
+            "+ 5 Balance → 80",
+            "+ 7 Ball Control → 80",
+            "+ 7 Composure → 78",
+            "+ 3 Jumping → 79"
+          ],
+          "nameFA": "سطح ۲",
+          "tasksFA": [
+            "۱ مسابقه را بازی کنید، در Squad Battles، روی سختی نیمه‌حرفه‌ای (یا Rush/Rivals/Champions/Live Events)، با بازیکن فعال تکامل."
+          ],
+          "upgradesFA": [
+            "+۷ پس کوتاه (به ۸۲)",
+            "+۵ تعادل (به ۸۰)",
+            "+۷ کنترل توپ (به ۸۰)",
+            "+۷ خونسردی (به ۷۸)",
+            "+۳ پرش (به ۷۹)"
+          ]
+        },
+        {
+          "name": "Level 3",
+          "tasks": [
+            "Play 2 matches in Squad Battles on min. Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events) using your active EVO Player in game."
+          ],
+          "options": [
+            {
+              "name": "Option A",
+              "upgrades": [
+                "+ 6 Interceptions → 78",
+                "+ 8 Defensive Awareness → 77",
+                "+ 6 Standing Tackle → 80",
+                "+ 6 Strength → 78",
+                "+ 6 Aggression → 80"
+              ],
+              "nameFA": "گزینهٔ A",
+              "upgradesFA": [
+                "+۶ قطع توپ (به ۷۸)",
+                "+۸ آگاهی دفاعی (به ۷۷)",
+                "+۶ تکل ایستاده (به ۸۰)",
+                "+۶ قدرت بدنی (به ۷۸)",
+                "+۶ تندخویی (به ۸۰)"
+              ]
+            },
+            {
+              "name": "Option B",
+              "upgrades": [
+                "+ 5 Acceleration → 78",
+                "+ 5 Sprint Speed → 78",
+                "+ 5 Long Shots → 78",
+                "+ 5 Vision → 80",
+                "+ 9 Long Pass → 82"
+              ],
+              "nameFA": "گزینهٔ B",
+              "upgradesFA": [
+                "+۵ شتاب (به ۷۸)",
+                "+۵ سرعت اسپرینت (به ۷۸)",
+                "+۵ شوت از راه دور (به ۷۸)",
+                "+۵ دید (به ۸۰)",
+                "+۹ پس بلند (به ۸۲)"
+              ]
+            }
+          ],
+          "pick_one": true,
+          "nameFA": "سطح ۳",
+          "tasksFA": [
+            "۲ مسابقه را بازی کنید، در Squad Battles، روی سختی نیمه‌حرفه‌ای (یا Rush/Rivals/Champions/Live Events)، با بازیکن فعال تکامل."
+          ]
+        }
+      ],
+      "requirements": [
+        "Overall: Max. 80",
+        "Position: CM, CDM",
+        "Max PS: 7",
+        "Max PS+: 0",
+        "Long Shots: Max. 81",
+        "Standing Tackle: Max. 78",
+        "Pace: Max. 83"
+      ],
+      "details": [
+        "Coins Cost: Free",
+        "Points Cost: Free"
+      ],
+      "requirementsFA": [
+        "حداکثر امتیاز کلی: ۸۰",
+        "پست: CM, CDM",
+        "حداکثر PlayStyle-plus: ۷",
+        "حداکثر PlayStyle+: ۰",
+        "شوت از راه دور: حداکثر ۸۱",
+        "تکل ایستاده: حداکثر ۷۸",
+        "سرعت: حداکثر ۸۳"
+      ],
+      "detailsFA": [
+        "هزینهٔ سکه: رایگان",
+        "هزینهٔ امتیاز: رایگان"
+      ]
+    },
+    {
+      "name": "Pinged Pass",
+      "url": "https://www.fut.gg/evolutions/2630-pinged-pass/",
+      "description": "Add Pinged Pass to any qualified player.",
+      "levels": [
+        {
+          "name": "Level 1",
+          "nameFA": "سطح ۱"
+        }
+      ],
+      "requirements": [
+        "Overall: Max. 83",
+        "Position: CAM",
+        "Max PS: 2"
+      ],
+      "details": [
+        "Coins Cost: Free",
+        "Points Cost: Free"
+      ],
+      "requirementsFA": [
+        "حداکثر امتیاز کلی: ۸۳",
+        "پست: CAM",
+        "حداکثر PlayStyle-plus: ۲"
+      ],
+      "detailsFA": [
+        "هزینهٔ سکه: رایگان",
+        "هزینهٔ امتیاز: رایگان"
+      ]
+    },
+    {
+      "name": "Anticipate",
+      "url": "https://www.fut.gg/evolutions/2629-anticipate/",
+      "description": "Add Anticipate to any qualified player.",
+      "levels": [
+        {
+          "name": "Level 1",
+          "nameFA": "سطح ۱"
+        }
+      ],
+      "requirements": [
+        "Overall: Max. 83",
+        "Max PS: 2"
+      ],
+      "details": [
+        "Coins Cost: Free",
+        "Points Cost: Free"
+      ],
+      "requirementsFA": [
+        "حداکثر امتیاز کلی: ۸۳",
+        "حداکثر PlayStyle-plus: ۲"
+      ],
+      "detailsFA": [
+        "هزینهٔ سکه: رایگان",
+        "هزینهٔ امتیاز: رایگان"
+      ]
+    },
+    {
+      "name": "Batigol Precision",
+      "url": "https://www.fut.gg/evolutions/2624-batigol-precision/",
+      "description": "Bring elite goalscoring pedigree to your attack with a forward who thrives on pure ball striking.",
+      "levels": [
+        {
+          "name": "Level 1",
+          "tasks": [
+            "Play 2 matches in Squad Battles on min. Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events) using your active EVO Player in game."
+          ],
+          "upgrades": [
+            "+ 6 OVR → 83",
+            "+ 7 Sprint Speed → 83",
+            "+ 7 Finishing → 83",
+            "+ 7 Long Shots → 83",
+            "+ 7 Penalties → 83"
+          ],
+          "nameFA": "سطح ۱",
+          "tasksFA": [
+            "۲ مسابقه را بازی کنید، در Squad Battles، روی سختی نیمه‌حرفه‌ای (یا Rush/Rivals/Champions/Live Events)، با بازیکن فعال تکامل."
+          ],
+          "upgradesFA": [
+            "+۶ امتیاز کلی (به ۸۳)",
+            "+۷ سرعت اسپرینت (به ۸۳)",
+            "+۷ تمام‌کنندگی (به ۸۳)",
+            "+۷ شوت از راه دور (به ۸۳)",
+            "+۷ پنالتی (به ۸۳)"
+          ]
+        },
+        {
+          "name": "Level 2",
+          "tasks": [
+            "Play 2 matches in Squad Battles on min. Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events) using your active EVO Player in game."
+          ],
+          "upgrades": [
+            "+ 7 Acceleration → 83",
+            "+ 7 Positioning → 84",
+            "+ 7 Shot Power → 84",
+            "+ 7 Volleys → 84",
+            "+ 7 Stamina → 78"
+          ],
+          "nameFA": "سطح ۲",
+          "tasksFA": [
+            "۲ مسابقه را بازی کنید، در Squad Battles، روی سختی نیمه‌حرفه‌ای (یا Rush/Rivals/Champions/Live Events)، با بازیکن فعال تکامل."
+          ],
+          "upgradesFA": [
+            "+۷ شتاب (به ۸۳)",
+            "+۷ پوزیشن‌گیری (به ۸۴)",
+            "+۷ قدرت شوت (به ۸۴)",
+            "+۷ والی (به ۸۴)",
+            "+۷ استقامت (به ۷۸)"
+          ]
+        },
+        {
+          "name": "Level 3",
+          "tasks": [
+            "Play 2 matches in Squad Battles on min. Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events) using your active EVO Player in game."
+          ],
+          "options": [
+            {
+              "name": "Option A",
+              "upgrades": [
+                "+ 7 Vision → 82",
+                "+ 7 Fk Accuracy → 83",
+                "+ 7 Short Pass → 82",
+                "+ 7 Long Pass → 81",
+                "+ 7 Curve → 81"
+              ],
+              "nameFA": "گزینهٔ A",
+              "upgradesFA": [
+                "+۷ دید (به ۸۲)",
+                "+۷ دقت ضربات آزاد (به ۸۳)",
+                "+۷ پس کوتاه (به ۸۲)",
+                "+۷ پس بلند (به ۸۱)",
+                "+۷ کرن (به ۸۱)"
+              ]
+            },
+            {
+              "name": "Option B",
+              "upgrades": [
+                "+ 7 Agility → 82",
+                "+ 7 Balance → 81",
+                "+ 7 Reactions → 82",
+                "+ 7 Ball Control → 80",
+                "+ 7 Dribbling → 81"
+              ],
+              "nameFA": "گزینهٔ B",
+              "upgradesFA": [
+                "+۷ چابکی (به ۸۲)",
+                "+۷ تعادل (به ۸۱)",
+                "+۷ واکنش (به ۸۲)",
+                "+۷ کنترل توپ (به ۸۰)",
+                "+۷ دریبل (به ۸۱)"
+              ]
+            }
+          ],
+          "pick_one": true,
+          "nameFA": "سطح ۳",
+          "tasksFA": [
+            "۲ مسابقه را بازی کنید، در Squad Battles، روی سختی نیمه‌حرفه‌ای (یا Rush/Rivals/Champions/Live Events)، با بازیکن فعال تکامل."
+          ]
+        }
+      ],
+      "requirements": [
+        "Overall: Max. 81",
+        "Position: ST",
+        "Excluded Position: CB, CM, CAM",
+        "Max PS: 7",
+        "Pace: Max. 85"
+      ],
+      "details": [
+        "Coins Cost: Free",
+        "Points Cost: Free"
+      ],
+      "requirementsFA": [
+        "حداکثر امتیاز کلی: ۸۱",
+        "پست: ST",
+        "پست مجاز نیست: CB, CM, CAM",
+        "حداکثر PlayStyle-plus: ۷",
+        "سرعت: حداکثر ۸۵"
+      ],
+      "detailsFA": [
+        "هزینهٔ سکه: رایگان",
+        "هزینهٔ امتیاز: رایگان"
+      ]
+    },
+    {
+      "name": "Wicked Winger",
+      "url": "https://www.fut.gg/evolutions/2623-wicked-winger/",
+      "description": "Own the flank and leave opponents haunted. Select your favorite PlayStyle+ to transform your RM or RW into a true nightmare for defenders.",
+      "levels": [
+        {
+          "name": "Level 1",
+          "tasks": [
+            "Play 1 match in Squad Battles on min Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events) using your active EVO player in game."
+          ],
+          "upgrades": [
+            "+ 15 OVR → 85",
+            "+ 12 Finishing → 82",
+            "+ 12 Penalties → 80",
+            "+ 15 Short Pass → 81",
+            "+ 10 Balance → 82",
+            "+ 10 Composure → 82"
+          ],
+          "nameFA": "سطح ۱",
+          "tasksFA": [
+            "۱ مسابقه را بازی کنید، در Squad Battles، روی سختی نیمه‌حرفه‌ای (یا Rush/Rivals/Champions/Live Events)، با بازیکن فعال تکامل."
+          ],
+          "upgradesFA": [
+            "+۱۵ امتیاز کلی (به ۸۵)",
+            "+۱۲ تمام‌کنندگی (به ۸۲)",
+            "+۱۲ پنالتی (به ۸۰)",
+            "+۱۵ پس کوتاه (به ۸۱)",
+            "+۱۰ تعادل (به ۸۲)",
+            "+۱۰ خونسردی (به ۸۲)"
+          ]
+        },
+        {
+          "name": "Level 2",
+          "tasks": [
+            "Play 1 match in Squad Battles on min Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events) using your active EVO player in game."
+          ],
+          "upgrades": [
+            "+ 15 Acceleration → 87",
+            "+ 12 Shot Power → 84",
+            "+ 10 Vision → 82",
+            "+ 10 Long Pass → 75",
+            "+ 10 Reactions → 82",
+            "+ 15 Stamina → 80"
+          ],
+          "nameFA": "سطح ۲",
+          "tasksFA": [
+            "۱ مسابقه را بازی کنید، در Squad Battles، روی سختی نیمه‌حرفه‌ای (یا Rush/Rivals/Champions/Live Events)، با بازیکن فعال تکامل."
+          ],
+          "upgradesFA": [
+            "+۱۵ شتاب (به ۸۷)",
+            "+۱۲ قدرت شوت (به ۸۴)",
+            "+۱۰ دید (به ۸۲)",
+            "+۱۰ پس بلند (به ۷۵)",
+            "+۱۰ واکنش (به ۸۲)",
+            "+۱۵ استقامت (به ۸۰)"
+          ]
+        },
+        {
+          "name": "Level 3",
+          "tasks": [
+            "Play 1 match in Squad Battles on min Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events) using your active EVO player in game."
+          ],
+          "upgrades": [
+            "+ 1 SM → 4",
+            "+ 15 Sprint Speed → 87",
+            "+ 12 Long Shots → 80",
+            "+ 15 Crossing → 82",
+            "+ 15 Curve → 84",
+            "+ 15 Ball Control → 84"
+          ],
+          "nameFA": "سطح ۳",
+          "tasksFA": [
+            "۱ مسابقه را بازی کنید، در Squad Battles، روی سختی نیمه‌حرفه‌ای (یا Rush/Rivals/Champions/Live Events)، با بازیکن فعال تکامل."
+          ],
+          "upgradesFA": [
+            "+۱ مهارت‌های توپی (به ۴)",
+            "+۱۵ سرعت اسپرینت (به ۸۷)",
+            "+۱۲ شوت از راه دور (به ۸۰)",
+            "+۱۵ سانتر (به ۸۲)",
+            "+۱۵ کرن (به ۸۴)",
+            "+۱۵ کنترل توپ (به ۸۴)"
+          ]
+        },
+        {
+          "name": "Level 4",
+          "tasks": [
+            "Play 1 match in Squad Battles on min Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events) using your active EVO player in game."
+          ],
+          "upgrades": [
+            "+ 15 Positioning → 83",
+            "+ 12 Volleys → 82",
+            "+ 10 Fk Accuracy → 80",
+            "+ 15 Agility → 84",
+            "+ 15 Dribbling → 84"
+          ],
+          "nameFA": "سطح ۴",
+          "tasksFA": [
+            "۱ مسابقه را بازی کنید، در Squad Battles، روی سختی نیمه‌حرفه‌ای (یا Rush/Rivals/Champions/Live Events)، با بازیکن فعال تکامل."
+          ],
+          "upgradesFA": [
+            "+۱۵ پوزیشن‌گیری (به ۸۳)",
+            "+۱۲ والی (به ۸۲)",
+            "+۱۰ دقت ضربات آزاد (به ۸۰)",
+            "+۱۵ چابکی (به ۸۴)",
+            "+۱۵ دریبل (به ۸۴)"
+          ]
+        },
+        {
+          "name": "Level 5",
+          "tasks": [
+            "Play 1 match in Squad Battles on min Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events) using your active EVO player in game."
+          ],
+          "nameFA": "سطح ۵",
+          "tasksFA": [
+            "۱ مسابقه را بازی کنید، در Squad Battles، روی سختی نیمه‌حرفه‌ای (یا Rush/Rivals/Champions/Live Events)، با بازیکن فعال تکامل."
+          ]
+        }
+      ],
+      "requirements": [
+        "Overall: Max. 82",
+        "Position: RM, RW",
+        "Max PS+: 1",
+        "Strength: Max. 80",
+        "Pace: Max. 90",
+        "Defending: Max. 70"
+      ],
+      "details": [
+        "Coins Cost: Free",
+        "Points Cost: Free"
+      ],
+      "requirementsFA": [
+        "حداکثر امتیاز کلی: ۸۲",
+        "پست: RM, RW",
+        "حداکثر PlayStyle+: ۱",
+        "قدرت بدنی: حداکثر ۸۰",
+        "سرعت: حداکثر ۹۰",
+        "Defending: حداکثر ۷۰"
+      ],
+      "detailsFA": [
+        "هزینهٔ سکه: رایگان",
+        "هزینهٔ امتیاز: رایگان"
+      ]
+    },
+    {
+      "name": "The Haunted Wall",
+      "url": "https://www.fut.gg/evolutions/2622-the-haunted-wall/",
+      "description": "Make your defense a nightmare to cross. Use Intercept to cut the passing lanes, Bruiser to win physical duels, or Anticipate to read the opponent's play. Choose your PlayStyle, terrify your opponents, and take back possession.",
+      "levels": [
+        {
+          "name": "Level 1",
+          "tasks": [
+            "Play 1 match in Squad Battles on min Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events) using your active EVO player in game."
+          ],
+          "upgrades": [
+            "+ 8 OVR → 84",
+            "+ 1 WF → 3",
+            "+ 7 Interceptions → 82",
+            "+ 10 Standing Tackle → 85",
+            "+ 10 Stamina → 83"
+          ],
+          "nameFA": "سطح ۱",
+          "tasksFA": [
+            "۱ مسابقه را بازی کنید، در Squad Battles، روی سختی نیمه‌حرفه‌ای (یا Rush/Rivals/Champions/Live Events)، با بازیکن فعال تکامل."
+          ],
+          "upgradesFA": [
+            "+۸ امتیاز کلی (به ۸۴)",
+            "+۱ پای ضعیف (به ۳)",
+            "+۷ قطع توپ (به ۸۲)",
+            "+۱۰ تکل ایستاده (به ۸۵)",
+            "+۱۰ استقامت (به ۸۳)"
+          ]
+        },
+        {
+          "name": "Level 2",
+          "tasks": [
+            "Play 1 match in Squad Battles on min Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events) using your active EVO player in game."
+          ],
+          "upgrades": [
+            "+ 10 Acceleration → 78",
+            "+ 5 Heading Acc. → 81",
+            "+ 10 Sliding Tackle → 81",
+            "+ 10 Strength → 85"
+          ],
+          "nameFA": "سطح ۲",
+          "tasksFA": [
+            "۱ مسابقه را بازی کنید، در Squad Battles، روی سختی نیمه‌حرفه‌ای (یا Rush/Rivals/Champions/Live Events)، با بازیکن فعال تکامل."
+          ],
+          "upgradesFA": [
+            "+۱۰ شتاب (به ۷۸)",
+            "+۵ دقت سرزنی (به ۸۱)",
+            "+۱۰ تکل کشیده (به ۸۱)",
+            "+۱۰ قدرت بدنی (به ۸۵)"
+          ]
+        },
+        {
+          "name": "Level 3",
+          "tasks": [
+            "Play 1 match in Squad Battles on min Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events) using your active EVO player in game."
+          ],
+          "upgrades": [
+            "+ 10 Sprint Speed → 78",
+            "+ 7 Defensive Awareness → 82",
+            "+ 5 Jumping → 84",
+            "+ 5 Aggression → 80"
+          ],
+          "nameFA": "سطح ۳",
+          "tasksFA": [
+            "۱ مسابقه را بازی کنید، در Squad Battles، روی سختی نیمه‌حرفه‌ای (یا Rush/Rivals/Champions/Live Events)، با بازیکن فعال تکامل."
+          ],
+          "upgradesFA": [
+            "+۱۰ سرعت اسپرینت (به ۷۸)",
+            "+۷ آگاهی دفاعی (به ۸۲)",
+            "+۵ پرش (به ۸۴)",
+            "+۵ تندخویی (به ۸۰)"
+          ]
+        },
+        {
+          "name": "Level 4",
+          "tasks": [
+            "Play 1 match in Squad Battles on min Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events) using your active EVO player in game."
+          ],
+          "nameFA": "سطح ۴",
+          "tasksFA": [
+            "۱ مسابقه را بازی کنید، در Squad Battles، روی سختی نیمه‌حرفه‌ای (یا Rush/Rivals/Champions/Live Events)، با بازیکن فعال تکامل."
+          ]
+        }
+      ],
+      "requirements": [
+        "Overall: Max. 81",
+        "Max PS: 7",
+        "Pace: Max. 85"
+      ],
+      "details": [
+        "Coins Cost: Free",
+        "Points Cost: Free"
+      ],
+      "requirementsFA": [
+        "حداکثر امتیاز کلی: ۸۱",
+        "حداکثر PlayStyle-plus: ۷",
+        "سرعت: حداکثر ۸۵"
+      ],
+      "detailsFA": [
+        "هزینهٔ سکه: رایگان",
+        "هزینهٔ امتیاز: رایگان"
+      ]
+    },
+    {
+      "name": "Shadow Striker++",
+      "url": "https://www.fut.gg/evolutions/2621-shadow-striker/",
+      "description": "Add Shadow Striker++ to any qualified player.",
+      "levels": [
+        {
+          "name": "Level 1",
+          "upgrades": [
+            "CAM Shadow Striker ++"
+          ],
+          "nameFA": "سطح ۱",
+          "upgradesFA": [
+            "استایل بازی Shadow Striker (CAM) پلاس"
+          ]
+        }
+      ],
+      "requirements": [
+        "Overall: Max. 83",
+        "Position: CAM"
+      ],
+      "details": [
+        "Coins Cost: Free",
+        "Points Cost: Free"
+      ],
+      "requirementsFA": [
+        "حداکثر امتیاز کلی: ۸۳",
+        "پست: CAM"
+      ],
+      "detailsFA": [
+        "هزینهٔ سکه: رایگان",
+        "هزینهٔ امتیاز: رایگان"
+      ]
+    },
     {
       "name": "Composed Stopper",
       "url": "https://www.fut.gg/evolutions/2606-composed-stopper/",
