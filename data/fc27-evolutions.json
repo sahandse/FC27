@@ -1,6 +1,6 @@
 {
   "source": "FUT.GG",
-  "checked_at": "2026-10-22T21:37:04.564Z",
+  "checked_at": "2026-10-23T11:40:59.428Z",
   "evolutions": [
     {
       "name": "Composed Stopper",
@@ -113,20 +113,12 @@
         "Max PS: 7",
         "Pace: Max. 82"
       ],
-      "details": [
-        "Coins Cost: Free",
-        "Points Cost: Free"
-      ],
       "requirementsFA": [
         "حداکثر امتیاز کلی: ۸۳",
         "پست: CB",
         "پست مجاز نیست: CDM",
         "حداکثر PlayStyle-plus: ۷",
         "سرعت: حداکثر ۸۲"
-      ],
-      "detailsFA": [
-        "هزینهٔ سکه: رایگان",
-        "هزینهٔ امتیاز: رایگان"
       ]
     },
     {
