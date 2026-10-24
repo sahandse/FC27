@@ -838,5 +838,21 @@
     "artist": "Rolandhino1",
     "source": "https://upload.wikimedia.org/wikipedia/commons/4/43/Muamer_Tankovi%C4%87_2018_-_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "extension": "jpg"
+  },
+  {
+    "id": 256788,
+    "name": "Ismaël Boura",
+    "license": "CC0",
+    "artist": "Supporterhéninois",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/7/74/Lens_-_Saint-Etienne_%2803-10-2020%29_9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "extension": "jpg"
+  },
+  {
+    "id": 256856,
+    "name": "Fali Candé",
+    "license": "CC BY 4.0",
+    "artist": "Anneprudence",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Joueur_guin%C3%A9en_et_ivoirien_04_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "extension": "jpg"
   }
 ]
