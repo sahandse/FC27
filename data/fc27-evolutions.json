@@ -1,6 +1,6 @@
 {
   "source": "FUT.GG",
-  "checked_at": "2026-10-24T11:02:50.164Z",
+  "checked_at": "2026-10-24T15:58:18.728Z",
   "evolutions": [
     {
       "name": "Center Spectre",
@@ -442,10 +442,6 @@
         "Pace: Max. 90",
         "Defending: Max. 70"
       ],
-      "details": [
-        "Coins Cost: Free",
-        "Points Cost: Free"
-      ],
       "requirementsFA": [
         "حداکثر امتیاز کلی: ۸۲",
         "پست: RM, RW",
@@ -453,10 +449,6 @@
         "قدرت بدنی: حداکثر ۸۰",
         "سرعت: حداکثر ۹۰",
         "Defending: حداکثر ۷۰"
-      ],
-      "detailsFA": [
-        "هزینهٔ سکه: رایگان",
-        "هزینهٔ امتیاز: رایگان"
       ]
     },
     {
@@ -548,18 +540,10 @@
         "Max PS: 7",
         "Pace: Max. 85"
       ],
-      "details": [
-        "Coins Cost: Free",
-        "Points Cost: Free"
-      ],
       "requirementsFA": [
         "حداکثر امتیاز کلی: ۸۱",
         "حداکثر PlayStyle-plus: ۷",
         "سرعت: حداکثر ۸۵"
-      ],
-      "detailsFA": [
-        "هزینهٔ سکه: رایگان",
-        "هزینهٔ امتیاز: رایگان"
       ]
     },
     {
