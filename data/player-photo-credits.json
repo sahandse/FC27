@@ -854,5 +854,29 @@
     "artist": "Anneprudence",
     "source": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Joueur_guin%C3%A9en_et_ivoirien_04_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "extension": "jpg"
+  },
+  {
+    "id": 76516,
+    "name": "Manaka Hayashi",
+    "license": "CC BY-SA 4.0",
+    "artist": "Hameltion",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/1/18/NC_Courage_vs_Chicago_Stars_%28May_2025%29_028_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "extension": "jpg"
+  },
+  {
+    "id": 76518,
+    "name": "Trinity Armstrong",
+    "license": "CC BY-SA 4.0",
+    "artist": "Bryan Berlin",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Trinity_Armstrong_SD_Gotham5.16-156_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "extension": "jpg"
+  },
+  {
+    "id": 82264,
+    "name": "Joaquín Freitas",
+    "license": "CC BY 4.0",
+    "artist": "Kvrstraw",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Joaqu%C3%ADn_Freitas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "extension": "jpg"
   }
 ]
