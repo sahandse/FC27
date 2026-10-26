@@ -168,6 +168,58 @@ const OBJECTIVES = {
     nameFA: 'مایل‌استون Gallery',
     descriptionFA: 'امتیاز Gallery خود را بالا ببرید، به سطح‌های تازه برسید و برای ساخت ویترین بی‌نظیر باشگاه خود جایزه بگیرید.',
   },
+  'FC Heritage Circuit Kick Off Event': {
+    nameFA: 'رویداد Kick Offِ FC Heritage Circuit',
+    descriptionFA: 'در رویداد Kick Offِ FC Heritage Circuit شرکت کنید و بسته و جوایز دیگر بگیرید. همهٔ جایزه‌ها غیرقابل‌فروش‌اند.',
+  },
+  'FC Heritage Circuit Semi-Pro Event': {
+    nameFA: 'رویداد Semi-Proِ FC Heritage Circuit',
+    descriptionFA: 'در رویداد Semi-Proِ FC Heritage Circuit شرکت کنید و بسته و جوایز دیگر بگیرید. همهٔ جایزه‌ها غیرقابل‌فروش‌اند.',
+  },
+  'FC Heritage Circuit Professional Event': {
+    nameFA: 'رویداد Professionalِ FC Heritage Circuit',
+    descriptionFA: 'در رویداد Professionalِ FC Heritage Circuit شرکت کنید و بسته و جوایز دیگر بگیرید. همهٔ جایزه‌ها غیرقابل‌فروش‌اند.',
+  },
+  'FC Heritage Circuit World Class Event': {
+    nameFA: 'رویداد World Classِ FC Heritage Circuit',
+    descriptionFA: 'در رویداد World Classِ FC Heritage Circuit شرکت کنید و بسته و جوایز دیگر بگیرید. همهٔ جایزه‌ها غیرقابل‌فروش‌اند.',
+  },
+  'FC Heritage Circuit Tournament': {
+    nameFA: 'تورنمنت FC Heritage Circuit',
+    descriptionFA: 'در تورنمنت FC Heritage Circuit شرکت کنید و کارت ویژهٔ FC Heritage Alexis Sánchez، بسته و جوایز دیگر بگیرید. همهٔ جایزه‌ها غیرقابل‌فروش‌اند.',
+  },
+  'FC Heritage Circuit Completionist': {
+    nameFA: 'کامل‌کنندهٔ FC Heritage Circuit',
+    descriptionFA: 'اهداف FC Heritage Circuit را کامل کنید و جایزه بگیرید. همهٔ جایزه‌ها غیرقابل‌فروش‌اند.',
+  },
+  'Season 2 Daily Knockout Tournament': {
+    nameFA: 'تورنمنت Daily Knockout فصل ۲',
+    descriptionFA: '۷ چالش از ۸ چالش تورنمنت Daily Knockout فصل ۲ را کامل کنید و بسته، سکه و جوایز ویژه بگیرید! همهٔ جایزه‌ها غیرقابل‌فروش‌اند.',
+  },
+  'Season 2 Daily Knockout Tournament Weekly Play': {
+    nameFA: 'بازی هفتگی تورنمنت Daily Knockout فصل ۲',
+    descriptionFA: 'در تورنمنت Daily Knockout فصل ۲ شرکت کنید و جوایز ویژه بگیرید! همهٔ جایزه‌ها غیرقابل‌فروش‌اند.',
+  },
+  'Season 2 Daily Knockout Tournament Weekly Play Completionist': {
+    nameFA: 'کامل‌کنندهٔ بازی هفتگی تورنمنت Daily Knockout فصل ۲',
+    descriptionFA: 'همهٔ اهداف بازی هفتگی تورنمنت Daily Knockout فصل ۲ را کامل کنید تا FC Heritage Axel Witsel و سکه بگیرید! همهٔ جایزه‌ها غیرقابل‌فروش‌اند.',
+  },
+  'Feral Strength Flash Rush': {
+    nameFA: 'Flash Rushِ Feral Strength',
+    descriptionFA: 'در رویداد Flash Rushِ Feral Strength قدرت بگیرید و جوایز توکن Ultimate Scream را ببرید!',
+  },
+  'Phantom Playgrounds': {
+    nameFA: 'زمین‌های بازی ارواح',
+    descriptionFA: 'مجموعه‌ای از چالش‌های ترسناک را پشت سر بگذارید و توکن‌های Ultimate Scream بگیرید تا در Token Store خرج کنید!',
+  },
+  'Ultimate Scream Gallery': {
+    nameFA: 'گالری Ultimate Scream',
+    descriptionFA: 'در ست گالری Ultimate Scream پیشرفت کنید و جوایز ویژهٔ Ultimate Scream بگیرید! همهٔ جایزه‌ها غیرقابل‌فروش‌اند.',
+  },
+  'Ultimate Scream Puzzle Completionist': {
+    nameFA: 'کامل‌کنندهٔ پازل Ultimate Scream',
+    descriptionFA: 'SBCهای پازل Ultimate Scream را کامل کنید و توکن Ultimate Scream و SP بگیرید!',
+  },
 };
 
 const SBC = {
@@ -213,6 +265,46 @@ const SBC = {
   'A Brace': { nameFA: 'دو گل در یک مسابقه' },
   'Hat-trick': { nameFA: 'هت‌تریک' },
   'A Pair Of Pairs': { nameFA: 'دو جفت بازیکن' },
+  'Base Hero Player Pick': {
+    nameFA: 'انتخاب بازیکن Base Hero',
+    descriptionFA: '۱ آیتم بازیکن Base Hero از میان Rui Costa، Hernández، Larsson و Park Ji-sung بگیرید (جزئیات جایزه را ببینید).',
+  },
+  'Emre Mor': {
+    nameFA: 'چالش بازیکن: Emre Mor',
+    descriptionFA: 'کارت ویژهٔ Ultimate Scream Emre Mor را بگیرید.',
+  },
+  'Nick Woltemade': {
+    nameFA: 'چالش بازیکن: Nick Woltemade',
+    descriptionFA: 'کارت ویژهٔ Ultimate Scream Nick Woltemade را بگیرید.',
+  },
+  'NWSL Future Stars Player Pick': {
+    nameFA: 'انتخاب بازیکن Future Stars لیگ NWSL',
+    descriptionFA: 'یک بازیکن Future Stars لیگ NWSL را از میان Tordin، Van Zanten، Rader و Jackson انتخاب کنید (جزئیات جایزه را ببینید).',
+  },
+  'LALIGA & Liga F': {
+    nameFA: 'LALIGA و Liga F',
+    descriptionFA: 'این چالش‌ها را کامل کنید و آیتم‌های بازیکن برنزی و نقره‌ای از LL و LF بگیرید.',
+  },
+  'Premier League & Barclays WSL': {
+    nameFA: 'Premier League و Barclays WSL',
+    descriptionFA: 'این چالش‌ها را کامل کنید و آیتم‌های بازیکن برنزی و نقره‌ای از PL و WSL بگیرید.',
+  },
+  'Scary Candy': {
+    nameFA: 'آب نبات ترسناک',
+    descriptionFA: 'آب نبات ترسناک را پیدا کنید و یک Mixed Players Pack بگیرید.',
+  },
+  'Spooky Nights': {
+    nameFA: 'شب‌های وحشت',
+    descriptionFA: 'از شب وحشت فرار کنید و یک Small Gold Players Pack بگیرید.',
+  },
+  'LALIGA': { nameFA: 'لالیگا' },
+  'Liga F': { nameFA: 'لیگ F' },
+  'Premier League': { nameFA: 'پریمیرلیگ' },
+  'Barclays WSL': { nameFA: 'لیگ برتر زنان انگلستان (Barclays WSL)' },
+  'PSG v Olympique Lyonnais': { nameFA: 'PSG در برابر Olympique Lyonnais' },
+  'SSC Napoli v AS Roma': { nameFA: 'SSC Napoli در برابر AS Roma' },
+  'Chelsea v Tottenham Hotspur': { nameFA: 'Chelsea در برابر Tottenham Hotspur' },
+  'FC Barcelona v Real Madrid': { nameFA: 'FC Barcelona در برابر Real Madrid' },
 };
 
 const EVOLUTIONS = {
@@ -292,6 +384,50 @@ const EVOLUTIONS = {
     nameFA: 'دیگر Sophiaِ ضعیف نه!',
     descriptionFA: 'دیگر Sophiaِ ضعیف نه! کمی سرعت بیشتر (هیجان‌زده نشوید، هنوز دروازه‌بان است) و حرکت‌های مهارتی اضافه؛ کافی است تا توپ را از لای پای مهاجم رد کنید و آرام به سمت دروازه برگردید.',
   },
+  'Witching Hour': {
+    nameFA: 'ساعت جادو',
+    descriptionFA: 'نیمه‌شب نزدیک است و میانهٔ میدان مال توست. طلسمت را انتخاب کن: Hex Shot برای قدرت تمام‌کنندگی و Gamechanger، یا Hex Pass برای دید و Incisive Pass.',
+  },
+  'Creep Inside': {
+    nameFA: 'خزیدن به درون',
+    descriptionFA: 'به کناره‌ها نگاه نکن؛ به درون نگاه کن. فول‌بک خود را به تهدیدی وارونه و خزنده تبدیل کن که به میانهٔ میدان نفوذ می‌کند و بازی را از سایه‌ها کنترل می‌کند.',
+  },
+  'Center Spectre': {
+    nameFA: 'شبح میانهٔ میدان',
+    descriptionFA: 'ورزشگاه، بعد از تاریکی، وقت مسابقه. ارواح در میانهٔ میدان بالا می‌آیند. آیا مه غلیظی می‌شوند که همهٔ پاس‌ها را می‌گیرد، یا بادی زوزه‌کش که گل می‌زند و پاس گل می‌دهد؟',
+  },
+  'Pinged Pass': {
+    nameFA: 'پاس کوبیده (Pinged Pass)',
+    descriptionFA: 'Pinged Pass را به هر بازیکن واجد شرایط اضافه کنید.',
+  },
+  'Anticipate': {
+    nameFA: 'پیش‌بینی (Anticipate)',
+    descriptionFA: 'Anticipate را به هر بازیکن واجد شرایط اضافه کنید.',
+  },
+  'Batigol Precision': {
+    nameFA: 'دقت Batigol',
+    descriptionFA: 'با مهاجمی که از ضربهٔ خالص توپ لذت می‌برد، تبحر گلزنی نخبه را به حملهٔ خود بیاور.',
+  },
+  'Wicked Winger': {
+    nameFA: 'وینگر شیطان',
+    descriptionFA: 'کناره را در اختیار بگیر و حریفان را وحشت‌زده کن. PlayStyle+ دلخواهت را انتخاب کن تا RM یا RW تو به کابوسی واقعی برای مدافعان تبدیل شود.',
+  },
+  'The Haunted Wall': {
+    nameFA: 'دیوار تسخیرشده',
+    descriptionFA: 'دفاع خود را به کابوسی برای عبور تبدیل کن. از Intercept برای بستن مسیر پاس، از Bruiser برای بردن دوئل‌های بدنی، یا از Anticipate برای خواندن بازی حریف استفاده کن. PlayStyle خود را انتخاب کن، حریفان را بترسان و توپ را پس بگیر.',
+  },
+  'Shadow Striker++': {
+    nameFA: 'مهاجم سایه++',
+    descriptionFA: 'Shadow Striker++ را به هر بازیکن واجد شرایط اضافه کنید.',
+  },
+  'Composed Stopper': {
+    nameFA: 'مدافع آرام',
+    descriptionFA: 'مسابقات بزرگ به خونسردی مطلق نیاز دارند. CB خود را به مدافع آرامی تبدیل کن که زیر فشار می‌درخشد. هر حملهٔ خطرناک را متوقف کن، توپ را پس بگیر و به تیمت کمک کن کلین‌شیت کند.',
+  },
+  'Side Stopper': {
+    nameFA: 'مدافع کناره',
+    descriptionFA: 'در دفاع بر کناره‌ها مسلط شو و RB یا LB خود را با این ارتقاهای بدنی و مهارتی به کابوس مهاجمان تبدیل کن.',
+  },
 };
 
 // Titles of objective challenge sets. Wordplay is rendered literally; brand words stay Latin.
@@ -352,6 +488,51 @@ const TASKS = {
   'Be a Goldfish': { nameFA: 'مثل ماهی قرمز باش' },
   'Unselfish Play': { nameFA: 'بازی بی‌انانی' },
   'Football is Life': { nameFA: 'فوتبال یعنی زندگی' },
+  'Win Tournament Five Times': { nameFA: 'پنج بار قهرمان تورنمنت شو' },
+  'Win Tournament': { nameFA: 'قهرمان تورنمنت شو' },
+  'Madrid After Midnight': { nameFA: 'مادرید بعد از نیمه‌شب' },
+  'MLS After Dark': { nameFA: 'MLS در دل شب' },
+  'French Fright': { nameFA: 'وحشت فرانسوی' },
+  'Scream in Serie A': { nameFA: 'فریاد در سری A' },
+  'Premier Pride': { nameFA: 'غرور پریمیرلیگ' },
+  'French Connection': { nameFA: 'اتصال فرانسوی' },
+  'Belgian Tower': { nameFA: 'برج بلژیکی' },
+  'Three Lions Legacy': { nameFA: 'میراث سه شیر' },
+  'Heritage Champion': { nameFA: 'قهرمان Heritage' },
+  'Thunder Final': { nameFA: 'فینال رعد' },
+  'Ligue 1 Finest': { nameFA: 'بهترین‌های لیگ ۱' },
+  'Oranje Legacy': { nameFA: 'میراث نارنجی' },
+  'Madrid Royalty': { nameFA: 'سلطنت مادرید' },
+  'French Thrill': { nameFA: 'هیجان فرانسوی' },
+  'Serie A after Dark': { nameFA: 'سری A در دل شب' },
+  'Bundesliga Backbone': { nameFA: 'ستون فقرات بوندس‌لیگا' },
+  'Bavarian Thunder': { nameFA: 'رعد باواریا' },
+  'Paris Power Surge': { nameFA: 'موج قدرت پاریس' },
+  'Bernabéu Thunder': { nameFA: 'رعد برنابئو' },
+  'FC Heritage Circuit World Class Challenge': { nameFA: 'چالش World Classِ FC Heritage Circuit' },
+  'FC Heritage Circuit Professional Challenge': { nameFA: 'چالش Professionalِ FC Heritage Circuit' },
+  'FC Heritage Circuit Semi-Pro Challenge': { nameFA: 'چالش Semi-Proِ FC Heritage Circuit' },
+  'Winning Flex': { nameFA: 'نمایش قدرت در برد' },
+  'Show Your Strength': { nameFA: 'قدرتت را نشان بده' },
+  'Powerful Ally': { nameFA: 'هم‌پیمان قدرتمند' },
+  'Spirit Harvest': { nameFA: 'برداشت ارواح' },
+  'The Red Countess': { nameFA: 'کنتس سرخ' },
+  'Lost Your Head?': { nameFA: 'سرت را گم کرده‌ای؟' },
+  'Grýla\'s Cauldron': { nameFA: 'دیگ Grýla' },
+  'Nessie\'s Deep Gift': { nameFA: 'هدیهٔ عمیق Nessie' },
+  'Tricks and Treats': { nameFA: 'ترفند و شیرینی' },
+  'Gulyabani\'s Wrath': { nameFA: 'خشم Gulyabani' },
+  'S Rank': { nameFA: 'رتبهٔ S' },
+  'A Rank': { nameFA: 'رتبهٔ A' },
+  'B Rank': { nameFA: 'رتبهٔ B' },
+  'C Rank': { nameFA: 'رتبهٔ C' },
+  'D Rank': { nameFA: 'رتبهٔ D' },
+  'Hocus Pocus': { nameFA: 'هوکوس پوکوس' },
+  'Pumpkin Seeds': { nameFA: 'دانه‌های کدو حلوایی' },
+  'Freaky Zombie': { nameFA: 'زامبی عجیب' },
+  'Boo Hoo Party': { nameFA: 'مهمانی گریه و زاری' },
+  'Scary Candy': { nameFA: 'آب نبات ترسناک' },
+  'Spooky Nights': { nameFA: 'شب‌های وحشت' },
 };
 
 const TABLES = { objectives: OBJECTIVES, sbc: SBC, evolutions: EVOLUTIONS, tasks: TASKS };

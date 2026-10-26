@@ -11,6 +11,21 @@ const inner=(fragment,tag)=>{
  const match=new RegExp('<'+tag+'\\b[^>]*>([\\s\\S]*?)<\\/'+tag+'>').exec(fragment);
  return match?plain(match[1]):'';
 };
+// Some EA cards ship a deck shorter than the headline. The article body's first
+// paragraph is the same official copy, so it is used as the summary instead of
+// leaving a truncated or duplicated headline.
+async function articleSummary(link){
+ try{
+  const res=await fetch(link,{headers:{'User-Agent':'Mozilla/5.0 FC27-Hub-News/1.0','Accept':'text/html'},signal:AbortSignal.timeout(20000)});
+  if(!res.ok)return '';
+  const html=await res.text();
+  for(const [,body] of html.matchAll(/<p\b[^>]*>([\s\S]{40,800}?)<\/p>/g)){
+   const text=plain(body);
+   if(text.length>=40)return text;
+  }
+ }catch{}
+ return '';
+}
 async function main(){
  const url='https://www.ea.com/games/ea-sports-fc/fc-27';
  const res=await fetch(url,{headers:{'User-Agent':'Mozilla/5.0 FC27-Hub-News/1.0','Accept':'text/html'},signal:AbortSignal.timeout(30000)});
@@ -29,6 +44,10 @@ async function main(){
   const item={title,url:link.origin+link.pathname,source:'Electronic Arts'};
   if(published)item.published=published;
   if(summary&&summary!==title)item.summary=summary;
+  if(!item.summary||item.summary.length<=title.length){
+   const fallback=await articleSummary(item.url);
+   if(fallback.length>title.length)item.summary=fallback;
+  }
   items.push(item);
  }
  if(items.length<3)throw Error('Official news extraction failed (fewer than 3 titles); retaining previous verified snapshot.');

@@ -61,6 +61,17 @@ const MONTHS = {
 };
 const monthName = value => MONTHS[normalise(value)] || title(value);
 const CONDITIONS = [
+  [/\busing a player from (.+)$/i, (nation) => 'با بازیکنی از ' + phrase(nation)],
+  [/\band qualify for the (.+)$/i, (name) => 'و به «' + title(name) + '» راه پیدا کنید'],
+  [/\bwhile having (?:min\.?|minimum|at least) ([\d,]+) player items? from (.+?) in your starting (?:11|XI)\b/i,
+    (n, from) => 'با حداقل ' + digits(n) + ' آیتم بازیکن از ' + phrase(from) + ' در ترکیب اصلی'],
+  [/\b(?:while having|with|having) (?:min\.?|minimum|at least) ([\d,]+) (.+?) player items? in your starting (?:11|XI)\b/i,
+    (n, kind) => 'با حداقل ' + digits(n) + ' آیتم بازیکن ' + translateKind(kind) + ' در ترکیب اصلی'],
+  [/\bwith a (Defender|Midfielder|Forward|Goalkeeper)\b/i,
+    (pos) => 'با یک ' + ({ Defender: 'مدافع', Midfielder: 'هافبک', Forward: 'مهاجم', Goalkeeper: 'دروازه‌بان' }[pos])],
+  [/\bwith (\d)\*? or higher WF players\b/i, (n) => 'با بازیکنانی با پای ضعیف ' + digits(n) + ' ستاره یا بالاتر'],
+  [/\bin (one|a|an) match(?:es)?\b/i, () => 'در یک مسابقه'],
+  [/\bin the (Season \d+[^.,]+?)(?:\.|$)/i, (name) => 'در «' + title(name) + '»'],
   [/\bwhile having at least ([\d,]+) player(?:s)? from (.+?) in your starting (?:11|XI)\b/i,
     (n, from) => 'با حداقل ' + digits(n) + ' بازیکن از ' + phrase(from) + ' در ترکیب اصلی'],
   [/\b(?:while having|with|having) (?:min\.?|minimum|at least) ([\d,]+) (.+?) player(?:s)? in your starting (?:11|XI)\b/i,
@@ -77,7 +88,7 @@ const CONDITIONS = [
   [/\bin the (Season \d+: [^.,]+?(?:Exhibition|Challenge|Group))\b/i, (name) => 'در «' + title(name) + '»'],
   [/\bin the (Ones We Watched [A-Za-z -]+? Challenge)\b/i, (name) => 'در «' + title(name) + '»'],
   [/\bin the (Ultimate Gauntlet \d+)\b/i, (name) => 'در ' + title(name)],
-  [/\bin the ([A-Z][\w' -]*?Event)\b/i, (name) => 'در «' + title(name) + '»'],
+  [/\bin the ([A-Z][\w' -]*?(?:Event|Tournament))\b/i, (name) => 'در «' + title(name) + '»'],
   [/\bby completing bonuses in (\w+)/i, (mode) => 'با کامل کردن بونوس‌های ' + mode],
   [/\bin (?:the )?(FUT Champions|Division Rivals|Squad Battles|Live Events|Rivals|Champions|Rush|Co-Op|Draft|Moments|Gallery|Squad Building)\b/i,
     (mode) => 'در ' + (MODES[title(mode)] || title(mode))],
@@ -133,6 +144,16 @@ const earnPhrase = value => {
   return digits(match[1]) + ' ' + (EARN[match[2]] || title(match[2]));
 };
 const HEADS = [
+  [/^(?:score|assist)\s+(at least\s+)?([\d,]+|one|two|three|four|five|six|seven|eight|nine|ten)\s+goals?\s+from outside the box$/i,
+    (atLeast, count) => (atLeast ? 'حداقل ' : '') + amount(count) + ' گل از بیرون محوطه به ثمر برسانید'],
+  [/^(?:score|assist)\s+(at least\s+)?([\d,]+|one|two|three|four|five|six|seven|eight|nine|ten)\s+headers?$/i,
+    (atLeast, count) => (atLeast ? 'حداقل ' : '') + amount(count) + ' ضربهٔ سر بزنید'],
+  [/^win the (.+?)\s+(two|three|four|five|six|seven|eight|nine|ten|[\d,]+)\s+times$/i,
+    (name, count) => '«' + title(name) + '» را ' + amount(count) + ' بار ببرید'],
+  [/^win the (.+)$/i, (name) => '«' + title(name) + '» را ببرید'],
+  [/^achieve ([\w-]+) rank in the (.+?)(?:\s+set)?$/i,
+    (rank, name) => 'رتبهٔ ' + rank + ' را در «' + title(name) + '» بگیرید'],
+  [/^complete (.+?)\s+(?:puzzle\s+)?SBC$/i, (name) => 'SBC «' + title(name) + '» را کامل کنید'],
   [/^(win|play|compete in|appear in)\s+(both|any|a|an|[\d,]+)\s+(.*?)\s*match(?:es)?$/i,
     (verb, count, kind) => matchPhrase(count) + (kind ? 'ٔ ' + title(kind) : '') + ' را ' + (VERBS[verb.toLowerCase()] || 'بازی کنید')],
   [/^(score|assist)\s+(at least\s+)?([\d,]+|one|two|three|four|five|six|seven|eight|nine|ten)\s+(.*?)\s*(goals?|times)$/i,
@@ -265,6 +286,8 @@ const SEGMENTS = [
   [/^Earn ([\d,]+) of ([\d,]+) ([\w ]+) Player Items?, between (.+)$/i, (a, b, tier, options) => 'یکی از ' + digits(b) + ' کارت ' + describeModifiers(tier) + ' را از میان ' + andList(options) + ' بگیرید'],
   [/^Earn a pack containing ([\d,]+) ([\w ]+) Player Items?, rated ([\d,]+) or higher$/i,
     (n, tier, r) => 'بستهٔ شامل ' + digits(n) + ' بازیکن ' + (QUALITY[normalise(tier)] || title(tier)) + ' با امتیاز ' + digits(r) + ' یا بالاتر را بگیرید'],
+  [/^Earn a pack containing ([\d,]+) ([\w ]+) Player Item, rated ([\d,]+) or higher, from TOTW ([\d,]+) to ([\d,]+)$/i,
+    (n, tier, r, a, b) => 'بستهٔ شامل ' + digits(n) + ' بازیکن ' + title(tier) + ' با امتیاز ' + digits(r) + ' یا بالاتر از TOTW ' + digits(a) + ' تا ' + digits(b) + ' را بگیرید'],
   [/^Earn a pack containing ([\d,]+) ([\w ]+) Player Item, from TOTW ([\d,]+) to ([\d,]+)$/i,
     (n, tier, a, b) => 'بستهٔ شامل ' + digits(n) + ' بازیکن ' + title(tier) + ' از TOTW ' + digits(a) + ' تا ' + digits(b) + ' را بگیرید'],
   [/^Exchange (Gold|Silver|Bronze) items for rewards$/i, (tier) => 'آیتم‌های ' + QUALITY[tier] + ' را برای جایزه ثبت کنید'],
@@ -327,6 +350,12 @@ const REWARD_SIZES = [
   ['Base', 'پایه'], ['Small', 'کوچک'], ['Large', 'بزرگ'], ['Huge', 'غول‌آسا'], ['Mini', 'مینی'],
 ];
 const REWARD_ITEMS = [
+  [/^([\d,.]+) Ultimate Scream Tokens?$/i, (n) => digits(n) + ' توکن Ultimate Scream'],
+  [/^(.+?)\s*\(Loan\)$/i, (name) => normalise(name) + ' (قرضی)'],
+  [/^Ultimate Scream Stadium Theme$/i, () => 'تم ورزشگاه Ultimate Scream'],
+  [/^Ultimate Scream Tifo$/i, () => 'تیفو Ultimate Scream'],
+  [/^Adidas Cnxt25 Pro Ball$/i, () => 'توپ Adidas Cnxt25 Pro'],
+  [/^Halloween Vip$/i, () => 'VIP هالووین'],
   [/^consumables?$/i, 'آیتم مصرفی'], [/^manager$/i, 'مربی'], [/^award$/i, 'جایزه'],
   [/^badges?$/i, 'بج'],
   [/^coin boost$/i, 'بوست سکه'], [/^evo unlock$/i, 'آنلاک تکامل'], [/^repeat delivery$/i, 'ارسال مجدد'],
