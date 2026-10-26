@@ -296,9 +296,15 @@ test('every published card price is sourced, timestamped and matchable',()=>{
  assert.ok(matchable/feed.prices.length>=0.95,'quotes do not resolve to known players');
  for(const quote of feed.prices){
   assert.ok(['pc','ps','xbox'].includes(quote.platform),quote.platform);
-  assert.equal(quote.versionId,quote.cardId);
+  // cardId is the EA player id the site can display; versionId is the FC27 card
+  // version FUT.GG prices. They differ whenever FUT.GG does not reuse the player id.
+  assert.ok(ids.has(quote.cardId),'quote does not resolve to a known player: '+quote.cardId);
+  assert.match(quote.versionId,/^\d+$/,'versionId: '+quote.versionId);
   assert.ok(Number.isInteger(quote.coins)&&quote.coins>0,quote.coins);
-  assert.equal(new URL(quote.sourceUrl).hostname,'www.fut.gg');
+  const source = new URL(quote.sourceUrl);
+  assert.equal(source.hostname,'www.fut.gg');
+  assert.ok(source.pathname.includes('/27-'+quote.versionId+'/'),'sourceUrl must name the priced FC27 version: '+quote.sourceUrl);
+  assert.equal(quote.status,'verified');
   assert.ok(!Number.isNaN(Date.parse(quote.checkedAt)));
  }
 });

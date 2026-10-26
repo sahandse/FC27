@@ -68,7 +68,11 @@ const PIMG={
 const PLAYERS_RAW=[]; // Populated from validated FC27 public-rating snapshot
 
 const CARD_ART=new Map();
-const cardArtURL=(id,width)=>{const hash=CARD_ART.get(String(id));return hash?`https://game-assets.fut.gg/cdn-cgi/image/quality=85,format=auto,width=${width}/2027/futgg-player-item-card/27-${id}.${hash}.webp`:''};
+// EA publishes the exact FC27 Ultimate Team item card for every rated player.
+// It is the authoritative artwork, so it wins over any mirrored card index.
+const EA_CARD_BASE='https://ratings-images-prod.pulse.ea.com/FC27/components/items';
+const officialCardURL=id=>id?`${EA_CARD_BASE}/${id}_en-GB.webp`:'';
+const cardArtURL=(id,width)=>{const official=officialCardURL(id);if(official)return official;const hash=CARD_ART.get(String(id));return hash?`https://game-assets.fut.gg/cdn-cgi/image/quality=85,format=auto,width=${width}/2027/futgg-player-item-card/27-${id}.${hash}.webp`:''};
 
 function playerFUT(name,rat,pos,sp,big){
   const id=PIMG[name];
@@ -308,12 +312,21 @@ function renderSolver(){
   pool.sort((a,b)=>{
     const ao=!!state.owned[a.id],bo=!!state.owned[b.id];
     if(ao!==bo)return ao?-1:1;
-    return a.price-b.price;
+    const ap=getFC27CardCoins(a),bp=getFC27CardCoins(b);
+    if(ap===null||bp===null)return ap===bp?0:ap===null?1:-1;
+    return ap-bp;
   });
   const squad=pool.slice(0,meta.n);
   const ownedCount=squad.filter(p=>state.owned[p.id]).length;
   const buyPlayers=squad.filter(p=>!state.owned[p.id]);
-  const buyCost=buyPlayers.reduce((sum,p)=>sum+(getFC27CardCoins(p)||(p.rat>=83?1200:p.rat>=75?500:250)),0);
+  let verifiedCost=0;
+  let allBuyPricesVerified=true;
+  for(const p of buyPlayers){
+    const coins=getFC27CardCoins(p);
+    if(coins===null){allBuyPricesVerified=false;break;}
+    verifiedCost+=coins;
+  }
+  const buyCost=allBuyPricesVerified?verifiedCost:null;
   const chem=calcChem(squad);
   document.getElementById('solverChemLbl').textContent='⚗️ کمیستری: '+chem;
   document.getElementById('solverChemVal').textContent=chem+' / 33';
@@ -321,7 +334,7 @@ function renderSolver(){
   document.getElementById('solverSummary').innerHTML=`
     <div class="slv-stat"><div class="slv-stat-val slv-green">${ownedCount}</div><div class="slv-stat-lbl">دارید</div></div>
     <div class="slv-stat"><div class="slv-stat-val slv-red">${buyPlayers.length}</div><div class="slv-stat-lbl">نیاز خرید</div></div>
-    <div class="slv-stat"><div class="slv-stat-val slv-gold">${buyPlayers.length===0?'۰ سکه':fmtPrice(buyCost)}</div><div class="slv-stat-lbl">هزینه تخمینی</div></div>
+    <div class="slv-stat"><div class="slv-stat-val slv-gold">${buyPlayers.length===0?'۰ سکه':buyCost===null?'نامشخص':fmtPrice(buyCost)}</div><div class="slv-stat-lbl">هزینهٔ تأییدشده</div></div>
     <div class="slv-stat"><div class="slv-stat-val slv-purple">${squad.length}</div><div class="slv-stat-lbl">بازیکن</div></div>`;
   if(!squad.length){
     document.getElementById('solverPlayers').innerHTML=`<div style="text-align:center;padding:30px;color:var(--t3)">بازیکن کافی در دیتابیس یافت نشد</div>`;
@@ -329,7 +342,7 @@ function renderSolver(){
   }
   document.getElementById('solverPlayers').innerHTML=squad.map(p=>{
     const isOwned=!!state.owned[p.id];
-    const priceText=getFC27CardCoins(p)!==null?getFC27CardPriceText(p):('~'+(p.rat>=83?1200:p.rat>=75?500:250).toLocaleString('fa-IR')+' سکه');
+    const priceText=getFC27CardPriceText(p);
     return `<div class="slv-player ${isOwned?'owned':'need-buy'}">
       <div class="slv-rat">${p.rat}</div>
       <div class="slv-info">
@@ -853,8 +866,8 @@ function startCountdowns(){
 }
 
 /* ── PLAYER CARD HTML ── */
-function resolvedCT(p){return p.cardType||(p.rat>=84?'gold':p.rat>=64?'silver':'bronze');}
-function realCT(p){if(p.cardType)return p.cardType;if(p.rat>=84)return'gold';if(p.rat>=64)return'silver';return'bronze';}
+function resolvedCT(p){return p.cardType||(p.rat>=75?'gold':p.rat>=65?'silver':'bronze');}
+function realCT(p){if(p.cardType)return p.cardType;if(p.rat>=75)return'gold';if(p.rat>=65)return'silver';return'bronze';}
 function pcardImgCls(p){
   switch(realCT(p)){
     case'icon':return'pimg-icon';
@@ -903,7 +916,7 @@ function playerCardHTML(p){
     return `<div class="pstat"><span class="pstat-val ${cls}">${s.v}</span><span class="pstat-lbl">${s.lbl}</span></div>`;
   }).join(''):'<div class="pstat" style="grid-column:1/-1;padding:9px;font-size:11px;color:var(--t2)">آمار دقیق این کارت تأیید نشده</div>';
   const trendHTML='';
-  const art=cardArtURL(p.id,240);
+  const art=p.cardImageUrl||cardArtURL(p.id,240);
   const upper=art
     ?`<div class="pcard-upper art"><img class="pcard-art" src="${art}" alt="${p.name}" loading="lazy" decoding="async" referrerpolicy="no-referrer"><button class="pcard-fav" onclick="togglePlFav('${p.id}')">${fav?'⭐':'☆'}</button></div>`
     :`<div class="pcard-upper ${bg}">

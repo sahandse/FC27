@@ -54,7 +54,14 @@ async function refreshPrices():Promise<void>{
   for(const record of data.prices){
    if(!record||!/^\d+$/.test(String(record.versionId))||!platforms.has(record.platform))continue;
    const safe=validatedPrice(record,Date.now(),freshnessWindow);
-   if(safe.coins!==null)quotes.set(safe.versionId+':'+safe.platform,safe);
+   if(safe.coins!==null){
+    // The feed is normalised to EA player ids (cardId) and keeps the FUT.GG
+    // card version separately. Index both so a player card and an exact
+    // version lookup resolve to the same verified quote.
+    quotes.set(safe.versionId+':'+safe.platform,safe);
+    const cardId=String(record.cardId??safe.versionId);
+    if(/^\d+$/.test(cardId))quotes.set(cardId+':'+safe.platform,safe);
+   }
   }
  }catch(error){freshnessWindow=720;console.warn('Price feed unavailable; market remains unquoted',error)}
  reportFeedState();
