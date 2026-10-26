@@ -1,0 +1,66 @@
+name: Publish verified data feeds to Pages
+
+on:
+  workflow_run:
+    workflows:
+      - 'FC27 Objectives, SBC and Evolution Feed'
+      - 'FC27 Verified Players'
+      - 'FC27 Official News'
+      - 'FC27 Licensed Player Photos'
+      - 'Download Player Images'
+      - 'FC27 Verified Card Prices'
+    types:
+      - completed
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fc27-pages-data-publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.workflow_run.head_branch || github.ref_name }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Publish feeds that changed onto the Pages branch
+        run: |
+          for attempt in 1 2 3; do
+            base="$(mktemp -d)"
+            worktree="$base/wt"
+            git fetch origin gh-pages
+            git worktree add --detach "$worktree" FETCH_HEAD
+
+            output="$(node scripts/publish-pages-data.mjs "$worktree")"
+            echo "$output"
+
+            if ! printf '%s\n' "$output" | grep -q '^published '; then
+              echo "Pages already serves the current feeds."
+              exit 0
+            fi
+
+            if (
+              cd "$worktree"
+              git add data
+              git -c user.name="github-actions[bot]" \
+                  -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+                  commit -m "data(fc27): publish freshly synced feeds"
+              git push origin HEAD:gh-pages
+            ); then
+              exit 0
+            fi
+
+            echo "Pages branch moved during publish; retrying (attempt $attempt of 3)."
+            git worktree remove --force "$worktree"
+          done
+          echo "Could not publish the feeds after 3 attempts." >&2
+          exit 1

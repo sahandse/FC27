@@ -349,3 +349,31 @@ test('the committed pages are exactly what scripts/build-pages.mjs composes',()=
  assert.ok(flat(shell['index.html']).includes(flat(partial('hero'))));
  assert.ok(!flat(shell['sbc.html']).includes(flat(partial('hero'))));
 });
+
+test('the Pages publisher only ships changed feeds and never regresses a newer copy',()=>{
+ const os = require('node:os');
+ const path = require('node:path');
+ const {execFileSync} = require('node:child_process');
+ const root = fs.mkdtempSync(path.join(os.tmpdir(), 'fc27-publish-'));
+ const src = path.join(root, 'src');
+ const pages = path.join(root, 'pages');
+ fs.mkdirSync(path.join(src, 'data'), {recursive: true});
+ fs.mkdirSync(path.join(pages, 'data'), {recursive: true});
+ const write = (dir, name, value) => fs.writeFileSync(path.join(dir, 'data', name), JSON.stringify(value));
+ write(src, 'fresh.json', {checked_at: '2026-10-26T18:00:00.000Z', items: [1]});
+ write(pages, 'fresh.json', {checked_at: '2026-10-26T17:00:00.000Z', items: [0]});
+ write(src, 'stale.json', {updated_at: '2026-10-26T15:00:00.000Z', items: [0]});
+ write(pages, 'stale.json', {updated_at: '2026-10-26T16:00:00.000Z', items: [1]});
+ write(src, 'same.json', {checked_at: '2026-10-26T12:00:00.000Z', items: [1]});
+ write(pages, 'same.json', {checked_at: '2026-10-26T12:00:00.000Z', items: [1]});
+
+ const output = execFileSync(process.execPath, [path.resolve('scripts/publish-pages-data.mjs'), pages], {cwd: src, encoding: 'utf8'});
+
+ assert.match(output, /^published fresh\.json$/m);
+ assert.doesNotMatch(output, /^published .*stale\.json/m);
+ assert.match(output, /kept newer Pages copy: stale\.json/);
+ assert.deepEqual(JSON.parse(fs.readFileSync(path.join(pages, 'data', 'fresh.json'), 'utf8')), {checked_at: '2026-10-26T18:00:00.000Z', items: [1]});
+ assert.equal(JSON.parse(fs.readFileSync(path.join(pages, 'data', 'stale.json'), 'utf8')).items[0], 1);
+ assert.equal(JSON.parse(fs.readFileSync(path.join(pages, 'data', 'same.json'), 'utf8')).items[0], 1);
+ fs.rmSync(root, {recursive: true, force: true});
+});
