@@ -878,5 +878,37 @@
     "artist": "Kvrstraw",
     "source": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Joaqu%C3%ADn_Freitas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "extension": "jpg"
+  },
+  {
+    "id": 236817,
+    "name": "Habib Maïga",
+    "license": "CC0",
+    "artist": "Supporterhéninois",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/d/dd/RC_Lens_-_FC_Metz_%2814-03-2021%29_39_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "extension": "jpg"
+  },
+  {
+    "id": 236956,
+    "name": "Joe Abrigo",
+    "license": "CC BY-SA 4.0",
+    "artist": "Carlos yo",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Joe_Abrigo_Palestino_v_Deportes_Copiap%C3%B3_20230730_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "extension": "jpg"
+  },
+  {
+    "id": 236958,
+    "name": "Martín Sarrafiore",
+    "license": "CC BY-SA 4.0",
+    "artist": "Rancaguacl",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/9/90/MartinSarrafiore.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "extension": "jpg"
+  },
+  {
+    "id": 237245,
+    "name": "Eddie Segura",
+    "license": "CC BY 4.0",
+    "artist": "u/reepers_hellcat",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Houston_Dynamo_vs_LAFC_%28Apr_2025%29_14_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "extension": "jpg"
   }
 ]
