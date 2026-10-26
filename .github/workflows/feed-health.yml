@@ -1,0 +1,63 @@
+name: FC27 feed health
+
+on:
+  schedule:
+    - cron: '41 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: fc27-feed-health
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Check the published feeds the way a client reads them
+        run: |
+          set -o pipefail
+          node scripts/check-feed-health.mjs | tee health.md
+
+      - name: Open or update the health issue
+        if: failure()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          title="FC27 feed health check is failing"
+          body="$(
+            echo "The scheduled feed health check failed at $(date -u +%Y-%m-%dT%H:%M:%SZ)."
+            echo
+            echo '```'
+            cat health.md
+            echo '```'
+            echo
+            echo "Run: $RUN_URL"
+          )"
+          existing="$(gh issue list --state open --search "$title in:title" --json number --jq '.[0].number // empty')"
+          if [ -n "$existing" ]; then
+            gh issue comment "$existing" --body "$body"
+          else
+            gh issue create --title "$title" --body "$body"
+          fi
+
+      - name: Close the issue once every feed is healthy again
+        if: success()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          title="FC27 feed health check is failing"
+          existing="$(gh issue list --state open --search "$title in:title" --json number --jq '.[0].number // empty')"
+          if [ -n "$existing" ]; then
+            gh issue comment "$existing" --body "Every published feed is fresh and complete again; closing."
+            gh issue close "$existing"
+          fi
