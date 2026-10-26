@@ -48,6 +48,27 @@ jobs:
             git rebase --autostash FETCH_HEAD
             git push origin HEAD:"${GITHUB_REF_NAME}"
           fi
+      - name: Publish the price snapshot to Pages when coin values change
+        run: |
+          git fetch origin gh-pages
+          base="$(mktemp -d)"
+          worktree="$base/wt"
+          git worktree add --detach "$worktree" FETCH_HEAD
+          unchanged=$(node -e '
+            const fs = require("fs");
+            const sig = f => JSON.stringify((JSON.parse(fs.readFileSync(f, "utf8")).prices || [])
+              .map(q => [q.cardId, q.versionId, q.platform, q.coins]));
+            console.log(sig("data/fc27-prices.json") === sig(process.argv[1] + "/data/fc27-prices.json") ? "yes" : "no");
+          ' "$worktree")
+          if [ "$unchanged" = "yes" ]; then
+            echo "Coin values unchanged; the Pages snapshot is already current."
+            exit 0
+          fi
+          cp data/fc27-prices.json "$worktree/data/fc27-prices.json"
+          cd "$worktree"
+          git add data/fc27-prices.json
+          git -c user.name="github-actions[bot]" -c user.email="41898282+github-actions[bot]@users.noreply.github.com" commit -m "data(fc27): publish verified price snapshot"
+          git push origin HEAD:gh-pages
   card-art:
     runs-on: ubuntu-latest
     steps:
