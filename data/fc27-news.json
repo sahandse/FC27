@@ -1,21 +1,28 @@
 {
   "source": "Electronic Arts",
   "source_url": "https://www.ea.com/games/ea-sports-fc/fc-27",
-  "checked_at": "2026-10-27T14:39:39.904Z",
+  "checked_at": "2026-10-27T23:51:06.558Z",
   "items": [
-    {
-      "title": "EA SPORTS FC™ 27 | Title Update v1.1.0",
-      "url": "https://www.ea.com/games/ea-sports-fc/fc-27/news/fc27-title-update-v1-1-0",
-      "source": "Electronic Arts",
-      "published": "October 27, 2026",
-      "summary": "Find out the latest EA SPORTS FC™ 27 Update details in the Title Update v1.1.0 Notes."
-    },
     {
       "title": "EA SPORTS FC™ 27 | Title Update v1.1 Pitch Notes",
       "url": "https://www.ea.com/games/ea-sports-fc/fc-27/news/update-v1-1-pitch-notes",
       "source": "Electronic Arts",
       "published": "October 26, 2026",
       "summary": "EA SPORTS FC™ 27 Title Update v1.1 includes Career Mode updates, faster FUT packs, SBC filters, and fixes across The Grounds and Clubs."
+    },
+    {
+      "title": "Become an FC 27 Club Member by Nov. 1, Get a David Luiz-Inspired Evolution",
+      "url": "https://www.ea.com/games/ea-sports-fc/fc-27/news/fc27-month-1-evolutions-rewards",
+      "source": "Electronic Arts",
+      "published": "October 28, 2026",
+      "summary": "Learn more about the Club Member exclusive Evolution based on the Hall of FUT legacy of David Luiz."
+    },
+    {
+      "title": "EA SPORTS FC™ 27 | Title Update v1.1.0",
+      "url": "https://www.ea.com/games/ea-sports-fc/fc-27/news/fc27-title-update-v1-1-0",
+      "source": "Electronic Arts",
+      "published": "October 27, 2026",
+      "summary": "Find out the latest EA SPORTS FC™ 27 Update details in the Title Update v1.1.0 Notes."
     },
     {
       "title": "Football Ultimate Team™ 27 - Ultimate Scream",
@@ -79,13 +86,6 @@
       "source": "Electronic Arts",
       "published": "October 1, 2026",
       "summary": "Hear directly from the FUT development team following the launch of EA SPORTS FC™ 27, covering early feedback and what we’re working on."
-    },
-    {
-      "title": "EA SPORTS FC™ 27 | Gameplay Developer Launch Update",
-      "url": "https://www.ea.com/games/ea-sports-fc/fc-27/news/fc-27-gameplay-developer-launch-update",
-      "source": "Electronic Arts",
-      "published": "September 30, 2026",
-      "summary": "Hear directly from the Gameplay team following the launch of EA SPORTS FC™ 27, covering early feedback and what we’re working on."
     }
   ]
 }
