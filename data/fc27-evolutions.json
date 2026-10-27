@@ -1,6 +1,6 @@
 {
   "source": "FUT.GG",
-  "checked_at": "2026-10-27T12:13:33.129Z",
+  "checked_at": "2026-10-27T18:02:37.852Z",
   "evolutions": [
     {
       "name": "Rise From the Grave",
@@ -1382,119 +1382,6 @@
         "حداکثر PlayStyle-plus: ۷",
         "سرعت: حداکثر ۷۵",
         "Defending: حداکثر ۷۴"
-      ],
-      "detailsFA": [
-        "هزینهٔ سکه: رایگان",
-        "هزینهٔ امتیاز: رایگان"
-      ]
-    },
-    {
-      "name": "Middle Management",
-      "url": "https://www.fut.gg/evolutions/2562-middle-management/",
-      "description": "Send your junior midfielder to this training to acquire skills necessary for managing the center of the pitch. From passing & shooting, to interceptions & strength, plus many more.",
-      "levels": [
-        {
-          "name": "Level 1",
-          "upgrades": [
-            "+ 40 OVR → 80",
-            "+ 40 Finishing → 76",
-            "+ 50 Vision → 81",
-            "+ 50 Long Pass → 81",
-            "+ 40 Standing Tackle → 77",
-            "+ 40 Aggression → 75"
-          ],
-          "training_time": "6 hours",
-          "nameFA": "سطح ۱",
-          "upgradesFA": [
-            "+۴۰ امتیاز کلی (به ۸۰)",
-            "+۴۰ تمام‌کنندگی (به ۷۶)",
-            "+۵۰ دید (به ۸۱)",
-            "+۵۰ پس بلند (به ۸۱)",
-            "+۴۰ تکل ایستاده (به ۷۷)",
-            "+۴۰ تندخویی (به ۷۵)"
-          ],
-          "training_timeFA": "۶ ساعت"
-        },
-        {
-          "name": "Level 2",
-          "upgrades": [
-            "+ 2 WF → 3",
-            "+ 40 Shot Power → 77",
-            "+ 50 Crossing → 80",
-            "+ 50 Curve → 79",
-            "+ 40 Sliding Tackle → 76"
-          ],
-          "training_time": "6 hours",
-          "nameFA": "سطح ۲",
-          "upgradesFA": [
-            "+۲ پای ضعیف (به ۳)",
-            "+۴۰ قدرت شوت (به ۷۷)",
-            "+۵۰ سانتر (به ۸۰)",
-            "+۵۰ کرن (به ۷۹)",
-            "+۴۰ تکل کشیده (به ۷۶)"
-          ],
-          "training_timeFA": "۶ ساعت"
-        },
-        {
-          "name": "Level 3",
-          "upgrades": [
-            "+ 40 Acceleration → 75",
-            "+ 40 Long Shots → 76",
-            "+ 50 Fk Accuracy → 80",
-            "+ 40 Interceptions → 77",
-            "+ 40 Jumping → 75"
-          ],
-          "training_time": "6 hours",
-          "nameFA": "سطح ۳",
-          "upgradesFA": [
-            "+۴۰ شتاب (به ۷۵)",
-            "+۴۰ شوت از راه دور (به ۷۶)",
-            "+۵۰ دقت ضربات آزاد (به ۸۰)",
-            "+۴۰ قطع توپ (به ۷۷)",
-            "+۴۰ پرش (به ۷۵)"
-          ],
-          "training_timeFA": "۶ ساعت"
-        },
-        {
-          "name": "Level 4",
-          "upgrades": [
-            "+ 40 Sprint Speed → 75",
-            "+ 40 Volleys → 75",
-            "+ 50 Short Pass → 81",
-            "+ 40 Defensive Awareness → 76",
-            "+ 40 Strength → 76"
-          ],
-          "training_time": "6 hours",
-          "nameFA": "سطح ۴",
-          "upgradesFA": [
-            "+۴۰ سرعت اسپرینت (به ۷۵)",
-            "+۴۰ والی (به ۷۵)",
-            "+۵۰ پس کوتاه (به ۸۱)",
-            "+۴۰ آگاهی دفاعی (به ۷۶)",
-            "+۴۰ قدرت بدنی (به ۷۶)"
-          ],
-          "training_timeFA": "۶ ساعت"
-        }
-      ],
-      "requirements": [
-        "Overall: Max. 74",
-        "Position: CDM, CM",
-        "Excluded Position: CAM, CB, ST",
-        "Max PS: 7",
-        "Pace: Max. 83"
-      ],
-      "details": [
-        "Coins Cost: Free",
-        "Points Cost: Free"
-      ],
-      "nameFA": "مدیریت میانهٔ میدان",
-      "descriptionFA": "هافبک جوان خود را به این دورهٔ تمرینی بفرستید تا مهارت‌های لازم برای گردانندگی مرکز میدان را بیاموزد؛ از پاس و شوت تا قطع توپ و قدرت بدنی و بسیاری موارد دیگر.",
-      "requirementsFA": [
-        "حداکثر امتیاز کلی: ۷۴",
-        "پست: CDM, CM",
-        "پست مجاز نیست: CAM, CB, ST",
-        "حداکثر PlayStyle-plus: ۷",
-        "سرعت: حداکثر ۸۳"
       ],
       "detailsFA": [
         "هزینهٔ سکه: رایگان",
