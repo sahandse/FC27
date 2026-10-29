@@ -1,7 +1,7 @@
 {
   "source": "Electronic Arts",
   "source_url": "https://www.ea.com/games/ea-sports-fc/fc-27",
-  "checked_at": "2026-10-28T15:13:02.273Z",
+  "checked_at": "2026-10-29T00:04:14.299Z",
   "items": [
     {
       "title": "EA SPORTS FC™ 27 | Title Update v1.1 Pitch Notes",
@@ -9,6 +9,13 @@
       "source": "Electronic Arts",
       "published": "October 26, 2026",
       "summary": "EA SPORTS FC™ 27 Title Update v1.1 includes Career Mode updates, faster FUT packs, SBC filters, and fixes across The Grounds and Clubs."
+    },
+    {
+      "title": "EA SPORTS FC™ 27 | Gameplay Developer Notes - October",
+      "url": "https://www.ea.com/games/ea-sports-fc/fc-27/news/fc27-october-gameplay-developer-notes",
+      "source": "Electronic Arts",
+      "published": "October 28, 2026",
+      "summary": "Explore the upcoming November gameplay changes and active investigations in our October FC 27 Developer Notes"
     },
     {
       "title": "Become an FC 27 Club Member by Nov. 1, Get a David Luiz-Inspired Evolution",
@@ -79,13 +86,6 @@
       "source": "Electronic Arts",
       "published": "October 2, 2026",
       "summary": "Find out the latest EA SPORTS FC™ 27 Update details in the Title Update v.1.0.3 Notes."
-    },
-    {
-      "title": "EA SPORTS FC™ 27 | FUT Developer Launch Update",
-      "url": "https://www.ea.com/games/ea-sports-fc/fc-27/news/fc-27-fut-developer-launch-update",
-      "source": "Electronic Arts",
-      "published": "October 1, 2026",
-      "summary": "Hear directly from the FUT development team following the launch of EA SPORTS FC™ 27, covering early feedback and what we’re working on."
     }
   ]
 }
