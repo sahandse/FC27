@@ -1,8 +1,90 @@
 {
   "source": "FUT.GG",
-  "checked_at": "2026-10-29T13:02:29.319Z",
+  "checked_at": "2026-10-29T22:45:56.886Z",
   "sections": {
     "objectives": [
+      {
+        "name": "Daily Objectives",
+        "category": "seasonal",
+        "description": "Play, complete and earn SP from daily objective every 24 hours!",
+        "url": "https://www.fut.gg/objectives/seasonal/169-daily-objectives/",
+        "nameFA": "اهداف روزانه",
+        "descriptionFA": "هر ۲۴ ساعت اهداف روزانه را بازی و کامل کنید و از آن‌ها SP بگیرید.",
+        "rewardFA": "۳۰ در مجموع",
+        "tasks": [
+          {
+            "name": "Play 1",
+            "description": "Play 1 match in any FUT game mode.",
+            "reward": "10 SP",
+            "descriptionFA": "۱ مسابقه را بازی کنید، در هر حالت بازی FUT.",
+            "rewardFA": "۱۰ SP",
+            "nameFA": "۱ مسابقه"
+          },
+          {
+            "name": "Scoring Success",
+            "description": "Score 2 goals in any FUT game mode.",
+            "reward": "10 SP",
+            "nameFA": "موفقیت در گل‌زنی",
+            "descriptionFA": "۲ گل به ثمر برسانید، در هر حالت بازی FUT.",
+            "rewardFA": "۱۰ SP"
+          }
+        ],
+        "reward": "30 total",
+        "detail_checked_at": "2026-10-29T22:45:56.886Z"
+      },
+      {
+        "name": "Weekly Objectives",
+        "category": "seasonal",
+        "description": "Complete Weekly Objectives to earn SP!",
+        "url": "https://www.fut.gg/objectives/seasonal/135-weekly-objectives/",
+        "nameFA": "اهداف هفتگی",
+        "descriptionFA": "اهداف هفتگی را کامل کنید و SP بگیرید.",
+        "rewardFA": "۵۰۰ در مجموع",
+        "tasks": [
+          {
+            "name": "Score 10",
+            "description": "Score 10 goals in any FUT game mode using a player from Germany.",
+            "reward": "50 SP",
+            "descriptionFA": "۱۰ گل به ثمر برسانید، در هر حالت بازی FUT، با بازیکنی از Germany.",
+            "rewardFA": "۵۰ SP",
+            "nameFA": "۱۰ گل"
+          },
+          {
+            "name": "Win 10",
+            "description": "Win 10 matches in Squad Battles on min. Semi-Pro difficulty (or Rivals/Champions/Live Events/Rush).",
+            "reward": "50 SP",
+            "descriptionFA": "۱۰ مسابقه را ببرید، در Squad Battles، روی سختی نیمه‌حرفه‌ای (یا Rivals/Champions/Live Events/Rush).",
+            "rewardFA": "۵۰ SP",
+            "nameFA": "۱۰ برد"
+          },
+          {
+            "name": "Play 10",
+            "description": "Play 10 matches in Squad Battles on any difficulty (or Rush/Rivals).",
+            "reward": "50 SP",
+            "descriptionFA": "۱۰ مسابقه را بازی کنید، در Squad Battles، روی سختی دلخواه (یا Rush/Rivals).",
+            "rewardFA": "۵۰ SP",
+            "nameFA": "۱۰ مسابقه"
+          },
+          {
+            "name": "Buy 10",
+            "description": "Buy 10 Player Items using Buy Now in the Transfer Market.",
+            "reward": "50 SP",
+            "descriptionFA": "۱۰ بازیکن را خرید کنید، با Buy Now، در Transfer Market.",
+            "rewardFA": "۵۰ SP",
+            "nameFA": "۱۰ خرید"
+          },
+          {
+            "name": "List 10",
+            "description": "List 10 player items in the Transfer Market.",
+            "reward": "50 SP",
+            "descriptionFA": "۱۰ بازیکن را لیست کنید، در Transfer Market.",
+            "rewardFA": "۵۰ SP",
+            "nameFA": "۱۰ لیست"
+          }
+        ],
+        "reward": "500 total",
+        "detail_checked_at": "2026-10-29T22:45:56.886Z"
+      },
       {
         "name": "Weekly Rush Points",
         "category": "seasonal",
@@ -52,78 +134,58 @@
             "nameFA": "۲,۵۰۰ امتیاز Rush"
           }
         ],
-        "detail_checked_at": "2026-10-29T13:02:29.319Z"
+        "detail_checked_at": "2026-10-29T22:45:56.886Z"
       },
       {
-        "name": "Season 2 Daily Knockout Tournament Weekly Play",
+        "name": "Season 2 Daily Knockout Tournament Weekly Play Completionist",
         "category": "seasonal",
-        "description": "Compete in the Season 2 Daily Knockout Tournament to earn exclusive rewards! All rewards are untradeable.",
-        "url": "https://www.fut.gg/objectives/seasonal/166-season-2-daily-knockout-tournament-weekly-play/",
-        "nameFA": "بازی هفتگی تورنمنت Daily Knockout فصل ۲",
-        "descriptionFA": "در تورنمنت Daily Knockout فصل ۲ شرکت کنید و جوایز ویژه بگیرید! همهٔ جایزه‌ها غیرقابل‌فروش‌اند.",
+        "description": "Complete all Season 2 Daily Knockout Tournament Weekly Play objectives to earn FC Heritage Axel Witsel and Coins! All rewards are untradeable.",
+        "url": "https://www.fut.gg/objectives/seasonal/167-season-2-daily-knockout-tournament-weekly-play-completionist/",
+        "nameFA": "کامل‌کنندهٔ بازی هفتگی تورنمنت Daily Knockout فصل ۲",
+        "descriptionFA": "همهٔ اهداف بازی هفتگی تورنمنت Daily Knockout فصل ۲ را کامل کنید تا FC Heritage Axel Witsel و سکه بگیرید! همهٔ جایزه‌ها غیرقابل‌فروش‌اند.",
         "tasks": [
           {
-            "name": "Score in 5",
-            "description": "Score at least 1 goal in 5 separate matches in the Season 2 Daily Knockout Tournament.",
-            "reward": "Finisher",
-            "descriptionFA": "حداقل ۱ گل به ثمر برسانید، در ۵ مسابقهٔ جداگانه، در «Season 2 Daily Knockout Tournament».",
-            "nameFA": "۵ گل"
+            "name": "5 Completions",
+            "description": "Complete the Season 2 Daily Knockout Tournament Weekly Play Objective 5 times.",
+            "reward": "8,000 Coins",
+            "descriptionFA": "مأموریت «Season 2 Daily Knockout Tournament Weekly Play» را کامل کنید — ۵ بار.",
+            "rewardFA": "۸,۰۰۰ سکه",
+            "nameFA": "۵ بار کامل کردن"
+          },
+          {
+            "name": "4 Completions",
+            "description": "Complete the Season 2 Daily Knockout Tournament Weekly Play Objective 4 times.",
+            "reward": "6,000 Coins",
+            "descriptionFA": "مأموریت «Season 2 Daily Knockout Tournament Weekly Play» را کامل کنید — ۴ بار.",
+            "rewardFA": "۶,۰۰۰ سکه",
+            "nameFA": "۴ بار کامل کردن"
+          },
+          {
+            "name": "3 Completions",
+            "description": "Complete the Season 2 Daily Knockout Tournament Weekly Play Objective 3 times.",
+            "reward": "5,000 Coins",
+            "descriptionFA": "مأموریت «Season 2 Daily Knockout Tournament Weekly Play» را کامل کنید — ۳ بار.",
+            "rewardFA": "۵,۰۰۰ سکه",
+            "nameFA": "۳ بار کامل کردن"
+          },
+          {
+            "name": "2 Completions",
+            "description": "Complete the Season 2 Daily Knockout Tournament Weekly Play Objective 2 times.",
+            "reward": "3,500 Coins",
+            "descriptionFA": "مأموریت «Season 2 Daily Knockout Tournament Weekly Play» را کامل کنید — ۲ بار.",
+            "rewardFA": "۳,۵۰۰ سکه",
+            "nameFA": "۲ بار کامل کردن"
+          },
+          {
+            "name": "1 Completion",
+            "description": "Complete the Season 2 Daily Knockout Tournament Weekly Play Objective 1 time.",
+            "reward": "2,500 Coins",
+            "descriptionFA": "مأموریت «Season 2 Daily Knockout Tournament Weekly Play» را کامل کنید — ۱ بار.",
+            "rewardFA": "۲,۵۰۰ سکه",
+            "nameFA": "۱ بار کامل کردن"
           }
         ],
-        "detail_checked_at": "2026-10-29T13:02:29.319Z"
-      },
-      {
-        "name": "Weekly Objectives",
-        "category": "seasonal",
-        "description": "Complete Weekly Objectives to earn SP!",
-        "url": "https://www.fut.gg/objectives/seasonal/134-weekly-objectives/",
-        "nameFA": "اهداف هفتگی",
-        "descriptionFA": "اهداف هفتگی را کامل کنید و SP بگیرید.",
-        "rewardFA": "۵۰۰ در مجموع",
-        "tasks": [
-          {
-            "name": "Score 10",
-            "description": "Score 10 goals in any FUT game mode using a player from Germany.",
-            "reward": "50 SP",
-            "descriptionFA": "۱۰ گل به ثمر برسانید، در هر حالت بازی FUT، با بازیکنی از Germany.",
-            "rewardFA": "۵۰ SP",
-            "nameFA": "۱۰ گل"
-          },
-          {
-            "name": "Win 10",
-            "description": "Win 10 matches in Squad Battles on min. Semi-Pro difficulty (or Rivals/Champions/Live Events/Rush).",
-            "reward": "50 SP",
-            "descriptionFA": "۱۰ مسابقه را ببرید، در Squad Battles، روی سختی نیمه‌حرفه‌ای (یا Rivals/Champions/Live Events/Rush).",
-            "rewardFA": "۵۰ SP",
-            "nameFA": "۱۰ برد"
-          },
-          {
-            "name": "Play 10",
-            "description": "Play 10 matches in Squad Battles on any difficulty (or Rush/Rivals).",
-            "reward": "50 SP",
-            "descriptionFA": "۱۰ مسابقه را بازی کنید، در Squad Battles، روی سختی دلخواه (یا Rush/Rivals).",
-            "rewardFA": "۵۰ SP",
-            "nameFA": "۱۰ مسابقه"
-          },
-          {
-            "name": "Buy 10",
-            "description": "Buy 10 Player Items using Buy Now in the Transfer Market.",
-            "reward": "50 SP",
-            "descriptionFA": "۱۰ بازیکن را خرید کنید، با Buy Now، در Transfer Market.",
-            "rewardFA": "۵۰ SP",
-            "nameFA": "۱۰ خرید"
-          },
-          {
-            "name": "List 10",
-            "description": "List 10 player items in the Transfer Market.",
-            "reward": "50 SP",
-            "descriptionFA": "۱۰ بازیکن را لیست کنید، در Transfer Market.",
-            "rewardFA": "۵۰ SP",
-            "nameFA": "۱۰ لیست"
-          }
-        ],
-        "reward": "500 total",
-        "detail_checked_at": "2026-10-29T13:02:29.319Z"
+        "detail_checked_at": "2026-10-29T22:45:56.886Z"
       },
       {
         "name": "Season 2 Daily Knockout Tournament",
@@ -198,7 +260,7 @@
             "nameFA": "۱ مسابقه"
           }
         ],
-        "detail_checked_at": "2026-10-29T13:02:29.319Z"
+        "detail_checked_at": "2026-10-29T22:45:56.886Z"
       },
       {
         "name": "FC Heritage Circuit Semi-Pro Event",
@@ -249,7 +311,7 @@
             "nameFA": "۱ برد"
           }
         ],
-        "detail_checked_at": "2026-10-29T13:02:29.319Z"
+        "detail_checked_at": "2026-10-29T22:45:56.886Z"
       },
       {
         "name": "FC Heritage Circuit Professional Event",
@@ -300,7 +362,7 @@
             "nameFA": "۱ برد"
           }
         ],
-        "detail_checked_at": "2026-10-29T13:02:29.319Z"
+        "detail_checked_at": "2026-10-29T22:45:56.886Z"
       },
       {
         "name": "FC Heritage Circuit Tournament",
@@ -367,7 +429,7 @@
             "rewardFA": "آیتم مصرفی"
           }
         ],
-        "detail_checked_at": "2026-10-29T13:02:29.319Z"
+        "detail_checked_at": "2026-10-29T22:45:56.886Z"
       },
       {
         "name": "FC Heritage Circuit Kick Off Event",
@@ -410,7 +472,7 @@
             "nameFA": "۱ گل"
           }
         ],
-        "detail_checked_at": "2026-10-29T13:02:29.319Z"
+        "detail_checked_at": "2026-10-29T22:45:56.886Z"
       },
       {
         "name": "FC Heritage Circuit World Class Event",
@@ -461,7 +523,7 @@
             "nameFA": "۱ برد"
           }
         ],
-        "detail_checked_at": "2026-10-29T13:02:29.319Z"
+        "detail_checked_at": "2026-10-29T22:45:56.886Z"
       },
       {
         "name": "FC Heritage Circuit Completionist",
@@ -496,87 +558,25 @@
             "rewardFA": "۴,۰۰۰ سکه"
           }
         ],
-        "detail_checked_at": "2026-10-29T13:02:29.319Z"
+        "detail_checked_at": "2026-10-29T22:45:56.886Z"
       },
       {
-        "name": "Season 2 Daily Knockout Tournament Weekly Play Completionist",
+        "name": "Season 2 Daily Knockout Tournament Weekly Play",
         "category": "seasonal",
-        "description": "Complete all Season 2 Daily Knockout Tournament Weekly Play objectives to earn FC Heritage Axel Witsel and Coins! All rewards are untradeable.",
-        "url": "https://www.fut.gg/objectives/seasonal/167-season-2-daily-knockout-tournament-weekly-play-completionist/",
-        "nameFA": "کامل‌کنندهٔ بازی هفتگی تورنمنت Daily Knockout فصل ۲",
-        "descriptionFA": "همهٔ اهداف بازی هفتگی تورنمنت Daily Knockout فصل ۲ را کامل کنید تا FC Heritage Axel Witsel و سکه بگیرید! همهٔ جایزه‌ها غیرقابل‌فروش‌اند.",
+        "description": "Compete in the Season 2 Daily Knockout Tournament to earn exclusive rewards! All rewards are untradeable.",
+        "url": "https://www.fut.gg/objectives/seasonal/166-season-2-daily-knockout-tournament-weekly-play/",
+        "nameFA": "بازی هفتگی تورنمنت Daily Knockout فصل ۲",
+        "descriptionFA": "در تورنمنت Daily Knockout فصل ۲ شرکت کنید و جوایز ویژه بگیرید! همهٔ جایزه‌ها غیرقابل‌فروش‌اند.",
         "tasks": [
           {
-            "name": "5 Completions",
-            "description": "Complete the Season 2 Daily Knockout Tournament Weekly Play Objective 5 times.",
-            "reward": "8,000 Coins",
-            "descriptionFA": "مأموریت «Season 2 Daily Knockout Tournament Weekly Play» را کامل کنید — ۵ بار.",
-            "rewardFA": "۸,۰۰۰ سکه",
-            "nameFA": "۵ بار کامل کردن"
-          },
-          {
-            "name": "4 Completions",
-            "description": "Complete the Season 2 Daily Knockout Tournament Weekly Play Objective 4 times.",
-            "reward": "6,000 Coins",
-            "descriptionFA": "مأموریت «Season 2 Daily Knockout Tournament Weekly Play» را کامل کنید — ۴ بار.",
-            "rewardFA": "۶,۰۰۰ سکه",
-            "nameFA": "۴ بار کامل کردن"
-          },
-          {
-            "name": "3 Completions",
-            "description": "Complete the Season 2 Daily Knockout Tournament Weekly Play Objective 3 times.",
-            "reward": "5,000 Coins",
-            "descriptionFA": "مأموریت «Season 2 Daily Knockout Tournament Weekly Play» را کامل کنید — ۳ بار.",
-            "rewardFA": "۵,۰۰۰ سکه",
-            "nameFA": "۳ بار کامل کردن"
-          },
-          {
-            "name": "2 Completions",
-            "description": "Complete the Season 2 Daily Knockout Tournament Weekly Play Objective 2 times.",
-            "reward": "3,500 Coins",
-            "descriptionFA": "مأموریت «Season 2 Daily Knockout Tournament Weekly Play» را کامل کنید — ۲ بار.",
-            "rewardFA": "۳,۵۰۰ سکه",
-            "nameFA": "۲ بار کامل کردن"
-          },
-          {
-            "name": "1 Completion",
-            "description": "Complete the Season 2 Daily Knockout Tournament Weekly Play Objective 1 time.",
-            "reward": "2,500 Coins",
-            "descriptionFA": "مأموریت «Season 2 Daily Knockout Tournament Weekly Play» را کامل کنید — ۱ بار.",
-            "rewardFA": "۲,۵۰۰ سکه",
-            "nameFA": "۱ بار کامل کردن"
+            "name": "Score in 5",
+            "description": "Score at least 1 goal in 5 separate matches in the Season 2 Daily Knockout Tournament.",
+            "reward": "Finisher",
+            "descriptionFA": "حداقل ۱ گل به ثمر برسانید، در ۵ مسابقهٔ جداگانه، در «Season 2 Daily Knockout Tournament».",
+            "nameFA": "۵ گل"
           }
         ],
-        "detail_checked_at": "2026-10-29T13:02:29.319Z"
-      },
-      {
-        "name": "Daily Objectives",
-        "category": "seasonal",
-        "description": "Play, complete and earn SP from daily objective every 24 hours!",
-        "url": "https://www.fut.gg/objectives/seasonal/168-daily-objectives/",
-        "nameFA": "اهداف روزانه",
-        "descriptionFA": "هر ۲۴ ساعت اهداف روزانه را بازی و کامل کنید و از آن‌ها SP بگیرید.",
-        "rewardFA": "۳۰ در مجموع",
-        "tasks": [
-          {
-            "name": "Play 1",
-            "description": "Play 1 match in any FUT game mode.",
-            "reward": "10 SP",
-            "descriptionFA": "۱ مسابقه را بازی کنید، در هر حالت بازی FUT.",
-            "rewardFA": "۱۰ SP",
-            "nameFA": "۱ مسابقه"
-          },
-          {
-            "name": "Scoring Success",
-            "description": "Score 2 goals in any FUT game mode.",
-            "reward": "10 SP",
-            "nameFA": "موفقیت در گل‌زنی",
-            "descriptionFA": "۲ گل به ثمر برسانید، در هر حالت بازی FUT.",
-            "rewardFA": "۱۰ SP"
-          }
-        ],
-        "reward": "30 total",
-        "detail_checked_at": "2026-10-29T13:02:29.319Z"
+        "detail_checked_at": "2026-10-29T22:45:56.886Z"
       },
       {
         "name": "Claim the Armband",
@@ -595,7 +595,7 @@
             "nameFA": "۱ مسابقه"
           }
         ],
-        "detail_checked_at": "2026-10-29T13:02:29.319Z"
+        "detail_checked_at": "2026-10-29T22:45:56.886Z"
       },
       {
         "name": "Season 2 Daily Knockout Tournament Bonus",
@@ -638,7 +638,7 @@
           }
         ],
         "reward": "50 total",
-        "detail_checked_at": "2026-10-29T13:02:29.319Z"
+        "detail_checked_at": "2026-10-29T22:45:56.886Z"
       },
       {
         "name": "Phantom Playgrounds",
@@ -707,7 +707,7 @@
           }
         ],
         "reward": "50 total",
-        "detail_checked_at": "2026-10-29T13:02:29.319Z"
+        "detail_checked_at": "2026-10-29T22:45:56.886Z"
       },
       {
         "name": "Ultimate Scream Gallery",
@@ -757,7 +757,7 @@
             "rewardFA": "VIP هالووین"
           }
         ],
-        "detail_checked_at": "2026-10-29T13:02:29.319Z"
+        "detail_checked_at": "2026-10-29T22:45:56.886Z"
       },
       {
         "name": "Ultimate Scream Puzzle Completionist",
@@ -818,7 +818,7 @@
           }
         ],
         "reward": "100 total",
-        "detail_checked_at": "2026-10-29T13:02:29.319Z"
+        "detail_checked_at": "2026-10-29T22:45:56.886Z"
       },
       {
         "name": "Future Stars Academy",
@@ -869,7 +869,7 @@
             "rewardFA": "۲ عدد بستهٔ بازیکن طلایی ۷۵+"
           }
         ],
-        "detail_checked_at": "2026-10-29T13:02:29.319Z"
+        "detail_checked_at": "2026-10-29T22:45:56.886Z"
       },
       {
         "name": "Rising Through the Ranks",
@@ -922,7 +922,7 @@
           }
         ],
         "reward": "250 total",
-        "detail_checked_at": "2026-10-29T13:02:29.319Z"
+        "detail_checked_at": "2026-10-29T22:45:56.886Z"
       },
       {
         "name": "First Team Dreams",
@@ -959,7 +959,7 @@
           }
         ],
         "reward": "400 total",
-        "detail_checked_at": "2026-10-29T13:02:29.319Z"
+        "detail_checked_at": "2026-10-29T22:45:56.886Z"
       },
       {
         "name": "The Journey Begins",
@@ -1004,7 +1004,7 @@
           }
         ],
         "reward": "100 total",
-        "detail_checked_at": "2026-10-29T13:02:29.319Z"
+        "detail_checked_at": "2026-10-29T22:45:56.886Z"
       },
       {
         "name": "Total Football",
@@ -1041,7 +1041,7 @@
           }
         ],
         "reward": "300 total",
-        "detail_checked_at": "2026-10-29T13:02:29.319Z"
+        "detail_checked_at": "2026-10-29T22:45:56.886Z"
       },
       {
         "name": "Gallery Foundations",
@@ -1092,7 +1092,7 @@
             "rewardFA": "۲۵۰ سکه"
           }
         ],
-        "detail_checked_at": "2026-10-29T13:02:29.319Z"
+        "detail_checked_at": "2026-10-29T22:45:56.886Z"
       },
       {
         "name": "Ted Lasso's Masterclass",
@@ -1151,7 +1151,7 @@
             "rewardFA": "جایزه"
           }
         ],
-        "detail_checked_at": "2026-10-29T13:02:29.319Z"
+        "detail_checked_at": "2026-10-29T22:45:56.886Z"
       },
       {
         "name": "Squad Battles Milestone",
@@ -1186,7 +1186,7 @@
             "nameFA": "۵ مسابقه"
           }
         ],
-        "detail_checked_at": "2026-10-29T13:02:29.319Z"
+        "detail_checked_at": "2026-10-29T22:45:56.886Z"
       },
       {
         "name": "Draft Milestone",
@@ -1221,7 +1221,7 @@
             "nameFA": "۵ مسابقه"
           }
         ],
-        "detail_checked_at": "2026-10-29T13:02:29.319Z"
+        "detail_checked_at": "2026-10-29T22:45:56.886Z"
       },
       {
         "name": "Co-Op Milestone",
@@ -1256,7 +1256,7 @@
             "nameFA": "۵ مسابقه"
           }
         ],
-        "detail_checked_at": "2026-10-29T13:02:29.319Z"
+        "detail_checked_at": "2026-10-29T22:45:56.886Z"
       },
       {
         "name": "Rush Milestone",
@@ -1315,7 +1315,7 @@
             "nameFA": "۵ مسابقه"
           }
         ],
-        "detail_checked_at": "2026-10-29T13:02:29.319Z"
+        "detail_checked_at": "2026-10-29T22:45:56.886Z"
       },
       {
         "name": "Moments Stars Milestone",
@@ -1350,7 +1350,7 @@
             "nameFA": "۱۵ ستاره"
           }
         ],
-        "detail_checked_at": "2026-10-29T13:02:29.319Z"
+        "detail_checked_at": "2026-10-29T22:45:56.886Z"
       },
       {
         "name": "Squad Building Milestone",
@@ -1385,7 +1385,7 @@
             "nameFA": "۵ SBC"
           }
         ],
-        "detail_checked_at": "2026-10-29T13:02:29.319Z"
+        "detail_checked_at": "2026-10-29T22:45:56.886Z"
       },
       {
         "name": "Transfer Market Milestone",
@@ -1428,7 +1428,7 @@
             "nameFA": "۲۵ خرید Buy Now"
           }
         ],
-        "detail_checked_at": "2026-10-29T13:02:29.319Z"
+        "detail_checked_at": "2026-10-29T22:45:56.886Z"
       },
       {
         "name": "Live Events Milestone",
@@ -1463,7 +1463,7 @@
             "nameFA": "۵ مسابقه"
           }
         ],
-        "detail_checked_at": "2026-10-29T13:02:29.319Z"
+        "detail_checked_at": "2026-10-29T22:45:56.886Z"
       },
       {
         "name": "Rivals Milestone",
@@ -1498,7 +1498,7 @@
             "nameFA": "۵ مسابقه"
           }
         ],
-        "detail_checked_at": "2026-10-29T13:02:29.319Z"
+        "detail_checked_at": "2026-10-29T22:45:56.886Z"
       },
       {
         "name": "Champions Milestone",
@@ -1533,7 +1533,7 @@
             "nameFA": "۵ مسابقه"
           }
         ],
-        "detail_checked_at": "2026-10-29T13:02:29.319Z"
+        "detail_checked_at": "2026-10-29T22:45:56.886Z"
       },
       {
         "name": "Gallery Milestone",
@@ -1583,10 +1583,56 @@
             "nameFA": "سطح ۵"
           }
         ],
-        "detail_checked_at": "2026-10-29T13:02:29.319Z"
+        "detail_checked_at": "2026-10-29T22:45:56.886Z"
       }
     ],
     "sbc": [
+      {
+        "name": "Ramiro Árciga",
+        "category": "players",
+        "description": "Earn a Showdown Ramiro Árciga from the Liga BBVA MX match-up between Monterrey and Tijuana.",
+        "url": "https://www.fut.gg/sbc/players/27-89-ramiro-arciga/",
+        "price": null,
+        "challenges": 1,
+        "squads": [
+          {
+            "name": "Ramiro Árciga",
+            "description": "Earn a Showdown Ramiro Árciga from the Liga BBVA MX match-up between Monterrey and Tijuana.",
+            "score": 5000,
+            "requirements": [
+              "Rating: Min. 45"
+            ],
+            "requirementsFA": [
+              "حداقل امتیاز بازیکن: ۴۵"
+            ]
+          }
+        ],
+        "squads_checked_at": "2026-10-29T22:45:56.886Z",
+        "detail_checked_at": "2026-10-29T22:45:56.886Z"
+      },
+      {
+        "name": "Víctor Guzmán",
+        "category": "players",
+        "description": "Earn a Showdown Víctor Guzmán from the Liga BBVA MX match-up between Monterrey and Tijuana.",
+        "url": "https://www.fut.gg/sbc/players/27-88-victor-guzman/",
+        "price": null,
+        "challenges": 1,
+        "squads": [
+          {
+            "name": "Víctor Guzmán",
+            "description": "Earn a Showdown Víctor Guzmán from the Liga BBVA MX match-up between Monterrey and Tijuana.",
+            "score": 5000,
+            "requirements": [
+              "Rating: Min. 45"
+            ],
+            "requirementsFA": [
+              "حداقل امتیاز بازیکن: ۴۵"
+            ]
+          }
+        ],
+        "squads_checked_at": "2026-10-29T22:45:56.886Z",
+        "detail_checked_at": "2026-10-29T22:45:56.886Z"
+      },
       {
         "name": "Carlos Augusto",
         "category": "players",
@@ -1607,8 +1653,8 @@
             ]
           }
         ],
-        "squads_checked_at": "2026-10-29T13:02:29.319Z",
-        "detail_checked_at": "2026-10-29T13:02:29.319Z"
+        "squads_checked_at": "2026-10-29T22:45:56.886Z",
+        "detail_checked_at": "2026-10-29T22:45:56.886Z"
       },
       {
         "name": "Ruben Loftus-Cheek",
@@ -1630,8 +1676,8 @@
             ]
           }
         ],
-        "squads_checked_at": "2026-10-29T13:02:29.319Z",
-        "detail_checked_at": "2026-10-29T13:02:29.319Z"
+        "squads_checked_at": "2026-10-29T22:45:56.886Z",
+        "detail_checked_at": "2026-10-29T22:45:56.886Z"
       },
       {
         "name": "Héctor Bellerín",
@@ -1653,8 +1699,8 @@
             ]
           }
         ],
-        "squads_checked_at": "2026-10-29T13:02:29.319Z",
-        "detail_checked_at": "2026-10-29T13:02:29.319Z"
+        "squads_checked_at": "2026-10-29T22:45:56.886Z",
+        "detail_checked_at": "2026-10-29T22:45:56.886Z"
       },
       {
         "name": "Base Hero Player Pick",
@@ -1683,7 +1729,7 @@
           }
         ],
         "squads_checked_at": "2026-10-26T13:04:45.080Z",
-        "detail_checked_at": "2026-10-29T13:02:29.319Z"
+        "detail_checked_at": "2026-10-29T22:45:56.886Z"
       },
       {
         "name": "Emre Mor",
@@ -1710,7 +1756,7 @@
           }
         ],
         "squads_checked_at": "2026-10-26T13:04:45.080Z",
-        "detail_checked_at": "2026-10-29T13:02:29.319Z"
+        "detail_checked_at": "2026-10-29T22:45:56.886Z"
       },
       {
         "name": "Nick Woltemade",
@@ -1737,7 +1783,7 @@
           }
         ],
         "squads_checked_at": "2026-10-26T13:04:45.080Z",
-        "detail_checked_at": "2026-10-29T13:02:29.319Z"
+        "detail_checked_at": "2026-10-29T22:45:56.886Z"
       },
       {
         "name": "Ligue 1 POTM September",
@@ -1764,7 +1810,7 @@
           }
         ],
         "squads_checked_at": "2026-10-18T17:20:01.281Z",
-        "detail_checked_at": "2026-10-29T13:02:29.319Z"
+        "detail_checked_at": "2026-10-29T22:45:56.886Z"
       },
       {
         "name": "Liga F POTM September",
@@ -1791,7 +1837,7 @@
           }
         ],
         "squads_checked_at": "2026-10-18T17:20:01.281Z",
-        "detail_checked_at": "2026-10-29T13:02:29.319Z"
+        "detail_checked_at": "2026-10-29T22:45:56.886Z"
       },
       {
         "name": "LALIGA POTM September",
@@ -1818,7 +1864,7 @@
           }
         ],
         "squads_checked_at": "2026-10-18T17:20:01.281Z",
-        "detail_checked_at": "2026-10-29T13:02:29.319Z"
+        "detail_checked_at": "2026-10-29T22:45:56.886Z"
       },
       {
         "name": "Premier League POTM September",
@@ -1845,34 +1891,32 @@
           }
         ],
         "squads_checked_at": "2026-10-18T17:20:01.281Z",
-        "detail_checked_at": "2026-10-29T13:02:29.319Z"
+        "detail_checked_at": "2026-10-29T22:45:56.886Z"
       },
       {
-        "name": "Bundesliga POTM September",
-        "category": "players",
-        "description": "Earn the Bundesliga Player of the Month for September.",
-        "url": "https://www.fut.gg/sbc/players/27-39-bundesliga-potm-september/",
+        "name": "1 of 4 Chemistry Styles Pick",
+        "category": "upgrades",
+        "description": "Earn 1 Chemistry Style Pick (1 of 4). Choose between Anchor, Engine, Shadow and Hunter.",
+        "url": "https://www.fut.gg/sbc/upgrades/27-104-1-of-4-chemistry-styles-pick/",
         "price": null,
-        "nameFA": "بهترین بازیکن ماه سپتامبر — Bundesliga",
-        "descriptionFA": "کارت بهترین بازیکن ماه سپتامبر از لیگ Bundesliga را بگیرید.",
+        "reward": "1 of 4 Chemistry Styles Pick",
         "challenges": 1,
+        "repeatable": "∞",
         "squads": [
           {
-            "name": "Bundesliga POTM September",
-            "description": "Earn the Bundesliga Player of the Month for September.",
-            "score": 700000,
+            "name": "1 of 4 Chemistry Styles Pick",
+            "description": "Earn 1 Chemistry Style Pick (1 of 4). Choose between Anchor, Engine, Shadow and Hunter.",
+            "score": 5000,
             "requirements": [
               "Rating: Min. 45"
             ],
-            "nameFA": "بهترین بازیکن ماه سپتامبر — Bundesliga",
-            "descriptionFA": "کارت بهترین بازیکن ماه سپتامبر از لیگ Bundesliga را بگیرید.",
             "requirementsFA": [
               "حداقل امتیاز بازیکن: ۴۵"
             ]
           }
         ],
-        "squads_checked_at": "2026-10-18T17:20:01.281Z",
-        "detail_checked_at": "2026-10-29T13:02:29.319Z"
+        "squads_checked_at": "2026-10-29T22:45:56.886Z",
+        "detail_checked_at": "2026-10-29T22:45:56.886Z"
       },
       {
         "name": "Ligue 1 & Arkema Première Ligue",
@@ -1915,8 +1959,8 @@
             "rewardFA": "۱ عدد بستهٔ بازیکن Arkema PL & Silver برنزی"
           }
         ],
-        "squads_checked_at": "2026-10-29T13:02:29.319Z",
-        "detail_checked_at": "2026-10-29T13:02:29.319Z"
+        "squads_checked_at": "2026-10-29T22:45:56.886Z",
+        "detail_checked_at": "2026-10-29T22:45:56.886Z"
       },
       {
         "name": "Bundesliga & Google Pixel Frauen-Bundesliga",
@@ -1959,8 +2003,8 @@
             "rewardFA": "۱ عدد بستهٔ بازیکن GPFBL & Silver برنزی"
           }
         ],
-        "squads_checked_at": "2026-10-29T13:02:29.319Z",
-        "detail_checked_at": "2026-10-29T13:02:29.319Z"
+        "squads_checked_at": "2026-10-29T22:45:56.886Z",
+        "detail_checked_at": "2026-10-29T22:45:56.886Z"
       },
       {
         "name": "5x 80+ Upgrade",
@@ -1991,7 +2035,7 @@
           }
         ],
         "squads_checked_at": "2026-10-27T18:01:58.921Z",
-        "detail_checked_at": "2026-10-29T13:02:29.319Z"
+        "detail_checked_at": "2026-10-29T22:45:56.886Z"
       },
       {
         "name": "3x 79+ Upgrade",
@@ -2022,7 +2066,7 @@
           }
         ],
         "squads_checked_at": "2026-10-26T22:40:57.194Z",
-        "detail_checked_at": "2026-10-29T13:02:29.319Z"
+        "detail_checked_at": "2026-10-29T22:45:56.886Z"
       },
       {
         "name": "LALIGA & Liga F",
@@ -2069,7 +2113,7 @@
           }
         ],
         "squads_checked_at": "2026-10-26T13:04:45.080Z",
-        "detail_checked_at": "2026-10-29T13:02:29.319Z"
+        "detail_checked_at": "2026-10-29T22:45:56.886Z"
       },
       {
         "name": "Premier League & Barclays WSL",
@@ -2116,7 +2160,7 @@
           }
         ],
         "squads_checked_at": "2026-10-26T13:04:45.080Z",
-        "detail_checked_at": "2026-10-29T13:02:29.319Z"
+        "detail_checked_at": "2026-10-29T22:45:56.886Z"
       },
       {
         "name": "81+ TOTW 1-6 Upgrade",
@@ -2145,7 +2189,7 @@
           }
         ],
         "squads_checked_at": "2026-10-23T17:08:04.873Z",
-        "detail_checked_at": "2026-10-29T13:02:29.319Z"
+        "detail_checked_at": "2026-10-29T22:45:56.886Z"
       },
       {
         "name": "Gold Upgrade",
@@ -2174,7 +2218,7 @@
           }
         ],
         "squads_checked_at": "2026-10-18T17:20:01.281Z",
-        "detail_checked_at": "2026-10-29T13:02:29.319Z"
+        "detail_checked_at": "2026-10-29T22:45:56.886Z"
       },
       {
         "name": "Silver Upgrade",
@@ -2203,7 +2247,7 @@
           }
         ],
         "squads_checked_at": "2026-10-18T17:20:01.281Z",
-        "detail_checked_at": "2026-10-29T13:02:29.319Z"
+        "detail_checked_at": "2026-10-29T22:45:56.886Z"
       },
       {
         "name": "Bronze Upgrade",
@@ -2232,7 +2276,91 @@
           }
         ],
         "squads_checked_at": "2026-10-18T17:20:01.281Z",
-        "detail_checked_at": "2026-10-29T13:02:29.319Z"
+        "detail_checked_at": "2026-10-29T22:45:56.886Z"
+      },
+      {
+        "name": "Marquee Matchups",
+        "category": "challenges",
+        "description": "Complete challenges themed around this week's key matchups.",
+        "url": "https://www.fut.gg/sbc/challenges/27-78-marquee-matchups/",
+        "price": null,
+        "nameFA": "رقابت‌های بزرگ",
+        "descriptionFA": "چالش‌های مرتبط با this week's key matchups را کامل کنید.",
+        "rewardFA": "۱ عدد بسته طلایی ژامبو + ۱ عدد بسته طلایی کوچک + ۱ عدد بستهٔ بازیکن الکترام کوچک + ۱ عدد بسته طلایی + ۱ عدد بستهٔ بازیکن الکترام بزرگ",
+        "reward": "1 x Jumbo Gold Pack + 1 x Small Gold Pack + 1 x Small Electrum Players Pack + 1 x Gold Pack + 1 x Large Electrum Players Pack",
+        "challenges": 4,
+        "squads": [
+          {
+            "name": "Villarreal CF v RCD Espanyol",
+            "description": "Exchange a squad themed around Villarreal CF and RCD Espanyol.",
+            "requirements": [
+              "Club: Min. 1 player from Villarreal CF or RCD Espanyol",
+              "Nation: Min. 1 player from Spain",
+              "Clubs: Min. 2",
+              "Leagues: Min. 3",
+              "Quality: Min. Bronze",
+              "Chemistry: Min. 14"
+            ],
+            "reward": "1 x Small Gold Pack",
+            "descriptionFA": "ترکیبی با تم Villarreal CF و RCD Espanyol ثبت کنید.",
+            "rewardFA": "۱ عدد بسته طلایی کوچک"
+          },
+          {
+            "name": "FC Bayern München v Borussia Dortmund",
+            "description": "Exchange a squad themed around FC Bayern München and Borussia Dortmund.",
+            "requirements": [
+              "Club: Min. 1 player from FC Bayern München or Borussia Dortmund",
+              "Nation: Min. 1 player from Germany",
+              "Leagues: Max. 6",
+              "Same nation: Min. 2 players",
+              "Quality: Min. Silver",
+              "Chemistry: Min. 18"
+            ],
+            "reward": "1 x Small Electrum Players Pack",
+            "descriptionFA": "ترکیبی با تم FC Bayern München و Borussia Dortmund ثبت کنید.",
+            "rewardFA": "۱ عدد بستهٔ بازیکن الکترام کوچک"
+          },
+          {
+            "name": "Milano FC v Lombardia FC",
+            "description": "Exchange a squad themed around Milano FC and Lombardia FC.",
+            "requirements": [
+              "Club: Min. 2 players from Milano FC or Lombardia FC",
+              "Nation: Min. 2 players from Italy",
+              "Same league: Max. 5 players",
+              "Same nation: Min. 3 players",
+              "Quality: Min. Silver",
+              "Chemistry: Min. 22"
+            ],
+            "reward": "1 x Gold Pack",
+            "descriptionFA": "ترکیبی با تم Milano FC و Lombardia FC ثبت کنید.",
+            "rewardFA": "۱ عدد بسته طلایی"
+          },
+          {
+            "name": "Liverpool v Arsenal",
+            "description": "Exchange a squad themed around Liverpool and Arsenal.",
+            "requirements": [
+              "Club: Min. 2 players from Liverpool or Arsenal",
+              "League: Min. 2 players from Premier League",
+              "Same league: Min. 4 players",
+              "Same club: Min. 3 players",
+              "Team rating: Min. 75",
+              "Chemistry: Min. 26"
+            ],
+            "reward": "1 x Large Electrum Players Pack",
+            "descriptionFA": "ترکیبی با تم Liverpool و Arsenal ثبت کنید.",
+            "requirementsFA": [
+              "حداقل ۲ بازیکن از Liverpool یا Arsenal",
+              "لیگ: Min. 2 players from Premier League",
+              "حداقل ۴ بازیکن از یک لیگ",
+              "حداقل ۳ بازیکن از یک باشگاه",
+              "حداقل امتیاز تیم: ۷۵",
+              "حداقل شیمی: ۲۶"
+            ],
+            "rewardFA": "۱ عدد بستهٔ بازیکن الکترام بزرگ"
+          }
+        ],
+        "squads_checked_at": "2026-10-29T22:45:56.886Z",
+        "detail_checked_at": "2026-10-29T22:45:56.886Z"
       },
       {
         "name": "Boo Hoo Party",
@@ -2267,8 +2395,8 @@
             ]
           }
         ],
-        "squads_checked_at": "2026-10-29T13:02:29.319Z",
-        "detail_checked_at": "2026-10-29T13:02:29.319Z"
+        "squads_checked_at": "2026-10-29T22:45:56.886Z",
+        "detail_checked_at": "2026-10-29T22:45:56.886Z"
       },
       {
         "name": "Scary Candy",
@@ -2308,7 +2436,7 @@
           }
         ],
         "squads_checked_at": "2026-10-26T13:04:45.080Z",
-        "detail_checked_at": "2026-10-29T13:02:29.319Z"
+        "detail_checked_at": "2026-10-29T22:45:56.886Z"
       },
       {
         "name": "Spooky Nights",
@@ -2346,117 +2474,7 @@
           }
         ],
         "squads_checked_at": "2026-10-26T13:04:45.080Z",
-        "detail_checked_at": "2026-10-29T13:02:29.319Z"
-      },
-      {
-        "name": "Marquee Matchups",
-        "category": "challenges",
-        "description": "Complete challenges themed around this week's key matchups.",
-        "url": "https://www.fut.gg/sbc/challenges/27-59-marquee-matchups/",
-        "price": null,
-        "nameFA": "رقابت‌های بزرگ",
-        "descriptionFA": "چالش‌های مرتبط با this week's key matchups را کامل کنید.",
-        "rewardFA": "۱ عدد بسته طلایی ژامبو + ۱ عدد بستهٔ بازیکن نقره‌ای بزرگ + ۱ عدد بستهٔ بازیکن الکترام کوچک + ۱ عدد بستهٔ بازیکن مخلوط + ۱ عدد بستهٔ بازیکن طلایی کوچک",
-        "reward": "1 x Jumbo Gold Pack + 1 x Large Silver Players Pack + 1 x Small Electrum Players Pack + 1 x Mixed Players Pack + 1 x Small Gold Players Pack",
-        "challenges": 4,
-        "squads": [
-          {
-            "name": "PSG v Olympique Lyonnais",
-            "description": "Exchange a squad themed around PSG and Olympique Lyonnais.",
-            "requirements": [
-              "Club: Min. 1 player from PSG or OL",
-              "Clubs: Min. 4",
-              "Quality: Min. 3 Silver players",
-              "Quality: Min. Bronze",
-              "Chemistry: Min. 14"
-            ],
-            "reward": "1 x Large Silver Players Pack",
-            "nameFA": "PSG در برابر Olympique Lyonnais",
-            "descriptionFA": "ترکیبی با تم PSG و Olympique Lyonnais ثبت کنید.",
-            "requirementsFA": [
-              "حداقل ۱ بازیکن از PSG یا OL",
-              "Clubs: حداقل ۴",
-              "حداقل ۳ بازیکن نقره‌ای",
-              "حداقل کیفیت: بازیکن برنزی",
-              "حداقل شیمی: ۱۴"
-            ],
-            "rewardFA": "۱ عدد بستهٔ بازیکن نقره‌ای بزرگ"
-          },
-          {
-            "name": "SSC Napoli v AS Roma",
-            "description": "Exchange a squad themed around SSC Napoli and AS Roma.",
-            "requirements": [
-              "Club: Min. 1 player from SSC Napoli or AS Roma",
-              "Same club: Min. 2 players",
-              "Leagues: Max. 6",
-              "Quality: Min. 2 Gold players",
-              "Quality: Min. Silver",
-              "Chemistry: Min. 18"
-            ],
-            "reward": "1 x Small Electrum Players Pack",
-            "nameFA": "SSC Napoli در برابر AS Roma",
-            "descriptionFA": "ترکیبی با تم SSC Napoli و AS Roma ثبت کنید.",
-            "requirementsFA": [
-              "حداقل ۱ بازیکن از SSC Napoli یا AS Roma",
-              "حداقل ۲ بازیکن از یک باشگاه",
-              "Leagues: حداکثر ۶",
-              "حداقل ۲ بازیکن طلایی",
-              "حداقل کیفیت: بازیکن نقره‌ای",
-              "حداقل شیمی: ۱۸"
-            ],
-            "rewardFA": "۱ عدد بستهٔ بازیکن الکترام کوچک"
-          },
-          {
-            "name": "Chelsea v Tottenham Hotspur",
-            "description": "Exchange a squad themed around Chelsea and Tottenham Hotspur.",
-            "requirements": [
-              "Club: Min. 2 players from Chelsea or Spurs",
-              "Same club: Max. 3 players",
-              "Same league: Min. 4 players",
-              "Quality: Min. 2 Gold players",
-              "Quality: Min. Silver",
-              "Chemistry: Min. 22"
-            ],
-            "reward": "1 x Mixed Players Pack",
-            "nameFA": "Chelsea در برابر Tottenham Hotspur",
-            "descriptionFA": "ترکیبی با تم Chelsea و Tottenham Hotspur ثبت کنید.",
-            "requirementsFA": [
-              "حداقل ۲ بازیکن از Chelsea یا Spurs",
-              "حداکثر ۳ بازیکن از یک باشگاه",
-              "حداقل ۴ بازیکن از یک لیگ",
-              "حداقل ۲ بازیکن طلایی",
-              "حداقل کیفیت: بازیکن نقره‌ای",
-              "حداقل شیمی: ۲۲"
-            ],
-            "rewardFA": "۱ عدد بستهٔ بازیکن مخلوط"
-          },
-          {
-            "name": "FC Barcelona v Real Madrid",
-            "description": "Exchange a squad themed around FC Barcelona and Real Madrid.",
-            "requirements": [
-              "Club: Min. 2 players from FC Barcelona or Real Madrid",
-              "Same nation: Min. 3 players",
-              "Same club: Max. 4 players",
-              "Leagues: Min. 4",
-              "Team rating: Min. 75",
-              "Chemistry: Min. 26"
-            ],
-            "reward": "1 x Small Gold Players Pack",
-            "nameFA": "FC Barcelona در برابر Real Madrid",
-            "descriptionFA": "ترکیبی با تم FC Barcelona و Real Madrid ثبت کنید.",
-            "requirementsFA": [
-              "حداقل ۲ بازیکن از FC Barcelona یا Real Madrid",
-              "حداقل ۳ بازیکن از یک ملیت",
-              "حداکثر ۴ بازیکن از یک باشگاه",
-              "حداقل ۴ لیگ",
-              "حداقل امتیاز تیم: ۷۵",
-              "حداقل شیمی: ۲۶"
-            ],
-            "rewardFA": "۱ عدد بستهٔ بازیکن طلایی کوچک"
-          }
-        ],
-        "squads_checked_at": "2026-10-26T13:04:45.080Z",
-        "detail_checked_at": "2026-10-29T13:02:29.319Z"
+        "detail_checked_at": "2026-10-29T22:45:56.886Z"
       },
       {
         "name": "League & Nation Advanced",
@@ -2542,7 +2560,7 @@
           }
         ],
         "squads_checked_at": "2026-10-18T18:00:00.439Z",
-        "detail_checked_at": "2026-10-29T13:02:29.319Z"
+        "detail_checked_at": "2026-10-29T22:45:56.886Z"
       },
       {
         "name": "Intro to Player SBCs",
@@ -2569,7 +2587,7 @@
           }
         ],
         "squads_checked_at": "2026-10-18T18:00:00.439Z",
-        "detail_checked_at": "2026-10-29T13:02:29.319Z"
+        "detail_checked_at": "2026-10-29T22:45:56.886Z"
       },
       {
         "name": "Gold Re-Roll",
@@ -2599,7 +2617,7 @@
           }
         ],
         "squads_checked_at": "2026-10-18T18:00:00.439Z",
-        "detail_checked_at": "2026-10-29T13:02:29.319Z"
+        "detail_checked_at": "2026-10-29T22:45:56.886Z"
       },
       {
         "name": "Bronze and Silver Re-roll",
@@ -2629,7 +2647,7 @@
           }
         ],
         "squads_checked_at": "2026-10-18T18:00:00.439Z",
-        "detail_checked_at": "2026-10-29T13:02:29.319Z"
+        "detail_checked_at": "2026-10-29T22:45:56.886Z"
       },
       {
         "name": "Intro to Streamlined SBCs",
@@ -2705,7 +2723,7 @@
           }
         ],
         "squads_checked_at": "2026-10-18T18:00:00.439Z",
-        "detail_checked_at": "2026-10-29T13:02:29.319Z"
+        "detail_checked_at": "2026-10-29T22:45:56.886Z"
       },
       {
         "name": "Intro to Upgrade SBCs",
@@ -2769,7 +2787,7 @@
           }
         ],
         "squads_checked_at": "2026-10-11T07:00:00Z",
-        "detail_checked_at": "2026-10-29T13:02:29.319Z"
+        "detail_checked_at": "2026-10-29T22:45:56.886Z"
       },
       {
         "name": "Intro to SBCs",
@@ -2855,7 +2873,7 @@
           }
         ],
         "squads_checked_at": "2026-10-18T18:00:00.439Z",
-        "detail_checked_at": "2026-10-29T13:02:29.319Z"
+        "detail_checked_at": "2026-10-29T22:45:56.886Z"
       }
     ]
   }
