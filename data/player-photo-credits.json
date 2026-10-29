@@ -1006,5 +1006,29 @@
     "artist": "Werner100359",
     "source": "https://upload.wikimedia.org/wikipedia/commons/a/af/FC_Salzburg_versus_Vit%C3%B3ria_Guimar%C3%A3es_%28UEFA_Euroleague_23._November_2017%29_25.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "extension": "jpg"
+  },
+  {
+    "id": 209782,
+    "name": "Sam Larsson",
+    "license": "CC BY 2.0",
+    "artist": "Anders Henrikson",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/5/53/SamLarsson.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "extension": "jpg"
+  },
+  {
+    "id": 244185,
+    "name": "Samuel Mráz",
+    "license": "CC BY 3.0",
+    "artist": "3point.dk",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/8/86/Mraz_%282019%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "extension": "jpg"
+  },
+  {
+    "id": 242110,
+    "name": "Samuel Sosa",
+    "license": "CC BY 3.0",
+    "artist": "Real Madrid",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Samuel_Sosa.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "extension": "png"
   }
 ]
