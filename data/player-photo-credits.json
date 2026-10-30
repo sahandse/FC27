@@ -1030,5 +1030,37 @@
     "artist": "Real Madrid",
     "source": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Samuel_Sosa.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "extension": "png"
+  },
+  {
+    "id": 264440,
+    "name": "Guille Bueno",
+    "license": "CC BY-SA 4.0",
+    "artist": "Sandro Halank, Wikimedia Commons",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/a/ae/2022-11-11_Borussia_Dortund_II_gegen_FC_Erzgebirge_Aue_%283._Liga_2022-23%29_by_Sandro_Halank%E2%80%93238.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "extension": "jpg"
+  },
+  {
+    "id": 211382,
+    "name": "Ibrahim Amadou",
+    "license": "CC0",
+    "artist": "IDontHaveSkype",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/2/25/Ibrahim_Amadou_2024-08-04_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "extension": "jpg"
+  },
+  {
+    "id": 76411,
+    "name": "Idrissa Gueye",
+    "license": "CC BY-SA 3.0",
+    "artist": "Екатерина Лаут",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Idrissa_Gueye_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "extension": "jpg"
+  },
+  {
+    "id": 271983,
+    "name": "Kévin Keben",
+    "license": "CC0",
+    "artist": "Supporterhéninois",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/b/bd/RC_Lens_-_Toulouse_FC_%2824-09-2023%29_29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "extension": "jpg"
   }
 ]
