@@ -1,6 +1,6 @@
 {
   "source": "FUT.GG",
-  "checked_at": "2026-10-30T12:56:52.392Z",
+  "checked_at": "2026-10-30T22:21:21.975Z",
   "sections": {
     "objectives": [
       {
@@ -30,7 +30,7 @@
           }
         ],
         "reward": "30 total",
-        "detail_checked_at": "2026-10-30T12:56:52.392Z"
+        "detail_checked_at": "2026-10-30T22:21:21.975Z"
       },
       {
         "name": "Weekly Objectives",
@@ -83,7 +83,7 @@
           }
         ],
         "reward": "500 total",
-        "detail_checked_at": "2026-10-30T12:56:52.392Z"
+        "detail_checked_at": "2026-10-30T22:21:21.975Z"
       },
       {
         "name": "Weekly Rush Points",
@@ -134,7 +134,7 @@
             "nameFA": "۲,۵۰۰ امتیاز Rush"
           }
         ],
-        "detail_checked_at": "2026-10-30T12:56:52.392Z"
+        "detail_checked_at": "2026-10-30T22:21:21.975Z"
       },
       {
         "name": "Season 2 Daily Knockout Tournament Weekly Play Completionist",
@@ -185,7 +185,323 @@
             "nameFA": "۱ بار کامل کردن"
           }
         ],
-        "detail_checked_at": "2026-10-30T12:56:52.392Z"
+        "detail_checked_at": "2026-10-30T22:21:21.975Z"
+      },
+      {
+        "name": "Season 2 Daily Knockout Tournament Weekly Play",
+        "category": "seasonal",
+        "description": "Compete in the Season 2 Daily Knockout Tournament to earn exclusive rewards! All rewards are untradeable.",
+        "url": "https://www.fut.gg/objectives/seasonal/166-season-2-daily-knockout-tournament-weekly-play/",
+        "nameFA": "بازی هفتگی تورنمنت Daily Knockout فصل ۲",
+        "descriptionFA": "در تورنمنت Daily Knockout فصل ۲ شرکت کنید و جوایز ویژه بگیرید! همهٔ جایزه‌ها غیرقابل‌فروش‌اند.",
+        "tasks": [
+          {
+            "name": "Score in 5",
+            "description": "Score at least 1 goal in 5 separate matches in the Season 2 Daily Knockout Tournament.",
+            "reward": "Finisher",
+            "descriptionFA": "حداقل ۱ گل به ثمر برسانید، در ۵ مسابقهٔ جداگانه، در «Season 2 Daily Knockout Tournament».",
+            "nameFA": "۵ گل"
+          }
+        ],
+        "detail_checked_at": "2026-10-30T22:21:21.975Z"
+      },
+      {
+        "name": "FC Heritage Circuit Completionist",
+        "category": "seasonal",
+        "description": "Complete the FC Heritage Circuit Objectives to earn rewards. All rewards are untradeable.",
+        "url": "https://www.fut.gg/objectives/seasonal/164-fc-heritage-circuit-completionist/",
+        "nameFA": "کامل‌کنندهٔ FC Heritage Circuit",
+        "descriptionFA": "اهداف FC Heritage Circuit را کامل کنید و جایزه بگیرید. همهٔ جایزه‌ها غیرقابل‌فروش‌اند.",
+        "tasks": [
+          {
+            "name": "FC Heritage Circuit World Class Challenge",
+            "description": "Complete the FC Heritage Circuit World Class Event objective.",
+            "reward": "7,000 Coins",
+            "nameFA": "چالش World Classِ FC Heritage Circuit",
+            "descriptionFA": "مأموریت «FC Heritage Circuit World Class Event» را کامل کنید.",
+            "rewardFA": "۷,۰۰۰ سکه"
+          },
+          {
+            "name": "FC Heritage Circuit Professional Challenge",
+            "description": "Complete the FC Heritage Circuit Professional Event objective.",
+            "reward": "6,000 Coins",
+            "nameFA": "چالش Professionalِ FC Heritage Circuit",
+            "descriptionFA": "مأموریت «FC Heritage Circuit Professional Event» را کامل کنید.",
+            "rewardFA": "۶,۰۰۰ سکه"
+          },
+          {
+            "name": "FC Heritage Circuit Semi-Pro Challenge",
+            "description": "Complete the FC Heritage Circuit Semi-Pro Event objective.",
+            "reward": "4,000 Coins",
+            "nameFA": "چالش Semi-Proِ FC Heritage Circuit",
+            "descriptionFA": "مأموریت «FC Heritage Circuit Semi-Pro Event» را کامل کنید.",
+            "rewardFA": "۴,۰۰۰ سکه"
+          }
+        ],
+        "detail_checked_at": "2026-10-30T22:21:21.975Z"
+      },
+      {
+        "name": "FC Heritage Circuit World Class Event",
+        "category": "seasonal",
+        "description": "Compete in the FC Heritage Circuit World Class Event to earn packs and more. All rewards are untradeable.",
+        "url": "https://www.fut.gg/objectives/seasonal/161-fc-heritage-circuit-world-class-event/",
+        "nameFA": "رویداد World Classِ FC Heritage Circuit",
+        "descriptionFA": "در رویداد World Classِ FC Heritage Circuit شرکت کنید و بسته و جوایز دیگر بگیرید. همهٔ جایزه‌ها غیرقابل‌فروش‌اند.",
+        "tasks": [
+          {
+            "name": "Bundesliga Backbone",
+            "description": "Win 3 matches while having Min. 3 player items from Bundesliga in your starting 11 in the FC Heritage Circuit World Class Event.",
+            "reward": "2X 81+ Gold Players Pack",
+            "nameFA": "ستون فقرات بوندس‌لیگا",
+            "descriptionFA": "۳ مسابقه را ببرید، با حداقل ۳ آیتم بازیکن از Bundesliga در ترکیب اصلی، در «FC Heritage Circuit World Class Event».",
+            "rewardFA": "۲ عدد بستهٔ بازیکن طلایی ۸۱+"
+          },
+          {
+            "name": "Bavarian Thunder",
+            "description": "Score 5 goals while having Min. 1 FC Bayern München (Bundesliga) player item in your starting 11 in the FC Heritage Circuit World Class Event.",
+            "reward": "3X 80+ Gold Players Pack",
+            "nameFA": "رعد باواریا",
+            "descriptionFA": "۵ گل به ثمر برسانید، با حداقل ۱ آیتم بازیکن FC Bayern München (Bundesliga) در ترکیب اصلی، در «FC Heritage Circuit World Class Event».",
+            "rewardFA": "۳ عدد بستهٔ بازیکن طلایی ۸۰+"
+          },
+          {
+            "name": "Paris Power Surge",
+            "description": "Assist 4 goals while having Min. 1 PSG (Ligue 1) player item in your starting 11 in the FC Heritage Circuit World Class Event.",
+            "reward": "2,500 Coins",
+            "nameFA": "موج قدرت پاریس",
+            "descriptionFA": "۴ پاس گل بدهید، با حداقل ۱ آیتم بازیکن PSG (Ligue 1) در ترکیب اصلی، در «FC Heritage Circuit World Class Event».",
+            "rewardFA": "۲,۵۰۰ سکه"
+          },
+          {
+            "name": "Bernabéu Thunder",
+            "description": "Score at least 1 goal in 3 separate matches while having Min. 1 Real Madrid (LALIGA) player item in your starting 11 in the FC Heritage Circuit World Class Event.",
+            "reward": "Consumable",
+            "nameFA": "رعد برنابئو",
+            "descriptionFA": "حداقل ۱ گل به ثمر برسانید، در ۳ مسابقهٔ جداگانه، در «FC Heritage Circuit World Class Event»، با حداقل ۱ آیتم بازیکن Real Madrid (LALIGA) در ترکیب اصلی.",
+            "rewardFA": "آیتم مصرفی"
+          },
+          {
+            "name": "Win 1",
+            "description": "Win 1 match in the FC Heritage Circuit World Class Event and qualify for the FC Heritage Circuit Tournament.",
+            "reward": "81+ Gold Player Pack",
+            "descriptionFA": "۱ مسابقه را ببرید، در «FC Heritage Circuit World Class Event»، و به «FC Heritage Circuit Tournament» راه پیدا کنید.",
+            "rewardFA": "بستهٔ بازیکن طلایی ۸۱+",
+            "nameFA": "۱ برد"
+          }
+        ],
+        "detail_checked_at": "2026-10-30T22:21:21.975Z"
+      },
+      {
+        "name": "FC Heritage Circuit Kick Off Event",
+        "category": "seasonal",
+        "description": "Compete in the FC Heritage Circuit Kick Off Event to earn packs and more. All rewards are untradeable.",
+        "url": "https://www.fut.gg/objectives/seasonal/160-fc-heritage-circuit-kick-off-event/",
+        "nameFA": "رویداد Kick Offِ FC Heritage Circuit",
+        "descriptionFA": "در رویداد Kick Offِ FC Heritage Circuit شرکت کنید و بسته و جوایز دیگر بگیرید. همهٔ جایزه‌ها غیرقابل‌فروش‌اند.",
+        "tasks": [
+          {
+            "name": "Win 1",
+            "description": "Win 1 match in the FC Heritage Circuit Kick Off Event.",
+            "reward": "78+ Gold Player Pack",
+            "descriptionFA": "۱ مسابقه را ببرید، در «FC Heritage Circuit Kick Off Event».",
+            "rewardFA": "بستهٔ بازیکن طلایی ۷۸+",
+            "nameFA": "۱ برد"
+          },
+          {
+            "name": "Assist in 2",
+            "description": "Assist at least 1 goal in 2 separate matches in the FC Heritage Circuit Kick Off Event.",
+            "reward": "2X 75+ Gold Players Pack",
+            "descriptionFA": "حداقل ۱ پاس گل بدهید، در ۲ مسابقهٔ جداگانه، در «FC Heritage Circuit Kick Off Event».",
+            "rewardFA": "۲ عدد بستهٔ بازیکن طلایی ۷۵+",
+            "nameFA": "۲ پاس گل"
+          },
+          {
+            "name": "Play 2",
+            "description": "Play 2 matches in the FC Heritage Circuit Kick Off Event.",
+            "reward": "1,500 Coins",
+            "descriptionFA": "۲ مسابقه را بازی کنید، در «FC Heritage Circuit Kick Off Event».",
+            "rewardFA": "۱,۵۰۰ سکه",
+            "nameFA": "۲ مسابقه"
+          },
+          {
+            "name": "Score 1",
+            "description": "Score 1 goal in the FC Heritage Circuit Kick Off Event.",
+            "reward": "Consumable",
+            "descriptionFA": "۱ گل به ثمر برسانید، در «FC Heritage Circuit Kick Off Event».",
+            "rewardFA": "آیتم مصرفی",
+            "nameFA": "۱ گل"
+          }
+        ],
+        "detail_checked_at": "2026-10-30T22:21:21.975Z"
+      },
+      {
+        "name": "FC Heritage Circuit Tournament",
+        "category": "seasonal",
+        "description": "Compete in the FC Heritage Circuit Tournament to earn a special FC Heritage Alexis Sánchez, packs and more. All rewards are untradeable.",
+        "url": "https://www.fut.gg/objectives/seasonal/158-fc-heritage-circuit-tournament/",
+        "nameFA": "تورنمنت FC Heritage Circuit",
+        "descriptionFA": "در تورنمنت FC Heritage Circuit شرکت کنید و کارت ویژهٔ FC Heritage Alexis Sánchez، بسته و جوایز دیگر بگیرید. همهٔ جایزه‌ها غیرقابل‌فروش‌اند.",
+        "tasks": [
+          {
+            "name": "Heritage Champion",
+            "description": "Win the FC Heritage Circuit Tournament 3 times.",
+            "reward": "2X 84+ Gold Players Pack",
+            "nameFA": "قهرمان Heritage",
+            "descriptionFA": "«FC Heritage Circuit Tournament» را ۳ بار ببرید.",
+            "rewardFA": "۲ عدد بستهٔ بازیکن طلایی ۸۴+"
+          },
+          {
+            "name": "Thunder Final",
+            "description": "Win the FC Heritage Circuit Tournament while having Min. 2 Premier League players in your starting 11.",
+            "reward": "2X 83+ Gold Players Pack",
+            "nameFA": "فینال رعد",
+            "descriptionFA": "«FC Heritage Circuit Tournament» را ببرید، با حداقل ۲ بازیکن Premier League در ترکیب اصلی.",
+            "rewardFA": "۲ عدد بستهٔ بازیکن طلایی ۸۳+"
+          },
+          {
+            "name": "Ligue 1 Finest",
+            "description": "Win 2 matches while having Min. 2 Ligue 1 players in your starting 11 in the FC Heritage Circuit Tournament.",
+            "reward": "3X 81+ Gold Players Pack",
+            "nameFA": "بهترین‌های لیگ ۱",
+            "descriptionFA": "۲ مسابقه را ببرید، با حداقل ۲ بازیکن Ligue 1 در ترکیب اصلی، در «FC Heritage Circuit Tournament».",
+            "rewardFA": "۳ عدد بستهٔ بازیکن طلایی ۸۱+"
+          },
+          {
+            "name": "Oranje Legacy",
+            "description": "Assist at least 1 goal in 3 separate matches while having Min. 1 Dutch player in your starting 11 in the FC Heritage Circuit Tournament.",
+            "reward": "3X 80+ Gold Players Pack",
+            "nameFA": "میراث نارنجی",
+            "descriptionFA": "حداقل ۱ پاس گل بدهید، در ۳ مسابقهٔ جداگانه، در «FC Heritage Circuit Tournament»، با حداقل ۱ بازیکن هلندی در ترکیب اصلی.",
+            "rewardFA": "۳ عدد بستهٔ بازیکن طلایی ۸۰+"
+          },
+          {
+            "name": "Madrid Royalty",
+            "description": "Score at least 1 goal in 3 separate matches while having Min. 1 Real Madrid (LALIGA) player in your starting 11 in the FC Heritage Circuit Tournament.",
+            "reward": "2X 82+ Gold Players Pack",
+            "nameFA": "سلطنت مادرید",
+            "descriptionFA": "حداقل ۱ گل به ثمر برسانید، در ۳ مسابقهٔ جداگانه، در «FC Heritage Circuit Tournament»، با حداقل ۱ بازیکن Real Madrid (LALIGA) در ترکیب اصلی.",
+            "rewardFA": "۲ عدد بستهٔ بازیکن طلایی ۸۲+"
+          },
+          {
+            "name": "French Thrill",
+            "description": "Score at least 2 goals in 1 match while having Min. 1 French player in your starting 11 in the FC Heritage Circuit Tournament.",
+            "reward": "3,000 Coins",
+            "nameFA": "هیجان فرانسوی",
+            "descriptionFA": "حداقل ۲ گل به ثمر برسانید، در ۱ مسابقه، با حداقل ۱ بازیکن فرانسوی در ترکیب اصلی، در «FC Heritage Circuit Tournament».",
+            "rewardFA": "۳,۰۰۰ سکه"
+          },
+          {
+            "name": "Serie A after Dark",
+            "description": "Win 1 Quarter-Finals match while having Min. 2 Serie A players in your starting 11 in the FC Heritage Circuit Tournament.",
+            "reward": "Consumable",
+            "nameFA": "سری A در دل شب",
+            "descriptionFA": "۱ مسابقهٔ Quarter-Finals را ببرید، با حداقل ۲ بازیکن Serie A در ترکیب اصلی، در «FC Heritage Circuit Tournament».",
+            "rewardFA": "آیتم مصرفی"
+          }
+        ],
+        "detail_checked_at": "2026-10-30T22:21:21.975Z"
+      },
+      {
+        "name": "FC Heritage Circuit Professional Event",
+        "category": "seasonal",
+        "description": "Compete in the FC Heritage Circuit Professional Event to earn packs and more. All rewards are untradeable.",
+        "url": "https://www.fut.gg/objectives/seasonal/157-fc-heritage-circuit-professional-event/",
+        "nameFA": "رویداد Professionalِ FC Heritage Circuit",
+        "descriptionFA": "در رویداد Professionalِ FC Heritage Circuit شرکت کنید و بسته و جوایز دیگر بگیرید. همهٔ جایزه‌ها غیرقابل‌فروش‌اند.",
+        "tasks": [
+          {
+            "name": "Premier Pride",
+            "description": "Win 2 matches while having Min. 3 Premier League players in your starting 11 in the FC Heritage Circuit Professional Event.",
+            "reward": "82+ Gold Player Pack",
+            "nameFA": "غرور پریمیرلیگ",
+            "descriptionFA": "۲ مسابقه را ببرید، با حداقل ۳ بازیکن Premier League در ترکیب اصلی، در «FC Heritage Circuit Professional Event».",
+            "rewardFA": "بستهٔ بازیکن طلایی ۸۲+"
+          },
+          {
+            "name": "French Connection",
+            "description": "Score at least 3 goals in one match while having Min. 1 French player in your starting 11 in the FC Heritage Circuit Professional Event.",
+            "reward": "2X 80+ Gold Players Pack",
+            "nameFA": "اتصال فرانسوی",
+            "descriptionFA": "حداقل ۳ گل به ثمر برسانید، در یک مسابقه، با حداقل ۱ بازیکن فرانسوی در ترکیب اصلی، در «FC Heritage Circuit Professional Event».",
+            "rewardFA": "۲ عدد بستهٔ بازیکن طلایی ۸۰+"
+          },
+          {
+            "name": "Belgian Tower",
+            "description": "Assist at least 3 goals while having Min. 1 Belgian player in your starting 11 in the FC Heritage Circuit Professional Event.",
+            "reward": "2,000 Coins",
+            "nameFA": "برج بلژیکی",
+            "descriptionFA": "حداقل ۳ پاس گل بدهید، با حداقل ۱ بازیکن بلژیکی در ترکیب اصلی، در «FC Heritage Circuit Professional Event».",
+            "rewardFA": "۲,۰۰۰ سکه"
+          },
+          {
+            "name": "Three Lions Legacy",
+            "description": "Score at least 1 goal in 2 separate matches while having Min. 1 English player in your starting 11 in the FC Heritage Circuit Professional Event.",
+            "reward": "Consumable",
+            "nameFA": "میراث سه شیر",
+            "descriptionFA": "حداقل ۱ گل به ثمر برسانید، در ۲ مسابقهٔ جداگانه، در «FC Heritage Circuit Professional Event»، با حداقل ۱ بازیکن انگلیسی در ترکیب اصلی.",
+            "rewardFA": "آیتم مصرفی"
+          },
+          {
+            "name": "Win 1",
+            "description": "Win 1 match in the FC Heritage Circuit Professional Event and qualify for the FC Heritage Circuit World Class Event.",
+            "reward": "80+ Gold Player Pack",
+            "descriptionFA": "۱ مسابقه را ببرید، در «FC Heritage Circuit Professional Event»، و به «FC Heritage Circuit World Class Event» راه پیدا کنید.",
+            "rewardFA": "بستهٔ بازیکن طلایی ۸۰+",
+            "nameFA": "۱ برد"
+          }
+        ],
+        "detail_checked_at": "2026-10-30T22:21:21.975Z"
+      },
+      {
+        "name": "FC Heritage Circuit Semi-Pro Event",
+        "category": "seasonal",
+        "description": "Compete in the FC Heritage Circuit Semi-Pro Event to earn packs and more. All rewards are untradeable.",
+        "url": "https://www.fut.gg/objectives/seasonal/155-fc-heritage-circuit-semi-pro-event/",
+        "nameFA": "رویداد Semi-Proِ FC Heritage Circuit",
+        "descriptionFA": "در رویداد Semi-Proِ FC Heritage Circuit شرکت کنید و بسته و جوایز دیگر بگیرید. همهٔ جایزه‌ها غیرقابل‌فروش‌اند.",
+        "tasks": [
+          {
+            "name": "Madrid After Midnight",
+            "description": "Win 2 matches while having Min. 2 Real Madrid (LALIGA) players in your starting 11 in the FC Heritage Circuit Semi-Pro Event.",
+            "reward": "81+ Gold Player Pack",
+            "nameFA": "مادرید بعد از نیمه‌شب",
+            "descriptionFA": "۲ مسابقه را ببرید، با حداقل ۲ بازیکن Real Madrid (LALIGA) در ترکیب اصلی، در «FC Heritage Circuit Semi-Pro Event».",
+            "rewardFA": "بستهٔ بازیکن طلایی ۸۱+"
+          },
+          {
+            "name": "MLS After Dark",
+            "description": "Score at least 2 goals in one match while having Min. 1 MLS player in your starting 11 in the FC Heritage Circuit Semi-Pro Event.",
+            "reward": "80+ Gold Player Pack",
+            "nameFA": "MLS در دل شب",
+            "descriptionFA": "حداقل ۲ گل به ثمر برسانید، در یک مسابقه، با حداقل ۱ بازیکن MLS در ترکیب اصلی، در «FC Heritage Circuit Semi-Pro Event».",
+            "rewardFA": "بستهٔ بازیکن طلایی ۸۰+"
+          },
+          {
+            "name": "French Fright",
+            "description": "Assist at least 3 goals while having Min. 1 Ligue 1 player in your starting 11 in the FC Heritage Circuit Semi-Pro Event.",
+            "reward": "1,500 Coins",
+            "nameFA": "وحشت فرانسوی",
+            "descriptionFA": "حداقل ۳ پاس گل بدهید، با حداقل ۱ بازیکن Ligue 1 در ترکیب اصلی، در «FC Heritage Circuit Semi-Pro Event».",
+            "rewardFA": "۱,۵۰۰ سکه"
+          },
+          {
+            "name": "Scream in Serie A",
+            "description": "Score in 2 separate matches while having Min. 1 Serie A player in your starting 11 in the FC Heritage Circuit Semi-Pro Event.",
+            "reward": "Consumable",
+            "nameFA": "فریاد در سری A",
+            "descriptionFA": "گل بزنید، در ۲ مسابقهٔ جداگانه، در «FC Heritage Circuit Semi-Pro Event»، با حداقل ۱ بازیکن Serie A در ترکیب اصلی.",
+            "rewardFA": "آیتم مصرفی"
+          },
+          {
+            "name": "Win 1",
+            "description": "Win 1 match in the FC Heritage Circuit Semi-Pro Event and qualify for the FC Heritage Circuit Professional Event.",
+            "reward": "2X 78+ Gold Players Pack",
+            "descriptionFA": "۱ مسابقه را ببرید، در «FC Heritage Circuit Semi-Pro Event»، و به «FC Heritage Circuit Professional Event» راه پیدا کنید.",
+            "rewardFA": "۲ عدد بستهٔ بازیکن طلایی ۷۸+",
+            "nameFA": "۱ برد"
+          }
+        ],
+        "detail_checked_at": "2026-10-30T22:21:21.975Z"
       },
       {
         "name": "Season 2 Daily Knockout Tournament",
@@ -260,323 +576,7 @@
             "nameFA": "۱ مسابقه"
           }
         ],
-        "detail_checked_at": "2026-10-30T12:56:52.392Z"
-      },
-      {
-        "name": "FC Heritage Circuit Semi-Pro Event",
-        "category": "seasonal",
-        "description": "Compete in the FC Heritage Circuit Semi-Pro Event to earn packs and more. All rewards are untradeable.",
-        "url": "https://www.fut.gg/objectives/seasonal/155-fc-heritage-circuit-semi-pro-event/",
-        "nameFA": "رویداد Semi-Proِ FC Heritage Circuit",
-        "descriptionFA": "در رویداد Semi-Proِ FC Heritage Circuit شرکت کنید و بسته و جوایز دیگر بگیرید. همهٔ جایزه‌ها غیرقابل‌فروش‌اند.",
-        "tasks": [
-          {
-            "name": "Madrid After Midnight",
-            "description": "Win 2 matches while having Min. 2 Real Madrid (LALIGA) players in your starting 11 in the FC Heritage Circuit Semi-Pro Event.",
-            "reward": "81+ Gold Player Pack",
-            "nameFA": "مادرید بعد از نیمه‌شب",
-            "descriptionFA": "۲ مسابقه را ببرید، با حداقل ۲ بازیکن Real Madrid (LALIGA) در ترکیب اصلی، در «FC Heritage Circuit Semi-Pro Event».",
-            "rewardFA": "بستهٔ بازیکن طلایی ۸۱+"
-          },
-          {
-            "name": "MLS After Dark",
-            "description": "Score at least 2 goals in one match while having Min. 1 MLS player in your starting 11 in the FC Heritage Circuit Semi-Pro Event.",
-            "reward": "80+ Gold Player Pack",
-            "nameFA": "MLS در دل شب",
-            "descriptionFA": "حداقل ۲ گل به ثمر برسانید، در یک مسابقه، با حداقل ۱ بازیکن MLS در ترکیب اصلی، در «FC Heritage Circuit Semi-Pro Event».",
-            "rewardFA": "بستهٔ بازیکن طلایی ۸۰+"
-          },
-          {
-            "name": "French Fright",
-            "description": "Assist at least 3 goals while having Min. 1 Ligue 1 player in your starting 11 in the FC Heritage Circuit Semi-Pro Event.",
-            "reward": "1,500 Coins",
-            "nameFA": "وحشت فرانسوی",
-            "descriptionFA": "حداقل ۳ پاس گل بدهید، با حداقل ۱ بازیکن Ligue 1 در ترکیب اصلی، در «FC Heritage Circuit Semi-Pro Event».",
-            "rewardFA": "۱,۵۰۰ سکه"
-          },
-          {
-            "name": "Scream in Serie A",
-            "description": "Score in 2 separate matches while having Min. 1 Serie A player in your starting 11 in the FC Heritage Circuit Semi-Pro Event.",
-            "reward": "Consumable",
-            "nameFA": "فریاد در سری A",
-            "descriptionFA": "گل بزنید، در ۲ مسابقهٔ جداگانه، در «FC Heritage Circuit Semi-Pro Event»، با حداقل ۱ بازیکن Serie A در ترکیب اصلی.",
-            "rewardFA": "آیتم مصرفی"
-          },
-          {
-            "name": "Win 1",
-            "description": "Win 1 match in the FC Heritage Circuit Semi-Pro Event and qualify for the FC Heritage Circuit Professional Event.",
-            "reward": "2X 78+ Gold Players Pack",
-            "descriptionFA": "۱ مسابقه را ببرید، در «FC Heritage Circuit Semi-Pro Event»، و به «FC Heritage Circuit Professional Event» راه پیدا کنید.",
-            "rewardFA": "۲ عدد بستهٔ بازیکن طلایی ۷۸+",
-            "nameFA": "۱ برد"
-          }
-        ],
-        "detail_checked_at": "2026-10-30T12:56:52.392Z"
-      },
-      {
-        "name": "FC Heritage Circuit Professional Event",
-        "category": "seasonal",
-        "description": "Compete in the FC Heritage Circuit Professional Event to earn packs and more. All rewards are untradeable.",
-        "url": "https://www.fut.gg/objectives/seasonal/157-fc-heritage-circuit-professional-event/",
-        "nameFA": "رویداد Professionalِ FC Heritage Circuit",
-        "descriptionFA": "در رویداد Professionalِ FC Heritage Circuit شرکت کنید و بسته و جوایز دیگر بگیرید. همهٔ جایزه‌ها غیرقابل‌فروش‌اند.",
-        "tasks": [
-          {
-            "name": "Premier Pride",
-            "description": "Win 2 matches while having Min. 3 Premier League players in your starting 11 in the FC Heritage Circuit Professional Event.",
-            "reward": "82+ Gold Player Pack",
-            "nameFA": "غرور پریمیرلیگ",
-            "descriptionFA": "۲ مسابقه را ببرید، با حداقل ۳ بازیکن Premier League در ترکیب اصلی، در «FC Heritage Circuit Professional Event».",
-            "rewardFA": "بستهٔ بازیکن طلایی ۸۲+"
-          },
-          {
-            "name": "French Connection",
-            "description": "Score at least 3 goals in one match while having Min. 1 French player in your starting 11 in the FC Heritage Circuit Professional Event.",
-            "reward": "2X 80+ Gold Players Pack",
-            "nameFA": "اتصال فرانسوی",
-            "descriptionFA": "حداقل ۳ گل به ثمر برسانید، در یک مسابقه، با حداقل ۱ بازیکن فرانسوی در ترکیب اصلی، در «FC Heritage Circuit Professional Event».",
-            "rewardFA": "۲ عدد بستهٔ بازیکن طلایی ۸۰+"
-          },
-          {
-            "name": "Belgian Tower",
-            "description": "Assist at least 3 goals while having Min. 1 Belgian player in your starting 11 in the FC Heritage Circuit Professional Event.",
-            "reward": "2,000 Coins",
-            "nameFA": "برج بلژیکی",
-            "descriptionFA": "حداقل ۳ پاس گل بدهید، با حداقل ۱ بازیکن بلژیکی در ترکیب اصلی، در «FC Heritage Circuit Professional Event».",
-            "rewardFA": "۲,۰۰۰ سکه"
-          },
-          {
-            "name": "Three Lions Legacy",
-            "description": "Score at least 1 goal in 2 separate matches while having Min. 1 English player in your starting 11 in the FC Heritage Circuit Professional Event.",
-            "reward": "Consumable",
-            "nameFA": "میراث سه شیر",
-            "descriptionFA": "حداقل ۱ گل به ثمر برسانید، در ۲ مسابقهٔ جداگانه، در «FC Heritage Circuit Professional Event»، با حداقل ۱ بازیکن انگلیسی در ترکیب اصلی.",
-            "rewardFA": "آیتم مصرفی"
-          },
-          {
-            "name": "Win 1",
-            "description": "Win 1 match in the FC Heritage Circuit Professional Event and qualify for the FC Heritage Circuit World Class Event.",
-            "reward": "80+ Gold Player Pack",
-            "descriptionFA": "۱ مسابقه را ببرید، در «FC Heritage Circuit Professional Event»، و به «FC Heritage Circuit World Class Event» راه پیدا کنید.",
-            "rewardFA": "بستهٔ بازیکن طلایی ۸۰+",
-            "nameFA": "۱ برد"
-          }
-        ],
-        "detail_checked_at": "2026-10-30T12:56:52.392Z"
-      },
-      {
-        "name": "FC Heritage Circuit Tournament",
-        "category": "seasonal",
-        "description": "Compete in the FC Heritage Circuit Tournament to earn a special FC Heritage Alexis Sánchez, packs and more. All rewards are untradeable.",
-        "url": "https://www.fut.gg/objectives/seasonal/158-fc-heritage-circuit-tournament/",
-        "nameFA": "تورنمنت FC Heritage Circuit",
-        "descriptionFA": "در تورنمنت FC Heritage Circuit شرکت کنید و کارت ویژهٔ FC Heritage Alexis Sánchez، بسته و جوایز دیگر بگیرید. همهٔ جایزه‌ها غیرقابل‌فروش‌اند.",
-        "tasks": [
-          {
-            "name": "Heritage Champion",
-            "description": "Win the FC Heritage Circuit Tournament 3 times.",
-            "reward": "2X 84+ Gold Players Pack",
-            "nameFA": "قهرمان Heritage",
-            "descriptionFA": "«FC Heritage Circuit Tournament» را ۳ بار ببرید.",
-            "rewardFA": "۲ عدد بستهٔ بازیکن طلایی ۸۴+"
-          },
-          {
-            "name": "Thunder Final",
-            "description": "Win the FC Heritage Circuit Tournament while having Min. 2 Premier League players in your starting 11.",
-            "reward": "2X 83+ Gold Players Pack",
-            "nameFA": "فینال رعد",
-            "descriptionFA": "«FC Heritage Circuit Tournament» را ببرید، با حداقل ۲ بازیکن Premier League در ترکیب اصلی.",
-            "rewardFA": "۲ عدد بستهٔ بازیکن طلایی ۸۳+"
-          },
-          {
-            "name": "Ligue 1 Finest",
-            "description": "Win 2 matches while having Min. 2 Ligue 1 players in your starting 11 in the FC Heritage Circuit Tournament.",
-            "reward": "3X 81+ Gold Players Pack",
-            "nameFA": "بهترین‌های لیگ ۱",
-            "descriptionFA": "۲ مسابقه را ببرید، با حداقل ۲ بازیکن Ligue 1 در ترکیب اصلی، در «FC Heritage Circuit Tournament».",
-            "rewardFA": "۳ عدد بستهٔ بازیکن طلایی ۸۱+"
-          },
-          {
-            "name": "Oranje Legacy",
-            "description": "Assist at least 1 goal in 3 separate matches while having Min. 1 Dutch player in your starting 11 in the FC Heritage Circuit Tournament.",
-            "reward": "3X 80+ Gold Players Pack",
-            "nameFA": "میراث نارنجی",
-            "descriptionFA": "حداقل ۱ پاس گل بدهید، در ۳ مسابقهٔ جداگانه، در «FC Heritage Circuit Tournament»، با حداقل ۱ بازیکن هلندی در ترکیب اصلی.",
-            "rewardFA": "۳ عدد بستهٔ بازیکن طلایی ۸۰+"
-          },
-          {
-            "name": "Madrid Royalty",
-            "description": "Score at least 1 goal in 3 separate matches while having Min. 1 Real Madrid (LALIGA) player in your starting 11 in the FC Heritage Circuit Tournament.",
-            "reward": "2X 82+ Gold Players Pack",
-            "nameFA": "سلطنت مادرید",
-            "descriptionFA": "حداقل ۱ گل به ثمر برسانید، در ۳ مسابقهٔ جداگانه، در «FC Heritage Circuit Tournament»، با حداقل ۱ بازیکن Real Madrid (LALIGA) در ترکیب اصلی.",
-            "rewardFA": "۲ عدد بستهٔ بازیکن طلایی ۸۲+"
-          },
-          {
-            "name": "French Thrill",
-            "description": "Score at least 2 goals in 1 match while having Min. 1 French player in your starting 11 in the FC Heritage Circuit Tournament.",
-            "reward": "3,000 Coins",
-            "nameFA": "هیجان فرانسوی",
-            "descriptionFA": "حداقل ۲ گل به ثمر برسانید، در ۱ مسابقه، با حداقل ۱ بازیکن فرانسوی در ترکیب اصلی، در «FC Heritage Circuit Tournament».",
-            "rewardFA": "۳,۰۰۰ سکه"
-          },
-          {
-            "name": "Serie A after Dark",
-            "description": "Win 1 Quarter-Finals match while having Min. 2 Serie A players in your starting 11 in the FC Heritage Circuit Tournament.",
-            "reward": "Consumable",
-            "nameFA": "سری A در دل شب",
-            "descriptionFA": "۱ مسابقهٔ Quarter-Finals را ببرید، با حداقل ۲ بازیکن Serie A در ترکیب اصلی، در «FC Heritage Circuit Tournament».",
-            "rewardFA": "آیتم مصرفی"
-          }
-        ],
-        "detail_checked_at": "2026-10-30T12:56:52.392Z"
-      },
-      {
-        "name": "FC Heritage Circuit Kick Off Event",
-        "category": "seasonal",
-        "description": "Compete in the FC Heritage Circuit Kick Off Event to earn packs and more. All rewards are untradeable.",
-        "url": "https://www.fut.gg/objectives/seasonal/160-fc-heritage-circuit-kick-off-event/",
-        "nameFA": "رویداد Kick Offِ FC Heritage Circuit",
-        "descriptionFA": "در رویداد Kick Offِ FC Heritage Circuit شرکت کنید و بسته و جوایز دیگر بگیرید. همهٔ جایزه‌ها غیرقابل‌فروش‌اند.",
-        "tasks": [
-          {
-            "name": "Win 1",
-            "description": "Win 1 match in the FC Heritage Circuit Kick Off Event.",
-            "reward": "78+ Gold Player Pack",
-            "descriptionFA": "۱ مسابقه را ببرید، در «FC Heritage Circuit Kick Off Event».",
-            "rewardFA": "بستهٔ بازیکن طلایی ۷۸+",
-            "nameFA": "۱ برد"
-          },
-          {
-            "name": "Assist in 2",
-            "description": "Assist at least 1 goal in 2 separate matches in the FC Heritage Circuit Kick Off Event.",
-            "reward": "2X 75+ Gold Players Pack",
-            "descriptionFA": "حداقل ۱ پاس گل بدهید، در ۲ مسابقهٔ جداگانه، در «FC Heritage Circuit Kick Off Event».",
-            "rewardFA": "۲ عدد بستهٔ بازیکن طلایی ۷۵+",
-            "nameFA": "۲ پاس گل"
-          },
-          {
-            "name": "Play 2",
-            "description": "Play 2 matches in the FC Heritage Circuit Kick Off Event.",
-            "reward": "1,500 Coins",
-            "descriptionFA": "۲ مسابقه را بازی کنید، در «FC Heritage Circuit Kick Off Event».",
-            "rewardFA": "۱,۵۰۰ سکه",
-            "nameFA": "۲ مسابقه"
-          },
-          {
-            "name": "Score 1",
-            "description": "Score 1 goal in the FC Heritage Circuit Kick Off Event.",
-            "reward": "Consumable",
-            "descriptionFA": "۱ گل به ثمر برسانید، در «FC Heritage Circuit Kick Off Event».",
-            "rewardFA": "آیتم مصرفی",
-            "nameFA": "۱ گل"
-          }
-        ],
-        "detail_checked_at": "2026-10-30T12:56:52.392Z"
-      },
-      {
-        "name": "FC Heritage Circuit World Class Event",
-        "category": "seasonal",
-        "description": "Compete in the FC Heritage Circuit World Class Event to earn packs and more. All rewards are untradeable.",
-        "url": "https://www.fut.gg/objectives/seasonal/161-fc-heritage-circuit-world-class-event/",
-        "nameFA": "رویداد World Classِ FC Heritage Circuit",
-        "descriptionFA": "در رویداد World Classِ FC Heritage Circuit شرکت کنید و بسته و جوایز دیگر بگیرید. همهٔ جایزه‌ها غیرقابل‌فروش‌اند.",
-        "tasks": [
-          {
-            "name": "Bundesliga Backbone",
-            "description": "Win 3 matches while having Min. 3 player items from Bundesliga in your starting 11 in the FC Heritage Circuit World Class Event.",
-            "reward": "2X 81+ Gold Players Pack",
-            "nameFA": "ستون فقرات بوندس‌لیگا",
-            "descriptionFA": "۳ مسابقه را ببرید، با حداقل ۳ آیتم بازیکن از Bundesliga در ترکیب اصلی، در «FC Heritage Circuit World Class Event».",
-            "rewardFA": "۲ عدد بستهٔ بازیکن طلایی ۸۱+"
-          },
-          {
-            "name": "Bavarian Thunder",
-            "description": "Score 5 goals while having Min. 1 FC Bayern München (Bundesliga) player item in your starting 11 in the FC Heritage Circuit World Class Event.",
-            "reward": "3X 80+ Gold Players Pack",
-            "nameFA": "رعد باواریا",
-            "descriptionFA": "۵ گل به ثمر برسانید، با حداقل ۱ آیتم بازیکن FC Bayern München (Bundesliga) در ترکیب اصلی، در «FC Heritage Circuit World Class Event».",
-            "rewardFA": "۳ عدد بستهٔ بازیکن طلایی ۸۰+"
-          },
-          {
-            "name": "Paris Power Surge",
-            "description": "Assist 4 goals while having Min. 1 PSG (Ligue 1) player item in your starting 11 in the FC Heritage Circuit World Class Event.",
-            "reward": "2,500 Coins",
-            "nameFA": "موج قدرت پاریس",
-            "descriptionFA": "۴ پاس گل بدهید، با حداقل ۱ آیتم بازیکن PSG (Ligue 1) در ترکیب اصلی، در «FC Heritage Circuit World Class Event».",
-            "rewardFA": "۲,۵۰۰ سکه"
-          },
-          {
-            "name": "Bernabéu Thunder",
-            "description": "Score at least 1 goal in 3 separate matches while having Min. 1 Real Madrid (LALIGA) player item in your starting 11 in the FC Heritage Circuit World Class Event.",
-            "reward": "Consumable",
-            "nameFA": "رعد برنابئو",
-            "descriptionFA": "حداقل ۱ گل به ثمر برسانید، در ۳ مسابقهٔ جداگانه، در «FC Heritage Circuit World Class Event»، با حداقل ۱ آیتم بازیکن Real Madrid (LALIGA) در ترکیب اصلی.",
-            "rewardFA": "آیتم مصرفی"
-          },
-          {
-            "name": "Win 1",
-            "description": "Win 1 match in the FC Heritage Circuit World Class Event and qualify for the FC Heritage Circuit Tournament.",
-            "reward": "81+ Gold Player Pack",
-            "descriptionFA": "۱ مسابقه را ببرید، در «FC Heritage Circuit World Class Event»، و به «FC Heritage Circuit Tournament» راه پیدا کنید.",
-            "rewardFA": "بستهٔ بازیکن طلایی ۸۱+",
-            "nameFA": "۱ برد"
-          }
-        ],
-        "detail_checked_at": "2026-10-30T12:56:52.392Z"
-      },
-      {
-        "name": "FC Heritage Circuit Completionist",
-        "category": "seasonal",
-        "description": "Complete the FC Heritage Circuit Objectives to earn rewards. All rewards are untradeable.",
-        "url": "https://www.fut.gg/objectives/seasonal/164-fc-heritage-circuit-completionist/",
-        "nameFA": "کامل‌کنندهٔ FC Heritage Circuit",
-        "descriptionFA": "اهداف FC Heritage Circuit را کامل کنید و جایزه بگیرید. همهٔ جایزه‌ها غیرقابل‌فروش‌اند.",
-        "tasks": [
-          {
-            "name": "FC Heritage Circuit World Class Challenge",
-            "description": "Complete the FC Heritage Circuit World Class Event objective.",
-            "reward": "7,000 Coins",
-            "nameFA": "چالش World Classِ FC Heritage Circuit",
-            "descriptionFA": "مأموریت «FC Heritage Circuit World Class Event» را کامل کنید.",
-            "rewardFA": "۷,۰۰۰ سکه"
-          },
-          {
-            "name": "FC Heritage Circuit Professional Challenge",
-            "description": "Complete the FC Heritage Circuit Professional Event objective.",
-            "reward": "6,000 Coins",
-            "nameFA": "چالش Professionalِ FC Heritage Circuit",
-            "descriptionFA": "مأموریت «FC Heritage Circuit Professional Event» را کامل کنید.",
-            "rewardFA": "۶,۰۰۰ سکه"
-          },
-          {
-            "name": "FC Heritage Circuit Semi-Pro Challenge",
-            "description": "Complete the FC Heritage Circuit Semi-Pro Event objective.",
-            "reward": "4,000 Coins",
-            "nameFA": "چالش Semi-Proِ FC Heritage Circuit",
-            "descriptionFA": "مأموریت «FC Heritage Circuit Semi-Pro Event» را کامل کنید.",
-            "rewardFA": "۴,۰۰۰ سکه"
-          }
-        ],
-        "detail_checked_at": "2026-10-30T12:56:52.392Z"
-      },
-      {
-        "name": "Season 2 Daily Knockout Tournament Weekly Play",
-        "category": "seasonal",
-        "description": "Compete in the Season 2 Daily Knockout Tournament to earn exclusive rewards! All rewards are untradeable.",
-        "url": "https://www.fut.gg/objectives/seasonal/166-season-2-daily-knockout-tournament-weekly-play/",
-        "nameFA": "بازی هفتگی تورنمنت Daily Knockout فصل ۲",
-        "descriptionFA": "در تورنمنت Daily Knockout فصل ۲ شرکت کنید و جوایز ویژه بگیرید! همهٔ جایزه‌ها غیرقابل‌فروش‌اند.",
-        "tasks": [
-          {
-            "name": "Score in 5",
-            "description": "Score at least 1 goal in 5 separate matches in the Season 2 Daily Knockout Tournament.",
-            "reward": "Finisher",
-            "descriptionFA": "حداقل ۱ گل به ثمر برسانید، در ۵ مسابقهٔ جداگانه، در «Season 2 Daily Knockout Tournament».",
-            "nameFA": "۵ گل"
-          }
-        ],
-        "detail_checked_at": "2026-10-30T12:56:52.392Z"
+        "detail_checked_at": "2026-10-30T22:21:21.975Z"
       },
       {
         "name": "Claim the Armband",
@@ -595,7 +595,115 @@
             "nameFA": "۱ مسابقه"
           }
         ],
-        "detail_checked_at": "2026-10-30T12:56:52.392Z"
+        "detail_checked_at": "2026-10-30T22:21:21.975Z"
+      },
+      {
+        "name": "Bundesliga x Playmobil Kit",
+        "category": "campaign",
+        "description": "Complete this objective to earn the Bundesliga x Playmobil kit! All rewards are untradeable.",
+        "url": "https://www.fut.gg/objectives/campaigns/181-bundesliga-x-playmobil-kit/",
+        "tasks": [
+          {
+            "name": "Win 3",
+            "description": "Win 3 matches in any FUT game mode while having min. 1 player from Bundesliga in your starting 11.",
+            "reward": "Consumable",
+            "rewardFA": "آیتم مصرفی",
+            "nameFA": "۳ برد"
+          },
+          {
+            "name": "Score 4",
+            "description": "Score 4 goals in any FUT game mode with a Player Item from Bundesliga.",
+            "reward": "Coin Boost",
+            "rewardFA": "بوست سکه",
+            "nameFA": "۴ گل"
+          },
+          {
+            "name": "Play 5",
+            "description": "Play 5 matches in any FUT game mode while having min. 1 player from Bundesliga in your starting 11.",
+            "reward": "500 Coins",
+            "rewardFA": "۵۰۰ سکه",
+            "nameFA": "۵ مسابقه"
+          }
+        ],
+        "detail_checked_at": "2026-10-30T22:21:21.975Z"
+      },
+      {
+        "name": "Liga BBVA MX is back",
+        "category": "campaign",
+        "description": "Celebrate the return of Liga BBVA MX to FC with this objective set. All rewards are untradeable.",
+        "url": "https://www.fut.gg/objectives/campaigns/176-liga-bbva-mx-is-back/",
+        "tasks": [
+          {
+            "name": "Play 3",
+            "description": "Play 3 matches with the Mexico National team Away kit equipped in any FUT game mode.",
+            "reward": "2X 75-82 Gold Players Pack",
+            "rewardFA": "۲ عدد بستهٔ بازیکن طلایی ۷۵ تا ۸۲",
+            "nameFA": "۳ مسابقه"
+          },
+          {
+            "name": "Clean Sheet",
+            "description": "Keep a clean sheet with the Mexico National team Away kit equipped in any FUT game mode.",
+            "reward": "2X 75-82 Gold Players Pack",
+            "rewardFA": "۲ عدد بستهٔ بازیکن طلایی ۷۵ تا ۸۲"
+          },
+          {
+            "name": "Play 1",
+            "description": "Play 1 match with 3 Mexican players in your starting XI in any FUT game mode.",
+            "reward": "Mexico",
+            "nameFA": "۱ مسابقه"
+          }
+        ],
+        "detail_checked_at": "2026-10-30T22:21:21.975Z"
+      },
+      {
+        "name": "Ghoul Fest",
+        "category": "campaign",
+        "description": "Compete in the Ghoul Fest Live Event to earn rewards. All rewards are untradeable.",
+        "url": "https://www.fut.gg/objectives/campaigns/175-ghoul-fest/",
+        "rewardFA": "۲۰۰ در مجموع",
+        "tasks": [
+          {
+            "name": "Score in 13",
+            "description": "Score at least 1 goal in 13 separate matches in the Ghoul Fest Live Event.",
+            "reward": "50 Ultimate Scream Tokens",
+            "descriptionFA": "حداقل ۱ گل به ثمر برسانید، در ۱۳ مسابقهٔ جداگانه، در «Ghoul Fest Live Event».",
+            "rewardFA": "۵۰ توکن Ultimate Scream",
+            "nameFA": "۱۳ گل"
+          },
+          {
+            "name": "Score 30",
+            "description": "Score a total of 30 goals in the Ghoul Fest Live Event.",
+            "reward": "50 Ultimate Scream Tokens + 50 SP",
+            "rewardFA": "۵۰ توکن Ultimate Scream + ۵۰ SP",
+            "nameFA": "۳۰ گل"
+          },
+          {
+            "name": "Score in 5",
+            "description": "Score at least 2 goals in 5 separate matches in the Ghoul Fest Live Event.",
+            "reward": "50 Ultimate Scream Tokens",
+            "descriptionFA": "حداقل ۲ گل به ثمر برسانید، در ۵ مسابقهٔ جداگانه، در «Ghoul Fest Live Event».",
+            "rewardFA": "۵۰ توکن Ultimate Scream",
+            "nameFA": "۵ گل"
+          },
+          {
+            "name": "Score 3",
+            "description": "Score at least 3 goals in one match in the Ghoul Fest Live Event.",
+            "reward": "50 Ultimate Scream Tokens",
+            "descriptionFA": "حداقل ۳ گل به ثمر برسانید، در یک مسابقه، در «Ghoul Fest Live Event».",
+            "rewardFA": "۵۰ توکن Ultimate Scream",
+            "nameFA": "۳ گل"
+          },
+          {
+            "name": "Score 2",
+            "description": "Score at least 2 goals in one match in the Ghoul Fest Live Event.",
+            "reward": "Ultimate Scream Regular Badge + 50 Ultimate Scream Tokens",
+            "descriptionFA": "حداقل ۲ گل به ثمر برسانید، در یک مسابقه، در «Ghoul Fest Live Event».",
+            "rewardFA": "بج معمولی Ultimate Scream + ۵۰ توکن Ultimate Scream",
+            "nameFA": "۲ گل"
+          }
+        ],
+        "reward": "200 total",
+        "detail_checked_at": "2026-10-30T22:21:21.975Z"
       },
       {
         "name": "Season 2 Daily Knockout Tournament Bonus",
@@ -638,7 +746,118 @@
           }
         ],
         "reward": "50 total",
-        "detail_checked_at": "2026-10-30T12:56:52.392Z"
+        "detail_checked_at": "2026-10-30T22:21:21.975Z"
+      },
+      {
+        "name": "Ultimate Scream Puzzle Completionist",
+        "category": "campaign",
+        "description": "Complete Ultimate Scream Puzzle SBCs and earn Ultimate Scream Tokens and SP!",
+        "url": "https://www.fut.gg/objectives/campaigns/156-ultimate-scream-puzzle-completionist/",
+        "nameFA": "کامل‌کنندهٔ پازل Ultimate Scream",
+        "descriptionFA": "SBCهای پازل Ultimate Scream را کامل کنید و توکن Ultimate Scream و SP بگیرید!",
+        "rewardFA": "۱۰۰ در مجموع",
+        "tasks": [
+          {
+            "name": "Hocus Pocus",
+            "description": "Complete Hocus Pocus Puzzle SBC.",
+            "reward": "30 Ultimate Scream Tokens",
+            "nameFA": "هوکوس پوکوس",
+            "descriptionFA": "SBC «Hocus Pocus» را کامل کنید.",
+            "rewardFA": "۳۰ توکن Ultimate Scream"
+          },
+          {
+            "name": "Pumpkin Seeds",
+            "description": "Complete Pumpkin Seeds Puzzle SBC.",
+            "reward": "30 Ultimate Scream Tokens",
+            "nameFA": "دانه‌های کدو حلوایی",
+            "descriptionFA": "SBC «Pumpkin Seeds» را کامل کنید.",
+            "rewardFA": "۳۰ توکن Ultimate Scream"
+          },
+          {
+            "name": "Freaky Zombie",
+            "description": "Complete Freaky Zombie Puzzle SBC.",
+            "reward": "30 Ultimate Scream Tokens",
+            "nameFA": "زامبی عجیب",
+            "descriptionFA": "SBC «Freaky Zombie» را کامل کنید.",
+            "rewardFA": "۳۰ توکن Ultimate Scream"
+          },
+          {
+            "name": "Boo Hoo Party",
+            "description": "Complete Boo Hoo Party Puzzle SBC.",
+            "reward": "30 Ultimate Scream Tokens",
+            "nameFA": "مهمانی گریه و زاری",
+            "descriptionFA": "SBC «Boo Hoo Party» را کامل کنید.",
+            "rewardFA": "۳۰ توکن Ultimate Scream"
+          },
+          {
+            "name": "Scary Candy",
+            "description": "Complete Scary Candy Puzzle SBC.",
+            "reward": "30 Ultimate Scream Tokens",
+            "nameFA": "آب نبات ترسناک",
+            "descriptionFA": "SBC «Scary Candy» را کامل کنید.",
+            "rewardFA": "۳۰ توکن Ultimate Scream"
+          },
+          {
+            "name": "Spooky Nights",
+            "description": "Complete Spooky Nights Puzzle SBC.",
+            "reward": "30 Ultimate Scream Tokens",
+            "nameFA": "شب‌های وحشت",
+            "descriptionFA": "SBC «Spooky Nights» را کامل کنید.",
+            "rewardFA": "۳۰ توکن Ultimate Scream"
+          }
+        ],
+        "reward": "100 total",
+        "detail_checked_at": "2026-10-30T22:21:21.975Z"
+      },
+      {
+        "name": "Ultimate Scream Gallery",
+        "category": "campaign",
+        "description": "Make progress in the Ultimate Scream Gallery Set and earn exclusive Ultimate Scream rewards! All rewards are untradeable.",
+        "url": "https://www.fut.gg/objectives/campaigns/159-ultimate-scream-gallery/",
+        "nameFA": "گالری Ultimate Scream",
+        "descriptionFA": "در ست گالری Ultimate Scream پیشرفت کنید و جوایز ویژهٔ Ultimate Scream بگیرید! همهٔ جایزه‌ها غیرقابل‌فروش‌اند.",
+        "tasks": [
+          {
+            "name": "S Rank",
+            "description": "Achieve S Rank in the Ultimate Scream Gallery Set.",
+            "reward": "Ultimate Scream",
+            "nameFA": "رتبهٔ S",
+            "descriptionFA": "رتبهٔ S را در «Ultimate Scream Gallery» بگیرید."
+          },
+          {
+            "name": "A Rank",
+            "description": "Achieve A Rank in the Ultimate Scream Gallery Set.",
+            "reward": "Ultimate Scream Stadium Theme",
+            "nameFA": "رتبهٔ A",
+            "descriptionFA": "رتبهٔ A را در «Ultimate Scream Gallery» بگیرید.",
+            "rewardFA": "تم ورزشگاه Ultimate Scream"
+          },
+          {
+            "name": "B Rank",
+            "description": "Achieve B Rank in the Ultimate Scream Gallery Set.",
+            "reward": "Adidas Cnxt25 Pro Ball",
+            "nameFA": "رتبهٔ B",
+            "descriptionFA": "رتبهٔ B را در «Ultimate Scream Gallery» بگیرید.",
+            "rewardFA": "توپ Adidas Cnxt25 Pro"
+          },
+          {
+            "name": "C Rank",
+            "description": "Achieve C Rank in the Ultimate Scream Gallery Set.",
+            "reward": "Ultimate Scream Tifo",
+            "nameFA": "رتبهٔ C",
+            "descriptionFA": "رتبهٔ C را در «Ultimate Scream Gallery» بگیرید.",
+            "rewardFA": "تیفو Ultimate Scream"
+          },
+          {
+            "name": "D Rank",
+            "description": "Achieve D Rank in the Ultimate Scream Gallery Set.",
+            "reward": "Halloween Vip",
+            "nameFA": "رتبهٔ D",
+            "descriptionFA": "رتبهٔ D را در «Ultimate Scream Gallery» بگیرید.",
+            "rewardFA": "VIP هالووین"
+          }
+        ],
+        "detail_checked_at": "2026-10-30T22:21:21.975Z"
       },
       {
         "name": "Phantom Playgrounds",
@@ -707,118 +926,7 @@
           }
         ],
         "reward": "50 total",
-        "detail_checked_at": "2026-10-30T12:56:52.392Z"
-      },
-      {
-        "name": "Ultimate Scream Gallery",
-        "category": "campaign",
-        "description": "Make progress in the Ultimate Scream Gallery Set and earn exclusive Ultimate Scream rewards! All rewards are untradeable.",
-        "url": "https://www.fut.gg/objectives/campaigns/159-ultimate-scream-gallery/",
-        "nameFA": "گالری Ultimate Scream",
-        "descriptionFA": "در ست گالری Ultimate Scream پیشرفت کنید و جوایز ویژهٔ Ultimate Scream بگیرید! همهٔ جایزه‌ها غیرقابل‌فروش‌اند.",
-        "tasks": [
-          {
-            "name": "S Rank",
-            "description": "Achieve S Rank in the Ultimate Scream Gallery Set.",
-            "reward": "Ultimate Scream",
-            "nameFA": "رتبهٔ S",
-            "descriptionFA": "رتبهٔ S را در «Ultimate Scream Gallery» بگیرید."
-          },
-          {
-            "name": "A Rank",
-            "description": "Achieve A Rank in the Ultimate Scream Gallery Set.",
-            "reward": "Ultimate Scream Stadium Theme",
-            "nameFA": "رتبهٔ A",
-            "descriptionFA": "رتبهٔ A را در «Ultimate Scream Gallery» بگیرید.",
-            "rewardFA": "تم ورزشگاه Ultimate Scream"
-          },
-          {
-            "name": "B Rank",
-            "description": "Achieve B Rank in the Ultimate Scream Gallery Set.",
-            "reward": "Adidas Cnxt25 Pro Ball",
-            "nameFA": "رتبهٔ B",
-            "descriptionFA": "رتبهٔ B را در «Ultimate Scream Gallery» بگیرید.",
-            "rewardFA": "توپ Adidas Cnxt25 Pro"
-          },
-          {
-            "name": "C Rank",
-            "description": "Achieve C Rank in the Ultimate Scream Gallery Set.",
-            "reward": "Ultimate Scream Tifo",
-            "nameFA": "رتبهٔ C",
-            "descriptionFA": "رتبهٔ C را در «Ultimate Scream Gallery» بگیرید.",
-            "rewardFA": "تیفو Ultimate Scream"
-          },
-          {
-            "name": "D Rank",
-            "description": "Achieve D Rank in the Ultimate Scream Gallery Set.",
-            "reward": "Halloween Vip",
-            "nameFA": "رتبهٔ D",
-            "descriptionFA": "رتبهٔ D را در «Ultimate Scream Gallery» بگیرید.",
-            "rewardFA": "VIP هالووین"
-          }
-        ],
-        "detail_checked_at": "2026-10-30T12:56:52.392Z"
-      },
-      {
-        "name": "Ultimate Scream Puzzle Completionist",
-        "category": "campaign",
-        "description": "Complete Ultimate Scream Puzzle SBCs and earn Ultimate Scream Tokens and SP!",
-        "url": "https://www.fut.gg/objectives/campaigns/156-ultimate-scream-puzzle-completionist/",
-        "nameFA": "کامل‌کنندهٔ پازل Ultimate Scream",
-        "descriptionFA": "SBCهای پازل Ultimate Scream را کامل کنید و توکن Ultimate Scream و SP بگیرید!",
-        "rewardFA": "۱۰۰ در مجموع",
-        "tasks": [
-          {
-            "name": "Hocus Pocus",
-            "description": "Complete Hocus Pocus Puzzle SBC.",
-            "reward": "30 Ultimate Scream Tokens",
-            "nameFA": "هوکوس پوکوس",
-            "descriptionFA": "SBC «Hocus Pocus» را کامل کنید.",
-            "rewardFA": "۳۰ توکن Ultimate Scream"
-          },
-          {
-            "name": "Pumpkin Seeds",
-            "description": "Complete Pumpkin Seeds Puzzle SBC.",
-            "reward": "30 Ultimate Scream Tokens",
-            "nameFA": "دانه‌های کدو حلوایی",
-            "descriptionFA": "SBC «Pumpkin Seeds» را کامل کنید.",
-            "rewardFA": "۳۰ توکن Ultimate Scream"
-          },
-          {
-            "name": "Freaky Zombie",
-            "description": "Complete Freaky Zombie Puzzle SBC.",
-            "reward": "30 Ultimate Scream Tokens",
-            "nameFA": "زامبی عجیب",
-            "descriptionFA": "SBC «Freaky Zombie» را کامل کنید.",
-            "rewardFA": "۳۰ توکن Ultimate Scream"
-          },
-          {
-            "name": "Boo Hoo Party",
-            "description": "Complete Boo Hoo Party Puzzle SBC.",
-            "reward": "30 Ultimate Scream Tokens",
-            "nameFA": "مهمانی گریه و زاری",
-            "descriptionFA": "SBC «Boo Hoo Party» را کامل کنید.",
-            "rewardFA": "۳۰ توکن Ultimate Scream"
-          },
-          {
-            "name": "Scary Candy",
-            "description": "Complete Scary Candy Puzzle SBC.",
-            "reward": "30 Ultimate Scream Tokens",
-            "nameFA": "آب نبات ترسناک",
-            "descriptionFA": "SBC «Scary Candy» را کامل کنید.",
-            "rewardFA": "۳۰ توکن Ultimate Scream"
-          },
-          {
-            "name": "Spooky Nights",
-            "description": "Complete Spooky Nights Puzzle SBC.",
-            "reward": "30 Ultimate Scream Tokens",
-            "nameFA": "شب‌های وحشت",
-            "descriptionFA": "SBC «Spooky Nights» را کامل کنید.",
-            "rewardFA": "۳۰ توکن Ultimate Scream"
-          }
-        ],
-        "reward": "100 total",
-        "detail_checked_at": "2026-10-30T12:56:52.392Z"
+        "detail_checked_at": "2026-10-30T22:21:21.975Z"
       },
       {
         "name": "Future Stars Academy",
@@ -869,7 +977,7 @@
             "rewardFA": "۲ عدد بستهٔ بازیکن طلایی ۷۵+"
           }
         ],
-        "detail_checked_at": "2026-10-30T12:56:52.392Z"
+        "detail_checked_at": "2026-10-30T22:21:21.975Z"
       },
       {
         "name": "Rising Through the Ranks",
@@ -922,7 +1030,7 @@
           }
         ],
         "reward": "250 total",
-        "detail_checked_at": "2026-10-30T12:56:52.392Z"
+        "detail_checked_at": "2026-10-30T22:21:21.975Z"
       },
       {
         "name": "First Team Dreams",
@@ -959,7 +1067,7 @@
           }
         ],
         "reward": "400 total",
-        "detail_checked_at": "2026-10-30T12:56:52.392Z"
+        "detail_checked_at": "2026-10-30T22:21:21.975Z"
       },
       {
         "name": "The Journey Begins",
@@ -1004,7 +1112,7 @@
           }
         ],
         "reward": "100 total",
-        "detail_checked_at": "2026-10-30T12:56:52.392Z"
+        "detail_checked_at": "2026-10-30T22:21:21.975Z"
       },
       {
         "name": "Total Football",
@@ -1041,7 +1149,7 @@
           }
         ],
         "reward": "300 total",
-        "detail_checked_at": "2026-10-30T12:56:52.392Z"
+        "detail_checked_at": "2026-10-30T22:21:21.975Z"
       },
       {
         "name": "Gallery Foundations",
@@ -1092,7 +1200,7 @@
             "rewardFA": "۲۵۰ سکه"
           }
         ],
-        "detail_checked_at": "2026-10-30T12:56:52.392Z"
+        "detail_checked_at": "2026-10-30T22:21:21.975Z"
       },
       {
         "name": "Ted Lasso's Masterclass",
@@ -1151,7 +1259,7 @@
             "rewardFA": "جایزه"
           }
         ],
-        "detail_checked_at": "2026-10-30T12:56:52.392Z"
+        "detail_checked_at": "2026-10-30T22:21:21.975Z"
       },
       {
         "name": "Squad Battles Milestone",
@@ -1186,7 +1294,7 @@
             "nameFA": "۵ مسابقه"
           }
         ],
-        "detail_checked_at": "2026-10-30T12:56:52.392Z"
+        "detail_checked_at": "2026-10-30T22:21:21.975Z"
       },
       {
         "name": "Draft Milestone",
@@ -1221,7 +1329,7 @@
             "nameFA": "۵ مسابقه"
           }
         ],
-        "detail_checked_at": "2026-10-30T12:56:52.392Z"
+        "detail_checked_at": "2026-10-30T22:21:21.975Z"
       },
       {
         "name": "Co-Op Milestone",
@@ -1256,7 +1364,7 @@
             "nameFA": "۵ مسابقه"
           }
         ],
-        "detail_checked_at": "2026-10-30T12:56:52.392Z"
+        "detail_checked_at": "2026-10-30T22:21:21.975Z"
       },
       {
         "name": "Rush Milestone",
@@ -1315,7 +1423,7 @@
             "nameFA": "۵ مسابقه"
           }
         ],
-        "detail_checked_at": "2026-10-30T12:56:52.392Z"
+        "detail_checked_at": "2026-10-30T22:21:21.975Z"
       },
       {
         "name": "Moments Stars Milestone",
@@ -1350,7 +1458,7 @@
             "nameFA": "۱۵ ستاره"
           }
         ],
-        "detail_checked_at": "2026-10-30T12:56:52.392Z"
+        "detail_checked_at": "2026-10-30T22:21:21.975Z"
       },
       {
         "name": "Squad Building Milestone",
@@ -1385,7 +1493,7 @@
             "nameFA": "۵ SBC"
           }
         ],
-        "detail_checked_at": "2026-10-30T12:56:52.392Z"
+        "detail_checked_at": "2026-10-30T22:21:21.975Z"
       },
       {
         "name": "Transfer Market Milestone",
@@ -1428,7 +1536,7 @@
             "nameFA": "۲۵ خرید Buy Now"
           }
         ],
-        "detail_checked_at": "2026-10-30T12:56:52.392Z"
+        "detail_checked_at": "2026-10-30T22:21:21.975Z"
       },
       {
         "name": "Live Events Milestone",
@@ -1463,7 +1571,7 @@
             "nameFA": "۵ مسابقه"
           }
         ],
-        "detail_checked_at": "2026-10-30T12:56:52.392Z"
+        "detail_checked_at": "2026-10-30T22:21:21.975Z"
       },
       {
         "name": "Rivals Milestone",
@@ -1498,7 +1606,7 @@
             "nameFA": "۵ مسابقه"
           }
         ],
-        "detail_checked_at": "2026-10-30T12:56:52.392Z"
+        "detail_checked_at": "2026-10-30T22:21:21.975Z"
       },
       {
         "name": "Champions Milestone",
@@ -1533,7 +1641,7 @@
             "nameFA": "۵ مسابقه"
           }
         ],
-        "detail_checked_at": "2026-10-30T12:56:52.392Z"
+        "detail_checked_at": "2026-10-30T22:21:21.975Z"
       },
       {
         "name": "Gallery Milestone",
@@ -1583,10 +1691,33 @@
             "nameFA": "سطح ۵"
           }
         ],
-        "detail_checked_at": "2026-10-30T12:56:52.392Z"
+        "detail_checked_at": "2026-10-30T22:21:21.975Z"
       }
     ],
     "sbc": [
+      {
+        "name": "Tijjani Reijnders",
+        "category": "players",
+        "description": "Earn a special Ultimate Scream Tijjani Reijnders.",
+        "url": "https://www.fut.gg/sbc/players/27-95-tijjani-reijnders/",
+        "price": null,
+        "challenges": 1,
+        "squads": [
+          {
+            "name": "Tijjani Reijnders",
+            "description": "Earn a special Ultimate Scream Tijjani Reijnders.",
+            "score": 60000,
+            "requirements": [
+              "Rating: Min. 45"
+            ],
+            "requirementsFA": [
+              "حداقل امتیاز بازیکن: ۴۵"
+            ]
+          }
+        ],
+        "squads_checked_at": "2026-10-30T22:21:21.975Z",
+        "detail_checked_at": "2026-10-30T22:21:21.975Z"
+      },
       {
         "name": "Ramiro Árciga",
         "category": "players",
@@ -1607,8 +1738,8 @@
             ]
           }
         ],
-        "squads_checked_at": "2026-10-30T12:56:52.392Z",
-        "detail_checked_at": "2026-10-30T12:56:52.392Z"
+        "squads_checked_at": "2026-10-30T22:21:21.975Z",
+        "detail_checked_at": "2026-10-30T22:21:21.975Z"
       },
       {
         "name": "Víctor Guzmán",
@@ -1630,8 +1761,8 @@
             ]
           }
         ],
-        "squads_checked_at": "2026-10-30T12:56:52.392Z",
-        "detail_checked_at": "2026-10-30T12:56:52.392Z"
+        "squads_checked_at": "2026-10-30T22:21:21.975Z",
+        "detail_checked_at": "2026-10-30T22:21:21.975Z"
       },
       {
         "name": "Carlos Augusto",
@@ -1653,8 +1784,8 @@
             ]
           }
         ],
-        "squads_checked_at": "2026-10-30T12:56:52.392Z",
-        "detail_checked_at": "2026-10-30T12:56:52.392Z"
+        "squads_checked_at": "2026-10-30T22:21:21.975Z",
+        "detail_checked_at": "2026-10-30T22:21:21.975Z"
       },
       {
         "name": "Ruben Loftus-Cheek",
@@ -1676,8 +1807,8 @@
             ]
           }
         ],
-        "squads_checked_at": "2026-10-30T12:56:52.392Z",
-        "detail_checked_at": "2026-10-30T12:56:52.392Z"
+        "squads_checked_at": "2026-10-30T22:21:21.975Z",
+        "detail_checked_at": "2026-10-30T22:21:21.975Z"
       },
       {
         "name": "Héctor Bellerín",
@@ -1699,8 +1830,8 @@
             ]
           }
         ],
-        "squads_checked_at": "2026-10-30T12:56:52.392Z",
-        "detail_checked_at": "2026-10-30T12:56:52.392Z"
+        "squads_checked_at": "2026-10-30T22:21:21.975Z",
+        "detail_checked_at": "2026-10-30T22:21:21.975Z"
       },
       {
         "name": "Base Hero Player Pick",
@@ -1729,7 +1860,7 @@
           }
         ],
         "squads_checked_at": "2026-10-26T13:04:45.080Z",
-        "detail_checked_at": "2026-10-30T12:56:52.392Z"
+        "detail_checked_at": "2026-10-30T22:21:21.975Z"
       },
       {
         "name": "Emre Mor",
@@ -1756,34 +1887,7 @@
           }
         ],
         "squads_checked_at": "2026-10-26T13:04:45.080Z",
-        "detail_checked_at": "2026-10-30T12:56:52.392Z"
-      },
-      {
-        "name": "Nick Woltemade",
-        "category": "players",
-        "description": "Earn a special Ultimate Scream Nick Woltemade.",
-        "url": "https://www.fut.gg/sbc/players/27-79-nick-woltemade/",
-        "price": null,
-        "nameFA": "چالش بازیکن: Nick Woltemade",
-        "descriptionFA": "کارت ویژهٔ Ultimate Scream Nick Woltemade را بگیرید.",
-        "challenges": 1,
-        "squads": [
-          {
-            "name": "Nick Woltemade",
-            "description": "Earn a special Ultimate Scream Nick Woltemade.",
-            "score": 50000,
-            "requirements": [
-              "Rating: Min. 45"
-            ],
-            "nameFA": "چالش بازیکن: Nick Woltemade",
-            "descriptionFA": "کارت ویژهٔ Ultimate Scream Nick Woltemade را بگیرید.",
-            "requirementsFA": [
-              "حداقل امتیاز بازیکن: ۴۵"
-            ]
-          }
-        ],
-        "squads_checked_at": "2026-10-26T13:04:45.080Z",
-        "detail_checked_at": "2026-10-30T12:56:52.392Z"
+        "detail_checked_at": "2026-10-30T22:21:21.975Z"
       },
       {
         "name": "Ligue 1 POTM September",
@@ -1810,7 +1914,7 @@
           }
         ],
         "squads_checked_at": "2026-10-18T17:20:01.281Z",
-        "detail_checked_at": "2026-10-30T12:56:52.392Z"
+        "detail_checked_at": "2026-10-30T22:21:21.975Z"
       },
       {
         "name": "Liga F POTM September",
@@ -1837,34 +1941,36 @@
           }
         ],
         "squads_checked_at": "2026-10-18T17:20:01.281Z",
-        "detail_checked_at": "2026-10-30T12:56:52.392Z"
+        "detail_checked_at": "2026-10-30T22:21:21.975Z"
       },
       {
-        "name": "LALIGA POTM September",
-        "category": "players",
-        "description": "Earn the LALIGA Player of the Month for September.",
-        "url": "https://www.fut.gg/sbc/players/27-33-laliga-potm-september/",
+        "name": "81+ TOTW 1-7 Upgrade",
+        "category": "upgrades",
+        "description": "Earn a pack containing 1 TOTW Player Item, rated 81 or higher, from TOTW 1 to 7.",
+        "url": "https://www.fut.gg/sbc/upgrades/27-102-81-totw-1-7-upgrade/",
         "price": null,
-        "nameFA": "بهترین بازیکن ماه سپتامبر — LALIGA",
-        "descriptionFA": "کارت بهترین بازیکن ماه سپتامبر از لیگ LALIGA را بگیرید.",
+        "nameFA": "81+ TOTW 1-7 — ارتقا",
+        "descriptionFA": "بستهٔ شامل ۱ بازیکن TOTW با امتیاز ۸۱ یا بالاتر از TOTW ۱ تا ۷ را بگیرید.",
+        "rewardFA": "۱ عدد بستهٔ بازیکن TOTW 1-7 ۸۱+",
+        "reward": "1 x 81+ TOTW 1-7 Player Pack",
         "challenges": 1,
         "squads": [
           {
-            "name": "LALIGA POTM September",
-            "description": "Earn the LALIGA Player of the Month for September.",
-            "score": 1300000,
+            "name": "81+ TOTW 1-7 Upgrade",
+            "description": "Earn a pack containing 1 TOTW Player Item, rated 81 or higher, from TOTW 1 to 7.",
+            "score": 22000,
             "requirements": [
               "Rating: Min. 45"
             ],
-            "nameFA": "بهترین بازیکن ماه سپتامبر — LALIGA",
-            "descriptionFA": "کارت بهترین بازیکن ماه سپتامبر از لیگ LALIGA را بگیرید.",
+            "descriptionFA": "بستهٔ شامل ۱ بازیکن TOTW با امتیاز ۸۱ یا بالاتر از TOTW ۱ تا ۷ را بگیرید.",
             "requirementsFA": [
               "حداقل امتیاز بازیکن: ۴۵"
-            ]
+            ],
+            "nameFA": "81+ TOTW 1-7 — ارتقا"
           }
         ],
-        "squads_checked_at": "2026-10-18T17:20:01.281Z",
-        "detail_checked_at": "2026-10-30T12:56:52.392Z"
+        "squads_checked_at": "2026-10-30T22:21:21.975Z",
+        "detail_checked_at": "2026-10-30T22:21:21.975Z"
       },
       {
         "name": "1 of 4 Chemistry Styles Pick",
@@ -1888,8 +1994,8 @@
             ]
           }
         ],
-        "squads_checked_at": "2026-10-30T12:56:52.392Z",
-        "detail_checked_at": "2026-10-30T12:56:52.392Z"
+        "squads_checked_at": "2026-10-30T22:21:21.975Z",
+        "detail_checked_at": "2026-10-30T22:21:21.975Z"
       },
       {
         "name": "Ligue 1 & Arkema Première Ligue",
@@ -1932,8 +2038,8 @@
             "rewardFA": "۱ عدد بستهٔ بازیکن Arkema PL & Silver برنزی"
           }
         ],
-        "squads_checked_at": "2026-10-30T12:56:52.392Z",
-        "detail_checked_at": "2026-10-30T12:56:52.392Z"
+        "squads_checked_at": "2026-10-30T22:21:21.975Z",
+        "detail_checked_at": "2026-10-30T22:21:21.975Z"
       },
       {
         "name": "Bundesliga & Google Pixel Frauen-Bundesliga",
@@ -1976,8 +2082,8 @@
             "rewardFA": "۱ عدد بستهٔ بازیکن GPFBL & Silver برنزی"
           }
         ],
-        "squads_checked_at": "2026-10-30T12:56:52.392Z",
-        "detail_checked_at": "2026-10-30T12:56:52.392Z"
+        "squads_checked_at": "2026-10-30T22:21:21.975Z",
+        "detail_checked_at": "2026-10-30T22:21:21.975Z"
       },
       {
         "name": "5x 80+ Upgrade",
@@ -2008,7 +2114,7 @@
           }
         ],
         "squads_checked_at": "2026-10-27T18:01:58.921Z",
-        "detail_checked_at": "2026-10-30T12:56:52.392Z"
+        "detail_checked_at": "2026-10-30T22:21:21.975Z"
       },
       {
         "name": "3x 79+ Upgrade",
@@ -2039,7 +2145,7 @@
           }
         ],
         "squads_checked_at": "2026-10-26T22:40:57.194Z",
-        "detail_checked_at": "2026-10-30T12:56:52.392Z"
+        "detail_checked_at": "2026-10-30T22:21:21.975Z"
       },
       {
         "name": "LALIGA & Liga F",
@@ -2086,7 +2192,7 @@
           }
         ],
         "squads_checked_at": "2026-10-26T13:04:45.080Z",
-        "detail_checked_at": "2026-10-30T12:56:52.392Z"
+        "detail_checked_at": "2026-10-30T22:21:21.975Z"
       },
       {
         "name": "Premier League & Barclays WSL",
@@ -2133,36 +2239,7 @@
           }
         ],
         "squads_checked_at": "2026-10-26T13:04:45.080Z",
-        "detail_checked_at": "2026-10-30T12:56:52.392Z"
-      },
-      {
-        "name": "81+ TOTW 1-6 Upgrade",
-        "category": "upgrades",
-        "description": "Earn a pack containing 1 TOTW Player Item, rated 81 or higher, from TOTW 1 to 6.",
-        "url": "https://www.fut.gg/sbc/upgrades/27-86-81-totw-1-6-upgrade/",
-        "price": null,
-        "nameFA": "81+ TOTW 1-6 — ارتقا",
-        "descriptionFA": "بستهٔ شامل ۱ بازیکن TOTW با امتیاز ۸۱ یا بالاتر از TOTW ۱ تا ۶ را بگیرید.",
-        "rewardFA": "۱ عدد بستهٔ بازیکن TOTW 1-6 ۸۱+",
-        "reward": "1 x 81+ TOTW 1-6 Player Pack",
-        "challenges": 1,
-        "squads": [
-          {
-            "name": "81+ TOTW 1-6 Upgrade",
-            "description": "Earn a pack containing 1 TOTW Player Item, rated 81 or higher, from TOTW 1 to 6.",
-            "score": 22000,
-            "requirements": [
-              "Rating: Min. 45"
-            ],
-            "nameFA": "81+ TOTW 1-6 — ارتقا",
-            "descriptionFA": "بستهٔ شامل ۱ بازیکن TOTW با امتیاز ۸۱ یا بالاتر از TOTW ۱ تا ۶ را بگیرید.",
-            "requirementsFA": [
-              "حداقل امتیاز بازیکن: ۴۵"
-            ]
-          }
-        ],
-        "squads_checked_at": "2026-10-23T17:08:04.873Z",
-        "detail_checked_at": "2026-10-30T12:56:52.392Z"
+        "detail_checked_at": "2026-10-30T22:21:21.975Z"
       },
       {
         "name": "Gold Upgrade",
@@ -2191,7 +2268,7 @@
           }
         ],
         "squads_checked_at": "2026-10-18T17:20:01.281Z",
-        "detail_checked_at": "2026-10-30T12:56:52.392Z"
+        "detail_checked_at": "2026-10-30T22:21:21.975Z"
       },
       {
         "name": "Silver Upgrade",
@@ -2220,7 +2297,7 @@
           }
         ],
         "squads_checked_at": "2026-10-18T17:20:01.281Z",
-        "detail_checked_at": "2026-10-30T12:56:52.392Z"
+        "detail_checked_at": "2026-10-30T22:21:21.975Z"
       },
       {
         "name": "Bronze Upgrade",
@@ -2249,7 +2326,43 @@
           }
         ],
         "squads_checked_at": "2026-10-18T17:20:01.281Z",
-        "detail_checked_at": "2026-10-30T12:56:52.392Z"
+        "detail_checked_at": "2026-10-30T22:21:21.975Z"
+      },
+      {
+        "name": "Freaky Zombie",
+        "category": "challenges",
+        "description": "Play the song to earn a Large Gold Pack.",
+        "url": "https://www.fut.gg/sbc/challenges/27-75-freaky-zombie/",
+        "price": null,
+        "rewardFA": "۱ عدد بسته طلایی بزرگ",
+        "reward": "1 x Large Gold Pack",
+        "challenges": 1,
+        "squads": [
+          {
+            "name": "Freaky Zombie",
+            "description": "Play the song to earn a Large Gold Pack.",
+            "requirements": [
+              "Same nation: Min. 4 players",
+              "Same league: Max. 5 players",
+              "Leagues: Min. 2",
+              "Quality: Min. 4 Gold players",
+              "Quality: Min. Silver",
+              "Chemistry: Min. 20",
+              "Players: 7"
+            ],
+            "requirementsFA": [
+              "حداقل ۴ بازیکن از یک ملیت",
+              "حداکثر ۵ بازیکن از یک لیگ",
+              "حداقل ۲ لیگ",
+              "حداقل ۴ بازیکن طلایی",
+              "حداقل کیفیت: بازیکن نقره‌ای",
+              "حداقل شیمی: ۲۰",
+              "تعداد بازیکنان: ۷"
+            ]
+          }
+        ],
+        "squads_checked_at": "2026-10-30T22:21:21.975Z",
+        "detail_checked_at": "2026-10-30T22:21:21.975Z"
       },
       {
         "name": "Marquee Matchups",
@@ -2332,8 +2445,8 @@
             "rewardFA": "۱ عدد بستهٔ بازیکن الکترام بزرگ"
           }
         ],
-        "squads_checked_at": "2026-10-30T12:56:52.392Z",
-        "detail_checked_at": "2026-10-30T12:56:52.392Z"
+        "squads_checked_at": "2026-10-30T22:21:21.975Z",
+        "detail_checked_at": "2026-10-30T22:21:21.975Z"
       },
       {
         "name": "Boo Hoo Party",
@@ -2368,8 +2481,8 @@
             ]
           }
         ],
-        "squads_checked_at": "2026-10-30T12:56:52.392Z",
-        "detail_checked_at": "2026-10-30T12:56:52.392Z"
+        "squads_checked_at": "2026-10-30T22:21:21.975Z",
+        "detail_checked_at": "2026-10-30T22:21:21.975Z"
       },
       {
         "name": "Scary Candy",
@@ -2409,7 +2522,7 @@
           }
         ],
         "squads_checked_at": "2026-10-26T13:04:45.080Z",
-        "detail_checked_at": "2026-10-30T12:56:52.392Z"
+        "detail_checked_at": "2026-10-30T22:21:21.975Z"
       },
       {
         "name": "Spooky Nights",
@@ -2447,7 +2560,7 @@
           }
         ],
         "squads_checked_at": "2026-10-26T13:04:45.080Z",
-        "detail_checked_at": "2026-10-30T12:56:52.392Z"
+        "detail_checked_at": "2026-10-30T22:21:21.975Z"
       },
       {
         "name": "League & Nation Advanced",
@@ -2533,7 +2646,7 @@
           }
         ],
         "squads_checked_at": "2026-10-18T18:00:00.439Z",
-        "detail_checked_at": "2026-10-30T12:56:52.392Z"
+        "detail_checked_at": "2026-10-30T22:21:21.975Z"
       },
       {
         "name": "Intro to Player SBCs",
@@ -2560,7 +2673,7 @@
           }
         ],
         "squads_checked_at": "2026-10-18T18:00:00.439Z",
-        "detail_checked_at": "2026-10-30T12:56:52.392Z"
+        "detail_checked_at": "2026-10-30T22:21:21.975Z"
       },
       {
         "name": "Gold Re-Roll",
@@ -2590,7 +2703,7 @@
           }
         ],
         "squads_checked_at": "2026-10-18T18:00:00.439Z",
-        "detail_checked_at": "2026-10-30T12:56:52.392Z"
+        "detail_checked_at": "2026-10-30T22:21:21.975Z"
       },
       {
         "name": "Bronze and Silver Re-roll",
@@ -2620,7 +2733,7 @@
           }
         ],
         "squads_checked_at": "2026-10-18T18:00:00.439Z",
-        "detail_checked_at": "2026-10-30T12:56:52.392Z"
+        "detail_checked_at": "2026-10-30T22:21:21.975Z"
       },
       {
         "name": "Intro to Streamlined SBCs",
@@ -2696,7 +2809,7 @@
           }
         ],
         "squads_checked_at": "2026-10-18T18:00:00.439Z",
-        "detail_checked_at": "2026-10-30T12:56:52.392Z"
+        "detail_checked_at": "2026-10-30T22:21:21.975Z"
       },
       {
         "name": "Intro to Upgrade SBCs",
@@ -2760,7 +2873,7 @@
           }
         ],
         "squads_checked_at": "2026-10-11T07:00:00Z",
-        "detail_checked_at": "2026-10-30T12:56:52.392Z"
+        "detail_checked_at": "2026-10-30T22:21:21.975Z"
       },
       {
         "name": "Intro to SBCs",
@@ -2846,7 +2959,7 @@
           }
         ],
         "squads_checked_at": "2026-10-18T18:00:00.439Z",
-        "detail_checked_at": "2026-10-30T12:56:52.392Z"
+        "detail_checked_at": "2026-10-30T22:21:21.975Z"
       }
     ]
   }
