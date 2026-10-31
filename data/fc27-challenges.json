@@ -1,6 +1,6 @@
 {
   "source": "FUT.GG",
-  "checked_at": "2026-10-31T12:31:40.165Z",
+  "checked_at": "2026-10-31T21:36:07.618Z",
   "sections": {
     "objectives": [
       {
@@ -30,7 +30,7 @@
           }
         ],
         "reward": "30 total",
-        "detail_checked_at": "2026-10-31T12:31:40.165Z"
+        "detail_checked_at": "2026-10-31T21:36:07.618Z"
       },
       {
         "name": "Weekly Objectives",
@@ -83,7 +83,7 @@
           }
         ],
         "reward": "500 total",
-        "detail_checked_at": "2026-10-31T12:31:40.165Z"
+        "detail_checked_at": "2026-10-31T21:36:07.618Z"
       },
       {
         "name": "Weekly Rush Points",
@@ -134,7 +134,7 @@
             "nameFA": "۲,۵۰۰ امتیاز Rush"
           }
         ],
-        "detail_checked_at": "2026-10-31T12:31:40.165Z"
+        "detail_checked_at": "2026-10-31T21:36:07.618Z"
       },
       {
         "name": "Season 2 Daily Knockout Tournament Weekly Play Completionist",
@@ -185,7 +185,7 @@
             "nameFA": "۱ بار کامل کردن"
           }
         ],
-        "detail_checked_at": "2026-10-31T12:31:40.165Z"
+        "detail_checked_at": "2026-10-31T21:36:07.618Z"
       },
       {
         "name": "Season 2 Daily Knockout Tournament Weekly Play",
@@ -203,7 +203,7 @@
             "nameFA": "۵ گل"
           }
         ],
-        "detail_checked_at": "2026-10-31T12:31:40.165Z"
+        "detail_checked_at": "2026-10-31T21:36:07.618Z"
       },
       {
         "name": "FC Heritage Circuit Completionist",
@@ -238,7 +238,7 @@
             "rewardFA": "۴,۰۰۰ سکه"
           }
         ],
-        "detail_checked_at": "2026-10-31T12:31:40.165Z"
+        "detail_checked_at": "2026-10-31T21:36:07.618Z"
       },
       {
         "name": "FC Heritage Circuit World Class Event",
@@ -275,10 +275,9 @@
           {
             "name": "Bernabéu Thunder",
             "description": "Score at least 1 goal in 3 separate matches while having Min. 1 Real Madrid (LALIGA) player item in your starting 11 in the FC Heritage Circuit World Class Event.",
-            "reward": "Consumable",
+            "reward": "Hunter",
             "nameFA": "رعد برنابئو",
-            "descriptionFA": "حداقل ۱ گل به ثمر برسانید، در ۳ مسابقهٔ جداگانه، در «FC Heritage Circuit World Class Event»، با حداقل ۱ آیتم بازیکن Real Madrid (LALIGA) در ترکیب اصلی.",
-            "rewardFA": "آیتم مصرفی"
+            "descriptionFA": "حداقل ۱ گل به ثمر برسانید، در ۳ مسابقهٔ جداگانه، در «FC Heritage Circuit World Class Event»، با حداقل ۱ آیتم بازیکن Real Madrid (LALIGA) در ترکیب اصلی."
           },
           {
             "name": "Win 1",
@@ -289,7 +288,7 @@
             "nameFA": "۱ برد"
           }
         ],
-        "detail_checked_at": "2026-10-31T12:31:40.165Z"
+        "detail_checked_at": "2026-10-31T21:36:07.618Z"
       },
       {
         "name": "FC Heritage Circuit Kick Off Event",
@@ -326,13 +325,12 @@
           {
             "name": "Score 1",
             "description": "Score 1 goal in the FC Heritage Circuit Kick Off Event.",
-            "reward": "Consumable",
+            "reward": "Engine",
             "descriptionFA": "۱ گل به ثمر برسانید، در «FC Heritage Circuit Kick Off Event».",
-            "rewardFA": "آیتم مصرفی",
             "nameFA": "۱ گل"
           }
         ],
-        "detail_checked_at": "2026-10-31T12:31:40.165Z"
+        "detail_checked_at": "2026-10-31T21:36:07.618Z"
       },
       {
         "name": "FC Heritage Circuit Tournament",
@@ -393,13 +391,12 @@
           {
             "name": "Serie A after Dark",
             "description": "Win 1 Quarter-Finals match while having Min. 2 Serie A players in your starting 11 in the FC Heritage Circuit Tournament.",
-            "reward": "Consumable",
+            "reward": "Shadow + Hunter",
             "nameFA": "سری A در دل شب",
-            "descriptionFA": "۱ مسابقهٔ Quarter-Finals را ببرید، با حداقل ۲ بازیکن Serie A در ترکیب اصلی، در «FC Heritage Circuit Tournament».",
-            "rewardFA": "آیتم مصرفی"
+            "descriptionFA": "۱ مسابقهٔ Quarter-Finals را ببرید، با حداقل ۲ بازیکن Serie A در ترکیب اصلی، در «FC Heritage Circuit Tournament»."
           }
         ],
-        "detail_checked_at": "2026-10-31T12:31:40.165Z"
+        "detail_checked_at": "2026-10-31T21:36:07.618Z"
       },
       {
         "name": "FC Heritage Circuit Professional Event",
@@ -436,10 +433,9 @@
           {
             "name": "Three Lions Legacy",
             "description": "Score at least 1 goal in 2 separate matches while having Min. 1 English player in your starting 11 in the FC Heritage Circuit Professional Event.",
-            "reward": "Consumable",
+            "reward": "Anchor",
             "nameFA": "میراث سه شیر",
-            "descriptionFA": "حداقل ۱ گل به ثمر برسانید، در ۲ مسابقهٔ جداگانه، در «FC Heritage Circuit Professional Event»، با حداقل ۱ بازیکن انگلیسی در ترکیب اصلی.",
-            "rewardFA": "آیتم مصرفی"
+            "descriptionFA": "حداقل ۱ گل به ثمر برسانید، در ۲ مسابقهٔ جداگانه، در «FC Heritage Circuit Professional Event»، با حداقل ۱ بازیکن انگلیسی در ترکیب اصلی."
           },
           {
             "name": "Win 1",
@@ -450,7 +446,7 @@
             "nameFA": "۱ برد"
           }
         ],
-        "detail_checked_at": "2026-10-31T12:31:40.165Z"
+        "detail_checked_at": "2026-10-31T21:36:07.618Z"
       },
       {
         "name": "FC Heritage Circuit Semi-Pro Event",
@@ -487,10 +483,9 @@
           {
             "name": "Scream in Serie A",
             "description": "Score in 2 separate matches while having Min. 1 Serie A player in your starting 11 in the FC Heritage Circuit Semi-Pro Event.",
-            "reward": "Consumable",
+            "reward": "Sentinel",
             "nameFA": "فریاد در سری A",
-            "descriptionFA": "گل بزنید، در ۲ مسابقهٔ جداگانه، در «FC Heritage Circuit Semi-Pro Event»، با حداقل ۱ بازیکن Serie A در ترکیب اصلی.",
-            "rewardFA": "آیتم مصرفی"
+            "descriptionFA": "گل بزنید، در ۲ مسابقهٔ جداگانه، در «FC Heritage Circuit Semi-Pro Event»، با حداقل ۱ بازیکن Serie A در ترکیب اصلی."
           },
           {
             "name": "Win 1",
@@ -501,7 +496,7 @@
             "nameFA": "۱ برد"
           }
         ],
-        "detail_checked_at": "2026-10-31T12:31:40.165Z"
+        "detail_checked_at": "2026-10-31T21:36:07.618Z"
       },
       {
         "name": "Season 2 Daily Knockout Tournament",
@@ -576,7 +571,7 @@
             "nameFA": "۱ مسابقه"
           }
         ],
-        "detail_checked_at": "2026-10-31T12:31:40.165Z"
+        "detail_checked_at": "2026-10-31T21:36:07.618Z"
       },
       {
         "name": "Claim the Armband",
@@ -595,7 +590,43 @@
             "nameFA": "۱ مسابقه"
           }
         ],
-        "detail_checked_at": "2026-10-31T12:31:40.165Z"
+        "detail_checked_at": "2026-10-31T21:36:07.618Z"
+      },
+      {
+        "name": "Hannibal's Haunting",
+        "category": "campaign",
+        "description": "Unleash the terror on the pitch! Complete this spooky set of challenges to survive Hannibal's Haunting and earn exclusive rewards. All rewards are untradeable.",
+        "url": "https://www.fut.gg/objectives/campaigns/177-hannibals-haunting/",
+        "rewardFA": "۱۰۰ در مجموع",
+        "tasks": [
+          {
+            "name": "Shadow Runner",
+            "description": "Assist at least 1 goal in 7 separate matches with a player with min. 85 PAC in any FUT game mode.",
+            "reward": "Hunter + Nicolas Pépé + 50 Ultimate Scream Tokens",
+            "rewardFA": "Hunter + Nicolas Pépé + ۵۰ توکن Ultimate Scream"
+          },
+          {
+            "name": "Thirteen Nightmares",
+            "description": "Score at least 1 goal in 13 separate matches with a ST (Main Position) in any FUT game mode.",
+            "reward": "Hunter + 50 Ultimate Scream Tokens",
+            "rewardFA": "Hunter + ۵۰ توکن Ultimate Scream"
+          },
+          {
+            "name": "Witch's Brew",
+            "description": "Complete any 4 SBC Groups.",
+            "reward": "Shadow + 40 Ultimate Scream Tokens",
+            "descriptionFA": "هر ۴ گروه SBC را کامل کنید.",
+            "rewardFA": "Shadow + ۴۰ توکن Ultimate Scream"
+          },
+          {
+            "name": "Grave Keeper",
+            "description": "Win 6 matches in any FUT game mode while having a Defender with min. 66 DEF in your starting 11.",
+            "reward": "Shadow + 40 Ultimate Scream Tokens",
+            "rewardFA": "Shadow + ۴۰ توکن Ultimate Scream"
+          }
+        ],
+        "reward": "100 total",
+        "detail_checked_at": "2026-10-31T21:36:07.618Z"
       },
       {
         "name": "Bundesliga x Playmobil Kit",
@@ -606,8 +637,7 @@
           {
             "name": "Win 3",
             "description": "Win 3 matches in any FUT game mode while having min. 1 player from Bundesliga in your starting 11.",
-            "reward": "Consumable",
-            "rewardFA": "آیتم مصرفی",
+            "reward": "Shadow",
             "nameFA": "۳ برد"
           },
           {
@@ -625,7 +655,7 @@
             "nameFA": "۵ مسابقه"
           }
         ],
-        "detail_checked_at": "2026-10-31T12:31:40.165Z"
+        "detail_checked_at": "2026-10-31T21:36:07.618Z"
       },
       {
         "name": "Liga BBVA MX is back",
@@ -653,7 +683,7 @@
             "nameFA": "۱ مسابقه"
           }
         ],
-        "detail_checked_at": "2026-10-31T12:31:40.165Z"
+        "detail_checked_at": "2026-10-31T21:36:07.618Z"
       },
       {
         "name": "Ghoul Fest",
@@ -703,7 +733,7 @@
           }
         ],
         "reward": "200 total",
-        "detail_checked_at": "2026-10-31T12:31:40.165Z"
+        "detail_checked_at": "2026-10-31T21:36:07.618Z"
       },
       {
         "name": "Season 2 Daily Knockout Tournament Bonus",
@@ -746,7 +776,57 @@
           }
         ],
         "reward": "50 total",
-        "detail_checked_at": "2026-10-31T12:31:40.165Z"
+        "detail_checked_at": "2026-10-31T21:36:07.618Z"
+      },
+      {
+        "name": "Ultimate Scream Gallery",
+        "category": "campaign",
+        "description": "Make progress in the Ultimate Scream Gallery Set and earn exclusive Ultimate Scream rewards! All rewards are untradeable.",
+        "url": "https://www.fut.gg/objectives/campaigns/159-ultimate-scream-gallery/",
+        "nameFA": "گالری Ultimate Scream",
+        "descriptionFA": "در ست گالری Ultimate Scream پیشرفت کنید و جوایز ویژهٔ Ultimate Scream بگیرید! همهٔ جایزه‌ها غیرقابل‌فروش‌اند.",
+        "tasks": [
+          {
+            "name": "S Rank",
+            "description": "Achieve S Rank in the Ultimate Scream Gallery Set.",
+            "reward": "Ultimate Scream",
+            "nameFA": "رتبهٔ S",
+            "descriptionFA": "رتبهٔ S را در «Ultimate Scream Gallery» بگیرید."
+          },
+          {
+            "name": "A Rank",
+            "description": "Achieve A Rank in the Ultimate Scream Gallery Set.",
+            "reward": "Ultimate Scream Stadium Theme",
+            "nameFA": "رتبهٔ A",
+            "descriptionFA": "رتبهٔ A را در «Ultimate Scream Gallery» بگیرید.",
+            "rewardFA": "تم ورزشگاه Ultimate Scream"
+          },
+          {
+            "name": "B Rank",
+            "description": "Achieve B Rank in the Ultimate Scream Gallery Set.",
+            "reward": "Adidas Cnxt25 Pro Ball",
+            "nameFA": "رتبهٔ B",
+            "descriptionFA": "رتبهٔ B را در «Ultimate Scream Gallery» بگیرید.",
+            "rewardFA": "توپ Adidas Cnxt25 Pro"
+          },
+          {
+            "name": "C Rank",
+            "description": "Achieve C Rank in the Ultimate Scream Gallery Set.",
+            "reward": "Ultimate Scream Tifo",
+            "nameFA": "رتبهٔ C",
+            "descriptionFA": "رتبهٔ C را در «Ultimate Scream Gallery» بگیرید.",
+            "rewardFA": "تیفو Ultimate Scream"
+          },
+          {
+            "name": "D Rank",
+            "description": "Achieve D Rank in the Ultimate Scream Gallery Set.",
+            "reward": "Halloween Vip",
+            "nameFA": "رتبهٔ D",
+            "descriptionFA": "رتبهٔ D را در «Ultimate Scream Gallery» بگیرید.",
+            "rewardFA": "VIP هالووین"
+          }
+        ],
+        "detail_checked_at": "2026-10-31T21:36:07.618Z"
       },
       {
         "name": "Ultimate Scream Puzzle Completionist",
@@ -807,57 +887,7 @@
           }
         ],
         "reward": "100 total",
-        "detail_checked_at": "2026-10-31T12:31:40.165Z"
-      },
-      {
-        "name": "Ultimate Scream Gallery",
-        "category": "campaign",
-        "description": "Make progress in the Ultimate Scream Gallery Set and earn exclusive Ultimate Scream rewards! All rewards are untradeable.",
-        "url": "https://www.fut.gg/objectives/campaigns/159-ultimate-scream-gallery/",
-        "nameFA": "گالری Ultimate Scream",
-        "descriptionFA": "در ست گالری Ultimate Scream پیشرفت کنید و جوایز ویژهٔ Ultimate Scream بگیرید! همهٔ جایزه‌ها غیرقابل‌فروش‌اند.",
-        "tasks": [
-          {
-            "name": "S Rank",
-            "description": "Achieve S Rank in the Ultimate Scream Gallery Set.",
-            "reward": "Ultimate Scream",
-            "nameFA": "رتبهٔ S",
-            "descriptionFA": "رتبهٔ S را در «Ultimate Scream Gallery» بگیرید."
-          },
-          {
-            "name": "A Rank",
-            "description": "Achieve A Rank in the Ultimate Scream Gallery Set.",
-            "reward": "Ultimate Scream Stadium Theme",
-            "nameFA": "رتبهٔ A",
-            "descriptionFA": "رتبهٔ A را در «Ultimate Scream Gallery» بگیرید.",
-            "rewardFA": "تم ورزشگاه Ultimate Scream"
-          },
-          {
-            "name": "B Rank",
-            "description": "Achieve B Rank in the Ultimate Scream Gallery Set.",
-            "reward": "Adidas Cnxt25 Pro Ball",
-            "nameFA": "رتبهٔ B",
-            "descriptionFA": "رتبهٔ B را در «Ultimate Scream Gallery» بگیرید.",
-            "rewardFA": "توپ Adidas Cnxt25 Pro"
-          },
-          {
-            "name": "C Rank",
-            "description": "Achieve C Rank in the Ultimate Scream Gallery Set.",
-            "reward": "Ultimate Scream Tifo",
-            "nameFA": "رتبهٔ C",
-            "descriptionFA": "رتبهٔ C را در «Ultimate Scream Gallery» بگیرید.",
-            "rewardFA": "تیفو Ultimate Scream"
-          },
-          {
-            "name": "D Rank",
-            "description": "Achieve D Rank in the Ultimate Scream Gallery Set.",
-            "reward": "Halloween Vip",
-            "nameFA": "رتبهٔ D",
-            "descriptionFA": "رتبهٔ D را در «Ultimate Scream Gallery» بگیرید.",
-            "rewardFA": "VIP هالووین"
-          }
-        ],
-        "detail_checked_at": "2026-10-31T12:31:40.165Z"
+        "detail_checked_at": "2026-10-31T21:36:07.618Z"
       },
       {
         "name": "Phantom Playgrounds",
@@ -926,7 +956,7 @@
           }
         ],
         "reward": "50 total",
-        "detail_checked_at": "2026-10-31T12:31:40.165Z"
+        "detail_checked_at": "2026-10-31T21:36:07.618Z"
       },
       {
         "name": "Future Stars Academy",
@@ -977,7 +1007,7 @@
             "rewardFA": "۲ عدد بستهٔ بازیکن طلایی ۷۵+"
           }
         ],
-        "detail_checked_at": "2026-10-31T12:31:40.165Z"
+        "detail_checked_at": "2026-10-31T21:36:07.618Z"
       },
       {
         "name": "Rising Through the Ranks",
@@ -1015,10 +1045,10 @@
           {
             "name": "For Club and Crest",
             "description": "Change your Club name.",
-            "reward": "Consumable + 200 Coins",
+            "reward": "Sentinel + 200 Coins",
             "nameFA": "برای باشگاه و نشان",
             "descriptionFA": "نام باشگاه را تغییر دهید.",
-            "rewardFA": "آیتم مصرفی + ۲۰۰ سکه"
+            "rewardFA": "Sentinel + ۲۰۰ سکه"
           },
           {
             "name": "Play 1",
@@ -1030,7 +1060,7 @@
           }
         ],
         "reward": "250 total",
-        "detail_checked_at": "2026-10-31T12:31:40.165Z"
+        "detail_checked_at": "2026-10-31T21:36:07.618Z"
       },
       {
         "name": "First Team Dreams",
@@ -1052,10 +1082,10 @@
           {
             "name": "Trading Up",
             "description": "Complete the Bronze Upgrade Squad Building Challenge group.",
-            "reward": "Jumbo Silver Pack + Consumable",
+            "reward": "Jumbo Silver Pack + Deadeye",
             "nameFA": "ارتقا با معامله",
             "descriptionFA": "گروه SBC «Bronze Upgrade» را کامل کنید.",
-            "rewardFA": "بسته نقره‌ای ژامبو + آیتم مصرفی"
+            "rewardFA": "بسته نقره‌ای ژامبو + Deadeye"
           },
           {
             "name": "Players Come, Players Go",
@@ -1067,7 +1097,7 @@
           }
         ],
         "reward": "400 total",
-        "detail_checked_at": "2026-10-31T12:31:40.165Z"
+        "detail_checked_at": "2026-10-31T21:36:07.618Z"
       },
       {
         "name": "The Journey Begins",
@@ -1112,7 +1142,7 @@
           }
         ],
         "reward": "100 total",
-        "detail_checked_at": "2026-10-31T12:31:40.165Z"
+        "detail_checked_at": "2026-10-31T21:36:07.618Z"
       },
       {
         "name": "Total Football",
@@ -1149,7 +1179,7 @@
           }
         ],
         "reward": "300 total",
-        "detail_checked_at": "2026-10-31T12:31:40.165Z"
+        "detail_checked_at": "2026-10-31T21:36:07.618Z"
       },
       {
         "name": "Gallery Foundations",
@@ -1200,7 +1230,7 @@
             "rewardFA": "۲۵۰ سکه"
           }
         ],
-        "detail_checked_at": "2026-10-31T12:31:40.165Z"
+        "detail_checked_at": "2026-10-31T21:36:07.618Z"
       },
       {
         "name": "Ted Lasso's Masterclass",
@@ -1259,7 +1289,7 @@
             "rewardFA": "جایزه"
           }
         ],
-        "detail_checked_at": "2026-10-31T12:31:40.165Z"
+        "detail_checked_at": "2026-10-31T21:36:07.618Z"
       },
       {
         "name": "Squad Battles Milestone",
@@ -1294,7 +1324,7 @@
             "nameFA": "۵ مسابقه"
           }
         ],
-        "detail_checked_at": "2026-10-31T12:31:40.165Z"
+        "detail_checked_at": "2026-10-31T21:36:07.618Z"
       },
       {
         "name": "Draft Milestone",
@@ -1329,7 +1359,7 @@
             "nameFA": "۵ مسابقه"
           }
         ],
-        "detail_checked_at": "2026-10-31T12:31:40.165Z"
+        "detail_checked_at": "2026-10-31T21:36:07.618Z"
       },
       {
         "name": "Co-Op Milestone",
@@ -1364,7 +1394,7 @@
             "nameFA": "۵ مسابقه"
           }
         ],
-        "detail_checked_at": "2026-10-31T12:31:40.165Z"
+        "detail_checked_at": "2026-10-31T21:36:07.618Z"
       },
       {
         "name": "Rush Milestone",
@@ -1423,7 +1453,7 @@
             "nameFA": "۵ مسابقه"
           }
         ],
-        "detail_checked_at": "2026-10-31T12:31:40.165Z"
+        "detail_checked_at": "2026-10-31T21:36:07.618Z"
       },
       {
         "name": "Moments Stars Milestone",
@@ -1458,7 +1488,7 @@
             "nameFA": "۱۵ ستاره"
           }
         ],
-        "detail_checked_at": "2026-10-31T12:31:40.165Z"
+        "detail_checked_at": "2026-10-31T21:36:07.618Z"
       },
       {
         "name": "Squad Building Milestone",
@@ -1493,7 +1523,7 @@
             "nameFA": "۵ SBC"
           }
         ],
-        "detail_checked_at": "2026-10-31T12:31:40.165Z"
+        "detail_checked_at": "2026-10-31T21:36:07.618Z"
       },
       {
         "name": "Transfer Market Milestone",
@@ -1536,7 +1566,7 @@
             "nameFA": "۲۵ خرید Buy Now"
           }
         ],
-        "detail_checked_at": "2026-10-31T12:31:40.165Z"
+        "detail_checked_at": "2026-10-31T21:36:07.618Z"
       },
       {
         "name": "Live Events Milestone",
@@ -1571,7 +1601,7 @@
             "nameFA": "۵ مسابقه"
           }
         ],
-        "detail_checked_at": "2026-10-31T12:31:40.165Z"
+        "detail_checked_at": "2026-10-31T21:36:07.618Z"
       },
       {
         "name": "Rivals Milestone",
@@ -1606,7 +1636,7 @@
             "nameFA": "۵ مسابقه"
           }
         ],
-        "detail_checked_at": "2026-10-31T12:31:40.165Z"
+        "detail_checked_at": "2026-10-31T21:36:07.618Z"
       },
       {
         "name": "Champions Milestone",
@@ -1641,7 +1671,7 @@
             "nameFA": "۵ مسابقه"
           }
         ],
-        "detail_checked_at": "2026-10-31T12:31:40.165Z"
+        "detail_checked_at": "2026-10-31T21:36:07.618Z"
       },
       {
         "name": "Gallery Milestone",
@@ -1691,10 +1721,33 @@
             "nameFA": "سطح ۵"
           }
         ],
-        "detail_checked_at": "2026-10-31T12:31:40.165Z"
+        "detail_checked_at": "2026-10-31T21:36:07.618Z"
       }
     ],
     "sbc": [
+      {
+        "name": "Jonny",
+        "category": "players",
+        "description": "Earn a special Ultimate Scream Jonny.",
+        "url": "https://www.fut.gg/sbc/players/27-106-jonny/",
+        "price": null,
+        "challenges": 1,
+        "squads": [
+          {
+            "name": "Jonny",
+            "description": "Earn a special Ultimate Scream Jonny.",
+            "score": 42000,
+            "requirements": [
+              "Rating: Min. 45"
+            ],
+            "requirementsFA": [
+              "حداقل امتیاز بازیکن: ۴۵"
+            ]
+          }
+        ],
+        "squads_checked_at": "2026-10-31T21:36:07.618Z",
+        "detail_checked_at": "2026-10-31T21:36:07.618Z"
+      },
       {
         "name": "Tijjani Reijnders",
         "category": "players",
@@ -1715,8 +1768,8 @@
             ]
           }
         ],
-        "squads_checked_at": "2026-10-31T12:31:40.165Z",
-        "detail_checked_at": "2026-10-31T12:31:40.165Z"
+        "squads_checked_at": "2026-10-31T21:36:07.618Z",
+        "detail_checked_at": "2026-10-31T21:36:07.618Z"
       },
       {
         "name": "Ramiro Árciga",
@@ -1738,8 +1791,8 @@
             ]
           }
         ],
-        "squads_checked_at": "2026-10-31T12:31:40.165Z",
-        "detail_checked_at": "2026-10-31T12:31:40.165Z"
+        "squads_checked_at": "2026-10-31T21:36:07.618Z",
+        "detail_checked_at": "2026-10-31T21:36:07.618Z"
       },
       {
         "name": "Víctor Guzmán",
@@ -1761,54 +1814,8 @@
             ]
           }
         ],
-        "squads_checked_at": "2026-10-31T12:31:40.165Z",
-        "detail_checked_at": "2026-10-31T12:31:40.165Z"
-      },
-      {
-        "name": "Carlos Augusto",
-        "category": "players",
-        "description": "Earn a Showdown Carlos Augusto from the Serie A match-up between Milano FC and Lombardia FC.",
-        "url": "https://www.fut.gg/sbc/players/27-82-carlos-augusto/",
-        "price": null,
-        "challenges": 1,
-        "squads": [
-          {
-            "name": "Carlos Augusto",
-            "description": "Earn a Showdown Carlos Augusto from the Serie A match-up between Milano FC and Lombardia FC.",
-            "score": 21000,
-            "requirements": [
-              "Rating: Min. 45"
-            ],
-            "requirementsFA": [
-              "حداقل امتیاز بازیکن: ۴۵"
-            ]
-          }
-        ],
-        "squads_checked_at": "2026-10-31T12:31:40.165Z",
-        "detail_checked_at": "2026-10-31T12:31:40.165Z"
-      },
-      {
-        "name": "Ruben Loftus-Cheek",
-        "category": "players",
-        "description": "Earn a Showdown Ruben Loftus-Cheek from the Serie A match-up between Milano FC and Lombardia FC.",
-        "url": "https://www.fut.gg/sbc/players/27-81-ruben-loftus-cheek/",
-        "price": null,
-        "challenges": 1,
-        "squads": [
-          {
-            "name": "Ruben Loftus-Cheek",
-            "description": "Earn a Showdown Ruben Loftus-Cheek from the Serie A match-up between Milano FC and Lombardia FC.",
-            "score": 21000,
-            "requirements": [
-              "Rating: Min. 45"
-            ],
-            "requirementsFA": [
-              "حداقل امتیاز بازیکن: ۴۵"
-            ]
-          }
-        ],
-        "squads_checked_at": "2026-10-31T12:31:40.165Z",
-        "detail_checked_at": "2026-10-31T12:31:40.165Z"
+        "squads_checked_at": "2026-10-31T21:36:07.618Z",
+        "detail_checked_at": "2026-10-31T21:36:07.618Z"
       },
       {
         "name": "Héctor Bellerín",
@@ -1830,8 +1837,8 @@
             ]
           }
         ],
-        "squads_checked_at": "2026-10-31T12:31:40.165Z",
-        "detail_checked_at": "2026-10-31T12:31:40.165Z"
+        "squads_checked_at": "2026-10-31T21:36:07.618Z",
+        "detail_checked_at": "2026-10-31T21:36:07.618Z"
       },
       {
         "name": "Base Hero Player Pick",
@@ -1860,34 +1867,7 @@
           }
         ],
         "squads_checked_at": "2026-10-26T13:04:45.080Z",
-        "detail_checked_at": "2026-10-31T12:31:40.165Z"
-      },
-      {
-        "name": "Emre Mor",
-        "category": "players",
-        "description": "Earn a special Ultimate Scream Emre Mor.",
-        "url": "https://www.fut.gg/sbc/players/27-85-emre-mor/",
-        "price": null,
-        "nameFA": "چالش بازیکن: Emre Mor",
-        "descriptionFA": "کارت ویژهٔ Ultimate Scream Emre Mor را بگیرید.",
-        "challenges": 1,
-        "squads": [
-          {
-            "name": "Emre Mor",
-            "description": "Earn a special Ultimate Scream Emre Mor.",
-            "score": 24000,
-            "requirements": [
-              "Rating: Min. 45"
-            ],
-            "nameFA": "چالش بازیکن: Emre Mor",
-            "descriptionFA": "کارت ویژهٔ Ultimate Scream Emre Mor را بگیرید.",
-            "requirementsFA": [
-              "حداقل امتیاز بازیکن: ۴۵"
-            ]
-          }
-        ],
-        "squads_checked_at": "2026-10-26T13:04:45.080Z",
-        "detail_checked_at": "2026-10-31T12:31:40.165Z"
+        "detail_checked_at": "2026-10-31T21:36:07.618Z"
       },
       {
         "name": "Ligue 1 POTM September",
@@ -1914,7 +1894,7 @@
           }
         ],
         "squads_checked_at": "2026-10-18T17:20:01.281Z",
-        "detail_checked_at": "2026-10-31T12:31:40.165Z"
+        "detail_checked_at": "2026-10-31T21:36:07.618Z"
       },
       {
         "name": "Liga F POTM September",
@@ -1941,7 +1921,7 @@
           }
         ],
         "squads_checked_at": "2026-10-18T17:20:01.281Z",
-        "detail_checked_at": "2026-10-31T12:31:40.165Z"
+        "detail_checked_at": "2026-10-31T21:36:07.618Z"
       },
       {
         "name": "81+ TOTW 1-7 Upgrade",
@@ -1970,7 +1950,7 @@
           }
         ],
         "squads_checked_at": "2026-10-30T22:21:21.975Z",
-        "detail_checked_at": "2026-10-31T12:31:40.165Z"
+        "detail_checked_at": "2026-10-31T21:36:07.618Z"
       },
       {
         "name": "1 of 4 Chemistry Styles Pick",
@@ -1994,8 +1974,8 @@
             ]
           }
         ],
-        "squads_checked_at": "2026-10-31T12:31:40.165Z",
-        "detail_checked_at": "2026-10-31T12:31:40.165Z"
+        "squads_checked_at": "2026-10-31T21:36:07.618Z",
+        "detail_checked_at": "2026-10-31T21:36:07.618Z"
       },
       {
         "name": "Ligue 1 & Arkema Première Ligue",
@@ -2038,8 +2018,8 @@
             "rewardFA": "۱ عدد بستهٔ بازیکن Arkema PL & Silver برنزی"
           }
         ],
-        "squads_checked_at": "2026-10-31T12:31:40.165Z",
-        "detail_checked_at": "2026-10-31T12:31:40.165Z"
+        "squads_checked_at": "2026-10-31T21:36:07.618Z",
+        "detail_checked_at": "2026-10-31T21:36:07.618Z"
       },
       {
         "name": "Bundesliga & Google Pixel Frauen-Bundesliga",
@@ -2082,8 +2062,8 @@
             "rewardFA": "۱ عدد بستهٔ بازیکن GPFBL & Silver برنزی"
           }
         ],
-        "squads_checked_at": "2026-10-31T12:31:40.165Z",
-        "detail_checked_at": "2026-10-31T12:31:40.165Z"
+        "squads_checked_at": "2026-10-31T21:36:07.618Z",
+        "detail_checked_at": "2026-10-31T21:36:07.618Z"
       },
       {
         "name": "5x 80+ Upgrade",
@@ -2114,7 +2094,7 @@
           }
         ],
         "squads_checked_at": "2026-10-27T18:01:58.921Z",
-        "detail_checked_at": "2026-10-31T12:31:40.165Z"
+        "detail_checked_at": "2026-10-31T21:36:07.618Z"
       },
       {
         "name": "3x 79+ Upgrade",
@@ -2145,7 +2125,7 @@
           }
         ],
         "squads_checked_at": "2026-10-26T22:40:57.194Z",
-        "detail_checked_at": "2026-10-31T12:31:40.165Z"
+        "detail_checked_at": "2026-10-31T21:36:07.618Z"
       },
       {
         "name": "LALIGA & Liga F",
@@ -2192,7 +2172,7 @@
           }
         ],
         "squads_checked_at": "2026-10-26T13:04:45.080Z",
-        "detail_checked_at": "2026-10-31T12:31:40.165Z"
+        "detail_checked_at": "2026-10-31T21:36:07.618Z"
       },
       {
         "name": "Premier League & Barclays WSL",
@@ -2239,7 +2219,7 @@
           }
         ],
         "squads_checked_at": "2026-10-26T13:04:45.080Z",
-        "detail_checked_at": "2026-10-31T12:31:40.165Z"
+        "detail_checked_at": "2026-10-31T21:36:07.618Z"
       },
       {
         "name": "Gold Upgrade",
@@ -2268,7 +2248,7 @@
           }
         ],
         "squads_checked_at": "2026-10-18T17:20:01.281Z",
-        "detail_checked_at": "2026-10-31T12:31:40.165Z"
+        "detail_checked_at": "2026-10-31T21:36:07.618Z"
       },
       {
         "name": "Silver Upgrade",
@@ -2297,7 +2277,7 @@
           }
         ],
         "squads_checked_at": "2026-10-18T17:20:01.281Z",
-        "detail_checked_at": "2026-10-31T12:31:40.165Z"
+        "detail_checked_at": "2026-10-31T21:36:07.618Z"
       },
       {
         "name": "Bronze Upgrade",
@@ -2326,7 +2306,7 @@
           }
         ],
         "squads_checked_at": "2026-10-18T17:20:01.281Z",
-        "detail_checked_at": "2026-10-31T12:31:40.165Z"
+        "detail_checked_at": "2026-10-31T21:36:07.618Z"
       },
       {
         "name": "Freaky Zombie",
@@ -2361,8 +2341,8 @@
             ]
           }
         ],
-        "squads_checked_at": "2026-10-31T12:31:40.165Z",
-        "detail_checked_at": "2026-10-31T12:31:40.165Z"
+        "squads_checked_at": "2026-10-31T21:36:07.618Z",
+        "detail_checked_at": "2026-10-31T21:36:07.618Z"
       },
       {
         "name": "Marquee Matchups",
@@ -2445,8 +2425,8 @@
             "rewardFA": "۱ عدد بستهٔ بازیکن الکترام بزرگ"
           }
         ],
-        "squads_checked_at": "2026-10-31T12:31:40.165Z",
-        "detail_checked_at": "2026-10-31T12:31:40.165Z"
+        "squads_checked_at": "2026-10-31T21:36:07.618Z",
+        "detail_checked_at": "2026-10-31T21:36:07.618Z"
       },
       {
         "name": "Boo Hoo Party",
@@ -2481,8 +2461,8 @@
             ]
           }
         ],
-        "squads_checked_at": "2026-10-31T12:31:40.165Z",
-        "detail_checked_at": "2026-10-31T12:31:40.165Z"
+        "squads_checked_at": "2026-10-31T21:36:07.618Z",
+        "detail_checked_at": "2026-10-31T21:36:07.618Z"
       },
       {
         "name": "Scary Candy",
@@ -2522,7 +2502,7 @@
           }
         ],
         "squads_checked_at": "2026-10-26T13:04:45.080Z",
-        "detail_checked_at": "2026-10-31T12:31:40.165Z"
+        "detail_checked_at": "2026-10-31T21:36:07.618Z"
       },
       {
         "name": "Spooky Nights",
@@ -2560,7 +2540,7 @@
           }
         ],
         "squads_checked_at": "2026-10-26T13:04:45.080Z",
-        "detail_checked_at": "2026-10-31T12:31:40.165Z"
+        "detail_checked_at": "2026-10-31T21:36:07.618Z"
       },
       {
         "name": "League & Nation Advanced",
@@ -2646,7 +2626,7 @@
           }
         ],
         "squads_checked_at": "2026-10-18T18:00:00.439Z",
-        "detail_checked_at": "2026-10-31T12:31:40.165Z"
+        "detail_checked_at": "2026-10-31T21:36:07.618Z"
       },
       {
         "name": "Intro to Player SBCs",
@@ -2673,7 +2653,7 @@
           }
         ],
         "squads_checked_at": "2026-10-18T18:00:00.439Z",
-        "detail_checked_at": "2026-10-31T12:31:40.165Z"
+        "detail_checked_at": "2026-10-31T21:36:07.618Z"
       },
       {
         "name": "Gold Re-Roll",
@@ -2703,7 +2683,7 @@
           }
         ],
         "squads_checked_at": "2026-10-18T18:00:00.439Z",
-        "detail_checked_at": "2026-10-31T12:31:40.165Z"
+        "detail_checked_at": "2026-10-31T21:36:07.618Z"
       },
       {
         "name": "Bronze and Silver Re-roll",
@@ -2733,7 +2713,7 @@
           }
         ],
         "squads_checked_at": "2026-10-18T18:00:00.439Z",
-        "detail_checked_at": "2026-10-31T12:31:40.165Z"
+        "detail_checked_at": "2026-10-31T21:36:07.618Z"
       },
       {
         "name": "Intro to Streamlined SBCs",
@@ -2809,7 +2789,7 @@
           }
         ],
         "squads_checked_at": "2026-10-18T18:00:00.439Z",
-        "detail_checked_at": "2026-10-31T12:31:40.165Z"
+        "detail_checked_at": "2026-10-31T21:36:07.618Z"
       },
       {
         "name": "Intro to Upgrade SBCs",
@@ -2873,7 +2853,7 @@
           }
         ],
         "squads_checked_at": "2026-10-11T07:00:00Z",
-        "detail_checked_at": "2026-10-31T12:31:40.165Z"
+        "detail_checked_at": "2026-10-31T21:36:07.618Z"
       },
       {
         "name": "Intro to SBCs",
@@ -2959,7 +2939,7 @@
           }
         ],
         "squads_checked_at": "2026-10-18T18:00:00.439Z",
-        "detail_checked_at": "2026-10-31T12:31:40.165Z"
+        "detail_checked_at": "2026-10-31T21:36:07.618Z"
       }
     ]
   }
