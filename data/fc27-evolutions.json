@@ -1,7 +1,157 @@
 {
   "source": "FUT.GG",
-  "checked_at": "2026-10-31T21:36:23.726Z",
+  "checked_at": "2026-11-01T13:26:12.155Z",
   "evolutions": [
+    {
+      "name": "Luiz Legacy",
+      "url": "https://www.fut.gg/evolutions/2646-luiz-legacy/",
+      "description": "Upgrade your backline with a passionate defensive anchor who brings the unmistakable style and confidence of David Luiz.",
+      "levels": [
+        {
+          "name": "Level 1",
+          "tasks": [
+            "Play 2 matches in any mode using your active EVO player in game."
+          ],
+          "upgrades": [
+            "+ 15 OVR → 85",
+            "+ 20 Interceptions → 85",
+            "+ 20 Defensive Awareness → 85",
+            "+ 20 Sliding Tackle → 85",
+            "+ 20 Stamina → 83",
+            "+ 20 Aggression → 82"
+          ],
+          "nameFA": "سطح ۱",
+          "tasksFA": [
+            "۲ مسابقه را بازی کنید، در هر حالت بازی، با بازیکن فعال تکامل."
+          ],
+          "upgradesFA": [
+            "+۱۵ امتیاز کلی (به ۸۵)",
+            "+۲۰ قطع توپ (به ۸۵)",
+            "+۲۰ آگاهی دفاعی (به ۸۵)",
+            "+۲۰ تکل کشیده (به ۸۵)",
+            "+۲۰ استقامت (به ۸۳)",
+            "+۲۰ تندخویی (به ۸۲)"
+          ]
+        },
+        {
+          "name": "Level 2",
+          "tasks": [
+            "Play 1 match in any mode using your active EVO player in game."
+          ],
+          "upgrades": [
+            "+ 15 Acceleration → 78",
+            "+ 15 Sprint Speed → 78",
+            "+ 20 Heading Acc. → 84",
+            "+ 20 Standing Tackle → 85",
+            "+ 20 Jumping → 83",
+            "+ 20 Strength → 83"
+          ],
+          "nameFA": "سطح ۲",
+          "tasksFA": [
+            "۱ مسابقه را بازی کنید، در هر حالت بازی، با بازیکن فعال تکامل."
+          ],
+          "upgradesFA": [
+            "+۱۵ شتاب (به ۷۸)",
+            "+۱۵ سرعت اسپرینت (به ۷۸)",
+            "+۲۰ دقت سرزنی (به ۸۴)",
+            "+۲۰ تکل ایستاده (به ۸۵)",
+            "+۲۰ پرش (به ۸۳)",
+            "+۲۰ قدرت بدنی (به ۸۳)"
+          ]
+        },
+        {
+          "name": "Level 3",
+          "tasks": [
+            "Play 1 match in any mode using your active EVO player in game."
+          ],
+          "options": [
+            {
+              "name": "Option A",
+              "upgrades": [
+                "+ 20 Shot Power → 82",
+                "+ 20 Long Shots → 83",
+                "+ 30 Fk Accuracy → 86",
+                "+ 30 Curve → 86",
+                "+ 20 Composure → 82"
+              ],
+              "nameFA": "گزینهٔ A",
+              "upgradesFA": [
+                "+۲۰ قدرت شوت (به ۸۲)",
+                "+۲۰ شوت از راه دور (به ۸۳)",
+                "+۳۰ دقت ضربات آزاد (به ۸۶)",
+                "+۳۰ کرن (به ۸۶)",
+                "+۲۰ خونسردی (به ۸۲)"
+              ]
+            },
+            {
+              "name": "Option B",
+              "upgrades": [
+                "+ 20 Vision → 83",
+                "+ 20 Short Pass → 82",
+                "+ 20 Long Pass → 83",
+                "+ 20 Standing Tackle → 86",
+                "+ 20 Sliding Tackle → 86"
+              ],
+              "nameFA": "گزینهٔ B",
+              "upgradesFA": [
+                "+۲۰ دید (به ۸۳)",
+                "+۲۰ پس کوتاه (به ۸۲)",
+                "+۲۰ پس بلند (به ۸۳)",
+                "+۲۰ تکل ایستاده (به ۸۶)",
+                "+۲۰ تکل کشیده (به ۸۶)"
+              ]
+            },
+            {
+              "name": "Option C",
+              "upgrades": [
+                "+ 15 Acceleration → 79",
+                "+ 15 Sprint Speed → 79",
+                "+ 20 Jumping → 84",
+                "+ 20 Strength → 84",
+                "+ 20 Aggression → 83"
+              ],
+              "nameFA": "گزینهٔ C",
+              "upgradesFA": [
+                "+۱۵ شتاب (به ۷۹)",
+                "+۱۵ سرعت اسپرینت (به ۷۹)",
+                "+۲۰ پرش (به ۸۴)",
+                "+۲۰ قدرت بدنی (به ۸۴)",
+                "+۲۰ تندخویی (به ۸۳)"
+              ]
+            }
+          ],
+          "pick_one": true,
+          "nameFA": "سطح ۳",
+          "tasksFA": [
+            "۱ مسابقه را بازی کنید، در هر حالت بازی، با بازیکن فعال تکامل."
+          ]
+        }
+      ],
+      "requirements": [
+        "Overall: Max. 82",
+        "Position: CB",
+        "Excluded Position: LB, RB",
+        "Max PS: 7",
+        "Max PS+: 0",
+        "Pace: Max. 85"
+      ],
+      "details": [
+        "Coins Cost: Free",
+        "Points Cost: Free"
+      ],
+      "requirementsFA": [
+        "حداکثر امتیاز کلی: ۸۲",
+        "پست: CB",
+        "پست مجاز نیست: LB, RB",
+        "حداکثر PlayStyle-plus: ۷",
+        "حداکثر PlayStyle+: ۰",
+        "سرعت: حداکثر ۸۵"
+      ],
+      "detailsFA": [
+        "هزینهٔ سکه: رایگان",
+        "هزینهٔ امتیاز: رایگان"
+      ]
+    },
     {
       "name": "Two Faces of Fear",
       "url": "https://www.fut.gg/evolutions/2643-two-faces-of-fear/",
