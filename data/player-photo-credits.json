@@ -1182,5 +1182,21 @@
     "artist": "Michael Tjon En Fa",
     "source": "https://upload.wikimedia.org/wikipedia/commons/3/34/Tyrone_Owusu.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "extension": "jpg"
+  },
+  {
+    "id": 216532,
+    "name": "Bernardo Cerezo",
+    "license": "CC BY-SA 4.0",
+    "artist": "Carlos Figueroa Rojas",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/7/78/San_Luis_-_Santiago_Wanderers_20190316_10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "extension": "jpg"
+  },
+  {
+    "id": 228912,
+    "name": "Bobby Allain",
+    "license": "CC0",
+    "artist": "Supporterhéninois",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/6/65/RC_Lens_-_Dijon_FCO_%2830-05-2019%29_69_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "extension": "jpg"
   }
 ]
