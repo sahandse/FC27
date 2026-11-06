@@ -1,6 +1,6 @@
 {
   "source": "FUT.GG",
-  "checked_at": "2026-11-06T14:17:40.033Z",
+  "checked_at": "2026-11-06T23:09:43.523Z",
   "sections": {
     "objectives": [
       {
@@ -30,7 +30,7 @@
           }
         ],
         "reward": "30 total",
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
+        "detail_checked_at": "2026-11-06T23:09:43.523Z"
       },
       {
         "name": "Weekly Objectives",
@@ -83,7 +83,7 @@
           }
         ],
         "reward": "2,000 total",
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
+        "detail_checked_at": "2026-11-06T23:09:43.523Z"
       },
       {
         "name": "Weekly Rush Points",
@@ -134,7 +134,7 @@
             "nameFA": "۲,۵۰۰ امتیاز Rush"
           }
         ],
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
+        "detail_checked_at": "2026-11-06T23:09:43.523Z"
       },
       {
         "name": "Season 2 Daily Knockout Tournament Weekly Play Completionist",
@@ -185,7 +185,7 @@
             "nameFA": "۱ بار کامل کردن"
           }
         ],
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
+        "detail_checked_at": "2026-11-06T23:09:43.523Z"
       },
       {
         "name": "Season 2 Daily Knockout Tournament Weekly Play",
@@ -203,7 +203,7 @@
             "nameFA": "۵ گل"
           }
         ],
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
+        "detail_checked_at": "2026-11-06T23:09:43.523Z"
       },
       {
         "name": "FC Heritage Circuit Completionist",
@@ -238,7 +238,7 @@
             "rewardFA": "۴,۰۰۰ سکه"
           }
         ],
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
+        "detail_checked_at": "2026-11-06T23:09:43.523Z"
       },
       {
         "name": "FC Heritage Circuit World Class Event",
@@ -288,7 +288,7 @@
             "nameFA": "۱ برد"
           }
         ],
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
+        "detail_checked_at": "2026-11-06T23:09:43.523Z"
       },
       {
         "name": "FC Heritage Circuit Kick Off Event",
@@ -330,7 +330,7 @@
             "nameFA": "۱ گل"
           }
         ],
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
+        "detail_checked_at": "2026-11-06T23:09:43.523Z"
       },
       {
         "name": "FC Heritage Circuit Tournament",
@@ -396,7 +396,7 @@
             "descriptionFA": "۱ مسابقهٔ Quarter-Finals را ببرید، با حداقل ۲ بازیکن Serie A در ترکیب اصلی، در «FC Heritage Circuit Tournament»."
           }
         ],
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
+        "detail_checked_at": "2026-11-06T23:09:43.523Z"
       },
       {
         "name": "FC Heritage Circuit Professional Event",
@@ -446,7 +446,7 @@
             "nameFA": "۱ برد"
           }
         ],
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
+        "detail_checked_at": "2026-11-06T23:09:43.523Z"
       },
       {
         "name": "FC Heritage Circuit Semi-Pro Event",
@@ -496,7 +496,7 @@
             "nameFA": "۱ برد"
           }
         ],
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
+        "detail_checked_at": "2026-11-06T23:09:43.523Z"
       },
       {
         "name": "Season 2 Daily Knockout Tournament",
@@ -571,7 +571,7 @@
             "nameFA": "۱ مسابقه"
           }
         ],
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
+        "detail_checked_at": "2026-11-06T23:09:43.523Z"
       },
       {
         "name": "Claim the Armband",
@@ -590,7 +590,188 @@
             "nameFA": "۱ مسابقه"
           }
         ],
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
+        "detail_checked_at": "2026-11-06T23:09:43.523Z"
+      },
+      {
+        "name": "Road to the Knockouts Event",
+        "category": "campaign",
+        "description": "Compete in the Road to the Knockouts Event to earn RTTK Emiliano Buendía, packs and more. All rewards are untradeable.",
+        "url": "https://www.fut.gg/objectives/campaigns/204-road-to-the-knockouts-event/",
+        "tasks": [
+          {
+            "name": "Legendary",
+            "description": "Win 1 match in the Road to the Knockouts Event on Legendary difficulty.",
+            "reward": "10X 82+ Gold Players Pack",
+            "descriptionFA": "۱ مسابقه را ببرید، در «Road to the Knockouts Event»، روی سختی افسانه‌ای.",
+            "rewardFA": "۱۰ عدد بستهٔ بازیکن طلایی ۸۲+"
+          },
+          {
+            "name": "World Class",
+            "description": "Win 1 match in the Road to the Knockouts Event on World Class difficulty.",
+            "reward": "1 Of 4 83+ Gold Player Pick",
+            "descriptionFA": "۱ مسابقه را ببرید، در «Road to the Knockouts Event»، روی سختی کلاس جهانی.",
+            "rewardFA": "انتخاب بازیکن طلایی ۸۳+ (۱ از ۴)"
+          },
+          {
+            "name": "Professional",
+            "description": "Win 1 match in the Road to the Knockouts Event on Professional difficulty.",
+            "reward": "5X 78+ Gold Players Pack",
+            "descriptionFA": "۱ مسابقه را ببرید، در «Road to the Knockouts Event»، روی سختی حرفه‌ای.",
+            "rewardFA": "۵ عدد بستهٔ بازیکن طلایی ۷۸+"
+          },
+          {
+            "name": "Semi-Pro",
+            "description": "Win 1 match in the Road to the Knockouts Event on Semi-Pro difficulty.",
+            "reward": "Consumables Pack + Shadow",
+            "descriptionFA": "۱ مسابقه را ببرید، در «Road to the Knockouts Event»، روی سختی نیمه‌حرفه‌ای.",
+            "rewardFA": "بستهٔ آیتم مصرفی + Shadow"
+          }
+        ],
+        "detail_checked_at": "2026-11-06T23:09:43.523Z"
+      },
+      {
+        "name": "Ultimate Gauntlet 3",
+        "category": "campaign",
+        "description": "Complete 8 of 10 challenges in the Ultimate Gauntlet 3 and earn exclusive rewards! All rewards are untradable.",
+        "url": "https://www.fut.gg/objectives/campaigns/174-ultimate-gauntlet-3/",
+        "tasks": [
+          {
+            "name": "Score in 14",
+            "description": "Score at least 1 goal in 14 separate matches in the Ultimate Gauntlet 3.",
+            "reward": "7X 80+ Gold Players Pack",
+            "descriptionFA": "حداقل ۱ گل به ثمر برسانید، در ۱۴ مسابقهٔ جداگانه، در Ultimate Gauntlet 3.",
+            "rewardFA": "۷ عدد بستهٔ بازیکن طلایی ۸۰+",
+            "nameFA": "۱۴ گل"
+          },
+          {
+            "name": "Score in 10",
+            "description": "Score at least 1 goal in 10 separate matches in the Ultimate Gauntlet 3.",
+            "reward": "7X 80+ Gold Players Pack",
+            "descriptionFA": "حداقل ۱ گل به ثمر برسانید، در ۱۰ مسابقهٔ جداگانه، در Ultimate Gauntlet 3.",
+            "rewardFA": "۷ عدد بستهٔ بازیکن طلایی ۸۰+",
+            "nameFA": "۱۰ گل"
+          },
+          {
+            "name": "Triple Perfect",
+            "description": "Win both matches in a single Ultimate Gauntlet 3 round, three times.",
+            "reward": "3X 84+ Gold Players Pack",
+            "nameFA": "بی‌نقص سه‌گانه",
+            "descriptionFA": "هر دو مسابقه را ببرید، در یک راند Ultimate Gauntlet 3، سه بار.",
+            "rewardFA": "۳ عدد بستهٔ بازیکن طلایی ۸۴+"
+          },
+          {
+            "name": "Double Perfect",
+            "description": "Win both matches in a single Ultimate Gauntlet 3 round, twice.",
+            "reward": "5X 82+ Gold Players Pack",
+            "nameFA": "بی‌نقص دوبل",
+            "descriptionFA": "هر دو مسابقه را ببرید، در یک راند Ultimate Gauntlet 3، دو بار.",
+            "rewardFA": "۵ عدد بستهٔ بازیکن طلایی ۸۲+"
+          },
+          {
+            "name": "Perfect Round",
+            "description": "Win both matches in a single Ultimate Gauntlet 3 round.",
+            "reward": "7X 81+ Gold Players Pack",
+            "nameFA": "نوبت بی‌نقص",
+            "descriptionFA": "هر دو مسابقه را ببرید، در یک راند Ultimate Gauntlet 3.",
+            "rewardFA": "۷ عدد بستهٔ بازیکن طلایی ۸۱+"
+          },
+          {
+            "name": "Win 5",
+            "description": "Win 5 matches in the Ultimate Gauntlet 3.",
+            "reward": "7X 77+ Gold Players Pack",
+            "descriptionFA": "۵ مسابقه را ببرید، در Ultimate Gauntlet 3.",
+            "rewardFA": "۷ عدد بستهٔ بازیکن طلایی ۷۷+",
+            "nameFA": "۵ برد"
+          },
+          {
+            "name": "Win 3",
+            "description": "Win 3 matches in the Ultimate Gauntlet 3.",
+            "reward": "7X 75+ Gold Players Pack",
+            "descriptionFA": "۳ مسابقه را ببرید، در Ultimate Gauntlet 3.",
+            "rewardFA": "۷ عدد بستهٔ بازیکن طلایی ۷۵+",
+            "nameFA": "۳ برد"
+          },
+          {
+            "name": "Win 1",
+            "description": "Win 1 match in the Ultimate Gauntlet 3.",
+            "reward": "Intercept",
+            "descriptionFA": "۱ مسابقه را ببرید، در Ultimate Gauntlet 3.",
+            "nameFA": "۱ برد"
+          },
+          {
+            "name": "Score in 4",
+            "description": "Score at least 1 goal in 4 separate matches in the Ultimate Gauntlet 3.",
+            "reward": "1,500 Coins",
+            "descriptionFA": "حداقل ۱ گل به ثمر برسانید، در ۴ مسابقهٔ جداگانه، در Ultimate Gauntlet 3.",
+            "rewardFA": "۱,۵۰۰ سکه",
+            "nameFA": "۴ گل"
+          },
+          {
+            "name": "Score 1",
+            "description": "Score 1 goal in the Ultimate Gauntlet 3.",
+            "reward": "Maxim De Cuyper (Loan)",
+            "descriptionFA": "۱ گل به ثمر برسانید، در Ultimate Gauntlet 3.",
+            "rewardFA": "Maxim De Cuyper (قرضی)",
+            "nameFA": "۱ گل"
+          }
+        ],
+        "detail_checked_at": "2026-11-06T23:09:43.523Z"
+      },
+      {
+        "name": "Road to the Knockouts: Group Stage",
+        "category": "campaign",
+        "description": "Complete these group stage challenges to earn packs and more. All rewards are untradeable.",
+        "url": "https://www.fut.gg/objectives/campaigns/188-road-to-the-knockouts-group-stage/",
+        "descriptionFA": "چالش‌های these group stage را کامل کنید و packs and more. All rewards are untradeable بگیرید.",
+        "tasks": [
+          {
+            "name": "Best of the Best",
+            "description": "Win 10 separate matches while having min. 4 First Owned players in your starting XI in Squad Battles on min. Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events).",
+            "reward": "1 Of 3 84+ Gold Player Pick",
+            "descriptionFA": "۱۰ مسابقهٔ separate را ببرید، با حداقل ۴ بازیکن First Owned در ترکیب اصلی، در Squad Battles، روی سختی نیمه‌حرفه‌ای (یا Rush/Rivals/Champions/Live Events).",
+            "rewardFA": "انتخاب بازیکن طلایی ۸۴+ (۱ از ۳)"
+          },
+          {
+            "name": "Pope's Hail Mary",
+            "description": "Assist with a GK with min. 1 English player in your starting XI in any FUT game mode.",
+            "reward": "10X 80+ Gold Players Pack",
+            "descriptionFA": "پاس گل بدهید، با یک بازیکن GK، در هر حالت بازی FUT، با حداقل ۱ بازیکن انگلیسی در ترکیب اصلی.",
+            "rewardFA": "۱۰ عدد بستهٔ بازیکن طلایی ۸۰+"
+          },
+          {
+            "name": "Grizi's Golazo",
+            "description": "Score a bicycle kick with min. 1 French player in your starting XI in any FUT game mode.",
+            "reward": "10X 80+ Gold Players Pack",
+            "rewardFA": "۱۰ عدد بستهٔ بازیکن طلایی ۸۰+"
+          },
+          {
+            "name": "Harder's Hat-trick",
+            "description": "Score a hat-trick with a player from GPFBL in any game mode",
+            "reward": "2X 84+ Gold Players Pack",
+            "rewardFA": "۲ عدد بستهٔ بازیکن طلایی ۸۴+"
+          },
+          {
+            "name": "Venemous Vitinha",
+            "description": "Score a goal outside the box with a Ligue 1 CM and win in Squad Battles on min. Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events).",
+            "reward": "3X 82+ Gold Players Pack",
+            "rewardFA": "۳ عدد بستهٔ بازیکن طلایی ۸۲+"
+          },
+          {
+            "name": "The rise of Gegenpressing",
+            "description": "Score in 5 separate matches while having min. 1 Borussia Dortmund player in your starting XI in Squad Battles on min. Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events).",
+            "reward": "1 Of 3 78+ Gold Player Pick",
+            "descriptionFA": "گل بزنید، در ۵ مسابقهٔ جداگانه، در Squad Battles، روی سختی نیمه‌حرفه‌ای (یا Rush/Rivals/Champions/Live Events)، با حداقل ۱ بازیکن Borussia Dortmund در ترکیب اصلی.",
+            "rewardFA": "انتخاب بازیکن طلایی ۷۸+ (۱ از ۳)"
+          },
+          {
+            "name": "The 11% Miracle",
+            "description": "Score 2 goals while conceding 1 or less goals with min. 1 Scottish player in your starting XI in Squad Battles on min. Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events).",
+            "reward": "Consumables Pack",
+            "descriptionFA": "۲ گل goals while conceding 1 or less به ثمر برسانید، با حداقل ۱ بازیکن Scottish در ترکیب اصلی، در Squad Battles، روی سختی نیمه‌حرفه‌ای (یا Rush/Rivals/Champions/Live Events).",
+            "rewardFA": "بستهٔ آیتم مصرفی"
+          }
+        ],
+        "detail_checked_at": "2026-11-06T23:09:43.523Z"
       },
       {
         "name": "Movember",
@@ -619,7 +800,7 @@
             "nameFA": "۱ مسابقه"
           }
         ],
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
+        "detail_checked_at": "2026-11-06T23:09:43.523Z"
       },
       {
         "name": "Liga BBVA MX - El Día De Muertos",
@@ -646,7 +827,7 @@
             "reward": "Hunter + Hawk"
           }
         ],
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
+        "detail_checked_at": "2026-11-06T23:09:43.523Z"
       },
       {
         "name": "Hannibal's Haunting",
@@ -682,7 +863,7 @@
           }
         ],
         "reward": "100 total",
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
+        "detail_checked_at": "2026-11-06T23:09:43.523Z"
       },
       {
         "name": "Bundesliga x Playmobil Kit",
@@ -711,197 +892,7 @@
             "nameFA": "۵ مسابقه"
           }
         ],
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
-      },
-      {
-        "name": "Liga BBVA MX is back",
-        "category": "campaign",
-        "description": "Celebrate the return of Liga BBVA MX to FC with this objective set. All rewards are untradeable.",
-        "url": "https://www.fut.gg/objectives/campaigns/176-liga-bbva-mx-is-back/",
-        "tasks": [
-          {
-            "name": "Play 3",
-            "description": "Play 3 matches with the Mexico National team Away kit equipped in any FUT game mode.",
-            "reward": "2X 75-82 Gold Players Pack",
-            "rewardFA": "۲ عدد بستهٔ بازیکن طلایی ۷۵ تا ۸۲",
-            "nameFA": "۳ مسابقه"
-          },
-          {
-            "name": "Clean Sheet",
-            "description": "Keep a clean sheet with the Mexico National team Away kit equipped in any FUT game mode.",
-            "reward": "2X 75-82 Gold Players Pack",
-            "rewardFA": "۲ عدد بستهٔ بازیکن طلایی ۷۵ تا ۸۲"
-          },
-          {
-            "name": "Play 1",
-            "description": "Play 1 match with 3 Mexican players in your starting XI in any FUT game mode.",
-            "reward": "Mexico",
-            "nameFA": "۱ مسابقه"
-          }
-        ],
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
-      },
-      {
-        "name": "Ghoul Fest",
-        "category": "campaign",
-        "description": "Compete in the Ghoul Fest Live Event to earn rewards. All rewards are untradeable.",
-        "url": "https://www.fut.gg/objectives/campaigns/175-ghoul-fest/",
-        "rewardFA": "۲۰۰ در مجموع",
-        "tasks": [
-          {
-            "name": "Score in 13",
-            "description": "Score at least 1 goal in 13 separate matches in the Ghoul Fest Live Event.",
-            "reward": "50 Ultimate Scream Tokens",
-            "descriptionFA": "حداقل ۱ گل به ثمر برسانید، در ۱۳ مسابقهٔ جداگانه، در «Ghoul Fest Live Event».",
-            "rewardFA": "۵۰ توکن Ultimate Scream",
-            "nameFA": "۱۳ گل"
-          },
-          {
-            "name": "Score 30",
-            "description": "Score a total of 30 goals in the Ghoul Fest Live Event.",
-            "reward": "50 Ultimate Scream Tokens + 50 SP",
-            "rewardFA": "۵۰ توکن Ultimate Scream + ۵۰ SP",
-            "nameFA": "۳۰ گل"
-          },
-          {
-            "name": "Score in 5",
-            "description": "Score at least 2 goals in 5 separate matches in the Ghoul Fest Live Event.",
-            "reward": "50 Ultimate Scream Tokens",
-            "descriptionFA": "حداقل ۲ گل به ثمر برسانید، در ۵ مسابقهٔ جداگانه، در «Ghoul Fest Live Event».",
-            "rewardFA": "۵۰ توکن Ultimate Scream",
-            "nameFA": "۵ گل"
-          },
-          {
-            "name": "Score 3",
-            "description": "Score at least 3 goals in one match in the Ghoul Fest Live Event.",
-            "reward": "50 Ultimate Scream Tokens",
-            "descriptionFA": "حداقل ۳ گل به ثمر برسانید، در یک مسابقه، در «Ghoul Fest Live Event».",
-            "rewardFA": "۵۰ توکن Ultimate Scream",
-            "nameFA": "۳ گل"
-          },
-          {
-            "name": "Score 2",
-            "description": "Score at least 2 goals in one match in the Ghoul Fest Live Event.",
-            "reward": "Ultimate Scream Regular Badge + 50 Ultimate Scream Tokens",
-            "descriptionFA": "حداقل ۲ گل به ثمر برسانید، در یک مسابقه، در «Ghoul Fest Live Event».",
-            "rewardFA": "بج معمولی Ultimate Scream + ۵۰ توکن Ultimate Scream",
-            "nameFA": "۲ گل"
-          }
-        ],
-        "reward": "200 total",
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
-      },
-      {
-        "name": "Season 2 Daily Knockout Tournament Bonus",
-        "category": "campaign",
-        "description": "Play matches in the Season 2 Daily Knockout Tournament and earn Ultimate Scream Tokens!",
-        "url": "https://www.fut.gg/objectives/campaigns/165-season-2-daily-knockout-tournament-bonus/",
-        "rewardFA": "۵۰ در مجموع",
-        "tasks": [
-          {
-            "name": "Win 5",
-            "description": "Win 5 matches in the Season 2 Daily Knockout Tournament.",
-            "reward": "40 Ultimate Scream Tokens",
-            "descriptionFA": "۵ مسابقه را ببرید، در «Season 2 Daily Knockout Tournament».",
-            "rewardFA": "۴۰ توکن Ultimate Scream",
-            "nameFA": "۵ برد"
-          },
-          {
-            "name": "Score in 5",
-            "description": "Score at least 1 goal in 5 separate matches in the Season 2 Daily Knockout Tournament.",
-            "reward": "40 Ultimate Scream Tokens",
-            "descriptionFA": "حداقل ۱ گل به ثمر برسانید، در ۵ مسابقهٔ جداگانه، در «Season 2 Daily Knockout Tournament».",
-            "rewardFA": "۴۰ توکن Ultimate Scream",
-            "nameFA": "۵ گل"
-          },
-          {
-            "name": "Win 2",
-            "description": "Win 2 matches in the Season 2 Daily Knockout Tournament.",
-            "reward": "40 Ultimate Scream Tokens",
-            "descriptionFA": "۲ مسابقه را ببرید، در «Season 2 Daily Knockout Tournament».",
-            "rewardFA": "۴۰ توکن Ultimate Scream",
-            "nameFA": "۲ برد"
-          },
-          {
-            "name": "Score 1",
-            "description": "Score 1 goal in the Season 2 Daily Knockout Tournament.",
-            "reward": "Selina Vobian (Loan) + 40 Ultimate Scream Tokens",
-            "descriptionFA": "۱ گل به ثمر برسانید، در «Season 2 Daily Knockout Tournament».",
-            "rewardFA": "Selina Vobian (قرضی) + ۴۰ توکن Ultimate Scream",
-            "nameFA": "۱ گل"
-          }
-        ],
-        "reward": "50 total",
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
-      },
-      {
-        "name": "Phantom Playgrounds",
-        "category": "campaign",
-        "description": "Master a series of terrifying challenges and earn Ultimate Scream Tokens to redeem in the Token Store!",
-        "url": "https://www.fut.gg/objectives/campaigns/162-phantom-playgrounds/",
-        "nameFA": "زمین‌های بازی ارواح",
-        "descriptionFA": "مجموعه‌ای از چالش‌های ترسناک را پشت سر بگذارید و توکن‌های Ultimate Scream بگیرید تا در Token Store خرج کنید!",
-        "rewardFA": "۵۰ در مجموع",
-        "tasks": [
-          {
-            "name": "Spirit Harvest",
-            "description": "Score 50 goals while having Min. 1 Ultimate Scream Player in your starting XI in Squad Battles on Min. Semi-Pro difficulty (or Rivals/Live Events/Rush/Champions).",
-            "reward": "50 Ultimate Scream Tokens",
-            "nameFA": "برداشت ارواح",
-            "descriptionFA": "۵۰ گل به ثمر برسانید، با حداقل ۱ بازیکن Ultimate Scream در ترکیب اصلی، در Squad Battles، روی سختی نیمه‌حرفه‌ای (یا Rivals/Live Events/Rush/Champions).",
-            "rewardFA": "۵۰ توکن Ultimate Scream"
-          },
-          {
-            "name": "The Red Countess",
-            "description": "Score at least one Chip Shot goal in 5 separate matches while having min. 1 Hungarian player in your starting XI in Squad Battles on min. Semi-Pro difficulty (or Rivals/Live Events/Rush/Champions).",
-            "reward": "50 Ultimate Scream Tokens",
-            "nameFA": "کنتس سرخ",
-            "descriptionFA": "حداقل ۱ گل Chip Shot به ثمر برسانید، در ۵ مسابقهٔ جداگانه، در Squad Battles، روی سختی نیمه‌حرفه‌ای (یا Rivals/Live Events/Rush/Champions)، با حداقل ۱ بازیکن Hungarian در ترکیب اصلی.",
-            "rewardFA": "۵۰ توکن Ultimate Scream"
-          },
-          {
-            "name": "Lost Your Head?",
-            "description": "Score 10 headers while having Min. 1 USA player in your starting XI in Squad Battles on Min. Semi-Pro difficulty (or Rivals/Live Events/Rush/Champions).",
-            "reward": "50 Ultimate Scream Tokens",
-            "nameFA": "سرت را گم کرده‌ای؟",
-            "descriptionFA": "۱۰ ضربهٔ سر بزنید، با حداقل ۱ بازیکن آمریکا در ترکیب اصلی، در Squad Battles، روی سختی نیمه‌حرفه‌ای (یا Rivals/Live Events/Rush/Champions).",
-            "rewardFA": "۵۰ توکن Ultimate Scream"
-          },
-          {
-            "name": "Grýla's Cauldron",
-            "description": "Win 13 matches while having Min. 1 Iceland player in your starting XI in Squad Battles on Min. Semi-Pro difficulty (or Rivals/Live Events/Rush/Champions).",
-            "reward": "50 Ultimate Scream Tokens",
-            "nameFA": "دیگ Grýla",
-            "descriptionFA": "۱۳ مسابقه را ببرید، با حداقل ۱ بازیکن Iceland در ترکیب اصلی، در Squad Battles، روی سختی نیمه‌حرفه‌ای (یا Rivals/Live Events/Rush/Champions).",
-            "rewardFA": "۵۰ توکن Ultimate Scream"
-          },
-          {
-            "name": "Nessie's Deep Gift",
-            "description": "Assist at least 1 goal with a through ball in 15 separate matches while having Min. 1 Scottish player in your starting XI in Squad Battles on Min. Semi-Pro difficulty (or Rivals/Live Events/Rush/Champions).",
-            "reward": "50 Ultimate Scream Tokens",
-            "nameFA": "هدیهٔ عمیق Nessie",
-            "descriptionFA": "حداقل ۱ پاس گل بدهید، با پاس از پشت (through ball)، در ۱۵ مسابقهٔ جداگانه، در Squad Battles، روی سختی نیمه‌حرفه‌ای (یا Rivals/Live Events/Rush/Champions)، با حداقل ۱ بازیکن Scottish در ترکیب اصلی.",
-            "rewardFA": "۵۰ توکن Ultimate Scream"
-          },
-          {
-            "name": "Tricks and Treats",
-            "description": "Score at least 1 goal from outside the box in 10 separate matches with 4* or higher WF players in Squad Battles on Min. Semi-Pro difficulty (or Rivals/Live Events/Rush/Champions).",
-            "reward": "50 Ultimate Scream Tokens",
-            "nameFA": "ترفند و شیرینی",
-            "descriptionFA": "حداقل ۱ گل از بیرون محوطه به ثمر برسانید، در ۱۰ مسابقهٔ جداگانه، در Squad Battles، روی سختی نیمه‌حرفه‌ای (یا Rivals/Live Events/Rush/Champions)، با بازیکنانی با پای ضعیف ۴ ستاره یا بالاتر.",
-            "rewardFA": "۵۰ توکن Ultimate Scream"
-          },
-          {
-            "name": "Gulyabani's Wrath",
-            "description": "Play 7 matches while having Min. 1 Türkiye player in your starting XI in Squad Battles on Min. Semi-Pro difficulty (or Rivals/Live Events/Rush/Champions).",
-            "reward": "50 Ultimate Scream Tokens",
-            "nameFA": "خشم Gulyabani",
-            "descriptionFA": "۷ مسابقه را بازی کنید، با حداقل ۱ بازیکن Türkiye در ترکیب اصلی، در Squad Battles، روی سختی نیمه‌حرفه‌ای (یا Rivals/Live Events/Rush/Champions).",
-            "rewardFA": "۵۰ توکن Ultimate Scream"
-          }
-        ],
-        "reward": "50 total",
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
+        "detail_checked_at": "2026-11-06T23:09:43.523Z"
       },
       {
         "name": "Ultimate Scream Gallery",
@@ -951,68 +942,7 @@
             "rewardFA": "VIP هالووین"
           }
         ],
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
-      },
-      {
-        "name": "Ultimate Scream Puzzle Completionist",
-        "category": "campaign",
-        "description": "Complete Ultimate Scream Puzzle SBCs and earn Ultimate Scream Tokens and SP!",
-        "url": "https://www.fut.gg/objectives/campaigns/156-ultimate-scream-puzzle-completionist/",
-        "nameFA": "کامل‌کنندهٔ پازل Ultimate Scream",
-        "descriptionFA": "SBCهای پازل Ultimate Scream را کامل کنید و توکن Ultimate Scream و SP بگیرید!",
-        "rewardFA": "۱۰۰ در مجموع",
-        "tasks": [
-          {
-            "name": "Hocus Pocus",
-            "description": "Complete Hocus Pocus Puzzle SBC.",
-            "reward": "30 Ultimate Scream Tokens",
-            "nameFA": "هوکوس پوکوس",
-            "descriptionFA": "SBC «Hocus Pocus» را کامل کنید.",
-            "rewardFA": "۳۰ توکن Ultimate Scream"
-          },
-          {
-            "name": "Pumpkin Seeds",
-            "description": "Complete Pumpkin Seeds Puzzle SBC.",
-            "reward": "30 Ultimate Scream Tokens",
-            "nameFA": "دانه‌های کدو حلوایی",
-            "descriptionFA": "SBC «Pumpkin Seeds» را کامل کنید.",
-            "rewardFA": "۳۰ توکن Ultimate Scream"
-          },
-          {
-            "name": "Freaky Zombie",
-            "description": "Complete Freaky Zombie Puzzle SBC.",
-            "reward": "30 Ultimate Scream Tokens",
-            "nameFA": "زامبی عجیب",
-            "descriptionFA": "SBC «Freaky Zombie» را کامل کنید.",
-            "rewardFA": "۳۰ توکن Ultimate Scream"
-          },
-          {
-            "name": "Boo Hoo Party",
-            "description": "Complete Boo Hoo Party Puzzle SBC.",
-            "reward": "30 Ultimate Scream Tokens",
-            "nameFA": "مهمانی گریه و زاری",
-            "descriptionFA": "SBC «Boo Hoo Party» را کامل کنید.",
-            "rewardFA": "۳۰ توکن Ultimate Scream"
-          },
-          {
-            "name": "Scary Candy",
-            "description": "Complete Scary Candy Puzzle SBC.",
-            "reward": "30 Ultimate Scream Tokens",
-            "nameFA": "آب نبات ترسناک",
-            "descriptionFA": "SBC «Scary Candy» را کامل کنید.",
-            "rewardFA": "۳۰ توکن Ultimate Scream"
-          },
-          {
-            "name": "Spooky Nights",
-            "description": "Complete Spooky Nights Puzzle SBC.",
-            "reward": "30 Ultimate Scream Tokens",
-            "nameFA": "شب‌های وحشت",
-            "descriptionFA": "SBC «Spooky Nights» را کامل کنید.",
-            "rewardFA": "۳۰ توکن Ultimate Scream"
-          }
-        ],
-        "reward": "100 total",
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
+        "detail_checked_at": "2026-11-06T23:09:43.523Z"
       },
       {
         "name": "Rising Through the Ranks",
@@ -1065,44 +995,7 @@
           }
         ],
         "reward": "250 total",
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
-      },
-      {
-        "name": "Total Football",
-        "category": "foundation",
-        "description": "Prove your worth by completing each of the Foundation Objectives groups to earn big rewards. All rewards are untradeable.",
-        "url": "https://www.fut.gg/objectives/foundations/28-total-football/",
-        "nameFA": "فوتبال تمام‌عیار",
-        "descriptionFA": "با کامل کردن تک‌تک گروه‌های اهداف Foundation شایستگی خود را ثابت کنید و جوایز بزرگ بگیرید. همهٔ جایزه‌ها غیرقابل‌فروش‌اند.",
-        "rewardFA": "۳۰۰ در مجموع",
-        "tasks": [
-          {
-            "name": "Complete 'Rising Through the Ranks'",
-            "description": "Fully complete the 'Rising Through the Ranks' Objectives Group.",
-            "reward": "82+ Gold Player Pack + 100 SP",
-            "descriptionFA": "گروه مأموریت «Rising Through the Ranks» را به‌طور کامل تمام کنید.",
-            "rewardFA": "بستهٔ بازیکن طلایی ۸۲+ + ۱۰۰ SP",
-            "nameFA": "کامل کردن Rising Through the Ranks"
-          },
-          {
-            "name": "Complete 'First Team Dreams'",
-            "description": "Fully complete the 'First Team Dreams' Objectives Group.",
-            "reward": "1 Of 3 80+ Gold Player Pick + 100 SP",
-            "descriptionFA": "گروه مأموریت «First Team Dreams» را به‌طور کامل تمام کنید.",
-            "rewardFA": "انتخاب بازیکن طلایی ۸۰+ (۱ از ۳) + ۱۰۰ SP",
-            "nameFA": "کامل کردن First Team Dreams"
-          },
-          {
-            "name": "Complete 'The Journey Begins'",
-            "description": "Fully complete the 'The Journey Begins' Objectives Group.",
-            "reward": "1 Of 3 75+ Gold Player Pick + 100 SP",
-            "descriptionFA": "گروه مأموریت «The Journey Begins» را به‌طور کامل تمام کنید.",
-            "rewardFA": "انتخاب بازیکن طلایی ۷۵+ (۱ از ۳) + ۱۰۰ SP",
-            "nameFA": "کامل کردن The Journey Begins"
-          }
-        ],
-        "reward": "300 total",
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
+        "detail_checked_at": "2026-11-06T23:09:43.523Z"
       },
       {
         "name": "First Team Dreams",
@@ -1139,7 +1032,7 @@
           }
         ],
         "reward": "400 total",
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
+        "detail_checked_at": "2026-11-06T23:09:43.523Z"
       },
       {
         "name": "The Journey Begins",
@@ -1184,7 +1077,44 @@
           }
         ],
         "reward": "100 total",
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
+        "detail_checked_at": "2026-11-06T23:09:43.523Z"
+      },
+      {
+        "name": "Total Football",
+        "category": "foundation",
+        "description": "Prove your worth by completing each of the Foundation Objectives groups to earn big rewards. All rewards are untradeable.",
+        "url": "https://www.fut.gg/objectives/foundations/28-total-football/",
+        "nameFA": "فوتبال تمام‌عیار",
+        "descriptionFA": "با کامل کردن تک‌تک گروه‌های اهداف Foundation شایستگی خود را ثابت کنید و جوایز بزرگ بگیرید. همهٔ جایزه‌ها غیرقابل‌فروش‌اند.",
+        "rewardFA": "۳۰۰ در مجموع",
+        "tasks": [
+          {
+            "name": "Complete 'Rising Through the Ranks'",
+            "description": "Fully complete the 'Rising Through the Ranks' Objectives Group.",
+            "reward": "82+ Gold Player Pack + 100 SP",
+            "descriptionFA": "گروه مأموریت «Rising Through the Ranks» را به‌طور کامل تمام کنید.",
+            "rewardFA": "بستهٔ بازیکن طلایی ۸۲+ + ۱۰۰ SP",
+            "nameFA": "کامل کردن Rising Through the Ranks"
+          },
+          {
+            "name": "Complete 'First Team Dreams'",
+            "description": "Fully complete the 'First Team Dreams' Objectives Group.",
+            "reward": "1 Of 3 80+ Gold Player Pick + 100 SP",
+            "descriptionFA": "گروه مأموریت «First Team Dreams» را به‌طور کامل تمام کنید.",
+            "rewardFA": "انتخاب بازیکن طلایی ۸۰+ (۱ از ۳) + ۱۰۰ SP",
+            "nameFA": "کامل کردن First Team Dreams"
+          },
+          {
+            "name": "Complete 'The Journey Begins'",
+            "description": "Fully complete the 'The Journey Begins' Objectives Group.",
+            "reward": "1 Of 3 75+ Gold Player Pick + 100 SP",
+            "descriptionFA": "گروه مأموریت «The Journey Begins» را به‌طور کامل تمام کنید.",
+            "rewardFA": "انتخاب بازیکن طلایی ۷۵+ (۱ از ۳) + ۱۰۰ SP",
+            "nameFA": "کامل کردن The Journey Begins"
+          }
+        ],
+        "reward": "300 total",
+        "detail_checked_at": "2026-11-06T23:09:43.523Z"
       },
       {
         "name": "Gallery Foundations",
@@ -1235,7 +1165,7 @@
             "rewardFA": "۲۵۰ سکه"
           }
         ],
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
+        "detail_checked_at": "2026-11-06T23:09:43.523Z"
       },
       {
         "name": "Ted Lasso's Masterclass",
@@ -1294,7 +1224,42 @@
             "rewardFA": "جایزه"
           }
         ],
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
+        "detail_checked_at": "2026-11-06T23:09:43.523Z"
+      },
+      {
+        "name": "Squad Battles Milestone",
+        "category": "milestone",
+        "description": "The challenge is set. Take to the pitch in Squad Battles and battle through the competition.",
+        "url": "https://www.fut.gg/objectives/milestones/42-squad-battles-milestone/",
+        "nameFA": "مایل‌استون Squad Battles",
+        "descriptionFA": "میدان آماده است. در Squad Battles به میدان بروید و از دل مسابقات عبور کنید.",
+        "tasks": [
+          {
+            "name": "Play 15",
+            "description": "Play 15 Squad Battles Matches on any difficulty.",
+            "reward": "75+ Gold Player Pack + X2 Players Pack",
+            "descriptionFA": "۱۵ مسابقهٔ Squad Battles را بازی کنید، روی سختی دلخواه.",
+            "rewardFA": "بستهٔ بازیکن طلایی ۷۵+ + ۲ عدد بستهٔ بازیکن",
+            "nameFA": "۱۵ مسابقه"
+          },
+          {
+            "name": "Play 10",
+            "description": "Play 10 Squad Battles Matches on any difficulty.",
+            "reward": "75+ Gold Player Pack",
+            "descriptionFA": "۱۰ مسابقهٔ Squad Battles را بازی کنید، روی سختی دلخواه.",
+            "rewardFA": "بستهٔ بازیکن طلایی ۷۵+",
+            "nameFA": "۱۰ مسابقه"
+          },
+          {
+            "name": "Play 5",
+            "description": "Play 5 Squad Battles Matches on any difficulty.",
+            "reward": "Coin Boost",
+            "descriptionFA": "۵ مسابقهٔ Squad Battles را بازی کنید، روی سختی دلخواه.",
+            "rewardFA": "بوست سکه",
+            "nameFA": "۵ مسابقه"
+          }
+        ],
+        "detail_checked_at": "2026-11-06T23:09:43.523Z"
       },
       {
         "name": "Draft Milestone",
@@ -1329,7 +1294,7 @@
             "nameFA": "۵ مسابقه"
           }
         ],
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
+        "detail_checked_at": "2026-11-06T23:09:43.523Z"
       },
       {
         "name": "Co-Op Milestone",
@@ -1364,7 +1329,7 @@
             "nameFA": "۵ مسابقه"
           }
         ],
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
+        "detail_checked_at": "2026-11-06T23:09:43.523Z"
       },
       {
         "name": "Rush Milestone",
@@ -1423,7 +1388,7 @@
             "nameFA": "۵ مسابقه"
           }
         ],
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
+        "detail_checked_at": "2026-11-06T23:09:43.523Z"
       },
       {
         "name": "Moments Stars Milestone",
@@ -1458,7 +1423,7 @@
             "nameFA": "۱۵ ستاره"
           }
         ],
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
+        "detail_checked_at": "2026-11-06T23:09:43.523Z"
       },
       {
         "name": "Squad Building Milestone",
@@ -1493,7 +1458,7 @@
             "nameFA": "۵ SBC"
           }
         ],
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
+        "detail_checked_at": "2026-11-06T23:09:43.523Z"
       },
       {
         "name": "Transfer Market Milestone",
@@ -1536,7 +1501,7 @@
             "nameFA": "۲۵ خرید Buy Now"
           }
         ],
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
+        "detail_checked_at": "2026-11-06T23:09:43.523Z"
       },
       {
         "name": "Live Events Milestone",
@@ -1571,42 +1536,7 @@
             "nameFA": "۵ مسابقه"
           }
         ],
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
-      },
-      {
-        "name": "Squad Battles Milestone",
-        "category": "milestone",
-        "description": "The challenge is set. Take to the pitch in Squad Battles and battle through the competition.",
-        "url": "https://www.fut.gg/objectives/milestones/42-squad-battles-milestone/",
-        "nameFA": "مایل‌استون Squad Battles",
-        "descriptionFA": "میدان آماده است. در Squad Battles به میدان بروید و از دل مسابقات عبور کنید.",
-        "tasks": [
-          {
-            "name": "Play 15",
-            "description": "Play 15 Squad Battles Matches on any difficulty.",
-            "reward": "75+ Gold Player Pack + X2 Players Pack",
-            "descriptionFA": "۱۵ مسابقهٔ Squad Battles را بازی کنید، روی سختی دلخواه.",
-            "rewardFA": "بستهٔ بازیکن طلایی ۷۵+ + ۲ عدد بستهٔ بازیکن",
-            "nameFA": "۱۵ مسابقه"
-          },
-          {
-            "name": "Play 10",
-            "description": "Play 10 Squad Battles Matches on any difficulty.",
-            "reward": "75+ Gold Player Pack",
-            "descriptionFA": "۱۰ مسابقهٔ Squad Battles را بازی کنید، روی سختی دلخواه.",
-            "rewardFA": "بستهٔ بازیکن طلایی ۷۵+",
-            "nameFA": "۱۰ مسابقه"
-          },
-          {
-            "name": "Play 5",
-            "description": "Play 5 Squad Battles Matches on any difficulty.",
-            "reward": "Coin Boost",
-            "descriptionFA": "۵ مسابقهٔ Squad Battles را بازی کنید، روی سختی دلخواه.",
-            "rewardFA": "بوست سکه",
-            "nameFA": "۵ مسابقه"
-          }
-        ],
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
+        "detail_checked_at": "2026-11-06T23:09:43.523Z"
       },
       {
         "name": "Rivals Milestone",
@@ -1641,7 +1571,7 @@
             "nameFA": "۵ مسابقه"
           }
         ],
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
+        "detail_checked_at": "2026-11-06T23:09:43.523Z"
       },
       {
         "name": "Champions Milestone",
@@ -1676,7 +1606,7 @@
             "nameFA": "۵ مسابقه"
           }
         ],
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
+        "detail_checked_at": "2026-11-06T23:09:43.523Z"
       },
       {
         "name": "Gallery Milestone",
@@ -1726,10 +1656,33 @@
             "nameFA": "سطح ۵"
           }
         ],
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
+        "detail_checked_at": "2026-11-06T23:09:43.523Z"
       }
     ],
     "sbc": [
+      {
+        "name": "Loïs Openda",
+        "category": "players",
+        "description": "Earn a special RTTK Loïs Openda.",
+        "url": "https://www.fut.gg/sbc/players/27-124-lois-openda/",
+        "price": null,
+        "challenges": 1,
+        "squads": [
+          {
+            "name": "Loïs Openda",
+            "description": "Earn a special RTTK Loïs Openda.",
+            "score": 96000,
+            "requirements": [
+              "Rating: Min. 45"
+            ],
+            "requirementsFA": [
+              "حداقل امتیاز بازیکن: ۴۵"
+            ]
+          }
+        ],
+        "squads_checked_at": "2026-11-06T23:09:43.523Z",
+        "detail_checked_at": "2026-11-06T23:09:43.523Z"
+      },
       {
         "name": "Martín Ojeda",
         "category": "players",
@@ -1750,8 +1703,8 @@
             ]
           }
         ],
-        "squads_checked_at": "2026-11-06T14:17:40.033Z",
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
+        "squads_checked_at": "2026-11-06T23:09:43.523Z",
+        "detail_checked_at": "2026-11-06T23:09:43.523Z"
       },
       {
         "name": "Ethan Ampadu",
@@ -1773,8 +1726,8 @@
             ]
           }
         ],
-        "squads_checked_at": "2026-11-06T14:17:40.033Z",
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
+        "squads_checked_at": "2026-11-06T23:09:43.523Z",
+        "detail_checked_at": "2026-11-06T23:09:43.523Z"
       },
       {
         "name": "Lea Schüller",
@@ -1796,8 +1749,8 @@
             ]
           }
         ],
-        "squads_checked_at": "2026-11-06T14:17:40.033Z",
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
+        "squads_checked_at": "2026-11-06T23:09:43.523Z",
+        "detail_checked_at": "2026-11-06T23:09:43.523Z"
       },
       {
         "name": "Jonny",
@@ -1819,31 +1772,8 @@
             ]
           }
         ],
-        "squads_checked_at": "2026-11-06T14:17:40.033Z",
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
-      },
-      {
-        "name": "Tijjani Reijnders",
-        "category": "players",
-        "description": "Earn a special Ultimate Scream Tijjani Reijnders.",
-        "url": "https://www.fut.gg/sbc/players/27-95-tijjani-reijnders/",
-        "price": null,
-        "challenges": 1,
-        "squads": [
-          {
-            "name": "Tijjani Reijnders",
-            "description": "Earn a special Ultimate Scream Tijjani Reijnders.",
-            "score": 60000,
-            "requirements": [
-              "Rating: Min. 45"
-            ],
-            "requirementsFA": [
-              "حداقل امتیاز بازیکن: ۴۵"
-            ]
-          }
-        ],
-        "squads_checked_at": "2026-11-06T14:17:40.033Z",
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
+        "squads_checked_at": "2026-11-06T23:09:43.523Z",
+        "detail_checked_at": "2026-11-06T23:09:43.523Z"
       },
       {
         "name": "Base Hero Player Pick",
@@ -1872,7 +1802,7 @@
           }
         ],
         "squads_checked_at": "2026-10-26T13:04:45.080Z",
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
+        "detail_checked_at": "2026-11-06T23:09:43.523Z"
       },
       {
         "name": "Ligue 1 POTM September",
@@ -1899,7 +1829,36 @@
           }
         ],
         "squads_checked_at": "2026-10-18T17:20:01.281Z",
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
+        "detail_checked_at": "2026-11-06T23:09:43.523Z"
+      },
+      {
+        "name": "81+ TOTW 1-8 Upgrade",
+        "category": "upgrades",
+        "description": "Earn a pack containing 1 TOTW Player Item, rated 81 or higher, from TOTW 1 to 8.",
+        "url": "https://www.fut.gg/sbc/upgrades/27-123-81-totw-1-8-upgrade/",
+        "price": null,
+        "nameFA": "81+ TOTW 1-8 — ارتقا",
+        "descriptionFA": "بستهٔ شامل ۱ بازیکن TOTW با امتیاز ۸۱ یا بالاتر از TOTW ۱ تا ۸ را بگیرید.",
+        "rewardFA": "۱ عدد بستهٔ بازیکن TOTW 1-8 ۸۱+",
+        "reward": "1 x 81+ TOTW 1-8 Player Pack",
+        "challenges": 1,
+        "squads": [
+          {
+            "name": "81+ TOTW 1-8 Upgrade",
+            "description": "Earn a pack containing 1 TOTW Player Item, rated 81 or higher, from TOTW 1 to 8.",
+            "score": 18000,
+            "requirements": [
+              "Rating: Min. 45"
+            ],
+            "descriptionFA": "بستهٔ شامل ۱ بازیکن TOTW با امتیاز ۸۱ یا بالاتر از TOTW ۱ تا ۸ را بگیرید.",
+            "requirementsFA": [
+              "حداقل امتیاز بازیکن: ۴۵"
+            ],
+            "nameFA": "81+ TOTW 1-8 — ارتقا"
+          }
+        ],
+        "squads_checked_at": "2026-11-06T23:09:43.523Z",
+        "detail_checked_at": "2026-11-06T23:09:43.523Z"
       },
       {
         "name": "2x 83+ Upgrade",
@@ -1930,7 +1889,7 @@
           }
         ],
         "squads_checked_at": "2026-11-03T23:24:13.277Z",
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
+        "detail_checked_at": "2026-11-06T23:09:43.523Z"
       },
       {
         "name": "1 of 3 79+ Gold Player Pick",
@@ -1960,7 +1919,7 @@
           }
         ],
         "squads_checked_at": "2026-11-03T00:58:42.655Z",
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
+        "detail_checked_at": "2026-11-06T23:09:43.523Z"
       },
       {
         "name": "Max. 88 Base Hero Upgrade",
@@ -1989,7 +1948,7 @@
           }
         ],
         "squads_checked_at": "2026-11-03T00:58:42.655Z",
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
+        "detail_checked_at": "2026-11-06T23:09:43.523Z"
       },
       {
         "name": "MLS & NWSL",
@@ -2032,8 +1991,8 @@
             "rewardFA": "۱ عدد بستهٔ بازیکن NWSL & Silver برنزی"
           }
         ],
-        "squads_checked_at": "2026-11-06T14:17:40.033Z",
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
+        "squads_checked_at": "2026-11-06T23:09:43.523Z",
+        "detail_checked_at": "2026-11-06T23:09:43.523Z"
       },
       {
         "name": "Serie A & ROSHN Saudi League",
@@ -2076,8 +2035,8 @@
             "rewardFA": "۱ عدد بستهٔ بازیکن ROSHN SL & Silver برنزی"
           }
         ],
-        "squads_checked_at": "2026-11-06T14:17:40.033Z",
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
+        "squads_checked_at": "2026-11-06T23:09:43.523Z",
+        "detail_checked_at": "2026-11-06T23:09:43.523Z"
       },
       {
         "name": "LALIGA & Liga F",
@@ -2124,7 +2083,7 @@
           }
         ],
         "squads_checked_at": "2026-11-03T00:58:42.655Z",
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
+        "detail_checked_at": "2026-11-06T23:09:43.523Z"
       },
       {
         "name": "Premier League & Barclays WSL",
@@ -2171,36 +2130,7 @@
           }
         ],
         "squads_checked_at": "2026-11-03T00:58:42.655Z",
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
-      },
-      {
-        "name": "81+ TOTW 1-7 Upgrade",
-        "category": "upgrades",
-        "description": "Earn a pack containing 1 TOTW Player Item, rated 81 or higher, from TOTW 1 to 7.",
-        "url": "https://www.fut.gg/sbc/upgrades/27-102-81-totw-1-7-upgrade/",
-        "price": null,
-        "nameFA": "81+ TOTW 1-7 — ارتقا",
-        "descriptionFA": "بستهٔ شامل ۱ بازیکن TOTW با امتیاز ۸۱ یا بالاتر از TOTW ۱ تا ۷ را بگیرید.",
-        "rewardFA": "۱ عدد بستهٔ بازیکن TOTW 1-7 ۸۱+",
-        "reward": "1 x 81+ TOTW 1-7 Player Pack",
-        "challenges": 1,
-        "squads": [
-          {
-            "name": "81+ TOTW 1-7 Upgrade",
-            "description": "Earn a pack containing 1 TOTW Player Item, rated 81 or higher, from TOTW 1 to 7.",
-            "score": 22000,
-            "requirements": [
-              "Rating: Min. 45"
-            ],
-            "nameFA": "81+ TOTW 1-7 — ارتقا",
-            "descriptionFA": "بستهٔ شامل ۱ بازیکن TOTW با امتیاز ۸۱ یا بالاتر از TOTW ۱ تا ۷ را بگیرید.",
-            "requirementsFA": [
-              "حداقل امتیاز بازیکن: ۴۵"
-            ]
-          }
-        ],
-        "squads_checked_at": "2026-10-30T22:21:21.975Z",
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
+        "detail_checked_at": "2026-11-06T23:09:43.523Z"
       },
       {
         "name": "1 of 4 Chemistry Styles Pick",
@@ -2224,8 +2154,8 @@
             ]
           }
         ],
-        "squads_checked_at": "2026-11-06T14:17:40.033Z",
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
+        "squads_checked_at": "2026-11-06T23:09:43.523Z",
+        "detail_checked_at": "2026-11-06T23:09:43.523Z"
       },
       {
         "name": "Ligue 1 & Arkema Première Ligue",
@@ -2268,8 +2198,8 @@
             "rewardFA": "۱ عدد بستهٔ بازیکن Arkema PL & Silver برنزی"
           }
         ],
-        "squads_checked_at": "2026-11-06T14:17:40.033Z",
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
+        "squads_checked_at": "2026-11-06T23:09:43.523Z",
+        "detail_checked_at": "2026-11-06T23:09:43.523Z"
       },
       {
         "name": "Bundesliga & Google Pixel Frauen-Bundesliga",
@@ -2312,8 +2242,8 @@
             "rewardFA": "۱ عدد بستهٔ بازیکن GPFBL & Silver برنزی"
           }
         ],
-        "squads_checked_at": "2026-11-06T14:17:40.033Z",
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
+        "squads_checked_at": "2026-11-06T23:09:43.523Z",
+        "detail_checked_at": "2026-11-06T23:09:43.523Z"
       },
       {
         "name": "Gold Upgrade",
@@ -2342,7 +2272,7 @@
           }
         ],
         "squads_checked_at": "2026-10-18T17:20:01.281Z",
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
+        "detail_checked_at": "2026-11-06T23:09:43.523Z"
       },
       {
         "name": "Silver Upgrade",
@@ -2371,7 +2301,7 @@
           }
         ],
         "squads_checked_at": "2026-10-18T17:20:01.281Z",
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
+        "detail_checked_at": "2026-11-06T23:09:43.523Z"
       },
       {
         "name": "Bronze Upgrade",
@@ -2400,7 +2330,7 @@
           }
         ],
         "squads_checked_at": "2026-10-18T17:20:01.281Z",
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
+        "detail_checked_at": "2026-11-06T23:09:43.523Z"
       },
       {
         "name": "Marquee Matchups",
@@ -2505,230 +2435,8 @@
             "rewardFA": "۱ عدد بسته الکترام کوچک"
           }
         ],
-        "squads_checked_at": "2026-11-06T14:17:40.033Z",
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
-      },
-      {
-        "name": "Hocus Pocus",
-        "category": "challenges",
-        "description": "Discover the phrase and earn a Jumbo Gold Pack.",
-        "url": "https://www.fut.gg/sbc/challenges/27-77-hocus-pocus/",
-        "price": null,
-        "rewardFA": "۱ عدد بسته طلایی ژامبو",
-        "reward": "1 x Jumbo Gold Pack",
-        "challenges": 1,
-        "squads": [
-          {
-            "name": "Hocus Pocus",
-            "description": "Discover the phrase and earn a Jumbo Gold Pack.",
-            "requirements": [
-              "Same league: Min. 4 players",
-              "Same club: Max. 3 players",
-              "Nations: Max. 4",
-              "Quality: Min. 6 Gold players",
-              "Team rating: Min. 70",
-              "Chemistry: Min. 24",
-              "Players: 9"
-            ],
-            "requirementsFA": [
-              "حداقل ۴ بازیکن از یک لیگ",
-              "حداکثر ۳ بازیکن از یک باشگاه",
-              "Nations: حداکثر ۴",
-              "حداقل ۶ بازیکن طلایی",
-              "حداقل امتیاز تیم: ۷۰",
-              "حداقل شیمی: ۲۴",
-              "تعداد بازیکنان: ۹"
-            ]
-          }
-        ],
-        "squads_checked_at": "2026-11-06T14:17:40.033Z",
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
-      },
-      {
-        "name": "Pumpkin Seeds",
-        "category": "challenges",
-        "description": "Plant the pumpkin seeds to earn a Large Gold Players Pack.",
-        "url": "https://www.fut.gg/sbc/challenges/27-76-pumpkin-seeds/",
-        "price": null,
-        "rewardFA": "۱ عدد بستهٔ بازیکن طلایی بزرگ",
-        "reward": "1 x Large Gold Players Pack",
-        "challenges": 1,
-        "squads": [
-          {
-            "name": "Pumpkin Seeds",
-            "description": "Plant the pumpkin seeds to earn a Large Gold Players Pack.",
-            "requirements": [
-              "Same league: Max. 4 players",
-              "Same club: Min. 3 players",
-              "Clubs: Max. 4",
-              "Quality: Min. 7 Gold players",
-              "Team rating: Min. 70",
-              "Chemistry: Min. 22",
-              "Players: 8"
-            ],
-            "requirementsFA": [
-              "حداکثر ۴ بازیکن از یک لیگ",
-              "حداقل ۳ بازیکن از یک باشگاه",
-              "حداکثر ۴ باشگاه",
-              "حداقل ۷ بازیکن طلایی",
-              "حداقل امتیاز تیم: ۷۰",
-              "حداقل شیمی: ۲۲",
-              "تعداد بازیکنان: ۸"
-            ]
-          }
-        ],
-        "squads_checked_at": "2026-11-06T14:17:40.033Z",
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
-      },
-      {
-        "name": "Freaky Zombie",
-        "category": "challenges",
-        "description": "Play the song to earn a Large Gold Pack.",
-        "url": "https://www.fut.gg/sbc/challenges/27-75-freaky-zombie/",
-        "price": null,
-        "rewardFA": "۱ عدد بسته طلایی بزرگ",
-        "reward": "1 x Large Gold Pack",
-        "challenges": 1,
-        "squads": [
-          {
-            "name": "Freaky Zombie",
-            "description": "Play the song to earn a Large Gold Pack.",
-            "requirements": [
-              "Same nation: Min. 4 players",
-              "Same league: Max. 5 players",
-              "Leagues: Min. 2",
-              "Quality: Min. 4 Gold players",
-              "Quality: Min. Silver",
-              "Chemistry: Min. 20",
-              "Players: 7"
-            ],
-            "requirementsFA": [
-              "حداقل ۴ بازیکن از یک ملیت",
-              "حداکثر ۵ بازیکن از یک لیگ",
-              "حداقل ۲ لیگ",
-              "حداقل ۴ بازیکن طلایی",
-              "حداقل کیفیت: بازیکن نقره‌ای",
-              "حداقل شیمی: ۲۰",
-              "تعداد بازیکنان: ۷"
-            ]
-          }
-        ],
-        "squads_checked_at": "2026-11-06T14:17:40.033Z",
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
-      },
-      {
-        "name": "Boo Hoo Party",
-        "category": "challenges",
-        "description": "Start the party to earn a Large Electrum Players Pack.",
-        "url": "https://www.fut.gg/sbc/challenges/27-74-boo-hoo-party/",
-        "price": null,
-        "rewardFA": "۱ عدد بستهٔ بازیکن الکترام بزرگ",
-        "reward": "1 x Large Electrum Players Pack",
-        "challenges": 1,
-        "squads": [
-          {
-            "name": "Boo Hoo Party",
-            "description": "Start the party to earn a Large Electrum Players Pack.",
-            "requirements": [
-              "Same club: Max. 3 players",
-              "Same league: Min. 4 players",
-              "Leagues: Max. 5",
-              "Quality: Min. 3 Gold players",
-              "Quality: Min. Silver",
-              "Chemistry: Min. 18",
-              "Players: 9"
-            ],
-            "requirementsFA": [
-              "حداکثر ۳ بازیکن از یک باشگاه",
-              "حداقل ۴ بازیکن از یک لیگ",
-              "Leagues: حداکثر ۵",
-              "حداقل ۳ بازیکن طلایی",
-              "حداقل کیفیت: بازیکن نقره‌ای",
-              "حداقل شیمی: ۱۸",
-              "تعداد بازیکنان: ۹"
-            ]
-          }
-        ],
-        "squads_checked_at": "2026-11-06T14:17:40.033Z",
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
-      },
-      {
-        "name": "Scary Candy",
-        "category": "challenges",
-        "description": "Find the scary candy and earn a Mixed Players Pack.",
-        "url": "https://www.fut.gg/sbc/challenges/27-73-scary-candy/",
-        "price": null,
-        "nameFA": "آب نبات ترسناک",
-        "descriptionFA": "آب نبات ترسناک را پیدا کنید و یک Mixed Players Pack بگیرید.",
-        "rewardFA": "۱ عدد بستهٔ بازیکن مخلوط",
-        "reward": "1 x Mixed Players Pack",
-        "challenges": 1,
-        "squads": [
-          {
-            "name": "Scary Candy",
-            "description": "Find the scary candy and earn a Mixed Players Pack.",
-            "requirements": [
-              "Same league: Max. 5 players",
-              "Same club: Min. 2 players",
-              "Nations: Max. 4",
-              "Quality: Min. 5 Gold players",
-              "Quality: Min. Silver",
-              "Chemistry: Min. 16",
-              "Players: 6"
-            ],
-            "nameFA": "آب نبات ترسناک",
-            "descriptionFA": "آب نبات ترسناک را پیدا کنید و یک Mixed Players Pack بگیرید.",
-            "requirementsFA": [
-              "حداکثر ۵ بازیکن از یک لیگ",
-              "حداقل ۲ بازیکن از یک باشگاه",
-              "Nations: حداکثر ۴",
-              "حداقل ۵ بازیکن طلایی",
-              "حداقل کیفیت: بازیکن نقره‌ای",
-              "حداقل شیمی: ۱۶",
-              "تعداد بازیکنان: ۶"
-            ]
-          }
-        ],
-        "squads_checked_at": "2026-10-26T13:04:45.080Z",
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
-      },
-      {
-        "name": "Spooky Nights",
-        "category": "challenges",
-        "description": "Escape the spooky night and earn a Small Gold Players Pack.",
-        "url": "https://www.fut.gg/sbc/challenges/27-72-spooky-nights/",
-        "price": null,
-        "nameFA": "شب‌های وحشت",
-        "descriptionFA": "از شب وحشت فرار کنید و یک Small Gold Players Pack بگیرید.",
-        "rewardFA": "۱ عدد بستهٔ بازیکن طلایی کوچک",
-        "reward": "1 x Small Gold Players Pack",
-        "challenges": 1,
-        "squads": [
-          {
-            "name": "Spooky Nights",
-            "description": "Escape the spooky night and earn a Small Gold Players Pack.",
-            "requirements": [
-              "Same nation: Min. 3 players",
-              "Same league: Max. 4 players",
-              "Quality: Min. 3 Gold players",
-              "Quality: Min. Bronze",
-              "Chemistry: Min. 14",
-              "Players: 7"
-            ],
-            "nameFA": "شب‌های وحشت",
-            "descriptionFA": "از شب وحشت فرار کنید و یک Small Gold Players Pack بگیرید.",
-            "requirementsFA": [
-              "حداقل ۳ بازیکن از یک ملیت",
-              "حداکثر ۴ بازیکن از یک لیگ",
-              "حداقل ۳ بازیکن طلایی",
-              "حداقل کیفیت: بازیکن برنزی",
-              "حداقل شیمی: ۱۴",
-              "تعداد بازیکنان: ۷"
-            ]
-          }
-        ],
-        "squads_checked_at": "2026-10-26T13:04:45.080Z",
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
+        "squads_checked_at": "2026-11-06T23:09:43.523Z",
+        "detail_checked_at": "2026-11-06T23:09:43.523Z"
       },
       {
         "name": "League & Nation Advanced",
@@ -2814,7 +2522,7 @@
           }
         ],
         "squads_checked_at": "2026-10-18T18:00:00.439Z",
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
+        "detail_checked_at": "2026-11-06T23:09:43.523Z"
       },
       {
         "name": "Intro to Player SBCs",
@@ -2841,7 +2549,7 @@
           }
         ],
         "squads_checked_at": "2026-10-18T18:00:00.439Z",
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
+        "detail_checked_at": "2026-11-06T23:09:43.523Z"
       },
       {
         "name": "Gold Re-Roll",
@@ -2871,7 +2579,7 @@
           }
         ],
         "squads_checked_at": "2026-10-18T18:00:00.439Z",
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
+        "detail_checked_at": "2026-11-06T23:09:43.523Z"
       },
       {
         "name": "Bronze and Silver Re-roll",
@@ -2901,7 +2609,7 @@
           }
         ],
         "squads_checked_at": "2026-10-18T18:00:00.439Z",
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
+        "detail_checked_at": "2026-11-06T23:09:43.523Z"
       },
       {
         "name": "Intro to Streamlined SBCs",
@@ -2977,7 +2685,7 @@
           }
         ],
         "squads_checked_at": "2026-10-18T18:00:00.439Z",
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
+        "detail_checked_at": "2026-11-06T23:09:43.523Z"
       },
       {
         "name": "Intro to Upgrade SBCs",
@@ -3041,7 +2749,7 @@
           }
         ],
         "squads_checked_at": "2026-10-11T07:00:00Z",
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
+        "detail_checked_at": "2026-11-06T23:09:43.523Z"
       },
       {
         "name": "Intro to SBCs",
@@ -3127,7 +2835,7 @@
           }
         ],
         "squads_checked_at": "2026-10-18T18:00:00.439Z",
-        "detail_checked_at": "2026-11-06T14:17:40.033Z"
+        "detail_checked_at": "2026-11-06T23:09:43.523Z"
       }
     ]
   }
