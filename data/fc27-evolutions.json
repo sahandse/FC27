@@ -1,7 +1,137 @@
 {
   "source": "FUT.GG",
-  "checked_at": "2026-11-08T13:26:11.494Z",
+  "checked_at": "2026-11-08T22:06:46.262Z",
   "evolutions": [
+    {
+      "name": "Underdog Run",
+      "url": "https://www.fut.gg/evolutions/2656-underdog-run/",
+      "description": "Written off before the first whistle? Not anymore. Turn your LM or LW into a creative force with big upgrades and the tools to go all the way.",
+      "levels": [
+        {
+          "name": "Level 1",
+          "upgrades": [
+            "+ 36 OVR → 80",
+            "+ 40 Sprint Speed → 84",
+            "+ 30 Volleys → 72",
+            "+ 35 Long Pass → 84",
+            "+ 40 Ball Control → 82",
+            "+ 30 Stamina → 82"
+          ],
+          "training_time": "4h 48m",
+          "nameFA": "سطح ۱",
+          "upgradesFA": [
+            "+۳۶ امتیاز کلی (به ۸۰)",
+            "+۴۰ سرعت اسپرینت (به ۸۴)",
+            "+۳۰ والی (به ۷۲)",
+            "+۳۵ پس بلند (به ۸۴)",
+            "+۴۰ کنترل توپ (به ۸۲)",
+            "+۳۰ استقامت (به ۸۲)"
+          ]
+        },
+        {
+          "name": "Level 2",
+          "upgrades": [
+            "+ 40 Positioning → 81",
+            "+ 40 Vision → 82",
+            "+ 35 Curve → 84",
+            "+ 40 Dribbling → 82",
+            "+ 20 Strength → 68"
+          ],
+          "training_time": "4h 48m",
+          "nameFA": "سطح ۲",
+          "upgradesFA": [
+            "+۴۰ پوزیشن‌گیری (به ۸۱)",
+            "+۴۰ دید (به ۸۲)",
+            "+۳۵ کرن (به ۸۴)",
+            "+۴۰ دریبل (به ۸۲)",
+            "+۲۰ قدرت بدنی (به ۶۸)"
+          ]
+        },
+        {
+          "name": "Level 3",
+          "upgrades": [
+            "+ 40 Finishing → 79",
+            "+ 40 Crossing → 84",
+            "+ 35 Agility → 83",
+            "+ 35 Composure → 78",
+            "+ 20 Aggression → 72"
+          ],
+          "training_time": "4h 48m",
+          "nameFA": "سطح ۳",
+          "upgradesFA": [
+            "+۴۰ تمام‌کنندگی (به ۷۹)",
+            "+۴۰ سانتر (به ۸۴)",
+            "+۳۵ چابکی (به ۸۳)",
+            "+۳۵ خونسردی (به ۷۸)",
+            "+۲۰ تندخویی (به ۷۲)"
+          ]
+        },
+        {
+          "name": "Level 4",
+          "upgrades": [
+            "+ 15 DEF → 55",
+            "+ 1 WF → 3",
+            "+ 35 Shot Power → 82",
+            "+ 35 Fk Accuracy → 78",
+            "+ 35 Balance → 82"
+          ],
+          "training_time": "4h 48m",
+          "nameFA": "سطح ۴",
+          "upgradesFA": [
+            "+۱۵ DEF (به ۵۵)",
+            "+۱ پای ضعیف (به ۳)",
+            "+۳۵ قدرت شوت (به ۸۲)",
+            "+۳۵ دقت ضربات آزاد (به ۷۸)",
+            "+۳۵ تعادل (به ۸۲)"
+          ]
+        },
+        {
+          "name": "Level 5",
+          "upgrades": [
+            "+ 2 SM → 4",
+            "+ 40 Acceleration → 85",
+            "+ 35 Long Shots → 78",
+            "+ 40 Short Pass → 84",
+            "+ 35 Reactions → 77",
+            "+ 20 Jumping → 76"
+          ],
+          "training_time": "4h 48m",
+          "nameFA": "سطح ۵",
+          "upgradesFA": [
+            "+۲ مهارت‌های توپی (به ۴)",
+            "+۴۰ شتاب (به ۸۵)",
+            "+۳۵ شوت از راه دور (به ۷۸)",
+            "+۴۰ پس کوتاه (به ۸۴)",
+            "+۳۵ واکنش (به ۷۷)",
+            "+۲۰ پرش (به ۷۶)"
+          ]
+        }
+      ],
+      "requirements": [
+        "Overall: Max. 74",
+        "Position: LM, LW",
+        "Excluded Position: CM",
+        "Max PS: 7",
+        "Max PS+: 0",
+        "Pace: Max. 86"
+      ],
+      "details": [
+        "Coins Cost: Free",
+        "Points Cost: Free"
+      ],
+      "requirementsFA": [
+        "حداکثر امتیاز کلی: ۷۴",
+        "پست: LM, LW",
+        "پست مجاز نیست: CM",
+        "حداکثر PlayStyle-plus: ۷",
+        "حداکثر PlayStyle+: ۰",
+        "سرعت: حداکثر ۸۶"
+      ],
+      "detailsFA": [
+        "هزینهٔ سکه: رایگان",
+        "هزینهٔ امتیاز: رایگان"
+      ]
+    },
     {
       "name": "Matchday Marksman",
       "url": "https://www.fut.gg/evolutions/2650-matchday-marksman/",
