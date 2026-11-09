@@ -1,8 +1,15 @@
 {
   "source": "Electronic Arts",
   "source_url": "https://www.ea.com/games/ea-sports-fc/fc-27",
-  "checked_at": "2026-11-08T23:48:37.444Z",
+  "checked_at": "2026-11-09T18:55:41.462Z",
   "items": [
+    {
+      "title": "EA SPORTS FC™ 27 | Title Update v1.2.0 Pitch Notes",
+      "url": "https://www.ea.com/games/ea-sports-fc/fc-27/news/update-v1-2-pitch-notes",
+      "source": "Electronic Arts",
+      "published": "November 9, 2026",
+      "summary": "EA SPORTS FC™ 27 Title Update v1.2.0 includes our first set of Gameplay adjustments, Career UI updates, & fixes across The Grounds & FUT."
+    },
     {
       "title": "Football Ultimate Team™ 27 - UEFA Road to the Knockouts",
       "url": "https://www.ea.com/games/ea-sports-fc/fc-27/news/fc-27-uefa-road-to-the-knockouts",
@@ -79,13 +86,6 @@
       "source": "Electronic Arts",
       "published": "October 7, 2026",
       "summary": "Find out the latest EA SPORTS FC™ 27 Update details in the Title Update v.1.0.4 Notes."
-    },
-    {
-      "title": "EA SPORTS FC™ 27 | The Grounds Developer Launch Update",
-      "url": "https://www.ea.com/games/ea-sports-fc/fc-27/news/fc-27-the-grounds-developer-launch-update",
-      "source": "Electronic Arts",
-      "published": "October 2, 2026",
-      "summary": "Hear directly from the The Grounds development team following the launch of EA SPORTS FC™ 27, covering early feedback and what we’re working on."
     }
   ]
 }
