@@ -1,6 +1,6 @@
 {
   "source": "FUT.GG",
-  "checked_at": "2026-11-09T16:21:23.108Z",
+  "checked_at": "2026-11-10T01:32:24.096Z",
   "sections": {
     "objectives": [
       {
@@ -30,7 +30,7 @@
           }
         ],
         "reward": "30 total",
-        "detail_checked_at": "2026-11-09T16:21:23.108Z"
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
       },
       {
         "name": "Weekly Objectives",
@@ -83,7 +83,7 @@
           }
         ],
         "reward": "2,000 total",
-        "detail_checked_at": "2026-11-09T16:21:23.108Z"
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
       },
       {
         "name": "Weekly Rush Points",
@@ -134,7 +134,7 @@
             "nameFA": "۲,۵۰۰ امتیاز Rush"
           }
         ],
-        "detail_checked_at": "2026-11-09T16:21:23.108Z"
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
       },
       {
         "name": "Season 2 Daily Knockout Tournament Weekly Play Completionist",
@@ -185,7 +185,7 @@
             "nameFA": "۱ بار کامل کردن"
           }
         ],
-        "detail_checked_at": "2026-11-09T16:21:23.108Z"
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
       },
       {
         "name": "Season 2 Daily Knockout Tournament Weekly Play",
@@ -203,7 +203,7 @@
             "nameFA": "۵ گل"
           }
         ],
-        "detail_checked_at": "2026-11-09T16:21:23.108Z"
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
       },
       {
         "name": "FC Heritage Circuit Completionist",
@@ -238,7 +238,7 @@
             "rewardFA": "۴,۰۰۰ سکه"
           }
         ],
-        "detail_checked_at": "2026-11-09T16:21:23.108Z"
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
       },
       {
         "name": "FC Heritage Circuit World Class Event",
@@ -288,7 +288,7 @@
             "nameFA": "۱ برد"
           }
         ],
-        "detail_checked_at": "2026-11-09T16:21:23.108Z"
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
       },
       {
         "name": "FC Heritage Circuit Kick Off Event",
@@ -330,7 +330,7 @@
             "nameFA": "۱ گل"
           }
         ],
-        "detail_checked_at": "2026-11-09T16:21:23.108Z"
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
       },
       {
         "name": "FC Heritage Circuit Tournament",
@@ -396,7 +396,7 @@
             "descriptionFA": "۱ مسابقهٔ Quarter-Finals را ببرید، با حداقل ۲ بازیکن Serie A در ترکیب اصلی، در «FC Heritage Circuit Tournament»."
           }
         ],
-        "detail_checked_at": "2026-11-09T16:21:23.108Z"
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
       },
       {
         "name": "FC Heritage Circuit Professional Event",
@@ -446,7 +446,7 @@
             "nameFA": "۱ برد"
           }
         ],
-        "detail_checked_at": "2026-11-09T16:21:23.108Z"
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
       },
       {
         "name": "FC Heritage Circuit Semi-Pro Event",
@@ -496,7 +496,7 @@
             "nameFA": "۱ برد"
           }
         ],
-        "detail_checked_at": "2026-11-09T16:21:23.108Z"
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
       },
       {
         "name": "Season 2 Daily Knockout Tournament",
@@ -571,7 +571,7 @@
             "nameFA": "۱ مسابقه"
           }
         ],
-        "detail_checked_at": "2026-11-09T16:21:23.108Z"
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
       },
       {
         "name": "Claim the Armband",
@@ -590,7 +590,42 @@
             "nameFA": "۱ مسابقه"
           }
         ],
-        "detail_checked_at": "2026-11-09T16:21:23.108Z"
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
+      },
+      {
+        "name": "Red Bull Wiiings Challenge",
+        "category": "campaign",
+        "description": "Complete 3 out of 4 Red Bull Wiiings Challenge objectives to earn bonus pack rewards and more! All rewards are untradeable.",
+        "url": "https://www.fut.gg/objectives/campaigns/197-red-bull-wiiings-challenge/",
+        "rewardFA": "۵۰۰ در مجموع",
+        "tasks": [
+          {
+            "name": "Drip Too Fly",
+            "description": "Play 1 match wearing the Red Bull Clubs Members Home Kit in Squad Battles on min. Semi-Pro difficulty (or Rivals/Champions/Live Events/Rush).",
+            "reward": "Hunter + Shadow + 100 SP",
+            "rewardFA": "Hunter + Shadow + ۱۰۰ SP"
+          },
+          {
+            "name": "Wingers to Winners",
+            "description": "Assist 5 goals using Crosses while wearing the Red Bull Wings Cup Home Kit in Squad Battles on min. Semi-Pro difficulty (or Rivals/Champions/Live Events/Rush).",
+            "reward": "Hunter + Shadow + 100 SP",
+            "rewardFA": "Hunter + Shadow + ۱۰۰ SP"
+          },
+          {
+            "name": "Watch Me Fly",
+            "description": "Score 3 goals using Headers while wearing the Red Bull Wings Cup Home Kit in Squad Battles on min. Semi-Pro difficulty (or Rivals/Champions/Live Events/Rush).",
+            "reward": "2X 80+ Gold Players Pack + 100 SP",
+            "rewardFA": "۲ عدد بستهٔ بازیکن طلایی ۸۰+ + ۱۰۰ SP"
+          },
+          {
+            "name": "Get Your Drip",
+            "description": "Play 3 matches in Squad Battles on min. Semi-Pro difficulty (or Rivals/Champions/Live Events/Rush).",
+            "reward": "Red Bull Wings Cup",
+            "descriptionFA": "۳ مسابقه را بازی کنید، در Squad Battles، روی سختی نیمه‌حرفه‌ای (یا Rivals/Champions/Live Events/Rush)."
+          }
+        ],
+        "reward": "500 total",
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
       },
       {
         "name": "Transfer Embargo Flash Rush",
@@ -618,7 +653,7 @@
           }
         ],
         "reward": "250 total",
-        "detail_checked_at": "2026-11-09T16:21:23.108Z"
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
       },
       {
         "name": "Road to the Knockouts: Tiago Djaló",
@@ -662,7 +697,7 @@
           }
         ],
         "reward": "250 total",
-        "detail_checked_at": "2026-11-09T16:21:23.108Z"
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
       },
       {
         "name": "Road to the Knockouts Event",
@@ -699,7 +734,7 @@
             "rewardFA": "بستهٔ آیتم مصرفی + Shadow"
           }
         ],
-        "detail_checked_at": "2026-11-09T16:21:23.108Z"
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
       },
       {
         "name": "Road to the Knockouts: Group Stage",
@@ -755,7 +790,7 @@
             "rewardFA": "بستهٔ آیتم مصرفی"
           }
         ],
-        "detail_checked_at": "2026-11-09T16:21:23.108Z"
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
       },
       {
         "name": "Ultimate Gauntlet 3",
@@ -843,7 +878,7 @@
             "nameFA": "۱ گل"
           }
         ],
-        "detail_checked_at": "2026-11-09T16:21:23.108Z"
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
       },
       {
         "name": "Movember",
@@ -872,7 +907,7 @@
             "nameFA": "۱ مسابقه"
           }
         ],
-        "detail_checked_at": "2026-11-09T16:21:23.108Z"
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
       },
       {
         "name": "Bundesliga x Playmobil Kit",
@@ -901,7 +936,7 @@
             "nameFA": "۵ مسابقه"
           }
         ],
-        "detail_checked_at": "2026-11-09T16:21:23.108Z"
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
       },
       {
         "name": "Ultimate Scream Gallery",
@@ -951,7 +986,7 @@
             "rewardFA": "VIP هالووین"
           }
         ],
-        "detail_checked_at": "2026-11-09T16:21:23.108Z"
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
       },
       {
         "name": "Rising Through the Ranks",
@@ -1004,7 +1039,7 @@
           }
         ],
         "reward": "250 total",
-        "detail_checked_at": "2026-11-09T16:21:23.108Z"
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
       },
       {
         "name": "First Team Dreams",
@@ -1041,7 +1076,7 @@
           }
         ],
         "reward": "400 total",
-        "detail_checked_at": "2026-11-09T16:21:23.108Z"
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
       },
       {
         "name": "The Journey Begins",
@@ -1086,7 +1121,7 @@
           }
         ],
         "reward": "100 total",
-        "detail_checked_at": "2026-11-09T16:21:23.108Z"
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
       },
       {
         "name": "Total Football",
@@ -1123,7 +1158,7 @@
           }
         ],
         "reward": "300 total",
-        "detail_checked_at": "2026-11-09T16:21:23.108Z"
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
       },
       {
         "name": "Gallery Foundations",
@@ -1174,7 +1209,7 @@
             "rewardFA": "۲۵۰ سکه"
           }
         ],
-        "detail_checked_at": "2026-11-09T16:21:23.108Z"
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
       },
       {
         "name": "Ted Lasso's Masterclass",
@@ -1233,7 +1268,7 @@
             "rewardFA": "جایزه"
           }
         ],
-        "detail_checked_at": "2026-11-09T16:21:23.108Z"
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
       },
       {
         "name": "Squad Battles Milestone",
@@ -1268,7 +1303,7 @@
             "nameFA": "۵ مسابقه"
           }
         ],
-        "detail_checked_at": "2026-11-09T16:21:23.108Z"
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
       },
       {
         "name": "Draft Milestone",
@@ -1303,7 +1338,7 @@
             "nameFA": "۵ مسابقه"
           }
         ],
-        "detail_checked_at": "2026-11-09T16:21:23.108Z"
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
       },
       {
         "name": "Co-Op Milestone",
@@ -1338,7 +1373,7 @@
             "nameFA": "۵ مسابقه"
           }
         ],
-        "detail_checked_at": "2026-11-09T16:21:23.108Z"
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
       },
       {
         "name": "Rush Milestone",
@@ -1397,7 +1432,7 @@
             "nameFA": "۵ مسابقه"
           }
         ],
-        "detail_checked_at": "2026-11-09T16:21:23.108Z"
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
       },
       {
         "name": "Moments Stars Milestone",
@@ -1432,7 +1467,7 @@
             "nameFA": "۱۵ ستاره"
           }
         ],
-        "detail_checked_at": "2026-11-09T16:21:23.108Z"
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
       },
       {
         "name": "Squad Building Milestone",
@@ -1467,7 +1502,7 @@
             "nameFA": "۵ SBC"
           }
         ],
-        "detail_checked_at": "2026-11-09T16:21:23.108Z"
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
       },
       {
         "name": "Transfer Market Milestone",
@@ -1510,7 +1545,7 @@
             "nameFA": "۲۵ خرید Buy Now"
           }
         ],
-        "detail_checked_at": "2026-11-09T16:21:23.108Z"
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
       },
       {
         "name": "Live Events Milestone",
@@ -1545,7 +1580,7 @@
             "nameFA": "۵ مسابقه"
           }
         ],
-        "detail_checked_at": "2026-11-09T16:21:23.108Z"
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
       },
       {
         "name": "Rivals Milestone",
@@ -1580,7 +1615,7 @@
             "nameFA": "۵ مسابقه"
           }
         ],
-        "detail_checked_at": "2026-11-09T16:21:23.108Z"
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
       },
       {
         "name": "Champions Milestone",
@@ -1615,7 +1650,7 @@
             "nameFA": "۵ مسابقه"
           }
         ],
-        "detail_checked_at": "2026-11-09T16:21:23.108Z"
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
       },
       {
         "name": "Gallery Milestone",
@@ -1665,10 +1700,83 @@
             "nameFA": "سطح ۵"
           }
         ],
-        "detail_checked_at": "2026-11-09T16:21:23.108Z"
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
       }
     ],
     "sbc": [
+      {
+        "name": "Shea Lacey",
+        "category": "players",
+        "description": "Earn a Star Performer Shea Lacey, celebrating his impact in inspiring his team's comeback to win 3-2!",
+        "url": "https://www.fut.gg/sbc/players/27-127-shea-lacey/",
+        "price": null,
+        "challenges": 1,
+        "squads": [
+          {
+            "name": "Shea Lacey",
+            "description": "Earn a Star Performer Shea Lacey, celebrating his impact in inspiring his team's comeback to win 3-2!",
+            "score": 42000,
+            "requirements": [
+              "Rating: Min. 45"
+            ],
+            "requirementsFA": [
+              "حداقل امتیاز بازیکن: ۴۵"
+            ]
+          }
+        ],
+        "squads_checked_at": "2026-11-10T01:32:24.096Z",
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
+      },
+      {
+        "name": "Brian Brobbey",
+        "category": "players",
+        "description": "Earn a special UEFA Europa League Road to the Knockouts Brian Brobbey.",
+        "url": "https://www.fut.gg/sbc/players/27-126-brian-brobbey/",
+        "price": null,
+        "challenges": 1,
+        "squads": [
+          {
+            "name": "Brian Brobbey",
+            "description": "Earn a special UEFA Europa League Road to the Knockouts Brian Brobbey.",
+            "score": 30000,
+            "requirements": [
+              "Rating: Min. 45"
+            ],
+            "requirementsFA": [
+              "حداقل امتیاز بازیکن: ۴۵"
+            ]
+          }
+        ],
+        "squads_checked_at": "2026-11-10T01:32:24.096Z",
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
+      },
+      {
+        "name": "LALIGA POTM October",
+        "category": "players",
+        "description": "Earn the LALIGA Player of the Month for October.",
+        "url": "https://www.fut.gg/sbc/players/27-128-laliga-potm-october/",
+        "price": null,
+        "nameFA": "بهترین بازیکن ماه اکتبر — LALIGA",
+        "descriptionFA": "کارت بهترین بازیکن ماه اکتبر از لیگ LALIGA را بگیرید.",
+        "challenges": 1,
+        "squads": [
+          {
+            "name": "LALIGA POTM October",
+            "description": "Earn the LALIGA Player of the Month for October.",
+            "score": 5200000,
+            "requirements": [
+              "Rating: Min. 45"
+            ],
+            "descriptionFA": "کارت بهترین بازیکن ماه اکتبر از لیگ LALIGA را بگیرید.",
+            "requirementsFA": [
+              "حداقل امتیاز بازیکن: ۴۵"
+            ],
+            "nameFA": "بهترین بازیکن ماه اکتبر — LALIGA"
+          }
+        ],
+        "squads_checked_at": "2026-11-10T01:32:24.096Z",
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
+      },
       {
         "name": "Riccardo Calafiori",
         "category": "players",
@@ -1689,8 +1797,8 @@
             ]
           }
         ],
-        "squads_checked_at": "2026-11-09T16:21:23.108Z",
-        "detail_checked_at": "2026-11-09T16:21:23.108Z"
+        "squads_checked_at": "2026-11-10T01:32:24.096Z",
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
       },
       {
         "name": "Franziska Kett",
@@ -1712,8 +1820,8 @@
             ]
           }
         ],
-        "squads_checked_at": "2026-11-09T16:21:23.108Z",
-        "detail_checked_at": "2026-11-09T16:21:23.108Z"
+        "squads_checked_at": "2026-11-10T01:32:24.096Z",
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
       },
       {
         "name": "Naomie Feller",
@@ -1735,8 +1843,8 @@
             ]
           }
         ],
-        "squads_checked_at": "2026-11-09T16:21:23.108Z",
-        "detail_checked_at": "2026-11-09T16:21:23.108Z"
+        "squads_checked_at": "2026-11-10T01:32:24.096Z",
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
       },
       {
         "name": "Olivia Smith",
@@ -1758,8 +1866,8 @@
             ]
           }
         ],
-        "squads_checked_at": "2026-11-09T16:21:23.108Z",
-        "detail_checked_at": "2026-11-09T16:21:23.108Z"
+        "squads_checked_at": "2026-11-10T01:32:24.096Z",
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
       },
       {
         "name": "Sydney Schertenleib",
@@ -1781,8 +1889,8 @@
             ]
           }
         ],
-        "squads_checked_at": "2026-11-09T16:21:23.108Z",
-        "detail_checked_at": "2026-11-09T16:21:23.108Z"
+        "squads_checked_at": "2026-11-10T01:32:24.096Z",
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
       },
       {
         "name": "Loïs Openda",
@@ -1804,8 +1912,8 @@
             ]
           }
         ],
-        "squads_checked_at": "2026-11-09T16:21:23.108Z",
-        "detail_checked_at": "2026-11-09T16:21:23.108Z"
+        "squads_checked_at": "2026-11-10T01:32:24.096Z",
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
       },
       {
         "name": "Martín Ojeda",
@@ -1827,8 +1935,8 @@
             ]
           }
         ],
-        "squads_checked_at": "2026-11-09T16:21:23.108Z",
-        "detail_checked_at": "2026-11-09T16:21:23.108Z"
+        "squads_checked_at": "2026-11-10T01:32:24.096Z",
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
       },
       {
         "name": "Ethan Ampadu",
@@ -1850,8 +1958,8 @@
             ]
           }
         ],
-        "squads_checked_at": "2026-11-09T16:21:23.108Z",
-        "detail_checked_at": "2026-11-09T16:21:23.108Z"
+        "squads_checked_at": "2026-11-10T01:32:24.096Z",
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
       },
       {
         "name": "Ligue 1 POTM September",
@@ -1878,7 +1986,37 @@
           }
         ],
         "squads_checked_at": "2026-10-18T17:20:01.281Z",
-        "detail_checked_at": "2026-11-09T16:21:23.108Z"
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
+      },
+      {
+        "name": "3x 79+ Upgrade",
+        "category": "upgrades",
+        "description": "Earn a pack containing 3 Gold Player Items, rated 79 or higher.",
+        "url": "https://www.fut.gg/sbc/upgrades/27-110-3x-79-upgrade/",
+        "price": null,
+        "nameFA": "3x 79+ — ارتقا",
+        "descriptionFA": "بستهٔ شامل ۳ بازیکن طلایی با امتیاز ۷۹ یا بالاتر را بگیرید.",
+        "rewardFA": "۱ عدد بستهٔ بازیکن طلایی ۳× ۷۹+",
+        "reward": "1 x 3x 79+ Gold Players Pack",
+        "challenges": 1,
+        "repeatable": "∞",
+        "squads": [
+          {
+            "name": "3x 79+ Upgrade",
+            "description": "Earn a pack containing 3 Gold Player Items, rated 79 or higher.",
+            "score": 3200,
+            "requirements": [
+              "Rating: Min. 45"
+            ],
+            "descriptionFA": "بستهٔ شامل ۳ بازیکن طلایی با امتیاز ۷۹ یا بالاتر را بگیرید.",
+            "requirementsFA": [
+              "حداقل امتیاز بازیکن: ۴۵"
+            ],
+            "nameFA": "3x 79+ — ارتقا"
+          }
+        ],
+        "squads_checked_at": "2026-11-10T01:32:24.096Z",
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
       },
       {
         "name": "81+ TOTW 1-8 Upgrade",
@@ -1907,7 +2045,7 @@
           }
         ],
         "squads_checked_at": "2026-11-06T23:09:43.523Z",
-        "detail_checked_at": "2026-11-09T16:21:23.108Z"
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
       },
       {
         "name": "2x 83+ Upgrade",
@@ -1938,37 +2076,7 @@
           }
         ],
         "squads_checked_at": "2026-11-03T23:24:13.277Z",
-        "detail_checked_at": "2026-11-09T16:21:23.108Z"
-      },
-      {
-        "name": "1 of 3 79+ Gold Player Pick",
-        "category": "upgrades",
-        "description": "Earn 1 of 3 Gold Player Items, rated 79 or higher.",
-        "url": "https://www.fut.gg/sbc/upgrades/27-105-1-of-3-79-gold-player-pick/",
-        "price": null,
-        "nameFA": "انتخاب بازیکن طلایی ۷۹+ (۱ از ۳)",
-        "descriptionFA": "از میان ۳ آیتم بازیکن طلایی با امتیاز ۷۹ یا بالاتر، ۱ مورد را انتخاب کنید.",
-        "rewardFA": "انتخاب بازیکن طلایی ۷۹+ (۱ از ۳)",
-        "reward": "1 of 3 79+ Gold Player Pick",
-        "challenges": 1,
-        "repeatable": "∞",
-        "squads": [
-          {
-            "name": "1 of 3 79+ Gold Player Pick",
-            "description": "Earn 1 of 3 Gold Player Items, rated 79 or higher.",
-            "score": 2500,
-            "requirements": [
-              "Rating: Min. 45"
-            ],
-            "nameFA": "انتخاب بازیکن طلایی ۷۹+ (۱ از ۳)",
-            "descriptionFA": "از میان ۳ آیتم بازیکن طلایی با امتیاز ۷۹ یا بالاتر، ۱ مورد را انتخاب کنید.",
-            "requirementsFA": [
-              "حداقل امتیاز بازیکن: ۴۵"
-            ]
-          }
-        ],
-        "squads_checked_at": "2026-11-03T00:58:42.655Z",
-        "detail_checked_at": "2026-11-09T16:21:23.108Z"
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
       },
       {
         "name": "MLS & NWSL",
@@ -2011,8 +2119,8 @@
             "rewardFA": "۱ عدد بستهٔ بازیکن NWSL & Silver برنزی"
           }
         ],
-        "squads_checked_at": "2026-11-09T16:21:23.108Z",
-        "detail_checked_at": "2026-11-09T16:21:23.108Z"
+        "squads_checked_at": "2026-11-10T01:32:24.096Z",
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
       },
       {
         "name": "Serie A & ROSHN Saudi League",
@@ -2055,8 +2163,8 @@
             "rewardFA": "۱ عدد بستهٔ بازیکن ROSHN SL & Silver برنزی"
           }
         ],
-        "squads_checked_at": "2026-11-09T16:21:23.108Z",
-        "detail_checked_at": "2026-11-09T16:21:23.108Z"
+        "squads_checked_at": "2026-11-10T01:32:24.096Z",
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
       },
       {
         "name": "LALIGA & Liga F",
@@ -2103,7 +2211,7 @@
           }
         ],
         "squads_checked_at": "2026-11-03T00:58:42.655Z",
-        "detail_checked_at": "2026-11-09T16:21:23.108Z"
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
       },
       {
         "name": "Premier League & Barclays WSL",
@@ -2150,7 +2258,7 @@
           }
         ],
         "squads_checked_at": "2026-11-03T00:58:42.655Z",
-        "detail_checked_at": "2026-11-09T16:21:23.108Z"
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
       },
       {
         "name": "1 of 4 Chemistry Styles Pick",
@@ -2174,8 +2282,8 @@
             ]
           }
         ],
-        "squads_checked_at": "2026-11-09T16:21:23.108Z",
-        "detail_checked_at": "2026-11-09T16:21:23.108Z"
+        "squads_checked_at": "2026-11-10T01:32:24.096Z",
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
       },
       {
         "name": "Ligue 1 & Arkema Première Ligue",
@@ -2218,8 +2326,8 @@
             "rewardFA": "۱ عدد بستهٔ بازیکن Arkema PL & Silver برنزی"
           }
         ],
-        "squads_checked_at": "2026-11-09T16:21:23.108Z",
-        "detail_checked_at": "2026-11-09T16:21:23.108Z"
+        "squads_checked_at": "2026-11-10T01:32:24.096Z",
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
       },
       {
         "name": "Bundesliga & Google Pixel Frauen-Bundesliga",
@@ -2262,8 +2370,8 @@
             "rewardFA": "۱ عدد بستهٔ بازیکن GPFBL & Silver برنزی"
           }
         ],
-        "squads_checked_at": "2026-11-09T16:21:23.108Z",
-        "detail_checked_at": "2026-11-09T16:21:23.108Z"
+        "squads_checked_at": "2026-11-10T01:32:24.096Z",
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
       },
       {
         "name": "Gold Upgrade",
@@ -2292,7 +2400,7 @@
           }
         ],
         "squads_checked_at": "2026-10-18T17:20:01.281Z",
-        "detail_checked_at": "2026-11-09T16:21:23.108Z"
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
       },
       {
         "name": "Silver Upgrade",
@@ -2321,7 +2429,7 @@
           }
         ],
         "squads_checked_at": "2026-10-18T17:20:01.281Z",
-        "detail_checked_at": "2026-11-09T16:21:23.108Z"
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
       },
       {
         "name": "Bronze Upgrade",
@@ -2350,7 +2458,41 @@
           }
         ],
         "squads_checked_at": "2026-10-18T17:20:01.281Z",
-        "detail_checked_at": "2026-11-09T16:21:23.108Z"
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
+      },
+      {
+        "name": "Red Bull Wiiings Challenge",
+        "category": "challenges",
+        "description": "Complete the Red Bull Challenge to earn a reward.",
+        "url": "https://www.fut.gg/sbc/challenges/27-107-red-bull-wiiings-challenge/",
+        "price": null,
+        "descriptionFA": "چالش «Red Bull Challenge» را کامل کنید و a reward را بگیرید.",
+        "rewardFA": "۱ عدد بستهٔ بازیکن طلایی کوچک",
+        "reward": "1 x Small Gold Players Pack",
+        "challenges": 1,
+        "squads": [
+          {
+            "name": "Red Bull Wiiings Challenge",
+            "description": "Complete the Red Bull Challenge to earn a reward.",
+            "requirements": [
+              "Club: Min. 1 player from RB Leipzig or RB Salzburg",
+              "Same club: Min. 3 players",
+              "Nations: Max. 4",
+              "Quality: Min. Bronze",
+              "Chemistry: Min. 14"
+            ],
+            "descriptionFA": "چالش «Red Bull Challenge» را کامل کنید و a reward را بگیرید.",
+            "requirementsFA": [
+              "حداقل ۱ بازیکن از RB Leipzig یا RB Salzburg",
+              "حداقل ۳ بازیکن از یک باشگاه",
+              "Nations: حداکثر ۴",
+              "حداقل کیفیت: بازیکن برنزی",
+              "حداقل شیمی: ۱۴"
+            ]
+          }
+        ],
+        "squads_checked_at": "2026-11-10T01:32:24.096Z",
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
       },
       {
         "name": "Road to the Knockout Challenge 1",
@@ -2385,8 +2527,8 @@
             ]
           }
         ],
-        "squads_checked_at": "2026-11-09T16:21:23.108Z",
-        "detail_checked_at": "2026-11-09T16:21:23.108Z"
+        "squads_checked_at": "2026-11-10T01:32:24.096Z",
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
       },
       {
         "name": "Marquee Matchups",
@@ -2491,8 +2633,8 @@
             "rewardFA": "۱ عدد بسته الکترام کوچک"
           }
         ],
-        "squads_checked_at": "2026-11-09T16:21:23.108Z",
-        "detail_checked_at": "2026-11-09T16:21:23.108Z"
+        "squads_checked_at": "2026-11-10T01:32:24.096Z",
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
       },
       {
         "name": "League & Nation Advanced",
@@ -2578,7 +2720,7 @@
           }
         ],
         "squads_checked_at": "2026-10-18T18:00:00.439Z",
-        "detail_checked_at": "2026-11-09T16:21:23.108Z"
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
       },
       {
         "name": "Intro to Player SBCs",
@@ -2605,7 +2747,7 @@
           }
         ],
         "squads_checked_at": "2026-10-18T18:00:00.439Z",
-        "detail_checked_at": "2026-11-09T16:21:23.108Z"
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
       },
       {
         "name": "Gold Re-Roll",
@@ -2635,7 +2777,7 @@
           }
         ],
         "squads_checked_at": "2026-10-18T18:00:00.439Z",
-        "detail_checked_at": "2026-11-09T16:21:23.108Z"
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
       },
       {
         "name": "Bronze and Silver Re-roll",
@@ -2665,7 +2807,7 @@
           }
         ],
         "squads_checked_at": "2026-10-18T18:00:00.439Z",
-        "detail_checked_at": "2026-11-09T16:21:23.108Z"
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
       },
       {
         "name": "Intro to Streamlined SBCs",
@@ -2741,7 +2883,7 @@
           }
         ],
         "squads_checked_at": "2026-10-18T18:00:00.439Z",
-        "detail_checked_at": "2026-11-09T16:21:23.108Z"
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
       },
       {
         "name": "Intro to Upgrade SBCs",
@@ -2805,7 +2947,7 @@
           }
         ],
         "squads_checked_at": "2026-10-11T07:00:00Z",
-        "detail_checked_at": "2026-11-09T16:21:23.108Z"
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
       },
       {
         "name": "Intro to SBCs",
@@ -2891,7 +3033,7 @@
           }
         ],
         "squads_checked_at": "2026-10-18T18:00:00.439Z",
-        "detail_checked_at": "2026-11-09T16:21:23.108Z"
+        "detail_checked_at": "2026-11-10T01:32:24.096Z"
       }
     ]
   }
