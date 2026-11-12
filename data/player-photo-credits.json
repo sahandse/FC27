@@ -1326,5 +1326,45 @@
     "artist": "Stuartp1213",
     "source": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Paul_Digby.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "extension": "png"
+  },
+  {
+    "id": 255411,
+    "name": "Bryce Duke",
+    "license": "CC BY-SA 4.0",
+    "artist": "JaumeBG",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Bryce_Duke.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "extension": "jpg"
+  },
+  {
+    "id": 222095,
+    "name": "Callum Burton",
+    "license": "CC BY-SA 4.0",
+    "artist": "JMShrewsbury",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Callum_Burton.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "extension": "jpg"
+  },
+  {
+    "id": 233377,
+    "name": "Callum Maycock",
+    "license": "CC0",
+    "artist": "Timmy96",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Callum_Maycock_12072025_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "extension": "jpg"
+  },
+  {
+    "id": 202663,
+    "name": "Daryl Horgan",
+    "license": "CC BY-SA 4.0",
+    "artist": "Seaninryan",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Daryl_Horgan_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "extension": "jpg"
+  },
+  {
+    "id": 173533,
+    "name": "David Button",
+    "license": "CC BY-SA 2.0",
+    "artist": "Jon Candy",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/2/25/David_Button%2C_Brentford_FC%2C_November_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "extension": "jpg"
   }
 ]
