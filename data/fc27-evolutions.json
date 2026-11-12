@@ -1,7 +1,114 @@
 {
   "source": "FUT.GG",
-  "checked_at": "2026-11-12T15:17:07.550Z",
+  "checked_at": "2026-11-12T23:39:45.645Z",
   "evolutions": [
+    {
+      "name": "Streets Won't Forget",
+      "url": "https://www.fut.gg/evolutions/2659-streets-wont-forget/",
+      "description": "Some players make the headlines. Others live forever in football folklore. Give your cult favourite the upgrades to become a legend the streets will never forget.",
+      "levels": [
+        {
+          "name": "Level 1",
+          "tasks": [
+            "Play 2 matches in Squad Battles on min. Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events) using your active EVO Player in game."
+          ],
+          "upgrades": [
+            "+ 4 OVR → 83",
+            "+ 10 Sprint Speed → 86",
+            "+ 10 Crossing → 87",
+            "+ 10 Short Pass → 87",
+            "+ 10 Curve → 87",
+            "+ 5 Stamina → 84",
+            "+ 5 Aggression → 75"
+          ],
+          "nameFA": "سطح ۱",
+          "tasksFA": [
+            "۲ مسابقه را بازی کنید، در Squad Battles، روی سختی نیمه‌حرفه‌ای (یا Rush/Rivals/Champions/Live Events)، با بازیکن فعال تکامل."
+          ],
+          "upgradesFA": [
+            "+۴ امتیاز کلی (به ۸۳)",
+            "+۱۰ سرعت اسپرینت (به ۸۶)",
+            "+۱۰ سانتر (به ۸۷)",
+            "+۱۰ پس کوتاه (به ۸۷)",
+            "+۱۰ کرن (به ۸۷)",
+            "+۵ استقامت (به ۸۴)",
+            "+۵ تندخویی (به ۷۵)"
+          ]
+        },
+        {
+          "name": "Level 2",
+          "tasks": [
+            "Play 1 match in Squad Battles on min Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events) using your active EVO player in game."
+          ],
+          "upgrades": [
+            "+ 10 Acceleration → 87",
+            "+ 10 Vision → 85",
+            "+ 10 Fk Accuracy → 80",
+            "+ 10 Long Pass → 85",
+            "+ 5 Jumping → 78",
+            "+ 5 Strength → 70"
+          ],
+          "nameFA": "سطح ۲",
+          "tasksFA": [
+            "۱ مسابقه را بازی کنید، در Squad Battles، روی سختی نیمه‌حرفه‌ای (یا Rush/Rivals/Champions/Live Events)، با بازیکن فعال تکامل."
+          ],
+          "upgradesFA": [
+            "+۱۰ شتاب (به ۸۷)",
+            "+۱۰ دید (به ۸۵)",
+            "+۱۰ دقت ضربات آزاد (به ۸۰)",
+            "+۱۰ پس بلند (به ۸۵)",
+            "+۵ پرش (به ۷۸)",
+            "+۵ قدرت بدنی (به ۷۰)"
+          ]
+        },
+        {
+          "name": "Level 3",
+          "tasks": [
+            "Play 1 match in Squad Battles on min Semi-Pro difficulty (or Rush/Rivals/Champions/Live Events) using your active EVO player in game."
+          ],
+          "upgrades": [
+            "+ 1 SM → 4",
+            "+ 5 Agility → 87",
+            "+ 5 Balance → 86",
+            "+ 5 Reactions → 83"
+          ],
+          "nameFA": "سطح ۳",
+          "tasksFA": [
+            "۱ مسابقه را بازی کنید، در Squad Battles، روی سختی نیمه‌حرفه‌ای (یا Rush/Rivals/Champions/Live Events)، با بازیکن فعال تکامل."
+          ],
+          "upgradesFA": [
+            "+۱ مهارت‌های توپی (به ۴)",
+            "+۵ چابکی (به ۸۷)",
+            "+۵ تعادل (به ۸۶)",
+            "+۵ واکنش (به ۸۳)"
+          ]
+        }
+      ],
+      "requirements": [
+        "Overall: Max. 80",
+        "Position: LM, LW",
+        "Excluded Position: CM",
+        "Max PS: 7",
+        "Max PS+: 0",
+        "Pace: Max. 87"
+      ],
+      "details": [
+        "Coins Cost: Free",
+        "Points Cost: Free"
+      ],
+      "requirementsFA": [
+        "حداکثر امتیاز کلی: ۸۰",
+        "پست: LM, LW",
+        "پست مجاز نیست: CM",
+        "حداکثر PlayStyle-plus: ۷",
+        "حداکثر PlayStyle+: ۰",
+        "سرعت: حداکثر ۸۷"
+      ],
+      "detailsFA": [
+        "هزینهٔ سکه: رایگان",
+        "هزینهٔ امتیاز: رایگان"
+      ]
+    },
     {
       "name": "Under the Lights",
       "url": "https://www.fut.gg/evolutions/2658-under-the-lights/",
@@ -685,104 +792,6 @@
         "پست مجاز نیست: LB, RB",
         "حداکثر PlayStyle-plus: ۷",
         "سرعت: حداکثر ۸۰"
-      ],
-      "detailsFA": [
-        "هزینهٔ سکه: رایگان",
-        "هزینهٔ امتیاز: رایگان"
-      ]
-    },
-    {
-      "name": "No Soul Shall Pass",
-      "url": "https://www.fut.gg/evolutions/2647-no-soul-shall-pass/",
-      "description": "Something guards the gate between the posts. Turn your keeper into an unholy wall that sends every shot back into the darkness it came from.",
-      "levels": [
-        {
-          "name": "Level 1",
-          "tasks": [
-            "Play 1 match in Squad Battles on min Semi-Pro difficulty (or Rivals/Champions/Live Events) using your active EVO player in game."
-          ],
-          "upgrades": [
-            "+ 3 OVR → 81",
-            "+ 5 Diving → 78",
-            "+ 6 Kicking → 81",
-            "+ 5 Handling → 81",
-            "+ 5 Reflexes → 81"
-          ],
-          "nameFA": "سطح ۱",
-          "tasksFA": [
-            "۱ مسابقه را بازی کنید، در Squad Battles، روی سختی نیمه‌حرفه‌ای (یا Rivals/Champions/Live Events)، با بازیکن فعال تکامل."
-          ],
-          "upgradesFA": [
-            "+۳ امتیاز کلی (به ۸۱)",
-            "+۵ Diving (به ۷۸)",
-            "+۶ Kicking (به ۸۱)",
-            "+۵ Handling (به ۸۱)",
-            "+۵ Reflexes (به ۸۱)"
-          ]
-        },
-        {
-          "name": "Level 2",
-          "tasks": [
-            "Play 2 matches in Squad Battles on min Semi-Pro difficulty (or Rivals/Champions/Live Events) using your active EVO player in game."
-          ],
-          "options": [
-            {
-              "name": "Option A",
-              "upgrades": [
-                "+ 10 Acceleration → 45",
-                "+ 10 Sprint Speed → 45",
-                "+ 5 Reactions → 76",
-                "+ 5 Reflexes → 83",
-                "GK Sweeper Keeper ++"
-              ],
-              "nameFA": "گزینهٔ A",
-              "upgradesFA": [
-                "+۱۰ شتاب (به ۴۵)",
-                "+۱۰ سرعت اسپرینت (به ۴۵)",
-                "+۵ واکنش (به ۷۶)",
-                "+۵ Reflexes (به ۸۳)",
-                "استایل بازی Sweeper Keeper (GK) پلاس"
-              ]
-            },
-            {
-              "name": "Option B",
-              "upgrades": [
-                "+ 5 POS → 82",
-                "+ 2 WF → 3",
-                "+ 3 Reactions → 78",
-                "+ 5 Diving → 80",
-                "GK Ball Playing Keeper ++"
-              ],
-              "nameFA": "گزینهٔ B",
-              "upgradesFA": [
-                "+۵ POS (به ۸۲)",
-                "+۲ پای ضعیف (به ۳)",
-                "+۳ واکنش (به ۷۸)",
-                "+۵ Diving (به ۸۰)",
-                "استایل بازی Ball Playing Keeper (GK) پلاس"
-              ]
-            }
-          ],
-          "pick_one": true,
-          "nameFA": "سطح ۲",
-          "tasksFA": [
-            "۲ مسابقه را بازی کنید، در Squad Battles، روی سختی نیمه‌حرفه‌ای (یا Rivals/Champions/Live Events)، با بازیکن فعال تکامل."
-          ]
-        }
-      ],
-      "requirements": [
-        "Overall: Max. 80",
-        "Position: GK",
-        "Max PS: 7"
-      ],
-      "details": [
-        "Coins Cost: Free",
-        "Points Cost: Free"
-      ],
-      "requirementsFA": [
-        "حداکثر امتیاز کلی: ۸۰",
-        "پست: GK",
-        "حداکثر PlayStyle-plus: ۷"
       ],
       "detailsFA": [
         "هزینهٔ سکه: رایگان",
