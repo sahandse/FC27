@@ -1,7 +1,133 @@
 {
   "source": "FUT.GG",
-  "checked_at": "2026-11-14T13:32:34.037Z",
+  "checked_at": "2026-11-14T22:25:24.667Z",
   "evolutions": [
+    {
+      "name": "Striker School",
+      "url": "https://www.fut.gg/evolutions/2665-striker-school/",
+      "description": "Class is in session. Enroll your striker to master the art of attack, polish their technique, and graduate them into a clinical number nine.",
+      "levels": [
+        {
+          "name": "Level 1",
+          "upgrades": [
+            "+ 40 OVR → 81",
+            "+ 40 Sprint Speed → 83",
+            "+ 35 Volleys → 80",
+            "+ 40 Curve → 80",
+            "+ 35 Dribbling → 80",
+            "+ 35 Strength → 75"
+          ],
+          "training_time": "4h 48m",
+          "nameFA": "سطح ۱",
+          "upgradesFA": [
+            "+۴۰ امتیاز کلی (به ۸۱)",
+            "+۴۰ سرعت اسپرینت (به ۸۳)",
+            "+۳۵ والی (به ۸۰)",
+            "+۴۰ کرن (به ۸۰)",
+            "+۳۵ دریبل (به ۸۰)",
+            "+۳۵ قدرت بدنی (به ۷۵)"
+          ]
+        },
+        {
+          "name": "Level 2",
+          "upgrades": [
+            "+ 40 Positioning → 82",
+            "+ 40 Penalties → 80",
+            "+ 35 Agility → 80",
+            "+ 40 Composure → 80",
+            "+ 20 Aggression → 70"
+          ],
+          "training_time": "4h 48m",
+          "nameFA": "سطح ۲",
+          "upgradesFA": [
+            "+۴۰ پوزیشن‌گیری (به ۸۲)",
+            "+۴۰ پنالتی (به ۸۰)",
+            "+۳۵ چابکی (به ۸۰)",
+            "+۴۰ خونسردی (به ۸۰)",
+            "+۲۰ تندخویی (به ۷۰)"
+          ]
+        },
+        {
+          "name": "Level 3",
+          "upgrades": [
+            "+ 20 DEF → 45",
+            "+ 2 WF → 4",
+            "+ 40 Finishing → 83",
+            "+ 35 Vision → 75",
+            "+ 35 Balance → 78"
+          ],
+          "training_time": "4h 48m",
+          "nameFA": "سطح ۳",
+          "upgradesFA": [
+            "+۲۰ DEF (به ۴۵)",
+            "+۲ پای ضعیف (به ۴)",
+            "+۴۰ تمام‌کنندگی (به ۸۳)",
+            "+۳۵ دید (به ۷۵)",
+            "+۳۵ تعادل (به ۷۸)"
+          ]
+        },
+        {
+          "name": "Level 4",
+          "upgrades": [
+            "+ 1 SM → 3",
+            "+ 40 Shot Power → 83",
+            "+ 40 Short Pass → 78",
+            "+ 35 Reactions → 78",
+            "+ 30 Jumping → 78"
+          ],
+          "training_time": "4h 48m",
+          "nameFA": "سطح ۴",
+          "upgradesFA": [
+            "+۱ مهارت‌های توپی (به ۳)",
+            "+۴۰ قدرت شوت (به ۸۳)",
+            "+۴۰ پس کوتاه (به ۷۸)",
+            "+۳۵ واکنش (به ۷۸)",
+            "+۳۰ پرش (به ۷۸)"
+          ]
+        },
+        {
+          "name": "Level 5",
+          "upgrades": [
+            "+ 40 Acceleration → 83",
+            "+ 35 Long Shots → 75",
+            "+ 30 Long Pass → 70",
+            "+ 40 Ball Control → 80",
+            "+ 30 Stamina → 80"
+          ],
+          "training_time": "4h 48m",
+          "nameFA": "سطح ۵",
+          "upgradesFA": [
+            "+۴۰ شتاب (به ۸۳)",
+            "+۳۵ شوت از راه دور (به ۷۵)",
+            "+۳۰ پس بلند (به ۷۰)",
+            "+۴۰ کنترل توپ (به ۸۰)",
+            "+۳۰ استقامت (به ۸۰)"
+          ]
+        }
+      ],
+      "requirements": [
+        "Overall: Max. 74",
+        "Position: ST",
+        "Max PS: 7",
+        "Acceleration: Max. 85",
+        "Sprint Speed: Max. 85"
+      ],
+      "details": [
+        "Coins Cost: Free",
+        "Points Cost: Free"
+      ],
+      "requirementsFA": [
+        "حداکثر امتیاز کلی: ۷۴",
+        "پست: ST",
+        "حداکثر PlayStyle-plus: ۷",
+        "شتاب: حداکثر ۸۵",
+        "سرعت اسپرینت: حداکثر ۸۵"
+      ],
+      "detailsFA": [
+        "هزینهٔ سکه: رایگان",
+        "هزینهٔ امتیاز: رایگان"
+      ]
+    },
     {
       "name": "Backline Bastion",
       "url": "https://www.fut.gg/evolutions/2660-backline-bastion/",
