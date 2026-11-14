@@ -1,14 +1,14 @@
 {
   "source": "Electronic Arts",
   "source_url": "https://www.ea.com/games/ea-sports-fc/fc-27",
-  "checked_at": "2026-11-13T16:33:10.560Z",
+  "checked_at": "2026-11-14T00:55:14.633Z",
   "items": [
     {
-      "title": "EA SPORTS FC™ 27 | Title Update v1.2.0 Pitch Notes",
-      "url": "https://www.ea.com/games/ea-sports-fc/fc-27/news/update-v1-2-pitch-notes",
+      "title": "Football Ultimate Team™ 27 - Hall of FUT: Unleashed",
+      "url": "https://www.ea.com/games/ea-sports-fc/fc-27/news/hall-of-fut-unleashed",
       "source": "Electronic Arts",
-      "published": "November 9, 2026",
-      "summary": "EA SPORTS FC™ 27 Title Update v1.2.0 includes our first set of Gameplay adjustments, Career UI updates, & fixes across The Grounds & FUT."
+      "published": "November 13, 2026",
+      "summary": "Welcome back era-defining legends from 18 years of Football Ultimate Team™ history with Hall of FUT: Unleashed."
     },
     {
       "title": "EA SPORTS FC™ 27 | FUT Developer Notes - November",
@@ -23,6 +23,13 @@
       "source": "Electronic Arts",
       "published": "November 10, 2026",
       "summary": "Find out the latest EA SPORTS FC™ 27 Update details in the Title Update v1.2.0 Notes."
+    },
+    {
+      "title": "EA SPORTS FC™ 27 | Title Update v1.2.0 Pitch Notes",
+      "url": "https://www.ea.com/games/ea-sports-fc/fc-27/news/update-v1-2-pitch-notes",
+      "source": "Electronic Arts",
+      "published": "November 9, 2026",
+      "summary": "EA SPORTS FC™ 27 Title Update v1.2.0 includes our first set of Gameplay adjustments, Career UI updates, & fixes across The Grounds & FUT."
     },
     {
       "title": "Football Ultimate Team™ 27 - UEFA Road to the Knockouts",
@@ -86,13 +93,6 @@
       "source": "Electronic Arts",
       "published": "October 13, 2026",
       "summary": "Explore EA SPORTS FC™ 27 launch feedback and developer updates on gameplay, FUT, Career Mode, The Grounds & Clubs."
-    },
-    {
-      "title": "Football Ultimate Team™ 27 - Future Stars",
-      "url": "https://www.ea.com/games/ea-sports-fc/fc-27/news/fc-27-future-stars",
-      "source": "Electronic Arts",
-      "published": "October 9, 2026",
-      "summary": "See the most exciting Future Stars take over Football Ultimate Team™ and develop your own young talent in the Future Stars Academy."
     }
   ]
 }
