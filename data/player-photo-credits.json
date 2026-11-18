@@ -1438,5 +1438,29 @@
     "artist": "YourDailyDOHs",
     "source": "https://upload.wikimedia.org/wikipedia/commons/4/45/Dylan_Connolly.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "extension": "jpg"
+  },
+  {
+    "id": 277189,
+    "name": "Javier Otero",
+    "license": "CC BY-SA 4.0",
+    "artist": "Bryan Berlin",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/e/e5/Javier_Otero_New_England_v_Orlando_19_September_2026-030.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "extension": "jpg"
+  },
+  {
+    "id": 77491,
+    "name": "Jayden Hibbert",
+    "license": "CC BY-SA 4.0",
+    "artist": "Bryan Berlin",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/8/89/Jayden_Hibbert_Red_Bull_Atlanta_5.31.25-15_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "extension": "jpg"
+  },
+  {
+    "id": 82919,
+    "name": "Llyton Chapman",
+    "license": "CC0",
+    "artist": "Timmy96",
+    "source": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Llyton_Chapman_30082026_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "extension": "jpg"
   }
 ]
