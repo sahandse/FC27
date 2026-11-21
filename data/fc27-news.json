@@ -1,8 +1,15 @@
 {
   "source": "Electronic Arts",
   "source_url": "https://www.ea.com/games/ea-sports-fc/fc-27",
-  "checked_at": "2026-11-20T17:01:53.540Z",
+  "checked_at": "2026-11-21T01:36:12.092Z",
   "items": [
+    {
+      "title": "Football Ultimate Team™ 27 - Black Friday: Thunderstruck",
+      "url": "https://www.ea.com/games/ea-sports-fc/fc-27/news/fc-27-bf-thunderstruck",
+      "source": "Electronic Arts",
+      "published": "November 20, 2026",
+      "summary": "A storm has landed in Football Ultimate Team™, bringing new dynamic Player Items, the Thunderstruck Token Store, Electric Evolutions, and more."
+    },
     {
       "title": "Football Ultimate Team™ 27 - Hall of FUT: Unleashed",
       "url": "https://www.ea.com/games/ea-sports-fc/fc-27/news/hall-of-fut-unleashed",
@@ -86,13 +93,6 @@
       "source": "Electronic Arts",
       "published": "October 19, 2026",
       "summary": "Explore the latest Archetype and Attribute Points changes to The Grounds and Clubs in EA SPORTS FC™ 27."
-    },
-    {
-      "title": "EA SPORTS FC™ 27 | Launch Feedback Update",
-      "url": "https://www.ea.com/games/ea-sports-fc/fc-27/news/fc-27-launch-feedback-update",
-      "source": "Electronic Arts",
-      "published": "October 13, 2026",
-      "summary": "Explore EA SPORTS FC™ 27 launch feedback and developer updates on gameplay, FUT, Career Mode, The Grounds & Clubs."
     }
   ]
 }
