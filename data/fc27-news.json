@@ -1,7 +1,7 @@
 {
   "source": "Electronic Arts",
   "source_url": "https://www.ea.com/games/ea-sports-fc/fc-27",
-  "checked_at": "2026-11-24T19:33:54.841Z",
+  "checked_at": "2026-11-25T03:35:31.401Z",
   "items": [
     {
       "title": "Football Ultimate Team™ 27 - Black Friday: Thunderstruck",
@@ -9,6 +9,13 @@
       "source": "Electronic Arts",
       "published": "November 20, 2026",
       "summary": "A storm has landed in Football Ultimate Team™, bringing new dynamic Player Items, the Thunderstruck Token Store, Electric Evolutions, and more."
+    },
+    {
+      "title": "EA SPORTS FC™ 27 | John Motson Tribute",
+      "url": "https://www.ea.com/games/ea-sports-fc/fc-27/news/fc-27-john-motson-tribute",
+      "source": "Electronic Arts",
+      "published": "November 25, 2026",
+      "summary": "The iconic voice of John Motson returns, celebrating the life and legacy of one of England’s most cherished football commentators in EA SPORTS FC™ 27."
     },
     {
       "title": "Football Ultimate Team™ 27 - Hall of FUT: Unleashed",
@@ -86,13 +93,6 @@
       "source": "Electronic Arts",
       "published": "October 22, 2026",
       "summary": "Join a Season-wide celebration of Football Ultimate Team™ nostalgia as Season 2: FC Heritage honours FUT™ favourites."
-    },
-    {
-      "title": "EA SPORTS FC™ 27 | The Grounds Developer Archetypes Update",
-      "url": "https://www.ea.com/games/ea-sports-fc/fc-27/news/fc-27-the-grounds-developer-archetypes-update",
-      "source": "Electronic Arts",
-      "published": "October 19, 2026",
-      "summary": "Explore the latest Archetype and Attribute Points changes to The Grounds and Clubs in EA SPORTS FC™ 27."
     }
   ]
 }
