@@ -1,14 +1,14 @@
 {
   "source": "Electronic Arts",
   "source_url": "https://www.ea.com/games/ea-sports-fc/fc-27",
-  "checked_at": "2026-11-25T03:35:31.401Z",
+  "checked_at": "2026-11-25T18:42:13.003Z",
   "items": [
     {
-      "title": "Football Ultimate Team™ 27 - Black Friday: Thunderstruck",
-      "url": "https://www.ea.com/games/ea-sports-fc/fc-27/news/fc-27-bf-thunderstruck",
+      "title": "EA SPORTS FC™ 27 | Title Update v1.3.0 Pitch Notes",
+      "url": "https://www.ea.com/games/ea-sports-fc/fc-27/news/update-v1-3-pitch-notes",
       "source": "Electronic Arts",
-      "published": "November 20, 2026",
-      "summary": "A storm has landed in Football Ultimate Team™, bringing new dynamic Player Items, the Thunderstruck Token Store, Electric Evolutions, and more."
+      "published": "November 25, 2026",
+      "summary": "Title Update v1.3.0 brings another round of gameplay tuning, updates to The Grounds matchmaking & Amps, & changes to Career Mode."
     },
     {
       "title": "EA SPORTS FC™ 27 | John Motson Tribute",
@@ -16,6 +16,13 @@
       "source": "Electronic Arts",
       "published": "November 25, 2026",
       "summary": "The iconic voice of John Motson returns, celebrating the life and legacy of one of England’s most cherished football commentators in EA SPORTS FC™ 27."
+    },
+    {
+      "title": "Football Ultimate Team™ 27 - Black Friday: Thunderstruck",
+      "url": "https://www.ea.com/games/ea-sports-fc/fc-27/news/fc-27-bf-thunderstruck",
+      "source": "Electronic Arts",
+      "published": "November 20, 2026",
+      "summary": "A storm has landed in Football Ultimate Team™, bringing new dynamic Player Items, the Thunderstruck Token Store, Electric Evolutions, and more."
     },
     {
       "title": "Football Ultimate Team™ 27 - Hall of FUT: Unleashed",
@@ -86,13 +93,6 @@
       "source": "Electronic Arts",
       "published": "October 23, 2026",
       "summary": "Strike fear into the opposition as Ultimate Scream returns in EA SPORTS FC™ 27, unmasking the hidden sides of some of football’s biggest names through authentic position changes and unique upgrade paths."
-    },
-    {
-      "title": "Football Ultimate Team™ 27 - Season 2: FC Heritage",
-      "url": "https://www.ea.com/games/ea-sports-fc/fc-27/news/fc-27-season-2-fc-heritage",
-      "source": "Electronic Arts",
-      "published": "October 22, 2026",
-      "summary": "Join a Season-wide celebration of Football Ultimate Team™ nostalgia as Season 2: FC Heritage honours FUT™ favourites."
     }
   ]
 }
